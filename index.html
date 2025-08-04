@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUANTUM QUIZ CNU - BLOCO 5 (ADMINISTRAÇÃO)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Oxanium:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --quantum-blue: #0a192f;
+            --neon-pink: #ADFF2F; /* Alterado para Verde Limão */
+            --matrix-green: #00ff41;
+            --cyber-purple: #8700ff;
+            --dark-matter: #0f0a18;
+        }
+        body {
+            font-family: 'Oxanium', sans-serif;
+            background-color: var(--dark-matter);
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 10% 20%, rgba(135, 0, 255, 0.1) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(173, 255, 47, 0.1) 0%, transparent 20%); /* Adaptação da cor do radial gradient */
+        }
+        .cyber-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border: 1px solid var(--matrix-green);
+            box-shadow: 0 0 20px var(--cyber-purple);
+            position: relative;
+            overflow: hidden;
+            animation: border-glitch 8s infinite;
+        }
+        @keyframes border-glitch {
+            0%, 100% { border-color: var(--matrix-green); box-shadow: 0 0 20px var(--cyber-purple); }
+            50% { border-color: var(--neon-pink); box-shadow: 0 0 20px var(--neon-pink); } /* Agora verde limão */
+        }
+        .cyber-container::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px dashed var(--neon-pink); /* Agora verde limão */
+            z-index: -1;
+            animation: pulse 4s infinite alternate;
+        }
+        @keyframes pulse {
+            0% { opacity: 0.3; }
+            100% { opacity: 0.7; }
+        }
+        h1 {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--matrix-green);
+            text-align: center;
+            text-shadow: 0 0 10px var(--matrix-green);
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        .subject-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .subject-tab {
+            padding: 0.8rem 1.5rem;
+            background: rgba(10, 25, 47, 0.7);
+            border: 1px solid var(--cyber-purple);
+            color: white;
+            font-family: 'Oxanium', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .subject-tab:hover {
+            background: var(--cyber-purple);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(135, 0, 255, 0.4);
+        }
+        .subject-tab.active {
+            background: var(--neon-pink); /* Agora verde limão */
+            border-color: var(--neon-pink); /* Agora verde limão */
+            font-weight: bold;
+        }
+        .question-container {
+            background: rgba(10, 25, 47, 0.8);
+            padding: 2rem;
+            border-left: 4px solid var(--matrix-green);
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .question-container::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--matrix-green), transparent);
+        }
+        .question-text {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .option {
+            padding: 1.2rem;
+            background: rgba(15, 10, 24, 0.7);
+            border: 1px solid var(--cyber-purple);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+        .option:hover {
+            background: rgba(135, 0, 255, 0.2);
+            border-color: var(--neon-pink); /* Agora verde limão */
+        }
+        .option.selected {
+            background: rgba(0, 255, 65, 0.2);
+            border-color: var(--matrix-green);
+        }
+        .option.correct {
+            background: rgba(0, 255, 65, 0.4);
+            border-color: var(--matrix-green);
+        }
+        .option.incorrect {
+            background: rgba(255, 0, 0, 0.4);
+            border-color: #ff0000;
+        }
+        .feedback, .hint-display {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: rgba(10, 25, 47, 0.9);
+            border-left: 4px solid var(--neon-pink); /* Agora verde limão */
+            white-space: pre-wrap;
+        }
+        .hint-display {
+            border-left-color: var(--matrix-green);
+            color: white; /* Cor do texto da dica: BRANCO */
+            display: none;
+        }
+        .cyber-button {
+            padding: 1rem 2rem;
+            background: transparent;
+            border: 1px solid var(--matrix-green);
+            color: var(--matrix-green);
+            font-family: 'Orbitron', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .cyber-button:hover {
+            background: var(--matrix-green);
+            color: var(--dark-matter);
+            box-shadow: 0 0 10px var(--matrix-green);
+        }
+        .cyber-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.3), transparent);
+            transition: all 0.5s;
+        }
+        .cyber-button:hover::before {
+            left: 100%;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+            align-items: center; /* Centraliza os botões verticalmente */
+            flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+            gap: 1rem; /* Espaçamento entre os itens */
+        }
+        /* Garantindo que o botão Próxima/Finalizar esteja sempre visível e com espaço */
+        #next-btn {
+            display: block;
+        }
+        #finish-quiz-btn { /* Novo estilo para o botão de finalizar */
+            background: var(--neon-pink); /* Agora verde limão */
+            border-color: var(--neon-pink); /* Agora verde limão */
+            color: var(--dark-matter);
+            font-family: 'Orbitron', sans-serif;
+            padding: 1rem 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 0 10px var(--neon-pink); /* Agora verde limão */
+            margin: 0.5rem auto; /* Centraliza se ficar sozinho */
+        }
+        #finish-quiz-btn:hover {
+            box-shadow: 0 0 20px var(--neon-pink); /* Agora verde limão */
+            transform: scale(1.05);
+        }
+
+        .progress-container {
+            width: 100%;
+            background: rgba(10, 25, 47, 0.7);
+            height: 6px;
+            margin-bottom: 2rem;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, var(--cyber-purple), var(--neon-pink)); /* Agora inclui verde limão */
+            width: 0%;
+            transition: width 0.5s;
+        }
+        .hacker-terminal {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid var(--matrix-green);
+            padding: 1rem;
+            margin-top: 2rem;
+            font-family: monospace;
+            color: var(--matrix-green);
+            height: 100px;
+            overflow-y: auto;
+        }
+        .terminal-line {
+            margin: 0;
+            line-height: 1.5;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .login-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-box, .results-box {
+            background: var(--quantum-blue);
+            border: 2px solid var(--matrix-green);
+            padding: 2rem;
+            width: 400px;
+            max-width: 90%;
+            box-shadow: 0 0 20px var(--neon-pink); /* Agora verde limão */
+            text-align: center;
+        }
+        .login-title, .results-title {
+            color: var(--matrix-green);
+            text-align: center;
+            margin-bottom: 1.5rem;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .login-input {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            background: rgba(15, 10, 24, 0.7);
+            border: 1px solid var(--cyber-purple);
+            color: white;
+            font-family: 'Oxanium', sans-serif;
+        }
+        .login-input:focus {
+            outline: none;
+            border-color: var(--neon-pink); /* Agora verde limão */
+        }
+        .leaderboard {
+            margin-top: 2rem;
+            background: rgba(10, 25, 47, 0.7);
+            padding: 1rem;
+            border: 1px solid var(--matrix-green);
+        }
+        .leaderboard h3 {
+            color: var(--neon-pink); /* Agora verde limão */
+            border-bottom: 1px solid var(--matrix-green);
+            padding-bottom: 0.5rem;
+        }
+        .leaderboard-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed rgba(0, 255, 65, 0.3);
+        }
+        .result-stats {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .hint-button-container {
+            text-align: center;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-modal" id="loginModal">
+        <div class="login-box">
+            <h2 class="login-title">ACESSO QUANTUM</h2>
+            <input type="text" id="username" class="login-input" placeholder="Nome de usuário" required>
+            <input type="email" id="email" class="login-input" placeholder="E-mail (opcional)">
+            <div style="display: flex; justify-content: center; gap: 1rem;">
+                <button class="cyber-button" id="loginBtn">ENTRAR</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="login-modal" id="resultsModal">
+        <div class="results-box">
+            <h2 class="results-title">RELATÓRIO QUANTUM</h2>
+            <p class="result-stats" id="result-stats"></p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <button class="cyber-button" id="reviewBtn">Revisar Questões</button>
+                <button class="cyber-button" id="restartBtn">Reiniciar Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cyber-container" id="quizContainer" style="display: none;">
+        <h1>QUANTUM QUIZ <span style="color: var(--neon-pink);">CNU BLOCO 5</span></h1>
+        
+        <div class="progress-container">
+            <div class="progress-bar" id="progress"></div>
+        </div>
+        
+        <div class="subject-tabs">
+            <div class="subject-tab active" data-subject="all">Todas</div>
+            <div class="subject-tab" data-subject="gestao">Gestão Pública</div>
+            <div class="subject-tab" data-subject="orcamento">Orçamento</div>
+            <div class="subject-tab" data-subject="licitacoes">Licitações</div>
+            <div class="subject-tab" data-subject="rh">Gestão de Pessoas</div>
+            <div class="subject-tab" data-subject="controle">Controle Interno</div>
+            <div class="subject-tab" data-subject="politicas">Políticas Públicas</div>
+            <div class="subject-tab" data-subject="afo">AFO</div>
+            <div class="subject-tab" data-subject="direito-administrativo">Direito Administrativo</div>
+            <div class="subject-tab" data-subject="direito-constitucional">Direito Constitucional</div>
+            <div class="subject-tab" data-subject="adm-publica-federal">Adm. Pública Federal</div>
+            <div class="subject-tab" data-subject="adm-geral">Adm. Geral</div>
+            <div class="subject-tab" data-subject="portugues">Língua Portuguesa</div>
+            <div class="subject-tab" data-subject="raciocinio-logico">Raciocínio Lógico</div>
+            <div class="subject-tab" data-subject="contabilidade">Contabilidade</div>
+            <div class="subject-tab" data-subject="estatistica">Estatística</div>
+            <div class="subject-tab" data-subject="estatistica">Informatica</div>
+        </div>
+        
+        <div class="question-container" id="mainQuestionContainer">
+            <div class="question-text" id="question"></div>
+            <div class="options-grid" id="options"></div>
+            <div class="hint-button-container">
+                <button class="cyber-button" id="hintBtn">Dica</button>
+            </div>
+            <div class="hint-display" id="hintDisplay"></div>
+            <div class="feedback" id="feedbackDisplay" style="display: none;"></div>
+        </div>
+
+        <div class="navigation">
+            <button class="cyber-button" id="prev-btn">← Anterior</button>
+            <button class="cyber-button" id="finish-quiz-btn">Finalizar Quiz</button> <button class="cyber-button" id="next-btn">Próxima →</button>
+        </div>
+        
+        <div class="hacker-terminal" id="terminal">
+            <p class="terminal-line">> Sistema Quantum Quiz inicializado...</p>
+            <p class="terminal-line">> Aguardando autenticação <span class="blink">_</span></p>
+        </div>
+
+        <div class="leaderboard" id="leaderboard">
+            <h3>TOP 10 PONTUAÇÕES</h3>
+            <div id="scoresList"></div>
+        </div>
+    </div>
+    
+    <script>
+        let questions = [];
+        let currentUser = null;
+        let currentQuestionIndex = 0;
+        let selectedSubject = "all";
+        let userAnswers = []; // Armazena o índice da resposta selecionada pelo usuário
+        let filteredQuestions = [];
+        let isReviewMode = false; // Novo estado para controlar o modo de revisão
+
+        const scores = JSON.parse(localStorage.getItem('quantumQuizScores')) || [];
+
+        // Elementos DOM
+        const loginModal = document.getElementById('loginModal');
+        const resultsModal = document.getElementById('resultsModal');
+        const quizContainer = document.getElementById('quizContainer');
+        const loginBtn = document.getElementById('loginBtn');
+        const usernameInput = document.getElementById('username');
+        const emailInput = document.getElementById('email');
+        const terminal = document.getElementById('terminal');
+        const scoresList = document.getElementById('scoresList');
+        const questionEl = document.getElementById('question');
+        const optionsEl = document.getElementById('options');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const finishQuizBtn = document.getElementById('finish-quiz-btn'); // Novo elemento aqui
+        const progressEl = document.getElementById('progress');
+        const subjectTabs = document.querySelectorAll('.subject-tab');
+        const resultStatsEl = document.getElementById('result-stats');
+        const reviewBtn = document.getElementById('reviewBtn');
+        const restartBtn = document.getElementById('restartBtn');
+        const mainQuestionContainer = document.getElementById('mainQuestionContainer');
+        const hintBtn = document.getElementById('hintBtn');
+        const hintDisplay = document.getElementById('hintDisplay');
+        const feedbackDisplay = document.getElementById('feedbackDisplay');
+
+        // **NOVA LÓGICA DE INICIALIZAÇÃO**
+        // Carregar questões do arquivo JSON e então inicializar o app
+        document.addEventListener('DOMContentLoaded', () => { // Garante que o DOM está carregado
+            fetch('questions.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    questions = data;
+                    console.log("Questões carregadas com sucesso.");
+                    addTerminalLine("> Banco de questões carregado.");
+                    
+                    // Exibe o modal de login assim que as questões são carregadas
+                    loginModal.style.display = 'flex';
+                    updateLeaderboard();
+                    addTerminalLine("> Aguardando autenticação <span class='blink'>_</span>");
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar as questões:', error);
+                    addTerminalLine(`> ERRO: Falha ao carregar questões. Verifique 'questions.json'.`);
+                    alert('Não foi possível carregar as questões do quiz. Verifique o console para mais detalhes.');
+                });
+        });
+
+        // Login
+        loginBtn.addEventListener('click', () => {
+            const username = usernameInput.value.trim();
+            const email = emailInput.value.trim();
+            
+            if (username) {
+                currentUser = {
+                    username,
+                    email: email || null,
+                };
+                
+                loginModal.style.display = 'none';
+                quizContainer.style.display = 'block';
+                
+                addTerminalLine(`> Usuário autenticado: ${username}`);
+                addTerminalLine(`> Iniciando quiz...`);
+                
+                // Iniciar quiz
+                selectedSubject = "all";
+                isReviewMode = false; // Garante que não estamos no modo revisão ao iniciar
+                startQuiz();
+            } else {
+                alert("Digite um nome de usuário!");
+            }
+        });
+
+        // Iniciar ou reiniciar quiz
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            userAnswers = Array(questions.length).fill(undefined); // Inicializa com undefined para cada questão
+            filterQuestionsBySubject();
+            if (filteredQuestions.length > 0) {
+                loadQuestion();
+            } else {
+                questionEl.textContent = "Nenhuma questão encontrada para esta matéria/filtro.";
+                optionsEl.innerHTML = "";
+            }
+            updateNavigationButtons();
+            // Esconde feedback e dica ao iniciar um novo quiz
+            feedbackDisplay.style.display = 'none';
+            hintDisplay.style.display = 'none';
+            hintBtn.style.display = 'block'; // Mostra o botão de dica
+        }
+
+        // Função para filtrar as questões
+        function filterQuestionsBySubject() {
+            filteredQuestions = selectedSubject === "all" 
+                ? questions 
+                : questions.filter(q => q.subjects.includes(selectedSubject));
+            // Redimensiona userAnswers para o novo conjunto de questões filtradas
+            userAnswers = Array(filteredQuestions.length).fill(undefined);
+        }
+
+        // Função para adicionar linhas ao terminal
+        function addTerminalLine(text) {
+            const p = document.createElement('p');
+            p.className = 'terminal-line';
+            p.innerHTML = text; // Usar innerHTML para permitir o span.blink
+            terminal.appendChild(p);
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        // Função para atualizar o leaderboard
+        function updateLeaderboard() {
+            scoresList.innerHTML = '';
+            const topScores = [...scores]
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 10);
+            
+            if (topScores.length === 0) {
+                scoresList.innerHTML = '<p>Nenhuma pontuação registrada ainda</p>';
+                return;
+            }
+            
+            topScores.forEach((item, index) => {
+                const scoreItem = document.createElement('div');
+                scoreItem.className = 'leaderboard-item';
+                scoreItem.innerHTML = `
+                    <span>${index + 1}. ${item.username}</span>
+                    <span>${item.score}/${item.total}</span>
+                `;
+                scoresList.appendChild(scoreItem);
+            });
+        }
+
+        // Função para salvar pontuação
+        function saveScore(score, total) {
+            if (!currentUser) return; // Não salva se não houver usuário logado
+            
+            const newScore = {
+                username: currentUser.username,
+                score,
+                total,
+                date: new Date().toLocaleString(),
+                subject: selectedSubject
+            };
+            
+            scores.push(newScore);
+            localStorage.setItem('quantumQuizScores', JSON.stringify(scores));
+            updateLeaderboard();
+            
+            addTerminalLine(`> Pontuação salva: ${score}/${total}`);
+        }
+
+        // Carregar questão (modo quiz)
+        function loadQuestion() {
+            if (filteredQuestions.length === 0) {
+                questionEl.textContent = "Nenhuma questão encontrada para esta matéria.";
+                optionsEl.innerHTML = "";
+                hintBtn.style.display = 'none';
+                feedbackDisplay.style.display = 'none';
+                hintDisplay.style.display = 'none';
+                return;
+            }
+
+            const q = filteredQuestions[currentQuestionIndex];
+            questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
+            
+            optionsEl.innerHTML = '';
+            q.options.forEach((option, index) => {
+                const optionEl = document.createElement('div');
+                optionEl.classList.add('option');
+                optionEl.textContent = option;
+                optionEl.dataset.index = index; // Armazena o índice da opção
+                
+                // Remove classes de feedback de questões anteriores
+                optionEl.classList.remove('selected', 'correct', 'incorrect');
+
+                // Marca a opção se já foi selecionada
+                if (userAnswers[currentQuestionIndex] === index) {
+                    optionEl.classList.add('selected');
+                }
+
+                // Habilita/Desabilita clique dependendo se já respondeu
+                if (userAnswers[currentQuestionIndex] !== undefined) {
+                    optionEl.style.cursor = 'default';
+                } else {
+                    optionEl.style.cursor = 'pointer';
+                    optionEl.addEventListener('click', () => selectAnswer(index));
+                }
+                optionsEl.appendChild(optionEl);
+            });
+            
+            // Esconde feedback e dica ao carregar nova questão
+            feedbackDisplay.style.display = 'none';
+            hintDisplay.style.display = 'none';
+            hintBtn.style.display = 'block'; // Mostra o botão de dica por padrão
+
+            // Se a questão já foi respondida, mostra o feedback imediatamente
+            if (userAnswers[currentQuestionIndex] !== undefined) {
+                displayFeedback(userAnswers[currentQuestionIndex]);
+                hintBtn.style.display = 'none'; // Esconde o botão de dica se já respondeu
+            }
+
+            progressEl.style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
+        }
+
+        // Selecionar resposta e exibir feedback imediato
+        function selectAnswer(selectedIndex) {
+            if (userAnswers[currentQuestionIndex] !== undefined) {
+                // Já respondeu, não permite mudar a resposta
+                return;
+            }
+
+            userAnswers[currentQuestionIndex] = selectedIndex;
+            
+            // Desabilita cliques em todas as opções após a seleção
+            const options = optionsEl.querySelectorAll('.option');
+            options.forEach(option => {
+                option.style.cursor = 'default';
+                option.removeEventListener('click', () => selectAnswer(parseInt(option.dataset.index)));
+            });
+
+            displayFeedback(selectedIndex);
+            hintBtn.style.display = 'none'; // Esconde o botão de dica após responder
+        }
+
+        // Função para exibir o feedback
+        function displayFeedback(selectedIndex) {
+            const q = filteredQuestions[currentQuestionIndex];
+            const isCorrect = selectedIndex === q.answer;
+            
+            const options = optionsEl.querySelectorAll('.option');
+            options.forEach((option, index) => {
+                option.classList.remove('selected', 'correct', 'incorrect');
+                if (index === q.answer) {
+                    option.classList.add('correct'); // Marca a correta em verde
+                }
+                if (index === selectedIndex && !isCorrect) {
+                    option.classList.add('incorrect'); // Marca a errada que o usuário escolheu em vermelho
+                }
+                if (index === selectedIndex && isCorrect) {
+                    option.classList.add('selected'); // Mantém a seleção se estiver correta
+                }
+            });
+
+            let feedbackContent = '';
+            if (isCorrect) {
+                feedbackContent = `✅ **Correto!**\n\n`;
+            } else {
+                feedbackContent = `❌ **Incorreto.** Sua resposta foi: "${q.options[selectedIndex]}".\n\n`;
+            }
+            feedbackContent += `A resposta correta é: "${q.options[q.answer]}".\n\n`;
+            
+            if (q.feedbackCompleto) {
+                feedbackContent += q.feedbackCompleto;
+            } else {
+                feedbackContent += "Não há justificativa completa disponível para esta questão.";
+            }
+
+            feedbackDisplay.innerHTML = feedbackContent;
+            feedbackDisplay.style.display = 'block';
+            hintDisplay.style.display = 'none'; // Esconde a dica se o feedback estiver visível
+        }
+
+        // Finalizar quiz e calcular pontuação
+        function finishQuiz() {
+            let correctCount = 0;
+            for (let i = 0; i < filteredQuestions.length; i++) {
+                // Verifica se a questão foi respondida antes de comparar
+                if (userAnswers[i] !== undefined && userAnswers[i] === filteredQuestions[i].answer) {
+                    correctCount++;
+                }
+            }
+
+            const total = filteredQuestions.length;
+            const percentage = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+
+            resultStatsEl.innerHTML = `Você acertou ${correctCount} de ${total} questões.<br> (${percentage}%)`;
+            saveScore(correctCount, total);
+            
+            addTerminalLine(`> Quiz concluído! Pontuação final: ${correctCount}/${total}`);
+            
+            quizContainer.style.display = 'none';
+            resultsModal.style.display = 'flex';
+        }
+
+        // Navegação
+        nextBtn.addEventListener('click', () => {
+            if (isReviewMode) {
+                if (currentQuestionIndex < filteredQuestions.length - 1) {
+                    currentQuestionIndex++;
+                    loadReviewQuestion();
+                } else {
+                    addTerminalLine('Fim da revisão. Voltando ao menu principal.');
+                    resultsModal.style.display = 'flex';
+                    quizContainer.style.display = 'none';
+                }
+            } else { // Modo quiz normal
+                if (currentQuestionIndex < filteredQuestions.length - 1) {
+                    currentQuestionIndex++;
+                    loadQuestion(); // Carrega a próxima questão no modo quiz
+                } else {
+                    // Se for a última questão do conjunto filtrado, ele ainda será 'Próxima' mas levará ao final
+                    finishQuiz(); // Se for a última questão, finaliza o quiz
+                }
+            }
+            updateNavigationButtons();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                if (isReviewMode) {
+                    loadReviewQuestion();
+                } else {
+                    loadQuestion(); // Carrega a questão anterior no modo quiz
+                }
+                addTerminalLine(`> Retornando à questão anterior...`);
+            }
+            updateNavigationButtons();
+        });
+
+        // Event listener para o novo botão 'Finalizar Quiz'
+        finishQuizBtn.addEventListener('click', () => {
+            addTerminalLine('> Finalizando quiz por solicitação do usuário.');
+            finishQuiz();
+        });
+
+        function updateNavigationButtons() {
+            prevBtn.disabled = currentQuestionIndex === 0;
+            
+            // Lógica para o texto do botão "Próxima"
+            if (isReviewMode) {
+                nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1) ? 'Voltar aos Resultados' : 'Próxima Questão';
+                prevBtn.textContent = 'Questão Anterior';
+                hintBtn.style.display = 'none'; // Esconde o botão de dica no modo revisão
+                finishQuizBtn.style.display = 'none'; // Esconde o botão finalizar no modo revisão
+            } else {
+                nextBtn.textContent = 'Próxima →'; // Sempre 'Próxima' neste botão
+                prevBtn.textContent = '← Anterior';
+                // O botão de dica é controlado pela função loadQuestion/selectAnswer no modo quiz
+                finishQuizBtn.style.display = 'block'; // Mantém o botão finalizar visível no modo quiz
+            }
+        }
+
+        // Filtro por matéria
+        subjectTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                subjectTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                selectedSubject = tab.dataset.subject;
+                addTerminalLine(`> Filtro ativado: ${tab.textContent}`);
+                isReviewMode = false; // Volta para o modo quiz ao mudar de filtro
+                startQuiz();
+            });
+        });
+
+        // Botões da tela de resultados
+        reviewBtn.addEventListener('click', () => {
+            resultsModal.style.display = 'none';
+            quizContainer.style.display = 'block';
+            startReviewMode();
+        });
+
+        restartBtn.addEventListener('click', () => {
+            resultsModal.style.display = 'none';
+            // Reinicia o processo pelo login para escolher nome novamente
+            loginModal.style.display = 'flex';
+            addTerminalLine('> Reiniciando sistema...');
+        });
+
+        // Modo de revisão
+        function startReviewMode() {
+            isReviewMode = true;
+            currentQuestionIndex = 0;
+            loadReviewQuestion();
+            updateNavigationButtons(); // Atualiza os textos dos botões
+        }
+
+        function loadReviewQuestion() {
+            const q = filteredQuestions[currentQuestionIndex];
+            questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
+            optionsEl.innerHTML = '';
+
+            // Esconde dica e feedback ao carregar nova questão no modo revisão
+            hintDisplay.style.display = 'none';
+            feedbackDisplay.style.display = 'none';
+            hintBtn.style.display = 'none'; // Garante que o botão de dica esteja escondido
+
+            const selectedAnswer = userAnswers[currentQuestionIndex];
+            const isCorrect = selectedAnswer === q.answer;
+            
+            // Exibe o feedback completo diretamente
+            let feedbackContent = '';
+            if (selectedAnswer === undefined) {
+                feedbackContent = `❓ **Você não respondeu a esta questão.**\n\n`;
+            } else if (isCorrect) {
+                feedbackContent = `✅ **Correto!**\n\n`;
+            } else {
+                feedbackContent = `❌ **Incorreto.** Sua resposta foi: "${q.options[selectedAnswer]}".\n\n`;
+            }
+            feedbackContent += `A resposta correta é: "${q.options[q.answer]}".\n\n`;
+            
+            if (q.feedbackCompleto) {
+                feedbackContent += q.feedbackCompleto;
+            } else {
+                feedbackContent += "Não há justificativa completa disponível para esta questão.";
+            }
+
+            feedbackDisplay.innerHTML = feedbackContent;
+            feedbackDisplay.style.display = 'block';
+
+
+            q.options.forEach((option, index) => {
+                const optionEl = document.createElement('div');
+                optionEl.classList.add('option');
+                optionEl.textContent = option;
+                optionEl.style.cursor = 'default'; // Desabilita clique no modo revisão
+
+                if (index === q.answer) {
+                    optionEl.classList.add('correct'); // Marca a correta em verde
+                }
+                if (index === selectedAnswer && !isCorrect) {
+                    optionEl.classList.add('incorrect'); // Marca a errada que o usuário escolheu em vermelho
+                }
+                // Se o usuário não respondeu e esta for a correta, apenas marca a correta
+                if (selectedAnswer === undefined && index === q.answer) {
+                     optionEl.classList.add('correct');
+                }
+
+                optionsEl.appendChild(optionEl);
+            });
+        }
+
+        // Botão de Dica
+        hintBtn.addEventListener('click', () => {
+            const q = filteredQuestions[currentQuestionIndex];
+            if (q.hint) {
+                hintDisplay.innerHTML = `💡 **Dica:** ${q.hint}`;
+                hintDisplay.style.display = 'block';
+                feedbackDisplay.style.display = 'none'; // Esconde feedback se a dica for mostrada
+                addTerminalLine(`> Dica solicitada para questão ${currentQuestionIndex + 1}.`);
+            } else {
+                hintDisplay.innerHTML = `Não há dica disponível para esta questão.`;
+                hintDisplay.style.display = 'block';
+                feedbackDisplay.style.display = 'none';
+                addTerminalLine(`> Nenhuma dica encontrada.`);
+            }
+        });
+
+    </script>
+</body>
+</html>
