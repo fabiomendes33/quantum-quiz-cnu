@@ -14945,8 +14945,1129 @@
         "hint": "Pense em como a tecnologia muda o ambiente de trabalho e as necessidades dos funcionários.",
         "feedbackCompleto": "A relação entre Trabalho e Tecnologia e Gestão de Pessoas é intrínseca. A tecnologia transforma o ambiente de trabalho, exige o desenvolvimento de novas competências (digitais, analíticas) nos servidores, impacta as políticas de remuneração e benefícios, e muda as formas de trabalho (teletrabalho, trabalho híbrido), demandando uma adaptação constante da gestão de pessoas. (Referência: '2025-08-04-15-50-28-118055565-trabalho-e-tecnologia-e1754333428.pdf').",
         "subjects": ["trabalho-tecnologia", "rh"]
+    },
+    {
+        "question": "De acordo com o material sobre 'Atendimento ao Público', qual a principal finalidade de um serviço de atendimento eficaz?",
+        "options": [
+            "Apenas resolver problemas burocráticos.",
+            "Oferecer um serviço rápido, com o menor custo possível.",
+            "Satisfazer as necessidades do cidadão, resolver suas demandas de forma ágil e humanizada, e fortalecer a confiança na Administração Pública.",
+            "Substituir o papel dos servidores por automação."
+        ],
+        "answer": 2,
+        "hint": "Pense no objetivo central da relação entre o governo e o cidadão.",
+        "feedbackCompleto": "Um serviço de atendimento eficaz na Administração Pública tem como principal finalidade satisfazer as necessidades e expectativas do cidadão. Isso envolve a resolução de demandas de forma ágil, humanizada e com qualidade, o que fortalece a confiança da população nas instituições e melhora a percepção sobre a gestão pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'Princípio da Cortesia' exige dos servidores no atendimento ao público?",
+        "options": [
+            "Apenas o uso de formalidades rigorosas.",
+            "Que o servidor seja sempre solícito, educado e gentil, tratando o cidadão com respeito e dignidade, independentemente da natureza da demanda.",
+            "A ausência de contato visual e a frieza no tratamento.",
+            "Que o servidor seja permissivo com todas as solicitações."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de tratar o público com educação e respeito.",
+        "feedbackCompleto": "O Princípio da Cortesia é fundamental para o bom atendimento ao público. Ele exige que o servidor seja solícito, educado, gentil e respeitoso no trato com o cidadão, o que contribui para um ambiente de atendimento mais positivo e humanizado, e para a construção de uma boa imagem do serviço público. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'comunicação clara e objetiva' no atendimento ao público?",
+        "options": [
+            "Apenas cumprir normas de redação.",
+            "Aumentar a burocracia na resolução de problemas.",
+            "Garantir que o cidadão compreenda as informações, os procedimentos e as decisões de forma precisa, evitando ruídos, mal-entendidos e a necessidade de retrabalho.",
+            "Substituir a necessidade de um servidor para atender o cidadão."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a clareza da mensagem pode evitar erros e frustração.",
+        "feedbackCompleto": "A comunicação clara e objetiva é essencial no atendimento ao público. Ela garante que a informação seja transmitida de forma precisa e compreensível, sem jargões técnicos ou burocráticos. Isso evita que o cidadão tenha dúvidas, cometa erros ou precise retornar ao órgão, o que torna o serviço mais eficiente e satisfatório para todos. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um dos principais desafios no atendimento ao público?",
+        "options": [
+            "A falta de demanda por serviços públicos.",
+            "A ausência de tecnologia para automatizar processos.",
+            "A falta de capacitação dos servidores, a resistência à mudança e a complexidade de processos burocráticos que dificultam a agilidade e a satisfação do cidadão.",
+            "O excesso de servidores qualificados para o atendimento."
+        ],
+        "answer": 2,
+        "hint": "Pense nos obstáculos que impedem um serviço de atendimento mais ágil e eficiente.",
+        "feedbackCompleto": "O atendimento ao público enfrenta desafios como a falta de capacitação dos servidores (que precisam de treinamento contínuo), a resistência em adotar novas ferramentas e processos, e a complexidade de rotinas burocráticas e a legislação, que podem tornar o serviço lento e pouco satisfatório. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'escuta ativa' no atendimento ao público?",
+        "options": [
+            "É um conceito irrelevante.",
+            "É a capacidade de ouvir e compreender o que o cidadão realmente precisa, prestando atenção à sua demanda e demonstrando empatia, o que leva a uma solução mais adequada e eficaz.",
+            "Apenas a capacidade de falar mais que o cidadão.",
+            "É a capacidade de falar sem ouvir."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de 'ouvir com atenção' para entender de fato a necessidade do outro.",
+        "feedbackCompleto": "A escuta ativa é a capacidade de ouvir e compreender a mensagem do cidadão de forma completa, prestando atenção à sua demanda, suas emoções e seu contexto. Ela demonstra empatia, constrói confiança e é fundamental para identificar a verdadeira necessidade do cidadão e oferecer a solução mais adequada, evitando soluções 'padrão' e que não resolvem o problema. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que a 'empatia' representa no atendimento ao público?",
+        "options": [
+            "A capacidade de se colocar no lugar do outro e compreender seus sentimentos e perspectivas, a fim de oferecer um atendimento mais humanizado e eficaz.",
+            "A capacidade de apenas escutar o cidadão, sem tomar nenhuma atitude.",
+            "A capacidade de resolver um problema burocrático de forma rápida, sem a necessidade de interação humana.",
+            "A capacidade de ter simpatia por todos os cidadãos."
+        ],
+        "answer": 0,
+        "hint": "Pense na ideia de 'calçar o sapato' do outro para entender seu ponto de vista.",
+        "feedbackCompleto": "A empatia é a capacidade de se colocar no lugar do outro, de tentar compreender seus sentimentos, suas perspectivas e sua experiência. No atendimento ao público, ela é crucial para que o servidor possa tratar o cidadão com respeito e humanidade, entendendo a sua frustração ou necessidade e buscando uma solução que realmente o ajude, e não apenas o atenda. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'humanização' no atendimento ao público?",
+        "options": [
+            "Apenas cumprir normas de cortesia.",
+            "Promover um atendimento que considere as emoções, as particularidades e as experiências do cidadão, tratando-o com respeito e dignidade, além de resolver a sua demanda burocrática.",
+            "Aumentar o tempo de espera do cidadão.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no atendimento como uma relação entre pessoas, e não apenas como um processo burocrático.",
+        "feedbackCompleto": "A humanização no atendimento ao público é a prática de tratar o cidadão com dignidade, respeito e empatia, reconhecendo-o como uma pessoa e não apenas como um número de protocolo. Ela se concentra em ouvir, compreender e buscar soluções que considerem as suas particularidades, o que melhora a experiência e fortalece a confiança na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento multicanal' na Administração Pública representa?",
+        "options": [
+            "Apenas o atendimento presencial.",
+            "O atendimento via telefone e e-mail, sem a necessidade de um servidor para atender o cidadão.",
+            "A oferta de diversos canais de atendimento (presencial, telefone, e-mail, chat online, redes sociais) de forma integrada, para que o cidadão possa escolher o canal de sua preferência e ter a sua demanda resolvida de forma consistente.",
+            "Apenas o atendimento por meio de automação."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de ter vários 'canais' ou 'meios' para atender o cidadão.",
+        "feedbackCompleto": "O atendimento multicanal é a estratégia de oferecer diversos canais de atendimento (presencial, telefone, online, redes sociais, etc.) de forma integrada e consistente. A ideia é que o cidadão possa iniciar o atendimento em um canal e, se necessário, continuá-lo em outro, sem perder as informações, o que melhora a experiência e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica de um 'serviço de ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um serviço de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei nº 13.460/2017' (Lei de Proteção e Defesa do Usuário de Serviços Públicos) estabelece sobre o atendimento?",
+        "options": [
+            "Apenas a obrigatoriedade de atendimento presencial.",
+            "Fixa regras para a prestação de serviços públicos, garantindo direitos básicos aos usuários, como o acesso a canais de atendimento, a informação clara e a participação na avaliação dos serviços.",
+            "Permite a discriminação no atendimento.",
+            "Não estabelece normas para o atendimento ao público."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa aprimorar a relação entre o governo e o cidadão.",
+        "feedbackCompleto": "A Lei nº 13.460/2017 é conhecida como a Lei de Proteção e Defesa do Usuário de Serviços Públicos. Ela estabelece diretrizes para a boa prestação de serviços, como a obrigatoriedade de atendimento com cortesia, respeito e transparência, o direito de acesso a canais de atendimento e a participação na avaliação dos serviços, o que fortalece a cidadania e a accountability. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "No que consiste a 'gestão do conhecimento' no contexto do atendimento ao público?",
+        "options": [
+            "Apenas a informatização de documentos.",
+            "O processo de identificar, organizar, armazenar e compartilhar o conhecimento e as experiências dos servidores, a fim de aprimorar a qualidade do atendimento e a resolução de problemas de forma mais rápida e eficaz.",
+            "Evitar que novas ideias surjam na organização.",
+            "Reduzir a necessidade de treinamento de servidores."
+        ],
+        "answer": 1,
+        "hint": "Pense em como o conhecimento da equipe pode ser usado para melhorar o serviço.",
+        "feedbackCompleto": "A gestão do conhecimento é fundamental para o atendimento ao público. Ela envolve a criação e o compartilhamento de bases de conhecimento, manuais e melhores práticas, que permitem que os servidores resolvam as demandas dos cidadãos de forma mais rápida e consistente, sem precisar 'reinventar a roda' a cada novo atendimento. Isso aprimora a qualidade e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'capacitação' dos servidores para o atendimento ao público?",
+        "options": [
+            "Apenas ensinar a usar softwares básicos.",
+            "Garantir que os servidores desenvolvam as competências técnicas e comportamentais (cortesia, empatia, escuta ativa) necessárias para prestar um atendimento de qualidade, resolver problemas e lidar com situações difíceis de forma adequada.",
+            "Reduzir a necessidade de servidores na Administração.",
+            "Aumentar a dependência de consultorias externas."
+        ],
+        "answer": 1,
+        "hint": "Pense nas habilidades que um servidor precisa ter para lidar com o cidadão de forma eficaz.",
+        "feedbackCompleto": "A capacitação dos servidores é um fator crítico para o bom atendimento. Ela vai além do conhecimento técnico sobre os processos, abrangendo o desenvolvimento de competências comportamentais, como a cortesia, a empatia, a escuta ativa e a capacidade de resolução de problemas. Isso é fundamental para que o servidor possa lidar com o público de forma eficaz e humanizada. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento digital' na Administração Pública busca promover?",
+        "options": [
+            "Apenas a automação de tarefas simples.",
+            "A oferta de serviços públicos por meio de plataformas digitais (sites, aplicativos), com o objetivo de aumentar a agilidade, a conveniência e o acesso do cidadão aos serviços, reduzindo a necessidade de deslocamento e de atendimento presencial.",
+            "Aumentar a burocracia dos processos.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no uso da tecnologia para oferecer serviços públicos online.",
+        "feedbackCompleto": "O atendimento digital é a estratégia de oferecer serviços públicos por meio de plataformas digitais, como portais de serviço, aplicativos e assistentes virtuais. Seu objetivo é aumentar a agilidade, a conveniência e o acesso do cidadão aos serviços, reduzindo a necessidade de atendimento presencial e de deslocamento, o que otimiza o tempo e os recursos do governo e do cidadão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'gestão da qualidade' no atendimento ao público?",
+        "options": [
+            "Apenas reduzir os custos operacionais.",
+            "Melhorar continuamente os serviços e a satisfação do cidadão, por meio de processos padronizados, indicadores de desempenho e feedback dos usuários.",
+            "Aumentar o número de servidores no atendimento.",
+            "Reduzir a necessidade de interação humana."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de buscar a excelência e a satisfação do usuário do serviço.",
+        "feedbackCompleto": "A gestão da qualidade no atendimento ao público busca a melhoria contínua dos serviços, com o objetivo de aumentar a satisfação do cidadão. Isso é feito por meio de processos padronizados, indicadores de desempenho, coleta de feedback dos usuários e análise de dados, que permitem identificar pontos de melhoria e aprimorar a experiência do cidadão com o serviço público. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'Princípio da Acessibilidade' exige no atendimento ao público?",
+        "options": [
+            "Que o atendimento seja rápido.",
+            "Que o atendimento seja presencial.",
+            "A garantia de que o cidadão com deficiência ou mobilidade reduzida possa acessar os canais de atendimento, os serviços e as informações, sem barreiras físicas, comunicacionais ou atitudinais.",
+            "Apenas a instalação de rampas em prédios públicos."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de 'acesso para todos', sem barreiras.",
+        "feedbackCompleto": "O Princípio da Acessibilidade exige que a Administração Pública garanta que os canais de atendimento, os serviços e as informações sejam acessíveis a todos os cidadãos, especialmente às pessoas com deficiência ou mobilidade reduzida. Isso envolve a eliminação de barreiras físicas (rampas, elevadores), comunicacionais (braille, libras) e atitudinais (respeito e inclusão). (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que a 'Lei Geral de Proteção de Dados (LGPD)' estabelece sobre o atendimento ao público?",
+        "options": [
+            "Apenas a criação de bancos de dados públicos.",
+            "Não se aplica ao atendimento público.",
+            "Fixa as regras para a coleta, o tratamento e o armazenamento de dados pessoais dos cidadãos, exigindo que o atendimento seja transparente e que o cidadão tenha controle sobre suas informações.",
+            "Permite a divulgação de dados pessoais sem autorização do cidadão."
+        ],
+        "answer": 2,
+        "hint": "Pense na lei que protege as informações pessoais do cidadão.",
+        "feedbackCompleto": "A LGPD (Lei nº 13.709/2018) se aplica ao atendimento público e estabelece as regras para a coleta, o tratamento e o armazenamento de dados pessoais dos cidadãos. Ela exige que a Administração Pública seja transparente sobre o uso dos dados, que os utilize apenas para as finalidades previstas em lei e que garanta ao cidadão o controle sobre suas informações. (Referência: 'Topico 2-lei-geral-de-protecao-de-dados-lgpd-e1712337692.pdf').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um canal de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei de Acesso à Informação (LAI)' estabelece sobre o atendimento ao público?",
+        "options": [
+            "Apenas o acesso a informações sigilosas do governo.",
+            "O direito do cidadão de acesso a informações públicas, com exceções para dados sigilosos ou pessoais, e o dever dos órgãos e entidades de divulgá-las proativamente.",
+            "A proibição de divulgação de qualquer informação governamental.",
+            "O acesso restrito a informações apenas para jornalistas."
+        ],
+        "answer": 1,
+        "hint": "Pense na lei que regulamenta o direito de acesso à informação pública.",
+        "feedbackCompleto": "A Lei de Acesso à Informação (LAI) regulamenta o direito constitucional de acesso à informação. Ela estabelece que a regra é a publicidade e a exceção é o sigilo, garantindo que qualquer pessoa possa solicitar e receber informações de órgãos e entidades públicas, e impondo a eles o dever de divulgar proativamente informações de interesse coletivo. (Referência: 'Topico 1-lei-n-12-527-2011-transparencia-e-acesso-a-informacao-e1737053791.pdf').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um benefício do 'atendimento digital' para a Administração Pública?",
+        "options": [
+            "Aumento da burocracia.",
+            "Redução da eficiência e da qualidade dos serviços.",
+            "Otimização do tempo, redução de custos com infraestrutura, maior conveniência para o cidadão e padronização dos serviços.",
+            "Aumento da necessidade de intervenção humana em tarefas repetitivas."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a tecnologia pode tornar o serviço mais rápido e com menos falhas.",
+        "feedbackCompleto": "O atendimento digital traz benefícios como a otimização do tempo (com a automação de tarefas), a redução de custos com infraestrutura (menos atendimento presencial), maior conveniência para o cidadão (acesso 24/7) e a padronização dos serviços. Ele é um pilar da transformação digital na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal função do 'atendimento ao público' na Administração Pública?",
+        "options": [
+            "Apenas resolver problemas burocráticos.",
+            "Satisfazer as necessidades do cidadão, resolver suas demandas de forma ágil e humanizada, e fortalecer a confiança na Administração Pública.",
+            "Substituir o papel dos servidores por automação.",
+            "Oferecer um serviço rápido, com o menor custo possível."
+        ],
+        "answer": 1,
+        "hint": "Pense no objetivo central da relação entre o governo e o cidadão.",
+        "feedbackCompleto": "Um serviço de atendimento eficaz na Administração Pública tem como principal finalidade satisfazer as necessidades e expectativas do cidadão. Isso envolve a resolução de demandas de forma ágil, humanizada e com qualidade, o que fortalece a confiança da população nas instituições e melhora a percepção sobre a gestão pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'Princípio da Cortesia' exige dos servidores no atendimento ao público?",
+        "options": [
+            "Apenas o uso de formalidades rigorosas.",
+            "Que o servidor seja sempre solícito, educado e gentil, tratando o cidadão com respeito e dignidade, independentemente da natureza da demanda.",
+            "A ausência de contato visual e a frieza no tratamento.",
+            "Que o servidor seja permissivo com todas as solicitações."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de tratar o público com educação e respeito.",
+        "feedbackCompleto": "O Princípio da Cortesia é fundamental para o bom atendimento ao público. Ele exige que o servidor seja solícito, educado, gentil e respeitoso no trato com o cidadão, o que contribui para um ambiente de atendimento mais positivo e humanizado, e para a construção de uma boa imagem do serviço público. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'comunicação clara e objetiva' no atendimento ao público?",
+        "options": [
+            "Apenas cumprir normas de redação.",
+            "Aumentar a burocracia na resolução de problemas.",
+            "Garantir que o cidadão compreenda as informações, os procedimentos e as decisões de forma precisa, evitando ruídos, mal-entendidos e a necessidade de retrabalho.",
+            "Substituir a necessidade de um servidor para atender o cidadão."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a clareza da mensagem pode evitar erros e frustração.",
+        "feedbackCompleto": "A comunicação clara e objetiva é essencial no atendimento ao público. Ela garante que a informação seja transmitida de forma precisa e compreensível, sem jargões técnicos ou burocráticos. Isso evita que o cidadão tenha dúvidas, cometa erros ou precise retornar ao órgão, o que torna o serviço mais eficiente e satisfatório para todos. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um dos principais desafios no atendimento ao público?",
+        "options": [
+            "A falta de demanda por serviços públicos.",
+            "A ausência de tecnologia para automatizar processos.",
+            "A falta de capacitação dos servidores, a resistência à mudança e a complexidade de processos burocráticos que dificultam a agilidade e a satisfação do cidadão.",
+            "O excesso de servidores qualificados para o atendimento."
+        ],
+        "answer": 2,
+        "hint": "Pense nos obstáculos que impedem um serviço de atendimento mais ágil e eficiente.",
+        "feedbackCompleto": "O atendimento ao público enfrenta desafios como a falta de capacitação dos servidores (que precisam de treinamento contínuo), a resistência em adotar novas ferramentas e processos, e a complexidade de rotinas burocráticas e a legislação, que podem tornar o serviço lento e pouco satisfatório. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'escuta ativa' no atendimento ao público?",
+        "options": [
+            "É um conceito irrelevante.",
+            "É a capacidade de ouvir e compreender o que o cidadão realmente precisa, prestando atenção à sua demanda e demonstrando empatia, o que leva a uma solução mais adequada e eficaz.",
+            "Apenas a capacidade de falar mais que o cidadão.",
+            "É a capacidade de falar sem ouvir."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de 'ouvir com atenção' para entender de fato a necessidade do outro.",
+        "feedbackCompleto": "A escuta ativa é a capacidade de ouvir e compreender a mensagem do cidadão de forma completa, prestando atenção à sua demanda, suas emoções e seu contexto. Ela demonstra empatia, constrói confiança e é fundamental para identificar a verdadeira necessidade do cidadão e oferecer a solução mais adequada, evitando soluções 'padrão' e que não resolvem o problema. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que a 'empatia' representa no atendimento ao público?",
+        "options": [
+            "A capacidade de se colocar no lugar do outro e compreender seus sentimentos e perspectivas, a fim de oferecer um atendimento mais humanizado e eficaz.",
+            "A capacidade de apenas escutar o cidadão, sem tomar nenhuma atitude.",
+            "A capacidade de resolver um problema burocrático de forma rápida, sem a necessidade de interação humana.",
+            "A capacidade de ter simpatia por todos os cidadãos."
+        ],
+        "answer": 0,
+        "hint": "Pense na ideia de 'calçar o sapato' do outro para entender seu ponto de vista.",
+        "feedbackCompleto": "A empatia é a capacidade de se colocar no lugar do outro, de tentar compreender seus sentimentos, suas perspectivas e sua experiência. No atendimento ao público, ela é crucial para que o servidor possa tratar o cidadão com respeito e humanidade, entendendo a sua frustração ou necessidade e buscando uma solução que realmente o ajude, e não apenas o atenda. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'humanização' no atendimento ao público?",
+        "options": [
+            "Apenas cumprir normas de cortesia.",
+            "Promover um atendimento que considere as emoções, as particularidades e as experiências do cidadão, tratando-o com respeito e dignidade, além de resolver a sua demanda burocrática.",
+            "Aumentar o tempo de espera do cidadão.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no atendimento como uma relação entre pessoas, e não apenas como um processo burocrático.",
+        "feedbackCompleto": "A humanização no atendimento ao público é a prática de tratar o cidadão com dignidade, respeito e empatia, reconhecendo-o como uma pessoa e não apenas como um número de protocolo. Ela se concentra em ouvir, compreender e buscar soluções que considerem as suas particularidades, o que melhora a experiência e fortalece a confiança na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento multicanal' na Administração Pública representa?",
+        "options": [
+            "Apenas o atendimento presencial.",
+            "O atendimento via telefone e e-mail, sem a necessidade de um servidor para atender o cidadão.",
+            "A oferta de diversos canais de atendimento (presencial, telefone, e-mail, chat online, redes sociais) de forma integrada, para que o cidadão possa escolher o canal de sua preferência e ter a sua demanda resolvida de forma consistente.",
+            "Apenas o atendimento por meio de automação."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de ter vários 'canais' ou 'meios' para atender o cidadão.",
+        "feedbackCompleto": "O atendimento multicanal é a estratégia de oferecer diversos canais de atendimento (presencial, telefone, online, redes sociais, etc.) de forma integrada e consistente. A ideia é que o cidadão possa iniciar o atendimento em um canal e, se necessário, continuá-lo em outro, sem perder as informações, o que melhora a experiência e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica de um 'serviço de ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um serviço de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei nº 13.460/2017' (Lei de Proteção e Defesa do Usuário de Serviços Públicos) estabelece sobre o atendimento?",
+        "options": [
+            "Apenas a obrigatoriedade de atendimento presencial.",
+            "Fixa regras para a prestação de serviços públicos, garantindo direitos básicos aos usuários, como o acesso a canais de atendimento, a informação clara e a participação na avaliação dos serviços.",
+            "Permite a discriminação no atendimento.",
+            "Não estabelece normas para o atendimento ao público."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa aprimorar a relação entre o governo e o cidadão.",
+        "feedbackCompleto": "A Lei nº 13.460/2017 é conhecida como a Lei de Proteção e Defesa do Usuário de Serviços Públicos. Ela estabelece diretrizes para a boa prestação de serviços, como a obrigatoriedade de atendimento com cortesia, respeito e transparência, o direito de acesso a canais de atendimento e a participação na avaliação dos serviços, o que fortalece a cidadania e a accountability. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "No que consiste a 'gestão do conhecimento' no contexto do atendimento ao público?",
+        "options": [
+            "Apenas a informatização de documentos.",
+            "O processo de identificar, organizar, armazenar e compartilhar o conhecimento e as experiências dos servidores, a fim de aprimorar a qualidade do atendimento e a resolução de problemas de forma mais rápida e eficaz.",
+            "Evitar que novas ideias surjam na organização.",
+            "Reduzir a necessidade de treinamento de servidores."
+        ],
+        "answer": 1,
+        "hint": "Pense em como o conhecimento da equipe pode ser usado para melhorar o serviço.",
+        "feedbackCompleto": "A gestão do conhecimento é fundamental para o atendimento ao público. Ela envolve a criação e o compartilhamento de bases de conhecimento, manuais e melhores práticas, que permitem que os servidores resolvam as demandas dos cidadãos de forma mais rápida e consistente, sem precisar 'reinventar a roda' a cada novo atendimento. Isso aprimora a qualidade e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'capacitação' dos servidores para o atendimento ao público?",
+        "options": [
+            "Apenas ensinar a usar softwares básicos.",
+            "Garantir que os servidores desenvolvam as competências técnicas e comportamentais (cortesia, empatia, escuta ativa) necessárias para prestar um atendimento de qualidade, resolver problemas e lidar com situações difíceis de forma adequada.",
+            "Reduzir a necessidade de servidores na Administração.",
+            "Aumentar a dependência de consultorias externas."
+        ],
+        "answer": 1,
+        "hint": "Pense nas habilidades que um servidor precisa ter para lidar com o cidadão de forma eficaz.",
+        "feedbackCompleto": "A capacitação dos servidores é um fator crítico para o bom atendimento. Ela vai além do conhecimento técnico sobre os processos, abrangendo o desenvolvimento de competências comportamentais, como a cortesia, a empatia, a escuta ativa e a capacidade de resolução de problemas. Isso é fundamental para que o servidor possa lidar com o público de forma eficaz e humanizada. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento digital' na Administração Pública busca promover?",
+        "options": [
+            "Apenas a automação de tarefas simples.",
+            "A oferta de serviços públicos por meio de plataformas digitais (sites, aplicativos), com o objetivo de aumentar a agilidade, a conveniência e o acesso do cidadão aos serviços, reduzindo a necessidade de deslocamento e de atendimento presencial.",
+            "Aumentar a burocracia dos processos.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no uso da tecnologia para oferecer serviços públicos online.",
+        "feedbackCompleto": "O atendimento digital é a estratégia de oferecer serviços públicos por meio de plataformas digitais, como portais de serviço, aplicativos e assistentes virtuais. Seu objetivo é aumentar a agilidade, a conveniência e o acesso do cidadão aos serviços, reduzindo a necessidade de atendimento presencial e de deslocamento, o que otimiza o tempo e os recursos do governo e do cidadão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'gestão da qualidade' no atendimento ao público?",
+        "options": [
+            "Apenas reduzir os custos operacionais.",
+            "Melhorar continuamente os serviços e a satisfação do cidadão, por meio de processos padronizados, indicadores de desempenho e feedback dos usuários.",
+            "Aumentar o número de servidores no atendimento.",
+            "Reduzir a necessidade de interação humana."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de buscar a excelência e a satisfação do usuário do serviço.",
+        "feedbackCompleto": "A gestão da qualidade no atendimento ao público busca a melhoria contínua dos serviços, com o objetivo de aumentar a satisfação do cidadão. Isso é feito por meio de processos padronizados, indicadores de desempenho, coleta de feedback dos usuários e análise de dados, que permitem identificar pontos de melhoria e aprimorar a experiência do cidadão com o serviço público. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'Princípio da Acessibilidade' exige no atendimento ao público?",
+        "options": [
+            "Que o atendimento seja rápido.",
+            "Que o atendimento seja presencial.",
+            "A garantia de que o cidadão com deficiência ou mobilidade reduzida possa acessar os canais de atendimento, os serviços e as informações, sem barreiras físicas, comunicacionais ou atitudinais.",
+            "Apenas a instalação de rampas em prédios públicos."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de 'acesso para todos', sem barreiras.",
+        "feedbackCompleto": "O Princípio da Acessibilidade exige que a Administração Pública garanta que os canais de atendimento, os serviços e as informações sejam acessíveis a todos os cidadãos, especialmente às pessoas com deficiência ou mobilidade reduzida. Isso envolve a eliminação de barreiras físicas (rampas, elevadores), comunicacionais (braille, libras) e atitudinais (respeito e inclusão). (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que a 'Lei Geral de Proteção de Dados (LGPD)' estabelece sobre o atendimento ao público?",
+        "options": [
+            "Apenas a criação de bancos de dados públicos.",
+            "Não se aplica ao atendimento público.",
+            "Fixa as regras para a coleta, o tratamento e o armazenamento de dados pessoais dos cidadãos, exigindo que o atendimento seja transparente e que o cidadão tenha controle sobre suas informações.",
+            "Permite a divulgação de dados pessoais sem autorização do cidadão."
+        ],
+        "answer": 2,
+        "hint": "Pense na lei que protege as informações pessoais do cidadão.",
+        "feedbackCompleto": "A LGPD (Lei nº 13.709/2018) se aplica ao atendimento público e estabelece as regras para a coleta, o tratamento e o armazenamento de dados pessoais dos cidadãos. Ela exige que a Administração Pública seja transparente sobre o uso dos dados, que os utilize apenas para as finalidades previstas em lei e que garanta ao cidadão o controle sobre suas informações. (Referência: 'Topico 2-lei-geral-de-protecao-de-dados-lgpd-e1712337692.pdf').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um canal de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei de Acesso à Informação (LAI)' estabelece sobre o atendimento ao público?",
+        "options": [
+            "Apenas o acesso a informações sigilosas do governo.",
+            "O direito do cidadão de acesso a informações públicas, com exceções para dados sigilosos ou pessoais, e o dever dos órgãos e entidades de divulgá-las proativamente.",
+            "A proibição de divulgação de qualquer informação governamental.",
+            "O acesso restrito a informações apenas para jornalistas."
+        ],
+        "answer": 1,
+        "hint": "Pense na lei que regulamenta o direito de acesso à informação pública.",
+        "feedbackCompleto": "A Lei de Acesso à Informação (LAI) regulamenta o direito constitucional de acesso à informação. Ela estabelece que a regra é a publicidade e a exceção é o sigilo, garantindo que qualquer pessoa possa solicitar e receber informações de órgãos e entidades públicas, e impondo a eles o dever de divulgar proativamente informações de interesse coletivo. (Referência: 'Topico 1-lei-n-12-527-2011-transparencia-e-acesso-a-informacao-e1737053791.pdf').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um benefício do 'atendimento digital' para a Administração Pública?",
+        "options": [
+            "Aumento da burocracia.",
+            "Redução da eficiência e da qualidade dos serviços.",
+            "Otimização do tempo, redução de custos com infraestrutura, maior conveniência para o cidadão e padronização dos serviços.",
+            "Aumento da necessidade de intervenção humana em tarefas repetitivas."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a tecnologia pode tornar o serviço mais rápido e com menos falhas.",
+        "feedbackCompleto": "O atendimento digital traz benefícios como a otimização do tempo (com a automação de tarefas), a redução de custos com infraestrutura (menos atendimento presencial), maior conveniência para o cidadão (acesso 24/7) e a padronização dos serviços. Ele é um pilar da transformação digital na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal função da 'ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um canal de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei nº 13.460/2017' (Lei de Proteção e Defesa do Usuário de Serviços Públicos) estabelece sobre o atendimento?",
+        "options": [
+            "Apenas a obrigatoriedade de atendimento presencial.",
+            "Fixa regras para a prestação de serviços públicos, garantindo direitos básicos aos usuários, como o acesso a canais de atendimento, a informação clara e a participação na avaliação dos serviços.",
+            "Permite a discriminação no atendimento.",
+            "Não estabelece normas para o atendimento ao público."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa aprimorar a relação entre o governo e o cidadão.",
+        "feedbackCompleto": "A Lei nº 13.460/2017 é conhecida como a Lei de Proteção e Defesa do Usuário de Serviços Públicos. Ela estabelece diretrizes para a boa prestação de serviços, como a obrigatoriedade de atendimento com cortesia, respeito e transparência, o direito de acesso a canais de atendimento e a participação na avaliação dos serviços, o que fortalece a cidadania e a accountability. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um benefício do 'atendimento digital' para a Administração Pública?",
+        "options": [
+            "Aumento da burocracia.",
+            "Redução da eficiência e da qualidade dos serviços.",
+            "Otimização do tempo, redução de custos com infraestrutura, maior conveniência para o cidadão e padronização dos serviços.",
+            "Aumento da necessidade de intervenção humana em tarefas repetitivas."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a tecnologia pode tornar o serviço mais rápido e com menos falhas.",
+        "feedbackCompleto": "O atendimento digital traz benefícios como a otimização do tempo (com a automação de tarefas), a redução de custos com infraestrutura (menos atendimento presencial), maior conveniência para o cidadão (acesso 24/7) e a padronização dos serviços. Ele é um pilar da transformação digital na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "De acordo com o material sobre 'Ética e Governança Pública', qual a principal finalidade do 'Controle Interno' na Administração Pública Federal?",
+        "options": [
+            "Apenas fiscalizar a atuação do Poder Judiciário.",
+            "Fiscalizar a execução do orçamento e a legalidade dos atos, avaliando o cumprimento das metas do PPA e da LDO e apoiando o controle externo.",
+            "Aprovar as leis orçamentárias.",
+            "Representar judicialmente a União."
+        ],
+        "answer": 1,
+        "hint": "É uma função de 'autocontrole' da própria Administração.",
+        "feedbackCompleto": "Conforme o Art. 74 da CF/88 e o material, o Sistema de Controle Interno tem como finalidades a avaliação do cumprimento das metas do PPA e da LDO, a comprovação da legalidade e avaliação dos resultados da gestão orçamentária, financeira e patrimonial, o exercício do controle sobre o uso de recursos públicos por órgãos e entidades, e o apoio ao controle externo (TCU) no exercício de sua missão institucional. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal diferença entre 'Controle Interno' e 'Controle Externo'?",
+        "options": [
+            "Controle Interno é feito pelo Poder Legislativo; Controle Externo pelo Executivo.",
+            "Controle Interno é o autocontrole da própria Administração; Controle Externo é feito por órgãos independentes (Poder Legislativo com auxílio do TCU).",
+            "Controle Interno é apenas preventivo; Controle Externo é apenas corretivo.",
+            "Não há diferença, são sinônimos de fiscalização."
+        ],
+        "answer": 1,
+        "hint": "A diferença reside em 'quem' exerce o controle.",
+        "feedbackCompleto": "O Controle Interno é o autocontrole exercido pela própria Administração, por meio de seus órgãos internos (como a Controladoria-Geral da União - CGU), visando a garantir a legalidade e a eficiência da gestão. O Controle Externo, por sua vez, é exercido por órgãos independentes e externos à Administração, como o Poder Legislativo, com o auxílio do Tribunal de Contas, para fiscalizar a aplicação dos recursos públicos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual o papel da 'Controladoria-Geral da União (CGU)' no Sistema de Controle Interno do Poder Executivo Federal?",
+        "options": [
+            "Apenas fiscalizar o Poder Judiciário.",
+            "Ser o órgão central do sistema de controle interno, com funções de auditoria governamental, correição, ouvidoria, prevenção e combate à corrupção.",
+            "Gerenciar o orçamento federal.",
+            "Elaborar o PPA e a LDO."
+        ],
+        "answer": 1,
+        "hint": "É o principal órgão que atua na defesa do patrimônio público e na prevenção da corrupção no âmbito federal.",
+        "feedbackCompleto": "A CGU é o órgão central do Sistema de Controle Interno do Poder Executivo Federal, conforme o Art. 74 da CF/88 e o material. Suas competências incluem a auditoria governamental (fiscalização interna), a correição (investigação de irregularidades), a ouvidoria, a prevenção e o combate à corrupção, e a promoção da transparência e da integridade na gestão pública. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'auditoria governamental' no contexto do controle interno?",
+        "options": [
+            "A fiscalização das contas públicas pelo Poder Legislativo.",
+            "Uma atividade de controle e avaliação sistemática, independente e objetiva, que tem como objetivo examinar as operações e os resultados da gestão, com vistas a aperfeiçoar os processos e os controles internos da organização.",
+            "A aprovação de despesas de capital.",
+            "A punição de servidores sem direito de defesa."
+        ],
+        "answer": 1,
+        "hint": "É uma atividade de verificação que busca melhorias, e não apenas erros.",
+        "feedbackCompleto": "A auditoria governamental, como função do controle interno, é uma atividade de controle e avaliação que examina as operações, os sistemas e os resultados da gestão para verificar sua conformidade com a legalidade, a economicidade e a eficiência. Seu objetivo é identificar riscos e recomendar melhorias nos processos e nos controles internos, apoiando a boa gestão. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que a 'gestão de riscos' busca na Administração Pública, conforme o material?",
+        "options": [
+            "Eliminar completamente todas as incertezas.",
+            "Identificar, avaliar, tratar e monitorar os riscos que podem afetar o alcance dos objetivos, buscando otimizar oportunidades e minimizar impactos negativos.",
+            "Apenas identificar riscos financeiros.",
+            "Responsabilizar o gestor por todos os riscos."
+        ],
+        "answer": 1,
+        "hint": "É um processo proativo para gerenciar as incertezas e suas consequências.",
+        "feedbackCompleto": "A gestão de riscos é um processo contínuo e sistemático que visa identificar, avaliar (em termos de probabilidade e impacto), tratar e monitorar os riscos que podem comprometer o alcance dos objetivos estratégicos da organização. O objetivo não é eliminar os riscos, mas sim gerenciá-los de forma eficaz, buscando oportunidades e minimizando impactos negativos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal característica do 'Relatório de Auditoria' emitido pelo Controle Interno?",
+        "options": [
+            "É um documento que apenas lista os erros encontrados.",
+            "É um documento que deve ser sigiloso e não pode ser divulgado.",
+            "É um documento formal que apresenta os achados da auditoria, as conclusões, as recomendações de melhoria e as evidências que as suportam, com foco em agregar valor à gestão.",
+            "É um documento sem valor para a tomada de decisões."
+        ],
+        "answer": 2,
+        "hint": "Pense no resultado formal do trabalho de auditoria, que deve ser útil para a gestão.",
+        "feedbackCompleto": "O relatório de auditoria é o produto final do trabalho de auditoria. É um documento formal que apresenta os achados, as conclusões e as recomendações dos auditores. Ele deve ser objetivo, claro e conciso, com foco em agregar valor à gestão, e não apenas em apontar falhas. Ele é a base para a implementação das ações corretivas pela Administração. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que o 'processo de correição' na CGU visa apurar?",
+        "options": [
+            "Apenas a legalidade de um contrato.",
+            "A responsabilidade de um servidor por irregularidades, transgressões disciplinares ou atos ilícitos praticados no exercício da função pública, garantindo o direito de defesa.",
+            "A conformidade do orçamento anual com o PPA.",
+            "O desempenho de uma agência reguladora."
+        ],
+        "answer": 1,
+        "hint": "É a função de investigação e punição de desvios de conduta de servidores.",
+        "feedbackCompleto": "A correição é uma das funções da CGU, visando a apuração de responsabilidade de servidores por irregularidades ou transgressões disciplinares. Ela pode resultar em processos administrativos disciplinares (PADs) e busca garantir a ética e a probidade na conduta dos agentes públicos, sempre respeitando o direito de defesa. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal característica de um 'Plano de Integridade' para o controle interno?",
+        "options": [
+            "É um conjunto de medidas reativas para punir fraudes após sua ocorrência.",
+            "É um conjunto de medidas proativas, como códigos de conduta, canais de denúncia, treinamento e gestão de riscos, para prevenir, detectar e remediar atos de corrupção e desvios de conduta.",
+            "É um documento secreto e restrito à alta gestão.",
+            "Apenas a descrição de procedimentos burocráticos."
+        ],
+        "answer": 1,
+        "hint": "Pense em um 'escudo' contra a corrupção e os desvios, baseado em ações preventivas.",
+        "feedbackCompleto": "O Plano de Integridade é uma ferramenta de governança e controle interno. Ele se baseia em medidas proativas e preventivas, como a criação de códigos de ética, canais de denúncia, treinamento de servidores e gestão de riscos, com o objetivo de prevenir a ocorrência de atos de corrupção e desvios de conduta, fortalecendo a cultura de ética e conformidade do órgão. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No contexto de controle interno, o que são 'controles preventivos'?",
+        "options": [
+            "Controles que detectam erros após sua ocorrência.",
+            "Controles que visam impedir ou dificultar que erros, fraudes ou irregularidades ocorram, atuando antes que a transação seja concluída.",
+            "Controles que corrigem erros já identificados.",
+            "Controles que são realizados apenas por auditores externos."
+        ],
+        "answer": 1,
+        "hint": "Pense em controles que agem 'antes' do problema acontecer.",
+        "feedbackCompleto": "Controles preventivos são aqueles que visam impedir a ocorrência de erros ou irregularidades. Eles atuam de forma proativa, antes que a transação seja realizada, buscando evitar que o problema sequer comece. Exemplos incluem a segregação de funções, a necessidade de dupla assinatura para pagamentos e a aprovação prévia de despesas. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal característica do 'Tribunal de Contas da União (TCU)'?",
+        "options": [
+            "É um órgão do Poder Executivo, subordinado à Presidência da República.",
+            "É um órgão de controle externo, auxiliar do Poder Legislativo, com autonomia para fiscalizar as contas da União.",
+            "É um órgão do Poder Judiciário que julga crimes contra a Administração Pública.",
+            "É um órgão de controle interno, responsável pela auditoria interna do governo."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se que o TCU não é um órgão do Executivo, mas sim um auxílio ao controle externo do Legislativo.",
+        "feedbackCompleto": "O Tribunal de Contas da União (TCU) é um órgão de controle externo (Art. 71, CF/88), que atua como auxiliar do Poder Legislativo (Congresso Nacional) para fiscalizar as contas da União. Ele é um órgão independente e autônomo, não se subordinando a nenhum dos três Poderes, e sua função é julgar as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da União. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que a 'segregação de funções' busca prevenir no controle interno?",
+        "options": [
+            "O uso de tecnologia na gestão.",
+            "O conflito entre diferentes áreas da organização.",
+            "Que uma mesma pessoa tenha a responsabilidade de autorizar, executar, registrar e fiscalizar uma mesma transação, a fim de evitar fraudes e erros não detectados.",
+            "Que as informações sejam divulgadas externamente."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de dividir as tarefas para que o controle seja mais seguro.",
+        "feedbackCompleto": "A segregação de funções é um princípio de controle interno que exige que as responsabilidades-chave de um processo (como autorizar, executar, registrar e fiscalizar) sejam atribuídas a pessoas diferentes. O objetivo é evitar que uma única pessoa possa cometer e esconder fraudes ou erros, aumentando a segurança e a confiabilidade dos processos. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal função do 'controle de legalidade' dos atos administrativos?",
+        "options": [
+            "Avaliar a conveniência e oportunidade do ato.",
+            "Verificar se o ato está em conformidade com as leis, os princípios e as normas jurídicas aplicáveis.",
+            "Acompanhar o desempenho dos servidores públicos.",
+            "Aprovar a alocação de recursos financeiros."
+        ],
+        "answer": 1,
+        "hint": "É sobre a conformidade com as regras estabelecidas.",
+        "feedbackCompleto": "O controle de legalidade (ou controle de legitimidade) visa verificar se o ato administrativo foi praticado em conformidade com a lei, os princípios do Direito Administrativo e as normas jurídicas. Ele pode ser exercido tanto pela própria Administração (autocontrole) quanto pelo Poder Judiciário. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste o 'controle social' na Administração Pública?",
+        "options": [
+            "A fiscalização feita apenas por auditores internos.",
+            "A participação da sociedade civil na fiscalização e monitoramento da gestão pública, através de mecanismos como conselhos, ouvidorias e acesso à informação.",
+            "O controle exercido pelo Poder Judiciário sobre o Executivo.",
+            "O controle de processos feito pela própria administração."
+        ],
+        "answer": 1,
+        "hint": "Pense no 'olho da sociedade' sobre a atuação do governo.",
+        "feedbackCompleto": "O controle social é o controle da gestão pública exercido pela sociedade civil, por meio de mecanismos formais (conselhos, conferências) e informais (demandas em ouvidorias, redes sociais, etc.). Ele é fundamental para a democracia, a transparência e a accountability, e complementa o controle interno e externo institucional. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle", "politicas"]
+    },
+    {
+        "question": "Qual o papel das 'Ouvidorias' no contexto do controle interno?",
+        "options": [
+            "Apenas receber denúncias de corrupção.",
+            "Atuar como canal de comunicação entre a sociedade e a Administração, recebendo manifestações (reclamações, sugestões, elogios) que podem subsidiar a melhoria da gestão e o aprimoramento dos controles internos.",
+            "Fiscalizar exclusivamente as contas públicas.",
+            "Substituir o papel do Poder Judiciário."
+        ],
+        "answer": 1,
+        "hint": "São canais de comunicação com o cidadão que geram insumos valiosos para o controle interno e a governança.",
+        "feedbackCompleto": "As ouvidorias são canais essenciais para o controle social e também para o controle interno. Elas recebem e tratam as manifestações dos cidadãos, buscando soluções e atuando como mediadoras entre o cidadão e o órgão público. Contribuem para a transparência, o controle social, a accountability e a melhoria da qualidade dos serviços prestados. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle", "politicas"]
+    },
+    {
+        "question": "Qual a principal função do 'Plano Anual de Atividades de Auditoria Interna (PAINT)'?",
+        "options": [
+            "Planejar o orçamento para os próximos quatro anos.",
+            "Definir as diretrizes do Poder Legislativo.",
+            "Orientar a atuação da auditoria interna do órgão, estabelecendo o escopo, os objetivos e as prioridades do trabalho a ser realizado no ano.",
+            "Aprovar as contas dos gestores públicos."
+        ],
+        "answer": 2,
+        "hint": "Pense em um plano para a função de auditoria interna.",
+        "feedbackCompleto": "O Plano Anual de Atividades de Auditoria Interna (PAINT) é um documento de planejamento do controle interno que define o escopo, os objetivos, as prioridades e a alocação de recursos para a atuação da auditoria interna do órgão em um determinado ano. Ele é fundamental para garantir que as atividades de auditoria estejam alinhadas aos riscos e objetivos estratégicos da organização. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'governança pública'?",
+        "options": [
+            "Apenas a hierarquia e o poder de comando.",
+            "O conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a atuação da gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+            "A centralização do poder de decisão no gestor máximo.",
+            "A burocratização excessiva dos processos."
+        ],
+        "answer": 1,
+        "hint": "É sobre a forma como o poder é exercido, com foco em resultados, estratégia e controle.",
+        "feedbackCompleto": "Governança pública é o conjunto de mecanismos e práticas de liderança, estratégia e controle que o Estado utiliza para avaliar, direcionar e monitorar a atuação da gestão, visando ao alcance dos objetivos públicos. Envolve conceitos como transparência, accountability, integridade e gestão de riscos, e busca garantir que o Estado atue de forma legítima e eficaz em benefício da sociedade. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle", "gestao"]
+    },
+    {
+        "question": "Qual a principal função do 'Tribunal de Contas da União (TCU)'?",
+        "options": [
+            "Julgar crimes comuns.",
+            "Fiscalizar as contas do Poder Executivo, Legislativo e Judiciário, auxiliando o Congresso Nacional no controle externo.",
+            "Elaborar o orçamento federal.",
+            "Administrar os bens da União."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se que o TCU não é um órgão do Executivo, mas sim um auxílio ao controle externo do Legislativo.",
+        "feedbackCompleto": "O Tribunal de Contas da União (TCU) é um órgão de controle externo (Art. 71, CF/88), que atua como auxiliar do Poder Legislativo (Congresso Nacional) para fiscalizar a aplicação dos recursos públicos federais, a legalidade, legitimidade e economicidade dos atos de gestão, julgando as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da União. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "A partir dos documentos, qual a importância da 'ética' para o controle interno?",
+        "options": [
+            "A ética é um conceito irrelevante para o controle.",
+            "A ética é a base para a prevenção de irregularidades, fraudes e corrupção, pois ela orienta a conduta dos agentes públicos e fortalece a integridade da instituição, tornando o controle mais eficaz e menos necessário.",
+            "A ética serve apenas para punir os servidores.",
+            "A ética impede a eficiência e a agilidade da gestão."
+        ],
+        "answer": 1,
+        "hint": "Pense no papel preventivo da ética na conduta do servidor.",
+        "feedbackCompleto": "A ética é um pilar fundamental para o controle interno. A promoção de uma cultura de ética e integridade na instituição serve como a primeira e mais eficaz linha de defesa contra a corrupção e os desvios de conduta. Agentes públicos que agem eticamente e com probidade evitam, por conta própria, a ocorrência de irregularidades, tornando o controle interno mais eficiente e focado em outros riscos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que a 'fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União' visa, segundo o material?",
+        "options": [
+            "Apenas verificar o saldo em caixa do governo.",
+            "Acompanhar a gestão dos recursos públicos para garantir a legalidade, a legitimidade, a economicidade, a eficiência e a eficácia de sua aplicação.",
+            "Fiscalizar apenas o Poder Executivo.",
+            "Aprovar os empréstimos do governo."
+        ],
+        "answer": 1,
+        "hint": "É uma fiscalização ampla, que vai além dos números e busca a boa aplicação dos recursos.",
+        "feedbackCompleto": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União (função do controle interno e externo) tem como objetivo garantir que os recursos públicos sejam utilizados de forma legal, legítima, econômica, eficiente e eficaz. Ela não se limita apenas aos números (contábil e financeira), mas também avalia a qualidade da gestão (operacional e patrimonial). (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual o papel do 'Sistema de Integridade, Transparência e Acesso à Informação (SITAI)' na Administração Pública Federal?",
+        "options": [
+            "Apenas gerenciar a folha de pagamento dos servidores.",
+            "Coordenar e integrar as ações relacionadas à integridade, transparência e acesso à informação, visando fortalecer a governança e combater a corrupção.",
+            "Fiscalizar exclusivamente os gastos de pequeno valor.",
+            "Elaborar o orçamento federal."
+        ],
+        "answer": 1,
+        "hint": "Pense em um sistema que reúne esforços para promover a ética e a abertura no governo.",
+        "feedbackCompleto": "O Sistema de Integridade, Transparência e Acesso à Informação (SITAI) é um sistema estruturante da Administração Pública Federal que visa coordenar e integrar as ações relacionadas à integridade, transparência e acesso à informação. Seu objetivo é fortalecer a governança, prevenir e combater a corrupção, e promover a confiança da sociedade nas instituições públicas. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'gestão de riscos' no setor público, conforme o material?",
+        "options": [
+            "Apenas a identificação de riscos financeiros.",
+            "Um processo contínuo de identificação, avaliação, tratamento e monitoramento de riscos que podem afetar o alcance dos objetivos organizacionais, buscando minimizar impactos negativos e otimizar oportunidades.",
+            "A eliminação total de qualquer tipo de risco.",
+            "A transferência de todos os riscos para o setor privado."
+        ],
+        "answer": 1,
+        "hint": "É um processo proativo para lidar com as incertezas e suas consequências.",
+        "feedbackCompleto": "A gestão de riscos é um processo contínuo e sistemático que visa identificar, avaliar (em termos de probabilidade e impacto), tratar e monitorar os riscos que podem comprometer o alcance dos objetivos estratégicos da organização. O objetivo não é eliminar os riscos, mas sim gerenciá-los de forma eficaz, buscando oportunidades e minimizando impactos negativos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal função do 'Relatório Anual de Atividades de Auditoria Interna (RAINT)'?",
+        "options": [
+            "Planejar as atividades de auditoria para o próximo ano.",
+            "Apresentar os resultados das auditorias realizadas no ano anterior, as principais constatações, recomendações e o impacto das ações de controle.",
+            "Aprovar as contas dos gestores públicos.",
+            "Fiscalizar o cumprimento das metas do PPA."
+        ],
+        "answer": 1,
+        "hint": "Pense em um relatório que resume o que a auditoria interna fez e encontrou no ano que passou.",
+        "feedbackCompleto": "O Relatório Anual de Atividades de Auditoria Interna (RAINT) é um documento que sumariza os resultados das auditorias realizadas pela unidade de auditoria interna do órgão no ano anterior. Ele apresenta as principais constatações, recomendações, o status de implementação das recomendações anteriores e o impacto das ações de controle, servindo como um instrumento de accountability e melhoria contínua. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'governança pública'?",
+        "options": [
+            "Apenas a hierarquia e o poder de comando.",
+            "O conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a atuação da gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+            "A centralização do poder de decisão no gestor máximo.",
+            "A burocratização excessiva dos processos."
+        ],
+        "answer": 1,
+        "hint": "É sobre a forma como o poder é exercido, com foco em resultados, estratégia e controle.",
+        "feedbackCompleto": "Governança pública é o conjunto de mecanismos e práticas de liderança, estratégia e controle que o Estado utiliza para avaliar, direcionar e monitorar a atuação da gestão, visando ao alcance dos objetivos públicos. Envolve conceitos como transparência, accountability, integridade e gestão de riscos, e busca garantir que o Estado atue de forma legítima e eficaz em benefício da sociedade. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle", "gestao"]
+    },
+    {
+        "question": "Qual a principal função do 'Tribunal de Contas da União (TCU)'?",
+        "options": [
+            "Julgar crimes comuns.",
+            "Fiscalizar as contas do Poder Executivo, Legislativo e Judiciário, auxiliando o Congresso Nacional no controle externo.",
+            "Elaborar o orçamento federal.",
+            "Administrar os bens da União."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se que o TCU não é um órgão do Executivo, mas sim um auxílio ao controle externo do Legislativo.",
+        "feedbackCompleto": "O Tribunal de Contas da União (TCU) é um órgão de controle externo (Art. 71, CF/88), que atua como auxiliar do Poder Legislativo (Congresso Nacional) para fiscalizar a aplicação dos recursos públicos federais, a legalidade, legitimidade e economicidade dos atos de gestão, julgando as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da União. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "A partir dos documentos, qual a importância da 'ética' para o controle interno?",
+        "options": [
+            "A ética é um conceito irrelevante para o controle.",
+            "A ética é a base para a prevenção de irregularidades, fraudes e corrupção, pois ela orienta a conduta dos agentes públicos e fortalece a integridade da instituição, tornando o controle mais eficaz e menos necessário.",
+            "A ética serve apenas para punir os servidores.",
+            "A ética impede a eficiência e a agilidade da gestão."
+        ],
+        "answer": 1,
+        "hint": "Pense no papel preventivo da ética na conduta do servidor.",
+        "feedbackCompleto": "A ética é um pilar fundamental para o controle interno. A promoção de uma cultura de ética e integridade na instituição serve como a primeira e mais eficaz linha de defesa contra a corrupção e os desvios de conduta. Agentes públicos que agem eticamente e com probidade evitam, por conta própria, a ocorrência de irregularidades, tornando o controle interno mais eficiente e focado em outros riscos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que a 'fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União' visa, segundo o material?",
+        "options": [
+            "Apenas verificar o saldo em caixa do governo.",
+            "Acompanhar a gestão dos recursos públicos para garantir a legalidade, a legitimidade, a economicidade, a eficiência e a eficácia de sua aplicação.",
+            "Fiscalizar apenas o Poder Executivo.",
+            "Aprovar os empréstimos do governo."
+        ],
+        "answer": 1,
+        "hint": "É uma fiscalização ampla, que vai além dos números e busca a boa aplicação dos recursos.",
+        "feedbackCompleto": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União (função do controle interno e externo) tem como objetivo garantir que os recursos públicos sejam utilizados de forma legal, legítima, econômica, eficiente e eficaz. Ela não se limita apenas aos números (contábil e financeira), mas também avalia a qualidade da gestão (operacional e patrimonial). (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual o papel do 'Sistema de Integridade, Transparência e Acesso à Informação (SITAI)' na Administração Pública Federal?",
+        "options": [
+            "Apenas gerenciar a folha de pagamento dos servidores.",
+            "Coordenar e integrar as ações relacionadas à integridade, transparência e acesso à informação, visando fortalecer a governança e combater a corrupção.",
+            "Fiscalizar exclusivamente os gastos de pequeno valor.",
+            "Elaborar o orçamento federal."
+        ],
+        "answer": 1,
+        "hint": "Pense em um sistema que reúne esforços para promover a ética e a abertura no governo.",
+        "feedbackCompleto": "O Sistema de Integridade, Transparência e Acesso à Informação (SITAI) é um sistema estruturante da Administração Pública Federal que visa coordenar e integrar as ações relacionadas à integridade, transparência e acesso à informação. Seu objetivo é fortalecer a governança, prevenir e combater a corrupção, e promover a confiança da sociedade nas instituições públicas. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'gestão de riscos' no setor público, conforme o material?",
+        "options": [
+            "Apenas a identificação de riscos financeiros.",
+            "Um processo contínuo de identificação, avaliação, tratamento e monitoramento de riscos que podem afetar o alcance dos objetivos organizacionais, buscando minimizar impactos negativos e otimizar oportunidades.",
+            "A eliminação total de qualquer tipo de risco.",
+            "A transferência de todos os riscos para o setor privado."
+        ],
+        "answer": 1,
+        "hint": "É um processo proativo para lidar com as incertezas e suas consequências.",
+        "feedbackCompleto": "A gestão de riscos é um processo contínuo e sistemático que visa identificar, avaliar (em termos de probabilidade e impacto), tratar e monitorar os riscos que podem comprometer o alcance dos objetivos estratégicos da organização. O objetivo não é eliminar os riscos, mas sim gerenciá-los de forma eficaz, buscando oportunidades e minimizando impactos negativos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal função do 'Relatório Anual de Atividades de Auditoria Interna (RAINT)'?",
+        "options": [
+            "Planejar as atividades de auditoria para o próximo ano.",
+            "Apresentar os resultados das auditorias realizadas no ano anterior, as principais constatações, recomendações e o impacto das ações de controle.",
+            "Aprovar as contas dos gestores públicos.",
+            "Fiscalizar o cumprimento das metas do PPA."
+        ],
+        "answer": 1,
+        "hint": "Pense em um relatório que resume o que a auditoria interna fez e encontrou no ano que passou.",
+        "feedbackCompleto": "O Relatório Anual de Atividades de Auditoria Interna (RAINT) é um documento que sumariza os resultados das auditorias realizadas pela unidade de auditoria interna do órgão no ano anterior. Ele apresenta as principais constatações, recomendações, o status de implementação das recomendações anteriores e o impacto das ações de controle, servindo como um instrumento de accountability e melhoria contínua. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'governança pública'?",
+        "options": [
+            "Apenas a hierarquia e o poder de comando.",
+            "O conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a atuação da gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+            "A centralização do poder de decisão no gestor máximo.",
+            "A burocratização excessiva dos processos."
+        ],
+        "answer": 1,
+        "hint": "É sobre a forma como o poder é exercido, com foco em resultados, estratégia e controle.",
+        "feedbackCompleto": "Governança pública é o conjunto de mecanismos e práticas de liderança, estratégia e controle que o Estado utiliza para avaliar, direcionar e monitorar a atuação da gestão, visando ao alcance dos objetivos públicos. Envolve conceitos como transparência, accountability, integridade e gestão de riscos, e busca garantir que o Estado atue de forma legítima e eficaz em benefício da sociedade. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle", "gestao"]
+    },
+    {
+        "question": "Qual a principal função do 'Tribunal de Contas da União (TCU)'?",
+        "options": [
+            "Julgar crimes comuns.",
+            "Fiscalizar as contas do Poder Executivo, Legislativo e Judiciário, auxiliando o Congresso Nacional no controle externo.",
+            "Elaborar o orçamento federal.",
+            "Administrar os bens da União."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se que o TCU não é um órgão do Executivo, mas sim um auxílio ao controle externo do Legislativo.",
+        "feedbackCompleto": "O Tribunal de Contas da União (TCU) é um órgão de controle externo (Art. 71, CF/88), que atua como auxiliar do Poder Legislativo (Congresso Nacional) para fiscalizar a aplicação dos recursos públicos federais, a legalidade, legitimidade e economicidade dos atos de gestão, julgando as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da União. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "A partir dos documentos, qual a importância da 'ética' para o controle interno?",
+        "options": [
+            "A ética é um conceito irrelevante para o controle.",
+            "A ética é a base para a prevenção de irregularidades, fraudes e corrupção, pois ela orienta a conduta dos agentes públicos e fortalece a integridade da instituição, tornando o controle mais eficaz e menos necessário.",
+            "A ética serve apenas para punir os servidores.",
+            "A ética impede a eficiência e a agilidade da gestão."
+        ],
+        "answer": 1,
+        "hint": "Pense no papel preventivo da ética na conduta do servidor.",
+        "feedbackCompleto": "A ética é um pilar fundamental para o controle interno. A promoção de uma cultura de ética e integridade na instituição serve como a primeira e mais eficaz linha de defesa contra a corrupção e os desvios de conduta. Agentes públicos que agem eticamente e com probidade evitam, por conta própria, a ocorrência de irregularidades, tornando o controle interno mais eficiente e focado em outros riscos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que a 'fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União' visa, segundo o material?",
+        "options": [
+            "Apenas verificar o saldo em caixa do governo.",
+            "Acompanhar a gestão dos recursos públicos para garantir a legalidade, a legitimidade, a economicidade, a eficiência e a eficácia de sua aplicação.",
+            "Fiscalizar apenas o Poder Executivo.",
+            "Aprovar os empréstimos do governo."
+        ],
+        "answer": 1,
+        "hint": "É uma fiscalização ampla, que vai além dos números e busca a boa aplicação dos recursos.",
+        "feedbackCompleto": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União (função do controle interno e externo) tem como objetivo garantir que os recursos públicos sejam utilizados de forma legal, legítima, econômica, eficiente e eficaz. Ela não se limita apenas aos números (contábil e financeira), mas também avalia a qualidade da gestão (operacional e patrimonial). (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual o papel do 'Sistema de Integridade, Transparência e Acesso à Informação (SITAI)' na Administração Pública Federal?",
+        "options": [
+            "Apenas gerenciar a folha de pagamento dos servidores.",
+            "Coordenar e integrar as ações relacionadas à integridade, transparência e acesso à informação, visando fortalecer a governança e combater a corrupção.",
+            "Fiscalizar exclusivamente os gastos de pequeno valor.",
+            "Elaborar o orçamento federal."
+        ],
+        "answer": 1,
+        "hint": "Pense em um sistema que reúne esforços para promover a ética e a abertura no governo.",
+        "feedbackCompleto": "O Sistema de Integridade, Transparência e Acesso à Informação (SITAI) é um sistema estruturante da Administração Pública Federal que visa coordenar e integrar as ações relacionadas à integridade, transparência e acesso à informação. Seu objetivo é fortalecer a governança, prevenir e combater a corrupção, e promover a confiança da sociedade nas instituições públicas. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'gestão de riscos' no setor público, conforme o material?",
+        "options": [
+            "Apenas a identificação de riscos financeiros.",
+            "Um processo contínuo de identificação, avaliação, tratamento e monitoramento de riscos que podem afetar o alcance dos objetivos organizacionais, buscando minimizar impactos negativos e otimizar oportunidades.",
+            "A eliminação total de qualquer tipo de risco.",
+            "A transferência de todos os riscos para o setor privado."
+        ],
+        "answer": 1,
+        "hint": "É um processo proativo para lidar com as incertezas e suas consequências.",
+        "feedbackCompleto": "A gestão de riscos é um processo contínuo e sistemático que visa identificar, avaliar (em termos de probabilidade e impacto), tratar e monitorar os riscos que podem comprometer o alcance dos objetivos estratégicos da organização. O objetivo não é eliminar os riscos, mas sim gerenciá-los de forma eficaz, buscando oportunidades e minimizando impactos negativos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "Qual a principal função do 'Relatório Anual de Atividades de Auditoria Interna (RAINT)'?",
+        "options": [
+            "Planejar as atividades de auditoria para o próximo ano.",
+            "Apresentar os resultados das auditorias realizadas no ano anterior, as principais constatações, recomendações e o impacto das ações de controle.",
+            "Aprovar as contas dos gestores públicos.",
+            "Fiscalizar o cumprimento das metas do PPA."
+        ],
+        "answer": 1,
+        "hint": "Pense em um relatório que resume o que a auditoria interna fez e encontrou no ano que passou.",
+        "feedbackCompleto": "O Relatório Anual de Atividades de Auditoria Interna (RAINT) é um documento que sumariza os resultados das auditorias realizadas pela unidade de auditoria interna do órgão no ano anterior. Ele apresenta as principais constatações, recomendações, o status de implementação das recomendações anteriores e o impacto das ações de controle, servindo como um instrumento de accountability e melhoria contínua. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "No que consiste a 'governança pública'?",
+        "options": [
+            "Apenas a hierarquia e o poder de comando.",
+            "O conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a atuação da gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.",
+            "A centralização do poder de decisão no gestor máximo.",
+            "A burocratização excessiva dos processos."
+        ],
+        "answer": 1,
+        "hint": "É sobre a forma como o poder é exercido, com foco em resultados, estratégia e controle.",
+        "feedbackCompleto": "Governança pública é o conjunto de mecanismos e práticas de liderança, estratégia e controle que o Estado utiliza para avaliar, direcionar e monitorar a atuação da gestão, visando ao alcance dos objetivos públicos. Envolve conceitos como transparência, accountability, integridade e gestão de riscos, e busca garantir que o Estado atue de forma legítima e eficaz em benefício da sociedade. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle", "gestao"]
+    },
+    {
+        "question": "Qual a principal função do 'Tribunal de Contas da União (TCU)'?",
+        "options": [
+            "Julgar crimes comuns.",
+            "Fiscalizar as contas do Poder Executivo, Legislativo e Judiciário, auxiliando o Congresso Nacional no controle externo.",
+            "Elaborar o orçamento federal.",
+            "Administrar os bens da União."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se que o TCU não é um órgão do Executivo, mas sim um auxílio ao controle externo do Legislativo.",
+        "feedbackCompleto": "O Tribunal de Contas da União (TCU) é um órgão de controle externo (Art. 71, CF/88), que atua como auxiliar do Poder Legislativo (Congresso Nacional) para fiscalizar a aplicação dos recursos públicos federais, a legalidade, legitimidade e economicidade dos atos de gestão, julgando as contas dos administradores e demais responsáveis por dinheiros, bens e valores públicos da União. (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "A partir dos documentos, qual a importância da 'ética' para o controle interno?",
+        "options": [
+            "A ética é um conceito irrelevante para o controle.",
+            "A ética é a base para a prevenção de irregularidades, fraudes e corrupção, pois ela orienta a conduta dos agentes públicos e fortalece a integridade da instituição, tornando o controle mais eficaz e menos necessário.",
+            "A ética serve apenas para punir os servidores.",
+            "A ética impede a eficiência e a agilidade da gestão."
+        ],
+        "answer": 1,
+        "hint": "Pense no papel preventivo da ética na conduta do servidor.",
+        "feedbackCompleto": "A ética é um pilar fundamental para o controle interno. A promoção de uma cultura de ética e integridade na instituição serve como a primeira e mais eficaz linha de defesa contra a corrupção e os desvios de conduta. Agentes públicos que agem eticamente e com probidade evitam, por conta própria, a ocorrência de irregularidades, tornando o controle interno mais eficiente e focado em outros riscos. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "O que a 'fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União' visa, segundo o material?",
+        "options": [
+            "Apenas verificar o saldo em caixa do governo.",
+            "Acompanhar a gestão dos recursos públicos para garantir a legalidade, a legitimidade, a economicidade, a eficiência e a eficácia de sua aplicação.",
+            "Fiscalizar apenas o Poder Executivo.",
+            "Aprovar os empréstimos do governo."
+        ],
+        "answer": 1,
+        "hint": "É uma fiscalização ampla, que vai além dos números e busca a boa aplicação dos recursos.",
+        "feedbackCompleto": "A fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União (função do controle interno e externo) tem como objetivo garantir que os recursos públicos sejam utilizados de forma legal, legítima, econômica, eficiente e eficaz. Ela não se limita apenas aos números (contábil e financeira), mas também avalia a qualidade da gestão (operacional e patrimonial). (Referência: 'Sistemas Estruturantes da Administração Pública').",
+        "subjects": ["controle"]
+    },
+    {
+        "question": "De acordo com os materiais sobre 'Recrutamento e Seleção', qual a principal finalidade da 'seleção de pessoal'?",
+        "options": [
+            "Apenas atrair candidatos para uma vaga.",
+            "Escolher, entre os candidatos recrutados, aquele que melhor se adapta aos requisitos do cargo e da cultura da organização, por meio de diversas técnicas de avaliação.",
+            "Treinar os colaboradores para o cargo.",
+            "Definir a remuneração dos novos colaboradores."
+        ],
+        "answer": 1,
+        "hint": "Pense na etapa de 'escolha' após a atração de candidatos.",
+        "feedbackCompleto": "O processo de seleção é a etapa seguinte ao recrutamento. Sua finalidade é escolher, entre os candidatos atraídos, aquele que possui as melhores qualificações, competências e características para o cargo e para a cultura da organização. Isso é feito por meio de diversas técnicas de avaliação, como entrevistas, testes psicológicos, dinâmicas de grupo e provas. (Referência: 'recrutamento-e-selecao').",
+        "subjects": ["rh"]
+    },
+    {
+        "question": "Qual a principal característica da 'remuneração por competências'?",
+        "options": [
+            "A remuneração é baseada apenas no tempo de serviço do colaborador.",
+            "A remuneração é baseada no conjunto de conhecimentos, habilidades e atitudes (CHA) que o colaborador possui e aplica para gerar valor para a organização.",
+            "A remuneração é baseada no desempenho da empresa.",
+            "A remuneração é baseada em horas extras."
+        ],
+        "answer": 1,
+        "hint": "Pense no que o colaborador 'sabe fazer' e 'como' ele faz, e não apenas no cargo que ele ocupa.",
+        "feedbackCompleto": "A remuneração por competências é uma forma de remuneração variável que busca premiar o colaborador pelo conjunto de competências (conhecimentos, habilidades e atitudes) que ele possui e aplica em suas funções, e não apenas pelo cargo que ocupa. O objetivo é incentivar o desenvolvimento e o aprimoramento contínuo das competências essenciais para o sucesso da organização. (Referência: 'remuneracao-e-beneficios').",
+        "subjects": ["rh"]
+    },
+    {
+        "question": "De acordo com o material sobre 'Motivação', o que a 'Teoria da Hierarquia das Necessidades' de Maslow propõe?",
+        "options": [
+            "A motivação é baseada apenas em fatores externos, como salário.",
+            "As necessidades humanas são organizadas em uma pirâmide hierárquica (fisiológicas, segurança, sociais, estima e autorrealização), e o indivíduo busca satisfazer as necessidades de nível inferior antes de se motivar pelas de nível superior.",
+            "As pessoas são motivadas por fatores de higiene e motivacionais.",
+            "A motivação é um processo aleatório e imprevisível."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se da pirâmide que organiza as necessidades humanas.",
+        "feedbackCompleto": "A Teoria de Maslow propõe que as necessidades humanas são organizadas em uma pirâmide hierárquica. O indivíduo é motivado a satisfazer as necessidades de nível mais baixo (fisiológicas, de segurança) para então buscar a satisfação das necessidades de níveis mais altos (sociais, de estima e de autorrealização). (Referência: 'motivacao').",
+        "subjects": ["rh"]
+    },
+    {
+        "question": "O que a 'Teoria Y' de Douglas McGregor pressupõe sobre os trabalhadores?",
+        "options": [
+            "Que eles são inerentemente preguiçosos e precisam ser controlados.",
+            "Que eles são automotivados, criativos, buscam responsabilidade e gostam de trabalhar, desde que o ambiente seja favorável.",
+            "Que a motivação é baseada apenas em recompensas externas.",
+            "Que não há uma teoria sobre o comportamento humano no trabalho."
+        ],
+        "answer": 1,
+        "hint": "É uma visão mais otimista e moderna sobre a natureza humana no trabalho.",
+        "feedbackCompleto": "A Teoria Y de Douglas McGregor representa uma visão mais otimista e moderna da natureza humana. Ela pressupõe que os trabalhadores são automotivados, gostam de trabalhar, são criativos, buscam responsabilidade e se auto-realizam através do trabalho. Para essa teoria, o papel do gestor é criar um ambiente que permita que essas características se manifestem plenamente. (Referência: 'introducao-a-gestao-de-pessoas').",
+        "subjects": ["rh"]
+    },
+    {
+        "question": "Qual a principal finalidade da 'avaliação de desempenho' no contexto da Gestão por Competências?",
+        "options": [
+            "Apenas justificar a exoneração de um servidor.",
+            "Avaliar a frequência e a pontualidade do colaborador.",
+            "Medir o desempenho do colaborador e identificar as lacunas entre as competências requeridas pelo cargo e as que ele possui, para subsidiar planos de desenvolvimento.",
+            "Comparar o desempenho de diferentes áreas da organização."
+        ],
+        "answer": 2,
+        "hint": "É uma ferramenta para 'medir' e 'desenvolver' as competências, não apenas julgar o desempenho.",
+        "feedbackCompleto": "No modelo de Gestão por Competências, a Avaliação de Desempenho não é apenas um julgamento do que o colaborador fez, mas uma ferramenta para identificar as competências que ele já tem e as que precisa desenvolver. O objetivo é criar Planos de Desenvolvimento Individual (PDI) para que o servidor possa adquirir as competências necessárias para o sucesso na carreira e para o alcance dos objetivos da organização. (Referência: 'desempenho').",
+        "subjects": ["rh"]
     }
-]
+]  
+
+     
+
 
 
 
