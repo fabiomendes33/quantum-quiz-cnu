@@ -11305,8 +11305,1142 @@
         "hint": "Pense em uma linha que passa por baixo do texto selecionado.",
         "feedbackCompleto": "Sublinhado é uma forma de formatação de texto que adiciona uma linha abaixo do texto selecionado. A combinação de teclas Ctrl + B é o atalho para 'sublinhar'.",
         "subjects": ["informatica"]
+    },
+    {
+        "question": "Conforme o 'Edital Verticalizado', a gestão por competências tem como objetivo principal:",
+        "options": [
+            "Apenas mapear as responsabilidades de cada cargo.",
+            "Identificar, desenvolver e gerenciar as competências (conhecimentos, habilidades e atitudes) necessárias para o desempenho eficaz dos servidores e da organização.",
+            "Reduzir o número de servidores por meio de automação.",
+            "Promover a burocracia para aumentar o controle interno."
+        ],
+        "answer": 1,
+        "hint": "Pense no acrônimo 'CHA' (Conhecimentos, Habilidades e Atitudes).",
+        "feedbackCompleto": "A gestão por competências é uma abordagem que busca alinhar as competências (conhecimentos, habilidades e atitudes) dos servidores com as necessidades estratégicas da organização. O objetivo é identificar as lacunas de competências e desenvolver os servidores para que a instituição atinja seus objetivos. (Referência: Edital Verticalizado e materiais sobre Gestão de Pessoas).",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "De acordo com o 'Vade-Mecum', qual a principal característica do modelo burocrático de Administração Pública?",
+        "options": [
+            "Flexibilidade e ausência de regras formais.",
+            "Predominância de relações pessoais e informais.",
+            "Impessoalidade, hierarquia formal e divisão clara do trabalho, visando combater o patrimonialismo.",
+            "Decisões centralizadas e discricionárias."
+        ],
+        "answer": 2,
+        "hint": "Pense nas características ideais propostas por Max Weber para um modelo de administração racional.",
+        "feedbackCompleto": "O modelo burocrático, proposto por Max Weber, é caracterizado pela racionalidade, impessoalidade, hierarquia formal, divisão clara do trabalho, normas escritas e profissionalização. Ele surgiu como uma resposta ao patrimonialismo, buscando a previsibilidade e a eficiência. (Referência: 'Vade-Mecum' e materiais sobre Princípios e Reformas).",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Conforme o material sobre 'Ética e Governança Pública', o que se entende por 'integridade pública'?",
+        "options": [
+            "A conformidade de um sistema de tecnologia da informação.",
+            "A adesão a valores éticos e princípios de probidade, que garantem que as ações dos agentes públicos sejam orientadas pelo interesse público, prevenindo e combatendo o desvio de conduta.",
+            "Apenas a obediência às leis sem consideração à moralidade.",
+            "A ausência de fiscalização externa."
+        ],
+        "answer": 1,
+        "hint": "Pense em um conceito mais amplo que a simples ausência de ilegalidades.",
+        "feedbackCompleto": "Integridade pública é um conceito que abrange a adesão e o alinhamento de agentes públicos e instituições a valores éticos, normas, padrões de probidade e princípios de boa governança. Ela serve como uma barreira de proteção para que o interesse público seja sempre o foco da atuação do Estado. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal característica da 'descentralização por serviços' (ou outorga)?",
+        "options": [
+            "É a distribuição de competências para órgãos internos da Administração Direta.",
+            "É a transferência de um serviço público para uma entidade com personalidade jurídica própria, como uma autarquia ou fundação pública, criada por lei para esse fim.",
+            "É a delegação de um serviço para uma empresa privada.",
+            "É a distribuição de competências para outros entes federativos."
+        ],
+        "answer": 1,
+        "hint": "Pense na criação de uma nova 'pessoa' jurídica para a execução de um serviço público.",
+        "feedbackCompleto": "A descentralização por serviços (ou outorga) ocorre quando o Estado transfere, por meio de lei, a titularidade e a execução de um serviço público para uma entidade com personalidade jurídica própria (autarquia, fundação, empresa pública). O Estado continua responsável pela fiscalização e regulamentação da atividade. (Referência: 'Princípios, Reformas e Estrutura Organizacional da Administração Pública').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No processo de tomada de decisão, qual a importância da 'análise de dados'?",
+        "options": [
+            "Apenas confirmar preconceitos existentes.",
+            "Fornecer evidências e informações objetivas para fundamentar a escolha da melhor alternativa, reduzindo a subjetividade e os riscos.",
+            "Aumentar a complexidade da decisão.",
+            "Substituir a necessidade de intuição do gestor."
+        ],
+        "answer": 1,
+        "hint": "Pense em como a informação baseada em fatos ajuda a decidir melhor.",
+        "feedbackCompleto": "A análise de dados é fundamental no processo de tomada de decisão, especialmente na gestão pública. Ela permite que os gestores compreendam melhor a situação, identifiquem padrões, avaliem riscos e oportunidades, e comparem alternativas com base em evidências objetivas, reduzindo a subjetividade e aumentando a probabilidade de escolhas mais eficazes e eficientes. (Referência: materiais sobre Planejamento Organizacional).",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "De acordo com o 'Vade-Mecum', qual a principal função de um 'firewall' em uma rede de computadores?",
+        "options": [
+            "Remover vírus e malwares do sistema.",
+            "Proteger a rede contra acessos não autorizados e filtrar o tráfego de dados.",
+            "Aumentar a velocidade da conexão com a internet.",
+            "Armazenar dados na nuvem."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma 'parede de fogo' que protege a sua rede de invasores externos.",
+        "feedbackCompleto": "Um firewall é um dispositivo de segurança de rede que monitora e filtra o tráfego de rede (entrada e saída) com base em regras predefinidas. Sua função principal é proteger a rede interna contra acessos não autorizados e ataques cibernéticos, atuando como uma barreira de segurança. (Referência: 'Vade-Mecum').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No contexto da governança pública, o que significa 'accountability'?",
+        "options": [
+            "Apenas a prestação de contas financeiras.",
+            "A obrigação de prestar contas, assumir responsabilidade pelos atos e decisões, e ser transparente perante a sociedade e os órgãos de controle.",
+            "A capacidade de um órgão de se auto-organizar.",
+            "A centralização de todas as decisões em um único gestor."
+        ],
+        "answer": 1,
+        "hint": "É a junção de 'responsabilidade' e 'prestação de contas'.",
+        "feedbackCompleto": "Accountability (ou responsabilização) na Administração Pública refere-se à obrigação dos agentes públicos de prestar contas de suas ações e decisões, assumir responsabilidade pelos resultados (positivos ou negativos) e ser transparente sobre o uso dos recursos e o cumprimento das metas. (Referência: 'Ética e Governança Pública').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal função do 'Planejamento Organizacional'?",
+        "options": [
+            "Apenas registrar os resultados financeiros da empresa.",
+            "Definir a estrutura hierárquica e os cargos de uma organização.",
+            "Estabelecer a direção estratégica da organização, definindo missão, visão, valores e os objetivos de longo prazo, bem como os planos de ação para alcançá-los.",
+            "Realizar a comunicação interna da empresa."
+        ],
+        "answer": 2,
+        "hint": "É o processo que define o 'norte' e o 'caminho' que a organização deve seguir.",
+        "feedbackCompleto": "O Planejamento Organizacional é o processo de definir a direção e o futuro de uma organização. Ele inclui a definição da missão (razão de existir), visão (onde quer chegar), valores (princípios) e os objetivos estratégicos de longo prazo. É a base para todas as demais decisões e ações da organização, garantindo o alinhamento de todos os esforços. (Referência: 'Planejamento Organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No contexto de 'Gestão de Projetos', o que é o 'escopo' de um projeto?",
+        "options": [
+            "O orçamento total do projeto.",
+            "A lista de todos os colaboradores do projeto.",
+            "A descrição detalhada de todo o trabalho a ser realizado para entregar o produto, serviço ou resultado prometido, incluindo todas as funcionalidades, requisitos e limites do que será feito e do que não será feito.",
+            "O prazo máximo para a conclusão do projeto."
+        ],
+        "answer": 2,
+        "hint": "Pense no 'tamanho' e nos 'limites' do que será entregue.",
+        "feedbackCompleto": "O escopo de um projeto é a descrição detalhada e completa de todo o trabalho a ser realizado para entregar o produto, serviço ou resultado prometido. Ele define os limites do projeto, o que será incluído ('in-scope') e o que será excluído ('out-of-scope'), sendo fundamental para evitar desvios e o famoso 'escorregamento de escopo' (scope creep). (Referência: 'Gestão de Projetos').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "De acordo com os materiais sobre 'Motivação', o que a 'Teoria da Hierarquia das Necessidades' de Maslow propõe?",
+        "options": [
+            "A motivação é baseada apenas em fatores externos, como salário.",
+            "As necessidades humanas são organizadas em uma pirâmide hierárquica (fisiológicas, segurança, sociais, estima e autorrealização), e o indivíduo busca satisfazer as necessidades de nível inferior antes de se motivar pelas de nível superior.",
+            "As pessoas são motivadas por fatores de higiene e motivacionais.",
+            "A motivação é um processo aleatório e imprevisível."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se da pirâmide que organiza as necessidades humanas.",
+        "feedbackCompleto": "A Teoria de Maslow propõe que as necessidades humanas são organizadas em uma pirâmide hierárquica. O indivíduo é motivado a satisfazer as necessidades de nível mais baixo (fisiológicas, de segurança) para então buscar a satisfação das necessidades de níveis mais altos (sociais, de estima e de autorrealização). (Referência: 'Motivacao').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a finalidade de um 'Plano de Cargos e Salários'?",
+        "options": [
+            "Definir a quantidade de servidores de uma organização.",
+            "Estabelecer a estrutura de cargos, as regras de progressão na carreira e a remuneração dos servidores de forma equitativa e transparente.",
+            "Apenas controlar a folha de pagamento da empresa.",
+            "Determinar o horário de trabalho dos funcionários."
+        ],
+        "answer": 1,
+        "hint": "Pense no instrumento que organiza a vida profissional do servidor dentro da instituição, do ingresso à aposentadoria.",
+        "feedbackCompleto": "O Plano de Cargos e Salários (ou Plano de Carreira) é um instrumento de gestão de pessoas que organiza a estrutura de cargos da organização, estabelece os critérios e requisitos para o ingresso e a progressão funcional (progressão e promoção) e define a remuneração de forma equitativa. Seu objetivo é atrair e reter talentos, além de motivar os servidores por meio de perspectivas de desenvolvimento profissional. (Referência: 'remuneracao-beneficios-e-incentivos').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que a 'Teoria Y' de Douglas McGregor pressupõe sobre os trabalhadores?",
+        "options": [
+            "Que eles são inerentemente preguiçosos e precisam ser controlados.",
+            "Que eles são automotivados, criativos, buscam responsabilidade e gostam de trabalhar, desde que o ambiente seja favorável.",
+            "Que a motivação é baseada apenas em recompensas externas.",
+            "Que não há uma teoria sobre o comportamento humano no trabalho."
+        ],
+        "answer": 1,
+        "hint": "É uma visão mais otimista e moderna sobre a natureza humana no trabalho.",
+        "feedbackCompleto": "A Teoria Y de Douglas McGregor representa uma visão mais otimista e moderna da natureza humana. Ela pressupõe que os trabalhadores são automotivados, gostam de trabalhar, são criativos, buscam responsabilidades e se auto-realizam através do trabalho. Para essa teoria, o papel do gestor é criar um ambiente que permita que essas características se manifestem plenamente. (Referência: 'Lideranca').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No contexto de 'Clima e Cultura Organizacional', o que é 'clima organizacional'?",
+        "options": [
+            "O conjunto de valores e crenças de uma organização.",
+            "A percepção coletiva e subjetiva dos colaboradores sobre o ambiente de trabalho, as políticas da empresa e as relações interpessoais.",
+            "A estrutura hierárquica e formal da organização.",
+            "Apenas as regras e normas escritas da empresa."
+        ],
+        "answer": 1,
+        "hint": "Pense na 'atmosfera' do ambiente de trabalho, como os colaboradores a 'sentem'.",
+        "feedbackCompleto": "O clima organizacional é a percepção subjetiva e coletiva dos colaboradores sobre o ambiente de trabalho. É um 'estado de espírito' momentâneo da organização, que reflete como os colaboradores se sentem em relação às políticas, práticas, liderança e relações interpessoais. É dinâmico e pode ser medido por meio de pesquisas de clima. (Referência: 'clima-e-cultura-organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No contexto da 'Gestão de Projetos', o que é o 'cronograma'?",
+        "options": [
+            "Uma lista de riscos do projeto.",
+            "O orçamento detalhado do projeto.",
+            "Uma ferramenta de planejamento que organiza as atividades do projeto em uma sequência lógica, com prazos e durações definidos, para guiar a execução no tempo certo.",
+            "A lista de colaboradores que trabalharão no projeto."
+        ],
+        "answer": 2,
+        "hint": "Pense na ferramenta que define o 'quando' as coisas devem acontecer em um projeto.",
+        "feedbackCompleto": "O cronograma é uma ferramenta essencial na gestão de projetos. Ele organiza as atividades do projeto em uma linha do tempo, estabelecendo a sequência lógica de execução, as durações e os prazos para cada atividade. É um guia visual e prático que permite o acompanhamento do progresso e o controle do tempo. (Referência: 'gestao-de-projetos').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No contexto de 'Gestão de Processos', o que é um 'mapa de processo'?",
+        "options": [
+            "Um organograma da organização.",
+            "Uma representação visual e sequencial das atividades, fluxos de informação, decisões e responsabilidades envolvidas em um processo de trabalho, do início ao fim.",
+            "O orçamento detalhado de um projeto.",
+            "A lista de clientes da organização."
+        ],
+        "answer": 1,
+        "hint": "Pense em um 'desenho' que mostra como o trabalho é feito, passo a passo.",
+        "feedbackCompleto": "O mapa de processo (ou fluxograma de processo) é uma representação visual que mostra a sequência lógica e detalhada de todas as atividades, fluxos de informação, decisões e responsabilidades envolvidas em um processo de trabalho, do seu início ao seu fim. Ele é uma ferramenta fundamental para a análise, a compreensão e a otimização de processos, identificando gargalos e ineficiências. (Referência: 'gestao-de-processos').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal função do 'Planejamento Organizacional'?",
+        "options": [
+            "Apenas registrar os resultados financeiros da empresa.",
+            "Definir a estrutura hierárquica e os cargos de uma organização.",
+            "Estabelecer a direção estratégica da organização, definindo missão, visão, valores e os objetivos de longo prazo, bem como os planos de ação para alcançá-los.",
+            "Realizar a comunicação interna da empresa."
+        ],
+        "answer": 2,
+        "hint": "É o processo que define o 'norte' e o 'caminho' que a organização deve seguir.",
+        "feedbackCompleto": "O Planejamento Organizacional é o processo de definir a direção e o futuro de uma organização. Ele inclui a definição da missão (razão de existir), visão (onde quer chegar), valores (princípios) e os objetivos estratégicos de longo prazo. É a base para todas as demais decisões e ações da organização, garantindo o alinhamento de todos os esforços. (Referência: 'planejamento-organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No contexto de 'Gestão por Competências', o que a 'avaliação de desempenho' tem como objetivo principal?",
+        "options": [
+            "Apenas a punição por resultados insatisfatórios.",
+            "Medir o desempenho do colaborador e identificar as lacunas entre as competências requeridas pelo cargo e as que ele possui, para subsidiar planos de desenvolvimento.",
+            "Definir a remuneração de forma igualitária para todos os servidores.",
+            "Centralizar todas as decisões sobre a carreira do servidor no gestor imediato."
+        ],
+        "answer": 1,
+        "hint": "É uma ferramenta para 'medir' e 'desenvolver' as competências, não apenas julgar o desempenho.",
+        "feedbackCompleto": "No modelo de Gestão por Competências, a Avaliação de Desempenho não é apenas um julgamento do que o colaborador fez, mas uma ferramenta para identificar as competências que ele já tem e as que precisa desenvolver. O objetivo é criar Planos de Desenvolvimento Individual (PDI) para que o servidor possa adquirir as competências necessárias para o sucesso na carreira e para o alcance dos objetivos da organização. (Referência: 'gestao-por-competencias').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'Organização Colegiada'?",
+        "options": [
+            "A decisão é tomada por um único líder.",
+            "A decisão é tomada por um grupo de indivíduos (um conselho ou colegiado), de forma democrática ou por maioria de votos.",
+            "As decisões são tomadas por subalternos.",
+            "Não há decisões formais, apenas informalidade."
+        ],
+        "answer": 1,
+        "hint": "Pense em decisões que são tomadas em grupo, como em um conselho ou tribunal.",
+        "feedbackCompleto": "Uma organização colegiada, ou um órgão colegiado, é aquela em que as decisões não são tomadas por um único indivíduo, mas por um grupo de pessoas (o colegiado, conselho, comitê, etc.). A decisão é fruto da deliberação conjunta, geralmente por votação, e o voto de cada membro tem o mesmo peso. (Referência: 'Estrutura Organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que a 'teoria de reforço' de Skinner na gestão de pessoas propõe?",
+        "options": [
+            "A motivação é intrínseca ao indivíduo.",
+            "A motivação é baseada em uma hierarquia de necessidades.",
+            "O comportamento é uma função de suas consequências (reforços e punições), e o gestor pode influenciar a motivação através da aplicação de consequências positivas ou negativas.",
+            "A motivação é um processo aleatório."
+        ],
+        "answer": 2,
+        "hint": "Pense no que acontece 'depois' de uma ação que pode influenciar se ela se repete ou não.",
+        "feedbackCompleto": "A teoria de reforço, de Skinner, defende que o comportamento é moldado por suas consequências. Se um comportamento é seguido por um reforço positivo (recompensa), a probabilidade de ele se repetir aumenta. Se é seguido por um reforço negativo (punição), a probabilidade de ele se repetir diminui. O gestor pode utilizar essa teoria para influenciar o comportamento dos colaboradores. (Referência: 'motivacao').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que a 'gestão por competências' busca alcançar na Administração Pública?",
+        "options": [
+            "Apenas a informatização de documentos.",
+            "Transformar o conhecimento tácito (experiências) e explícito (documentado) em um ativo estratégico da organização, facilitando sua criação, compartilhamento, uso e preservação.",
+            "Evitar que novas ideias surjam na organização.",
+            "Reduzir a necessidade de treinamento de servidores."
+        ],
+        "answer": 1,
+        "hint": "É sobre como a organização aprende e usa o que sabe para melhorar.",
+        "feedbackCompleto": "A Gestão do Conhecimento busca transformar o conhecimento (tanto o que está nas mentes das pessoas – tácito – quanto o que está em documentos – explícito) em um ativo estratégico para a organização. Isso envolve processos para criar, capturar, organizar, armazenar, compartilhar e utilizar esse conhecimento, visando a melhoria contínua da performance, a inovação e a sustentabilidade da organização no longo prazo. (Referência: 'gestao-por-competencias').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal característica da 'Liderança Transacional'?",
+        "options": [
+            "Foca em inspirar e motivar a equipe para a transformação e o crescimento.",
+            "Baseia-se em trocas e recompensas. O líder define as tarefas e as recompensas (positivas ou negativas) pelo cumprimento ou não das metas.",
+            "O líder delega totalmente as decisões para a equipe.",
+            "O líder não tem autoridade formal sobre a equipe."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma relação de 'troca' ou 'transação' entre líder e liderado.",
+        "feedbackCompleto": "A Liderança Transacional é um estilo de liderança que se baseia em trocas. O líder estabelece metas e tarefas claras e oferece recompensas (promoções, bônus, reconhecimento) pelo seu cumprimento, ou aplica punições pelo não cumprimento. É uma relação de troca e barganha entre líder e liderado. (Referência: 'Lideranca').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a diferença entre 'capacitação' e 'desenvolvimento' de pessoas?",
+        "options": [
+            "Capacitação é o aprendizado de curto prazo para tarefas específicas; desenvolvimento é o aprendizado de longo prazo para a carreira do colaborador.",
+            "Capacitação é de longo prazo; desenvolvimento é de curto prazo.",
+            "Capacitação é para gestores; desenvolvimento é para a base.",
+            "Não há diferença."
+        ],
+        "answer": 0,
+        "hint": "Pense no horizonte de tempo e no objetivo de cada processo.",
+        "feedbackCompleto": "Capacitação é o processo de aprendizado focado no curto prazo, para que o colaborador possa desempenhar suas funções atuais de forma mais eficaz (ex: um curso sobre um novo software). Desenvolvimento é um processo de longo prazo, focado no crescimento e na evolução do colaborador para futuras responsabilidades e para a carreira, preparando-o para desafios maiores. (Referência: 'introducao-a-gestao-de-pessoas').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal característica do 'Recrutamento Externo' para a organização?",
+        "options": [
+            "Valoriza a cultura interna e a lealdade dos colaboradores.",
+            "Tende a ser mais rápido e econômico, pois não exige novos processos seletivos.",
+            "Traz novas ideias, experiências e talentos para a organização, renovando a cultura e a força de trabalho.",
+            "Melhora a taxa de retenção dos colaboradores existentes."
+        ],
+        "answer": 2,
+        "hint": "Pense nas vantagens de buscar talentos 'fora' de casa.",
+        "feedbackCompleto": "O Recrutamento Externo tem como principal vantagem a renovação do quadro de pessoal, trazendo novas ideias, experiências e talentos para a organização. Ele enriquece o capital humano, estimula a competitividade interna e evita a 'endogamia' (falta de inovação). (Referência: 'recrutamento-e-selecao').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que o 'turnover' representa na gestão de pessoas?",
+        "options": [
+            "A taxa de produtividade da equipe.",
+            "A taxa de entrada e saída de colaboradores de uma organização em um determinado período.",
+            "O nível de satisfação dos colaboradores.",
+            "A quantidade de horas extras trabalhadas."
+        ],
+        "answer": 1,
+        "hint": "É uma métrica que mede a rotatividade de pessoal.",
+        "feedbackCompleto": "Turnover (ou rotatividade de pessoal) é uma métrica que mede a taxa de entrada e saída de colaboradores em uma organização em um determinado período. Um alto turnover pode indicar problemas na gestão de pessoas, no clima organizacional, na remuneração ou no processo de seleção. (Referência: 'introducao-a-gestao-de-pessoas').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'Organização Colegiada'?",
+        "options": [
+            "A decisão é tomada por um único líder.",
+            "A decisão é tomada por um grupo de indivíduos (um conselho ou colegiado), de forma democrática ou por maioria de votos.",
+            "As decisões são tomadas por subalternos.",
+            "Não há decisões formais, apenas informalidade."
+        ],
+        "answer": 1,
+        "hint": "Pense em decisões que são tomadas em grupo, como em um conselho ou tribunal.",
+        "feedbackCompleto": "Uma organização colegiada, ou um órgão colegiado, é aquela em que as decisões não são tomadas por um único indivíduo, mas por um grupo de pessoas (o colegiado, conselho, comitê, etc.). A decisão é fruto da deliberação conjunta, geralmente por votação, e o voto de cada membro tem o mesmo peso. (Referência: 'Estrutura Organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "No que consiste a 'gestão da qualidade total (TQM)'?",
+        "options": [
+            "Foco exclusivo na inspeção final dos produtos.",
+            "Abordagem gerencial que busca a melhoria contínua da qualidade em todos os processos, produtos e serviços da organização, com foco na satisfação do cliente e no envolvimento de todos os colaboradores.",
+            "Apenas a redução de custos.",
+            "Um método de controle de estoque."
+        ],
+        "answer": 1,
+        "hint": "É uma filosofia que permeia toda a organização, buscando a excelência em tudo.",
+        "feedbackCompleto": "A Gestão da Qualidade Total (TQM - Total Quality Management) é uma abordagem gerencial que visa a melhoria contínua da qualidade em todos os aspectos da organização: processos, produtos, serviços e relações. Ela se baseia na satisfação do cliente, no envolvimento de todos os colaboradores, na tomada de decisões baseada em fatos e dados, e na melhoria contínua dos processos. (Referência: 'Gestao de Processos').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que são 'Objetivos Smart' no planejamento e gestão?",
+        "options": [
+            "Objetivos genéricos e de longo prazo.",
+            "Objetivos que não podem ser medidos.",
+            "Objetivos que são Específicos, Mensuráveis, Atingíveis, Relevantes e Temporais (com prazo definido).",
+            "Objetivos que visam apenas a satisfação do chefe."
+        ],
+        "answer": 2,
+        "hint": "É um acrônimo que ajuda a criar metas claras e eficazes.",
+        "feedbackCompleto": "Objetivos SMART é um acrônimo que serve como um guia para a definição de metas e objetivos eficazes. SMART significa: Specific (Específico), Measurable (Mensurável), Achievable (Atingível), Relevant (Relevante) e Time-bound (Temporal, com prazo definido). Essa metodologia ajuda a criar objetivos claros, realistas e que podem ser monitorados. (Referência: 'Planejamento Organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que é 'empowerment' na gestão de equipes?",
+        "options": [
+            "A centralização de todas as decisões no gerente.",
+            "A delegação de poder e autonomia aos funcionários, permitindo que tomem decisões e assumam responsabilidades em suas áreas de atuação.",
+            "A redução da equipe para otimizar custos.",
+            "O controle rígido de todas as atividades."
+        ],
+        "answer": 1,
+        "hint": "É sobre dar 'poder' e 'autonomia' para as pessoas fazerem seu trabalho.",
+        "feedbackCompleto": "Empowerment (ou empoderamento) é um conceito de gestão que envolve a delegação de poder, autoridade e autonomia aos funcionários, permitindo que tomem decisões e assumam responsabilidades em suas áreas de atuação. Isso visa aumentar a motivação, o engajamento, a criatividade e a agilidade na resposta aos problemas. (Referência: 'Lideranca').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "Qual a importância da 'comunicação organizacional' para a gestão?",
+        "options": [
+            "Apenas transmitir ordens de cima para baixo.",
+            "Garantir que as informações fluam de forma eficaz entre todos os níveis e áreas da organização, promovendo o alinhamento, a integração e a motivação, e evitando ruídos e conflitos.",
+            "Limitar o acesso à informação para manter o sigilo.",
+            "Evitar o feedback dos funcionários."
+        ],
+        "answer": 1,
+        "hint": "Pense no papel da comunicação para o bom funcionamento de qualquer grupo.",
+        "feedbackCompleto": "A comunicação organizacional é vital para o funcionamento eficaz de qualquer organização. Ela garante que as informações necessárias fluam de forma clara e oportuna entre todos os níveis e áreas, promovendo o alinhamento de objetivos, a integração das equipes, a resolução de conflitos, a motivação dos colaboradores e a construção de um bom clima organizacional. (Referência: 'clima-e-cultura-organizacional').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "O que a 'gestão por competências' busca premiar na remuneração?",
+        "options": [
+            "Apenas o tempo de serviço do colaborador.",
+            "Apenas o cargo que o colaborador ocupa.",
+            "O conjunto de conhecimentos, habilidades e atitudes (CHA) que o colaborador possui e aplica para gerar valor para a organização.",
+            "A quantidade de horas extras trabalhadas."
+        ],
+        "answer": 2,
+        "hint": "Pense no que o colaborador 'sabe fazer' e 'como' ele faz, e não apenas o que ele é.",
+        "feedbackCompleto": "A remuneração por competências é uma forma de remuneração variável que busca premiar o colaborador pelo conjunto de competências (conhecimentos, habilidades e atitudes) que ele possui e aplica em suas funções, e não apenas pelo cargo que ocupa. O objetivo é incentivar o desenvolvimento e o aprimoramento contínuo das competências essenciais para o sucesso da organização. (Referência: 'remuneracao-e-beneficios').",
+        "subjects": ["gestao"]
+    },
+    {
+        "question": "De acordo com os materiais, qual é a principal função da Lei de Diretrizes Orçamentárias (LDO)?",
+        "options": [
+            "Aprovar as despesas de um ano.",
+            "Estabelecer o planejamento de longo prazo do governo.",
+            "Orientar a elaboração da Lei Orçamentária Anual (LOA) e dispor sobre metas e prioridades da administração.",
+            "Fiscalizar as contas do governo."
+        ],
+        "answer": 2,
+        "hint": "É o elo entre o PPA e a LOA.",
+        "feedbackCompleto": "A LDO, conforme o Art. 165, § 2º, da CF/88, tem como principal função orientar a elaboração da LOA. Ela também dispõe sobre as metas e prioridades para o exercício seguinte, as alterações na legislação tributária e as regras para as despesas de capital. (Referência: 'Topico 1-fundamentos-do-planejamento-orcamento').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Conforme os documentos, o que a Lei nº 4.320/1964 define como 'despesa de capital'?",
+        "options": [
+            "Gastos com salários de servidores.",
+            "Despesas que resultam em aumento do patrimônio público, como investimentos, inversões financeiras e transferências de capital.",
+            "Gastos com juros da dívida pública.",
+            "Despesas que não contribuem para a formação de um bem de capital."
+        ],
+        "answer": 1,
+        "hint": "São gastos que geram um 'ativo' para o Estado.",
+        "feedbackCompleto": "A Lei nº 4.320/1964 classifica a despesa pública quanto à sua natureza econômica. Despesas de capital são aquelas que contribuem para a formação ou aquisição de um bem de capital, ou seja, aumentam o patrimônio público. Incluem investimentos (obras, aquisição de equipamentos), inversões financeiras e transferências de capital. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que o 'Princípio da Exclusividade' exige da Lei Orçamentária Anual (LOA)?",
+        "options": [
+            "Que a LOA contenha apenas a previsão de receita e a fixação da despesa, com exceções previstas em lei.",
+            "Que a LOA seja aprovada por um único poder.",
+            "Que o orçamento tenha validade por um ano.",
+            "Que todas as receitas e despesas sejam incluídas no orçamento."
+        ],
+        "answer": 0,
+        "hint": "É o princípio que proíbe 'jabutis' no orçamento.",
+        "feedbackCompleto": "O Princípio da Exclusividade (CF, Art. 165, § 8º) proíbe que a LOA contenha dispositivo estranho à previsão da receita e à fixação da despesa. As únicas exceções permitidas são a autorização para abertura de créditos suplementares e a contratação de operações de crédito, ainda que por antecipação de receita. (Referência: 'Topico 1-principios-orcamentarios').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "No que consiste a 'liquidação da despesa', conforme a Lei nº 4.320/1964?",
+        "options": [
+            "O ato de pagar a despesa ao credor.",
+            "O ato de verificar o direito adquirido do credor, com base em títulos e documentos comprobatórios do respectivo crédito.",
+            "O ato de aprovar a Lei Orçamentária Anual.",
+            "O ato de reservar a dotação orçamentária para um gasto."
+        ],
+        "answer": 1,
+        "hint": "É a fase da 'verificação' do que foi entregue ou executado.",
+        "feedbackCompleto": "A liquidação é a segunda etapa da despesa pública. Nela, o gestor verifica se a entrega do bem ou a prestação do serviço contratado ocorreu de fato, se está de acordo com o contrato, a nota fiscal e demais documentos comprobatórios, reconhecendo o direito adquirido do credor. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a Lei nº 4.320/1964 define como 'crédito especial'?",
+        "options": [
+            "Recursos para despesas urgentes e imprevistas, como calamidades.",
+            "Recursos para reforçar dotações insuficientes.",
+            "Recursos destinados a despesas para as quais não há dotação orçamentária específica na LOA, dependendo de autorização legislativa.",
+            "Empréstimos de longo prazo."
+        ],
+        "answer": 2,
+        "hint": "Pense em gastos que são 'especiais' por não terem sido previstos na lei orçamentária inicial.",
+        "feedbackCompleto": "Créditos especiais são uma das espécies de créditos adicionais. Eles são destinados a despesas para as quais não existe dotação orçamentária específica na LOA. Por isso, exigem autorização prévia do Poder Legislativo para sua abertura. (Referência: 'Topico 1-creditos-adicionais').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual dos seguintes não é um 'Princípio Orçamentário'?",
+        "options": [
+            "Princípio da Unidade",
+            "Princípio da Razoabilidade",
+            "Princípio da Anualidade",
+            "Princípio da Universalidade"
+        ],
+        "answer": 1,
+        "hint": "O princípio da Razoabilidade é mais associado ao Direito Administrativo.",
+        "feedbackCompleto": "Os princípios orçamentários incluem Unidade, Universalidade, Anualidade, Exclusividade, Clareza, Publicidade, entre outros. O Princípio da Razoabilidade é um princípio do Direito Administrativo, que se aplica a atos da Administração, mas não é um princípio específico do orçamento. (Referência: 'Topico 1-principios-orcamentarios').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "De acordo com o material, qual a finalidade da 'classificação funcional' da despesa?",
+        "options": [
+            "Indicar o que a despesa compra (material, serviço, etc.).",
+            "Organizar a despesa por função (saúde, educação) e subfunção, para refletir as áreas de atuação do governo.",
+            "Identificar se a despesa é corrente ou de capital.",
+            "Informar o programa ao qual a despesa está vinculada."
+        ],
+        "answer": 1,
+        "hint": "É a forma de organizar o orçamento para que se saiba 'em qual área' o dinheiro está sendo gasto.",
+        "feedbackCompleto": "A classificação funcional é uma das formas de classificar a despesa pública. Ela organiza o gasto público em grandes áreas de atuação, como 'Saúde', 'Educação', 'Segurança Pública', e em subfunções, para que se tenha uma visão do que o governo faz. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que significa 'crédito especial' e qual a sua finalidade, conforme o material?",
+        "options": [
+            "Destina-se a despesas urgentes e imprevistas, como guerras e calamidades.",
+            "Destina-se a reforçar dotações orçamentárias insuficientes.",
+            "Destina-se a despesas para as quais não há dotação orçamentária específica na LOA.",
+            "É um crédito para financiamento da dívida pública."
+        ],
+        "answer": 2,
+        "hint": "Pense em gastos que são 'especiais' por não terem sido previstos na lei orçamentária inicial.",
+        "feedbackCompleto": "Créditos especiais são uma das espécies de créditos adicionais. Eles são destinados a despesas para as quais não existe dotação orçamentária específica na LOA, e dependem de autorização prévia do Poder Legislativo para sua abertura. (Referência: 'Topico 1-creditos-adicionais').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que o 'Princípio da Unidade' orçamentária exige?",
+        "options": [
+            "Que o orçamento tenha validade por um ano.",
+            "Que todas as receitas e despesas de um ente federativo (União, Estados, DF ou Municípios) estejam contidas em um único documento, a Lei Orçamentária Anual (LOA).",
+            "Que o orçamento seja aprovado por um único poder.",
+            "Que cada órgão tenha seu próprio orçamento."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de que o orçamento é um 'todo', um único documento.",
+        "feedbackCompleto": "O Princípio da Unidade (ou Totalidade) estabelece que o orçamento deve ser uno, ou seja, todas as receitas e despesas de um ente federativo (União, Estados, DF ou Municípios) devem estar contidas em um único documento, a Lei Orçamentária Anual (LOA). (Referência: 'Topico 1-principios-orcamentarios').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual a principal finalidade dos 'créditos adicionais'?",
+        "options": [
+            "Estimar as receitas anuais do governo.",
+            "Fixar as despesas de um exercício financeiro.",
+            "Suprir insuficiências de dotação ou atender a despesas não previstas na Lei Orçamentária Anual (LOA).",
+            "Aprovar as contas do governo."
+        ],
+        "answer": 2,
+        "hint": "São créditos que 'adicionam' recursos ao orçamento já aprovado.",
+        "feedbackCompleto": "Os créditos adicionais são autorizações de despesas que são adicionadas à LOA já aprovada. Eles servem para suprir insuficiências de dotação (créditos suplementares), atender a despesas não previstas (créditos especiais) ou atender a despesas urgentes e imprevistas (créditos extraordinários). (Referência: 'Topico 1-creditos-adicionais').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a Lei nº 4.320/1964 define como 'pagamento da despesa'?",
+        "options": [
+            "O ato de reservar a dotação orçamentária.",
+            "O ato de verificar o direito adquirido do credor.",
+            "A última fase da despesa pública, que consiste na entrega do numerário ao credor, após o empenho e a liquidação.",
+            "O ato de aprovar a despesa."
+        ],
+        "answer": 2,
+        "hint": "É a última etapa da despesa pública, quando o dinheiro sai do caixa do governo.",
+        "feedbackCompleto": "O pagamento é a terceira e última fase da despesa pública. Ele só pode ser realizado após a liquidação da despesa (verificação do direito do credor). Consiste na entrega do numerário ao credor, por meio de cheque, ordem de pagamento ou crédito em conta bancária. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual a principal diferença entre 'empenho', 'liquidação' e 'pagamento'?",
+        "options": [
+            "Empenho é o pagamento; liquidação é a verificação; pagamento é a reserva.",
+            "Empenho é a reserva; liquidação é a verificação; pagamento é a entrega do dinheiro.",
+            "Empenho é a verificação; liquidação é a reserva; pagamento é a entrega do dinheiro.",
+            "Empenho é a aprovação; liquidação é o pagamento; pagamento é a reserva."
+        ],
+        "answer": 1,
+        "hint": "Lembre-se da sequência das três etapas da despesa pública.",
+        "feedbackCompleto": "As três etapas da despesa pública são: 1) Empenho (reserva da dotação); 2) Liquidação (verificação do direito do credor); e 3) Pagamento (entrega do numerário). A sequência é fundamental para o controle da despesa. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que são 'receitas intraorçamentárias'?",
+        "options": [
+            "Receitas de privatização de empresas estatais.",
+            "Receitas de operações de crédito.",
+            "Receitas de impostos e taxas.",
+            "Receitas provenientes de transações entre órgãos, fundos ou entidades da própria federação, que são eliminadas na consolidação das contas."
+        ],
+        "answer": 3,
+        "hint": "Pense nas transações financeiras que ocorrem 'dentro' do próprio orçamento de um ente federativo.",
+        "feedbackCompleto": "Receitas intraorçamentárias são aquelas geradas por transações entre órgãos, fundos, autarquias ou fundações de uma mesma esfera de governo (ex: um ministério paga por um serviço de outro ministério). Elas são importantes para a consolidação das contas, sendo eliminadas na consolidação para evitar dupla contagem. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual o significado da 'classificação programática' da despesa?",
+        "options": [
+            "Indicar o que a despesa compra (material, serviço, etc.).",
+            "Organizar a despesa por função (saúde, educação).",
+            "Organizar a despesa por programas, ações e atividades, visando vincular o gasto aos objetivos e resultados a serem alcançados.",
+            "Identificar se a despesa é corrente ou de capital."
+        ],
+        "answer": 2,
+        "hint": "É a forma de organizar o orçamento para que se saiba 'para quê' o dinheiro está sendo gasto.",
+        "feedbackCompleto": "A classificação programática da despesa é um dos pilares do orçamento-programa. Ela organiza o gasto público em programas, que são conjuntos de ações para alcançar um objetivo específico. Seu objetivo é vincular os recursos orçamentários a resultados e metas claras, facilitando o planejamento e a avaliação da política pública. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a LRF estabelece sobre o 'resultado primário'?",
+        "options": [
+            "É o resultado da diferença entre a receita total e a despesa total, incluindo juros da dívida.",
+            "É a diferença entre as receitas primárias e as despesas primárias, indicando a capacidade do governo de gerar poupança para pagar os juros da dívida.",
+            "É o resultado da arrecadação de impostos.",
+            "É o valor total da dívida pública."
+        ],
+        "answer": 1,
+        "hint": "Pense no que o governo consegue economizar antes de pagar os juros de sua dívida.",
+        "feedbackCompleto": "O resultado primário é a diferença entre as receitas primárias (não financeiras) e as despesas primárias (não financeiras). Ele indica a capacidade do governo de gerar superávit para pagar os juros da dívida pública, sendo um importante indicador da saúde fiscal. (Referência: 'Topico 1-revisao-parte-i').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "De acordo com o material, a 'revisão orçamentária' é a:",
+        "options": [
+            "Fase de execução do orçamento.",
+            "Fase de fiscalização do orçamento.",
+            "Fase de controle externo do orçamento.",
+            "Análise do orçamento, com a possibilidade de ajustes e correções para adequá-lo às novas realidades e necessidades, sem alterar a lei orçamentária."
+        ],
+        "answer": 3,
+        "hint": "Pense no que acontece ao longo do ano para ajustar o orçamento à realidade.",
+        "feedbackCompleto": "A revisão orçamentária é a análise do orçamento, com o objetivo de promover ajustes e correções para adequá-lo às novas realidades e necessidades. Isso pode ocorrer durante a execução do orçamento, por meio de remanejamentos de despesas ou da abertura de créditos adicionais, por exemplo. (Referência: 'Topico 1-revisao-parte-i').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a Lei nº 4.320/1964 define como 'crédito suplementar'?",
+        "options": [
+            "Recursos para despesas urgentes e imprevistas, como calamidades.",
+            "Recursos para reforçar dotações orçamentárias já existentes na LOA, que se mostraram insuficientes.",
+            "Recursos destinados a despesas para as quais não há dotação orçamentária específica na LOA.",
+            "Empréstimos de longo prazo."
+        ],
+        "answer": 1,
+        "hint": "É para 'suplementar' (aumentar) um valor que já existia no orçamento.",
+        "feedbackCompleto": "O crédito suplementar é uma das espécies de créditos adicionais. Ele é destinado a reforçar uma dotação orçamentária já existente na LOA que se mostrou insuficiente para atender às despesas previstas. (Referência: 'Topico 1-creditos-adicionais').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual a principal característica do 'orçamento-base-zero'?",
+        "options": [
+            "O orçamento é elaborado com base no orçamento do ano anterior.",
+            "O orçamento é elaborado partindo do zero, sem considerar as dotações do ano anterior, e cada gasto deve ser justificado e aprovado em sua totalidade.",
+            "O orçamento é feito com base nas necessidades da sociedade.",
+            "O orçamento é um modelo tradicional de gestão."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de começar do zero, sem o histórico de gastos anteriores.",
+        "feedbackCompleto": "O orçamento-base-zero é uma técnica orçamentária que exige que os gestores justifiquem e aprovem cada gasto em sua totalidade, como se não existisse um orçamento anterior. O objetivo é evitar a inércia burocrática e garantir que os gastos sejam eficientes e alinhados às prioridades do governo. (Referência: 'Topico 1-revisao-parte-ii').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a Lei de Responsabilidade Fiscal (LRF) estabelece sobre a realização de operações de crédito por Antecipação de Receita Orçamentária (ARO)?",
+        "options": [
+            "Podem ser realizadas livremente pelo Poder Executivo.",
+            "Não poderão ser realizadas no último ano do mandato do Presidente, Governador ou Prefeito, e deverão ser liquidadas até 31 de dezembro do mesmo exercício.",
+            "São permitidas apenas para financiar despesas de capital.",
+            "Não há nenhuma restrição."
+        ],
+        "answer": 1,
+        "hint": "Há restrições para evitar que o próximo gestor herde essa dívida de curto prazo.",
+        "feedbackCompleto": "A LRF, no seu Art. 38, exige que as operações de crédito por Antecipação de Receita Orçamentária (ARO) sejam liquidadas até 31 de dezembro do exercício em que foram contratadas, e proíbe a sua realização no último ano do mandato do gestor. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual a principal finalidade dos 'créditos extraordinários'?",
+        "options": [
+            "Suprir dotações orçamentárias insuficientes.",
+            "Atender a despesas não previstas na LOA.",
+            "Atender a despesas urgentes e imprevistas, como guerras, calamidade pública ou comoção interna, com autorização do Congresso Nacional.",
+            "Financiar despesas de capital."
+        ],
+        "answer": 2,
+        "hint": "São para situações de 'extraordinária' e 'urgente' necessidade.",
+        "feedbackCompleto": "Créditos extraordinários são uma das espécies de créditos adicionais. Destinam-se a despesas urgentes e imprevistas, como as decorrentes de guerra, calamidade pública ou comoção interna. Dependem da aprovação do Congresso Nacional e são abertos por medida provisória do Presidente da República. (Referência: 'Topico 1-creditos-adicionais').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que o 'Princípio da Universalidade' orçamentária exige?",
+        "options": [
+            "Que o orçamento tenha validade por um ano.",
+            "Que todas as receitas e despesas de um ente federativo (União, Estados, DF ou Municípios) estejam contidas em um único documento, a Lei Orçamentária Anual (LOA).",
+            "Que o orçamento seja aprovado por um único poder.",
+            "Que todas as receitas e despesas da entidade sejam previstas e fixadas na LOA, sem exclusões."
+        ],
+        "answer": 3,
+        "hint": "Pense no princípio de que o orçamento deve ser 'completo', abrangendo todas as transações.",
+        "feedbackCompleto": "O Princípio da Universalidade estabelece que todas as receitas e despesas de um ente federativo (União, Estados, DF ou Municípios) devem estar contidas no orçamento. Ele garante que não haja receitas ou despesas 'por fora' do orçamento. (Referência: 'Topico 1-principios-orcamentarios').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual das seguintes receitas é classificada como 'Receita de Capital'?",
+        "options": [
+            "Arrecadação de impostos e taxas.",
+            "Contribuições de servidores para a previdência.",
+            "Receitas de operações de crédito, como empréstimos.",
+            "Receitas de serviços públicos."
+        ],
+        "answer": 2,
+        "hint": "São receitas que geram um aumento do passivo ou uma diminuição do ativo do governo.",
+        "feedbackCompleto": "Receitas de capital são aquelas que alteram o patrimônio público, ou seja, são recursos obtidos de operações de crédito (empréstimos), alienação de bens (venda de imóveis), amortização de empréstimos concedidos, entre outros. As demais opções são receitas correntes. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "No que consiste o 'Princípio da Unidade' orçamentária?",
+        "options": [
+            "Que o orçamento tenha validade por um ano.",
+            "Que todas as receitas e despesas de um ente federativo (União, Estados, DF ou Municípios) estejam contidas em um único documento, a Lei Orçamentária Anual (LOA).",
+            "Que o orçamento seja aprovado por um único poder.",
+            "Que todas as receitas e despesas sejam incluídas no orçamento."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de que o orçamento é um 'todo', um único documento.",
+        "feedbackCompleto": "O Princípio da Unidade (ou Totalidade) estabelece que o orçamento deve ser uno, ou seja, todas as receitas e despesas de um ente federativo (União, Estados, DF ou Municípios) devem estar contidas em um único documento, a Lei Orçamentária Anual (LOA). (Referência: 'Topico 1-principios-orcamentarios').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual a principal característica do 'orçamento-base-zero'?",
+        "options": [
+            "O orçamento é elaborado com base no orçamento do ano anterior.",
+            "O orçamento é elaborado partindo do zero, sem considerar as dotações do ano anterior, e cada gasto deve ser justificado e aprovado em sua totalidade.",
+            "O orçamento é feito com base nas necessidades da sociedade.",
+            "O orçamento é um modelo tradicional de gestão."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de começar do zero, sem o histórico de gastos anteriores.",
+        "feedbackCompleto": "O orçamento-base-zero é uma técnica orçamentária que exige que os gestores justifiquem e aprovem cada gasto em sua totalidade, como se não existisse um orçamento anterior. O objetivo é evitar a inércia burocrática e garantir que os gastos sejam eficientes e alinhados às prioridades do governo. (Referência: 'Topico 1-revisao-parte-ii').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a 'classificação funcional' da despesa visa demonstrar?",
+        "options": [
+            "O que a despesa compra (material, serviço, etc.).",
+            "Em qual área (função) a despesa está sendo realizada (ex: Saúde, Educação, Segurança Pública).",
+            "Se a despesa é corrente ou de capital.",
+            "O programa ao qual a despesa está vinculada."
+        ],
+        "answer": 1,
+        "hint": "É a forma de organizar o orçamento para que se saiba 'em qual área' o dinheiro está sendo gasto.",
+        "feedbackCompleto": "A classificação funcional é uma das formas de classificar a despesa pública. Ela organiza o gasto público em grandes áreas de atuação, como 'Saúde', 'Educação', 'Segurança Pública', e em subfunções, para que se tenha uma visão do que o governo faz. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual a principal diferença entre 'orçamento-programa' e 'orçamento tradicional'?",
+        "options": [
+            "O orçamento-programa foca em insumos; o tradicional em resultados.",
+            "O orçamento-programa foca em resultados e objetivos; o tradicional foca em insumos e legalidade do gasto.",
+            "O orçamento-programa é mais antigo que o tradicional.",
+            "Não há diferença, são sinônimos."
+        ],
+        "answer": 1,
+        "hint": "Pense na diferença de foco: um no 'para quê', outro no 'com o quê'.",
+        "feedbackCompleto": "O orçamento-programa é uma técnica orçamentária que foca nos resultados a serem alcançados, vinculando as despesas a programas e ações. O orçamento tradicional é um modelo antigo, com foco nos insumos (o que se compra e o que se gasta) e na legalidade do gasto, sem uma vinculação clara com os resultados a serem alcançados. (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "O que a LRF estabelece sobre o 'resultado nominal'?",
+        "options": [
+            "É o resultado da diferença entre a receita total e a despesa total, incluindo os juros da dívida.",
+            "É a diferença entre as receitas primárias e as despesas primárias.",
+            "É o valor total da dívida pública.",
+            "É o resultado da arrecadação de impostos."
+        ],
+        "answer": 0,
+        "hint": "Pense no resultado que inclui o pagamento de juros.",
+        "feedbackCompleto": "O resultado nominal é a diferença entre a receita total e a despesa total do governo, incluindo o pagamento de juros da dívida pública. Ele é um indicador da situação fiscal do governo, pois mostra se o governo precisa se endividar para pagar tanto os gastos correntes quanto os juros da dívida. (Referência: 'Topico 1-revisao-parte-i').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "Qual das seguintes despesas é classificada como 'Despesa Corrente'?",
+        "options": [
+            "Aquisição de um veículo para uso administrativo.",
+            "Construção de uma nova sede para um ministério.",
+            "Pagamento de salários de servidores ativos.",
+            "Compra de um imóvel para fins institucionais."
+        ],
+        "answer": 2,
+        "hint": "Despesas correntes são aquelas que mantêm o funcionamento da máquina pública, sem aumentar o patrimônio.",
+        "feedbackCompleto": "Despesas correntes são gastos de manutenção da máquina pública, que não geram um aumento do patrimônio. O pagamento de salários se enquadra nessa categoria. A aquisição de veículos, a construção de um prédio e a compra de imóveis são classificadas como despesas de capital (investimentos). (Referência: 'Topico 1-orcamento-publico').",
+        "subjects": ["orcamento"]
+    },
+    {
+        "question": "De acordo com o material sobre 'Disposições Preliminares', qual a principal finalidade da Lei nº 14.133/2021?",
+        "options": [
+            "Garantir a primazia do menor preço em todas as contratações.",
+            "Promover a eficiência, a inovação, a integridade e a transparência nas contratações públicas, buscando o melhor custo-benefício para a Administração.",
+            "Centralizar todas as compras públicas na União.",
+            "Diminuir a fiscalização dos contratos."
+        ],
+        "answer": 1,
+        "hint": "Pense no objetivo de modernizar e aprimorar as contratações públicas, indo além da simples legalidade.",
+        "feedbackCompleto": "A Lei nº 14.133/2021 foi criada para modernizar e aprimorar as contratações públicas, focando em objetivos como a eficiência, a inovação, a integridade, a transparência, a busca pelo melhor custo-benefício e a promoção do desenvolvimento nacional sustentável. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a modalidade de licitação obrigatória para a contratação de bens e serviços comuns, independentemente do valor?",
+        "options": [
+            "Concorrência",
+            "Diálogo Competitivo",
+            "Pregão",
+            "Concurso"
+        ],
+        "answer": 2,
+        "hint": "Esta modalidade é conhecida pela sua agilidade e disputa por lances, sendo prioritária para a maioria das contratações.",
+        "feedbackCompleto": "O Pregão, preferencialmente na forma eletrônica, é a modalidade de licitação obrigatória para a aquisição de bens e serviços comuns, independentemente do valor estimado da contratação. É caracterizado pela fase de lances sucessivos. (Referência: 'Topico 4-modalidades').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual dos seguintes não é um princípio expresso na Lei nº 14.133/2021?",
+        "options": [
+            "Planejamento",
+            "Segregação de funções",
+            "Anterioridade",
+            "Vantajosidade"
+        ],
+        "answer": 2,
+        "hint": "O princípio da Anterioridade é mais associado ao direito tributário e orçamentário.",
+        "feedbackCompleto": "A NLLC (Art. 5º) estabelece uma longa lista de princípios, como Legalidade, Impessoalidade, Moralidade, Publicidade, Eficiência, e outros mais modernos como o Planejamento, a Segregação de Funções e a Vantajosidade. O Princípio da Anterioridade não é um princípio expresso na NLLC, mas sim uma regra constitucional que se aplica ao direito tributário. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "No que consiste a 'inexigibilidade' de licitação, de acordo com o material 'Contratação Direta'?",
+        "options": [
+            "Quando a competição é possível, mas a lei permite a não licitação.",
+            "Quando a competição é inviável por natureza, como em casos de fornecedor exclusivo, serviço técnico-científico de notória especialização ou contratação de artista consagrado.",
+            "Em contratações de pequeno valor, abaixo dos limites legais.",
+            "Para contratações de bens e serviços comuns."
+        ],
+        "answer": 1,
+        "hint": "Pense nos casos em que, por natureza, não há como realizar uma competição.",
+        "feedbackCompleto": "A inexigibilidade de licitação (Art. 74 da Lei 14.133/2021) ocorre quando há inviabilidade jurídica de competição, ou seja, quando não é possível comparar propostas devido à natureza singular do objeto ou à existência de apenas um fornecedor/executor capaz de satisfazer a necessidade da Administração. (Referência: 'Topico 4-contratacao-direta').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a principal característica do 'diálogo competitivo'?",
+        "options": [
+            "É uma modalidade exclusiva para obras de pequeno valor.",
+            "É uma modalidade para contratações de alta complexidade ou inovação, em que a Administração não consegue definir a solução antecipadamente e dialoga com licitantes selecionados para desenvolver a melhor proposta.",
+            "É a modalidade para a aquisição de bens de informática.",
+            "É uma modalidade de licitação verbal para serviços simples."
+        ],
+        "answer": 1,
+        "hint": "Pense no cenário onde o problema é claro, mas a solução não, exigindo um 'diálogo' com o mercado.",
+        "feedbackCompleto": "O diálogo competitivo é uma nova modalidade (Art. 32 da Lei 14.133/2021) destinada a contratações em que a Administração Pública necessita desenvolver soluções inovadoras ou complexas, e não consegue definir a solução técnica exata a priori. Permite que a Administração 'dialogue' com licitantes previamente selecionados para desenvolver a melhor solução. (Referência: 'Topico 4-modalidades').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Conforme o material, qual a finalidade da 'fase de julgamento' em uma licitação?",
+        "options": [
+            "Averiguar se o licitante apresentou a documentação correta.",
+            "Verificar a capacidade jurídica, técnica e fiscal do licitante.",
+            "Analisar e classificar as propostas dos licitantes, com base nos critérios estabelecidos no edital, para identificar a proposta mais vantajosa.",
+            "Publicar o resultado final da licitação."
+        ],
+        "answer": 2,
+        "hint": "Esta fase é sobre a análise das propostas, não sobre a capacidade do licitante.",
+        "feedbackCompleto": "A fase de julgamento (Art. 17 da Lei 14.133/2021) é a etapa em que as propostas dos licitantes são avaliadas e classificadas com base nos critérios de julgamento estabelecidos no edital (menor preço, maior desconto, etc.). Seu objetivo é identificar a proposta que melhor atende aos interesses da Administração. (Referência: 'Topico 4-criterios-de-julgamento').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual o principal objetivo do 'Termo de Referência' e do 'Projeto Básico'?",
+        "options": [
+            "Apenas estimar o preço de uma contratação.",
+            "Descrever a fase de habilitação dos licitantes.",
+            "Definir e detalhar o objeto da contratação (bem, serviço, obra), especificando suas características, requisitos e critérios de aceitação.",
+            "Aprovar a contratação sem licitação."
+        ],
+        "answer": 2,
+        "hint": "São os documentos que descrevem 'o que' será contratado.",
+        "feedbackCompleto": "O Termo de Referência (para bens e serviços) e o Projeto Básico (para obras e serviços de engenharia) são documentos da fase preparatória da licitação. Eles têm como objetivo definir e detalhar o objeto a ser contratado, descrevendo suas especificações técnicas, requisitos de qualidade, critérios de aceitação, e tudo o que é necessário para que os licitantes possam elaborar suas propostas. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "No que consiste a 'contratação direta'?",
+        "options": [
+            "O processo normal e obrigatório de licitação.",
+            "A contratação de serviços por um processo de leilão.",
+            "A contratação pela Administração sem a realização de licitação, nas hipóteses de dispensa ou de inexigibilidade previstas em lei.",
+            "A contratação de serviços técnicos especializados."
+        ],
+        "answer": 2,
+        "hint": "É a contratação 'sem' o processo de licitação, em casos excepcionais.",
+        "feedbackCompleto": "A contratação direta é a contratação de bens ou serviços pela Administração Pública sem a realização de licitação. Ela só é permitida em situações taxativas previstas na lei, que se dividem em 'dispensa de licitação' (onde a competição é possível, mas a lei permite não licitar) e 'inexigibilidade de licitação' (onde a competição é inviável por natureza). (Referência: 'Topico 4-contratacao-direta').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a principal característica do 'critério de julgamento de técnica e preço'?",
+        "options": [
+            "A proposta é avaliada apenas pelo preço.",
+            "A proposta é avaliada apenas pela técnica, sem considerar o preço.",
+            "A proposta é avaliada por ambos os fatores, técnica e preço, em uma ponderação para identificar a proposta mais vantajosa.",
+            "A proposta é avaliada pela melhor oferta de lances."
+        ],
+        "answer": 2,
+        "hint": "Pense em uma combinação dos dois critérios para identificar a melhor proposta.",
+        "feedbackCompleto": "O critério de julgamento de técnica e preço (Art. 36 da Lei 14.133/2021) é utilizado para avaliar propostas que não podem ser julgadas apenas pelo menor preço. A Administração estabelece um peso para a técnica e um peso para o preço, e a proposta mais vantajosa é aquela que obtiver a melhor combinação de ambos, resultando em uma pontuação final. (Referência: 'Topico4 -criterios-de-julgamento').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a modalidade de licitação em que a 'disputa por lances' ocorre após a apresentação de propostas fechadas?",
+        "options": [
+            "Concorrência",
+            "Diálogo Competitivo",
+            "Pregão",
+            "Leilão"
+        ],
+        "answer": 2,
+        "hint": "É a modalidade mais comum para bens e serviços comuns, que tem uma fase competitiva de lances.",
+        "feedbackCompleto": "No pregão, a disputa por lances ocorre em uma fase posterior à apresentação das propostas. A Administração abre as propostas, seleciona as mais vantajosas e convoca os licitantes para uma disputa em que eles oferecem lances sucessivos e decrescentes. (Referência: 'Topico 4-modalidades').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Lei nº 14.133/2021 estabelece sobre as 'irregularidades' em licitações?",
+        "options": [
+            "As irregularidades formais, como a ausência de uma vírgula no edital, podem levar à nulidade do processo.",
+            "As irregularidades que não causem prejuízo ao interesse público ou à competitividade do processo podem ser sanadas ou convalidadas.",
+            "Todas as irregularidades são insanáveis e levam à nulidade do processo.",
+            "A lei não prevê sanções para irregularidades formais."
+        ],
+        "answer": 1,
+        "hint": "Pense no princípio do formalismo moderado, que busca a preservação do processo e da contratação.",
+        "feedbackCompleto": "A NLLC (Art. 165) adota o princípio do formalismo moderado, que busca a preservação do processo licitatório e do contrato. Irregularidades que não causem prejuízo ao interesse público, não violem os princípios da licitação e possam ser sanadas, podem ser corrigidas, e o processo continua. Apenas irregularidades graves e insanáveis levam à nulidade. (Referência: 'Irregularidades').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Nova Lei de Licitações (NLLC) entende por 'alienação'?",
+        "options": [
+            "A aquisição de bens pela Administração Pública.",
+            "A transferência de domínio de bens da Administração a terceiros, como a venda de imóveis ou de bens móveis inservíveis.",
+            "A locação de bens para uso da Administração.",
+            "A contratação de serviços por terceiros."
+        ],
+        "answer": 1,
+        "hint": "Pense no ato de 'vender' ou 'transferir' a propriedade de um bem público.",
+        "feedbackCompleto": "Alienação é o ato de transferir o domínio de bens da Administração a terceiros. A NLLC (Art. 76) estabelece que a alienação de bens imóveis dependerá de autorização legislativa e de licitação, na modalidade leilão. A alienação de bens móveis também exige licitação, na modalidade leilão. (Referência: 'Topico 4-alienacoes').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a principal característica do 'contrato de eficiência' na Lei nº 14.133/2021?",
+        "options": [
+            "Um contrato para aquisição de bens de alta tecnologia.",
+            "Um contrato cujo objetivo é a redução de despesas da Administração, com o contratado sendo remunerado com base em percentual da economia gerada.",
+            "Um contrato de prestação de serviços por prazo indeterminado.",
+            "Um contrato celebrado com dispensa de licitação em caráter emergencial."
+        ],
+        "answer": 1,
+        "hint": "O nome já diz: busca-se a 'eficiência' e a 'economia'.",
+        "feedbackCompleto": "O contrato de eficiência (Art. 6º, LV, da Lei 14.133/2021) é um tipo de contrato administrativo que tem como objetivo a redução de despesas para a Administração, por meio de melhorias na execução de serviços ou processos. O contratado é remunerado com base em um percentual da economia real obtida, o que incentiva a inovação e a busca por melhores resultados. (Referência: 'Topico 4-contratos-administrativos').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Lei nº 14.133/2021 prevê sobre a duração dos 'contratos de prestação de serviços e fornecimentos contínuos'?",
+        "options": [
+            "1 ano, prorrogável por igual período.",
+            "2 anos, prorrogável por igual período.",
+            "5 anos, com possibilidade de prorrogação por igual período, totalizando no máximo 10 anos.",
+            "Indeterminado."
+        ],
+        "answer": 2,
+        "hint": "A nova lei traz um prazo geral de 5 anos, mas permite prorrogação para a continuidade do serviço.",
+        "feedbackCompleto": "A Lei nº 14.133/2021 (Art. 105) estabelece que a duração dos contratos será a do prazo previsto no edital, limitado a 5 anos para os contratos de serviços e fornecimentos contínuos, com possibilidade de prorrogação por igual período, totalizando no máximo 10 anos. (Referência: 'Topico 4-contratos-administrativos').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a finalidade de um 'plano anual de contratações (PAC)' na NLLC?",
+        "options": [
+            "É um documento opcional que pode ser dispensado a critério do gestor.",
+            "É um instrumento de planejamento que consolida as demandas de contratação de um órgão ou entidade para o exercício seguinte, promovendo a racionalização das compras.",
+            "É o documento que define o contrato após a licitação.",
+            "Serve apenas para contratações emergenciais."
+        ],
+        "answer": 1,
+        "hint": "É uma ferramenta de planejamento essencial que antecede as licitações.",
+        "feedbackCompleto": "O Plano Anual de Contratações (PAC) é um documento de planejamento (Art. 12, VII, da Lei 14.133/2021) que consolida todas as demandas de contratação de bens, serviços, obras e soluções de tecnologia da informação de um órgão ou entidade para o exercício seguinte. Sua finalidade é aprimorar o planejamento, racionalizar os gastos, identificar sobreposições e promover compras mais eficientes. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Lei nº 14.133/2021 prevê sobre o 'agente de contratação'?",
+        "options": [
+            "É o responsável pela aprovação da licitação.",
+            "É o profissional designado para conduzir o processo licitatório, auxiliado por uma equipe de apoio, com o dever de tomar decisões e conduzir todas as fases do processo.",
+            "É o fiscal do contrato após a assinatura.",
+            "É um servidor que não tem autonomia para tomar decisões."
+        ],
+        "answer": 1,
+        "hint": "É o profissional que tem a responsabilidade de conduzir a licitação do início ao fim.",
+        "feedbackCompleto": "O agente de contratação (Art. 8º da NLLC) é o profissional designado para conduzir o processo licitatório, auxiliado por uma equipe de apoio. Ele é o responsável por tomar as decisões, conduzir todas as fases do processo, desde a fase preparatória até o encerramento, e garantir que a licitação seja feita de forma correta e legal. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "No que consiste a 'Pesquisa de Preços' na fase preparatória da licitação?",
+        "options": [
+            "Apenas a consulta de preços em sites de e-commerce.",
+            "O levantamento de preços de mercado para estimar o valor da contratação e garantir a vantajosidade.",
+            "A etapa de negociação com o vencedor da licitação.",
+            "A verificação da conformidade do objeto após a entrega."
+        ],
+        "answer": 1,
+        "hint": "É uma etapa crucial para definir o valor de referência da contratação e evitar superfaturamento.",
+        "feedbackCompleto": "A pesquisa de preços (Art. 23 da Lei 14.133/2021) é uma etapa obrigatória da fase preparatória da licitação. Ela consiste no levantamento do valor de mercado do objeto a ser contratado, a fim de estimar o valor máximo aceitável pela Administração e verificar a vantajosidade da proposta dos licitantes, garantindo a economicidade. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual o prazo mínimo de antecedência para a divulgação do edital de licitação no PNCP, na modalidade pregão para bens e serviços comuns?",
+        "options": [
+            "5 dias úteis.",
+            "8 dias úteis.",
+            "10 dias úteis.",
+            "15 dias úteis."
+        ],
+        "answer": 1,
+        "hint": "Pense no prazo para a preparação dos licitantes antes da abertura das propostas.",
+        "feedbackCompleto": "O Art. 55 da Lei nº 14.133/2021 estabelece os prazos mínimos para a divulgação dos editais. No caso do pregão para bens e serviços comuns, o prazo mínimo entre a data de publicação do edital e a data de apresentação das propostas é de 8 (oito) dias úteis. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual o critério de julgamento que prioriza a inovação e o desenvolvimento sustentável?",
+        "options": [
+            "Menor preço.",
+            "Maior retorno econômico.",
+            "Melhor técnica ou conteúdo artístico.",
+            "Técnica e preço."
+        ],
+        "answer": 1,
+        "hint": "Este critério avalia o benefício econômico que a solução trará para a Administração, incentivando a criatividade e a sustentabilidade.",
+        "feedbackCompleto": "O critério de julgamento 'Maior retorno econômico' (Art. 34, IV, da Lei 14.133/2021) é utilizado para a celebração de contratos de eficiência, que visam a geração de economia para a Administração e podem envolver soluções inovadoras e sustentáveis, remunerando o contratado com base na economia gerada. (Referência: 'Topico4 -criterios-de-julgamento').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a NLLC prevê sobre o 'Plano Anual de Contratações (PAC)'?",
+        "options": [
+            "É um documento opcional que pode ser dispensado a critério do gestor.",
+            "É um instrumento de planejamento que consolida as demandas de contratação de um órgão ou entidade para o exercício seguinte, promovendo a racionalização das compras.",
+            "É o documento que define o contrato após a licitação.",
+            "Serve apenas para contratações emergenciais."
+        ],
+        "answer": 1,
+        "hint": "É uma ferramenta de planejamento essencial que antecede as licitações.",
+        "feedbackCompleto": "O Plano Anual de Contratações (PAC) é um documento de planejamento (Art. 12, VII, da Lei 14.133/2021) que consolida todas as demandas de contratação de bens, serviços, obras e soluções de tecnologia da informação de um órgão ou entidade para o exercício seguinte. Sua finalidade é aprimorar o planejamento, racionalizar os gastos, identificar sobreposições e promover compras mais eficientes. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a 'fase de habilitação' busca verificar em um licitante?",
+        "options": [
+            "Apenas a sua capacidade técnica.",
+            "A sua capacidade jurídica, técnica, econômico-financeira e fiscal para executar o contrato.",
+            "A sua capacidade de apresentar o menor preço.",
+            "A sua capacidade de apresentar a melhor técnica."
+        ],
+        "answer": 1,
+        "hint": "É sobre a capacidade do licitante, não sobre sua proposta de preço.",
+        "feedbackCompleto": "A fase de habilitação (Art. 62 da Lei 14.133/2021) verifica se o licitante atende às condições prévias estabelecidas no edital para executar o contrato. As exigências se referem à sua capacidade jurídica, técnica, econômico-financeira e fiscal para cumprir o contrato, ou seja, se ele 'pode' executá-lo. (Referência: 'Habilitacao e encerramento').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual o prazo máximo de duração de um contrato de prestação de serviços e fornecimentos contínuos na NLLC, em regra?",
+        "options": [
+            "1 ano, prorrogável por igual período.",
+            "2 anos, prorrogável por igual período.",
+            "5 anos, com possibilidade de prorrogação por igual período, totalizando no máximo 10 anos.",
+            "Indeterminado."
+        ],
+        "answer": 2,
+        "hint": "A nova lei traz um prazo geral de 5 anos, mas permite prorrogação para a continuidade do serviço.",
+        "feedbackCompleto": "A Lei nº 14.133/2021 (Art. 105) estabelece que a duração dos contratos será a do prazo previsto no edital, limitado a 5 anos para os contratos de serviços e fornecimentos contínuos, com possibilidade de prorrogação por igual período, totalizando no máximo 10 anos. (Referência: 'Topico 4-contratos-administrativos').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual das seguintes 'irregularidades' em licitações é considerada um ato que pode levar à nulidade do contrato?",
+        "options": [
+            "A apresentação de uma proposta com o valor muito baixo, mas que pode ser justificado.",
+            "O atraso na entrega de um documento de habilitação, se o edital permitir a correção.",
+            "A fraude comprovada no processo, com o uso de documentos falsos ou conluio entre licitantes.",
+            "A ausência de uma única vírgula no edital."
+        ],
+        "answer": 2,
+        "hint": "Pense nas irregularidades que violam os princípios básicos da licitação, como a legalidade e a isonomia.",
+        "feedbackCompleto": "Conforme o material, a fraude comprovada no processo licitatório (ex: uso de documentos falsos, conluio entre licitantes, apresentação de propostas 'de fachada') é uma irregularidade grave que gera a nulidade do processo e do contrato, pois viola a legalidade, a moralidade e a competitividade. Irregularidades meramente formais e sanáveis não levam à nulidade. (Referência: 'Topico 4-irregularidades').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Lei nº 14.133/2021 prevê sobre os 'contratos administrativos'?",
+        "options": [
+            "São sempre celebrados por meio de leilão.",
+            "São regidos pelas normas de direito privado, sem nenhuma exceção.",
+            "São regidos pelas normas de direito público, com características de supremacia do interesse público e cláusulas exorbitantes, mas com a aplicação subsidiária do direito privado.",
+            "Não podem ser alterados após a sua assinatura."
+        ],
+        "answer": 2,
+        "hint": "Pense no regime jurídico que rege os contratos da Administração, que tem regras próprias e diferentes do direito privado.",
+        "feedbackCompleto": "Os contratos administrativos (Art. 104 da NLLC) são regidos pelas normas de direito público, com características como a supremacia do interesse público e a presença de cláusulas exorbitantes (ex: alteração unilateral, rescisão unilateral). No entanto, de forma subsidiária, a eles se aplicam os princípios da teoria geral dos contratos e as disposições de direito privado. (Referência: 'Topico 4-contratos-administrativos').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a principal característica do critério de julgamento de 'melhor técnica ou conteúdo artístico'?",
+        "options": [
+            "A proposta é avaliada apenas pelo preço.",
+            "A proposta é avaliada apenas pela técnica, sem considerar o preço.",
+            "A proposta é avaliada com foco na técnica e no mérito, com um peso maior para a qualidade técnica, mas também considerando o preço.",
+            "A proposta é avaliada pela melhor oferta de lances."
+        ],
+        "answer": 2,
+        "hint": "Pense em uma combinação dos dois critérios para identificar a melhor proposta, com uma prioridade para o aspecto técnico.",
+        "feedbackCompleto": "O critério de julgamento de melhor técnica ou conteúdo artístico (Art. 36 da Lei 14.133/2021) é utilizado para a contratação de serviços técnicos especializados e de natureza predominantemente intelectual. Ele prioriza a qualidade técnica da proposta, com um peso maior para a técnica do que para o preço, para garantir que a Administração obtenha a melhor solução possível. (Referência: 'Topico4 -criterios-de-julgamento').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a NLLC prevê sobre a participação de 'microempresas e empresas de pequeno porte' em licitações?",
+        "options": [
+            "São proibidas de participar de licitações.",
+            "A lei não prevê nenhum tratamento diferenciado para elas.",
+            "A lei prevê um tratamento diferenciado e simplificado, com critérios de desempate, preferência na contratação e prazos para regularização de documentos, visando a promoção do desenvolvimento econômico e social.",
+            "Só podem participar de licitações de pequeno valor."
+        ],
+        "answer": 2,
+        "hint": "Pense nas prioridades da lei para beneficiar as pequenas empresas.",
+        "feedbackCompleto": "A Lei nº 14.133/2021 (Art. 4º) prevê um tratamento diferenciado e simplificado para as microempresas e empresas de pequeno porte, com o objetivo de promover o desenvolvimento nacional sustentável. Esse tratamento inclui critérios de desempate a seu favor, preferência na contratação e prazos para regularização de documentos de habilitação, o que aumenta a sua participação e a competitividade. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "Qual a modalidade de licitação obrigatória para a alienação (venda) de bens móveis e imóveis da Administração?",
+        "options": [
+            "Pregão.",
+            "Concorrência.",
+            "Concurso.",
+            "Leilão."
+        ],
+        "answer": 3,
+        "hint": "Pense na modalidade que tem como objetivo a venda de bens do Estado.",
+        "feedbackCompleto": "O leilão (Art. 31 da Lei 14.133/2021) é a modalidade de licitação obrigatória para a venda de bens móveis inservíveis (não mais úteis para a Administração) e de imóveis que não se enquadrem nas hipóteses de contratação direta. O critério de julgamento é o maior lance, e não o menor preço, como nas demais modalidades. (Referência: 'Topico 4-alienacoes').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Lei nº 14.133/2021 estabelece sobre a 'matriz de riscos' em contratos administrativos?",
+        "options": [
+            "Proíbe a sua utilização para contratos de obra.",
+            "Incentiva a utilização de matrizes de riscos, que alocam os riscos do contrato entre a Administração e o contratado, aumentando a segurança jurídica e a eficiência.",
+            "O contratado é sempre responsável por todos os riscos do contrato.",
+            "A Administração é sempre responsável por todos os riscos do contrato."
+        ],
+        "answer": 1,
+        "hint": "É um instrumento de gestão para alocar as incertezas inerentes a um contrato.",
+        "feedbackCompleto": "A matriz de riscos (Art. 103 da Lei 14.133/2021) é um instrumento de governança e gestão contratual que visa identificar os riscos (financeiros, técnicos, operacionais, etc.) e distribuí-los entre as partes (Administração e contratado) de forma clara e equilibrada. Essa alocação de riscos prévia aumenta a segurança jurídica e evita futuros litígios. (Referência: 'Topico 4-contratos-administrativos').",
+        "subjects": ["licitacoes"]
+    },
+    {
+        "question": "O que a Lei nº 14.133/2021 estabelece sobre o 'princípio da segregação de funções'?",
+        "options": [
+            "Que a mesma pessoa pode autorizar, executar e fiscalizar uma mesma transação.",
+            "Que as funções de autorização, execução, registro e fiscalização de uma mesma transação devem ser atribuídas a pessoas diferentes, a fim de evitar conflitos de interesse e fraudes.",
+            "Que o gestor pode centralizar todas as decisões em sua pessoa.",
+            "A lei não aborda este princípio."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de dividir as tarefas para que o controle seja mais seguro.",
+        "feedbackCompleto": "O princípio da segregação de funções (Art. 5º da NLLC) exige que as responsabilidades-chave de um processo (como autorizar, executar, registrar e fiscalizar) sejam atribuídas a pessoas diferentes. O objetivo é evitar que uma única pessoa possa cometer e esconder fraudes ou erros, aumentando a segurança e a confiabilidade dos processos. (Referência: 'Topico 4-disposicoes-preliminares').",
+        "subjects": ["licitacoes"]
     }
 ]
+
+
+
 
 
 
