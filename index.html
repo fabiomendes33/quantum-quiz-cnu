@@ -371,6 +371,7 @@
             <div class="subject-tab" data-subject="estatistica">Estatística</div>
             <div class="subject-tab" data-subject="Informatica">Informatica</div>
             <div class="subject-tab" data-subject="Simulado2025 CNU">Simulado2025CNU</div>
+            <button class="cyber-button" id="simulado-btn">SIMULADO 120 Questões</button> <div class="subject-tab" data-subject="gestao">Gestão Pública</div>
         </div>
         
         <div class="question-container" id="mainQuestionContainer">
@@ -433,6 +434,8 @@
         const hintBtn = document.getElementById('hintBtn');
         const hintDisplay = document.getElementById('hintDisplay');
         const feedbackDisplay = document.getElementById('feedbackDisplay');
+        const simuladoBtn = document.getElementById('simulado-btn');
+
 
         // **NOVA LÓGICA DE INICIALIZAÇÃO**
         // Carregar questões do arquivo JSON e então inicializar o app
@@ -757,9 +760,17 @@
             }
         }
 
-        // Filtro por matéria
-        subjectTabs.forEach(tab => {
-            tab.addEventListener('click', () => {
+                 // ... (depois de todas as outras lógicas) ...
+                 simuladoBtn.addEventListener('click', () => {
+                 isReviewMode = false;
+                 selectedSubject = "simulado"; // Um novo 'filtro' para o simulado
+                 startSimulado(120); // Inicia o simulado com 120 questões
+                 addTerminalLine(`> Simulado de 120 questões iniciado...`);
+});
+
+                // Filtro por matéria
+                subjectTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
                 subjectTabs.forEach(t => t.classList.remove('active'));
                 tab.classList.add('active');
                 selectedSubject = tab.dataset.subject;
@@ -784,20 +795,60 @@
         });
 
         // Modo de revisão
-        function startReviewMode() {
+           function startReviewMode() {
             isReviewMode = true;
             currentQuestionIndex = 0;
             loadReviewQuestion();
             updateNavigationButtons(); // Atualiza os textos dos botões
         }
 
-        function loadReviewQuestion() {
+            function loadReviewQuestion() {
             const q = filteredQuestions[currentQuestionIndex];
             questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
             optionsEl.innerHTML = '';
+            }
+
+            function startSimulado(numQuestoes) {
+            if (questions.length < numQuestoes) {
+            alert(`Não há questões suficientes para o simulado. Total disponível: ${questions.length}`);
+            return;
+
+            // Função auxiliar para misturar o array
+            function shuffle(array) {
+            let currentIndex = array.length, randomIndex;
+            while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+            [array[currentIndex], array[randomIndex]] = [
+            array[randomIndex], array[currentIndex]];
+  }         return array;
+
+            // Adaptação da sua função loadQuestion
+            function loadQuestion() {
+            // ... sua função original loadQuestion() ...
+           // Adicione um 'if' para o modo simulado
+           const q = filteredQuestions[currentQuestionIndex];
+          // ... (resto da sua função) ...
+}
+}
+    } 
+
+             // Mistura as questões de forma aleatória e seleciona o número desejado
+                filteredQuestions = shuffle(questions).slice(0, numQuestoes);
+                currentQuestionIndex = 0;
+                userAnswers = Array(filteredQuestions.length).fill(undefined);
+                loadQuestion();
+                updateNavigationButtons();
+
+                // Esconde feedback e dica ao iniciar um novo simulado
+                feedbackDisplay.style.display = 'none';
+                hintDisplay.style.display = 'none';
+                hintBtn.style.display = 'block'; // Mostra o botão de dica
+}
+
 
             // Esconde dica e feedback ao carregar nova questão no modo revisão
-            hintDisplay.style.display = 'none';
+            hintDisplay.style.display = 'none'; 
             feedbackDisplay.style.display = 'none';
             hintBtn.style.display = 'none'; // Garante que o botão de dica esteja escondido
 
@@ -844,7 +895,7 @@
 
                 optionsEl.appendChild(optionEl);
             });
-        }
+        
 
         // Botão de Dica
         hintBtn.addEventListener('click', () => {
@@ -860,6 +911,8 @@
                 feedbackDisplay.style.display = 'none';
                 addTerminalLine(`> Nenhuma dica encontrada.`);
             }
+            
+
         });
 
     </script>
