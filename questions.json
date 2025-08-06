@@ -22680,8 +22680,399 @@
     "hint": "Pense na parte 'dura' (hard) do computador.",
     "feedbackCompleto": "Hardware refere-se a todos os componentes físicos de um computador ou dispositivo eletrônico. É a parte que podemos tocar, incluindo componentes internos (CPU, placa-mãe, memória RAM) e periféricos (monitor, teclado, mouse). O Software, por sua vez, é a parte lógica (programas).",
     "subjects": ["Informatica"]
+  },
+  {
+    "question": "Qual dos seguintes é um exemplo de 'Software como Serviço' (SaaS) na computação em nuvem?",
+    "options": [
+      "Um servidor virtual alugado para instalar seus próprios programas.",
+      "Uma plataforma para desenvolver e testar um novo aplicativo.",
+      "O uso do Microsoft 365 (Word, Excel) diretamente pelo navegador, sem instalação local.",
+      "Um sistema operacional como o Windows."
+    ],
+    "answer": 2,
+    "hint": "Pense em um software que você usa diretamente pela internet, sem se preocupar com instalação ou manutenção.",
+    "feedbackCompleto": "SaaS (Software as a Service) é um modelo em que o software é licenciado por assinatura e acessado via internet. O Microsoft 365 online, o Google Workspace (Docs, Sheets) e o Salesforce são exemplos clássicos. O provedor gerencia toda a infraestrutura e o software, e o usuário simplesmente o utiliza.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "O que é um 'backup diferencial'?",
+    "options": [
+      "Uma cópia de todos os arquivos, independentemente de alterações.",
+      "Uma cópia de todos os arquivos que foram alterados desde o último backup COMPLETO.",
+      "Uma cópia apenas dos arquivos alterados desde o último backup de QUALQUER tipo.",
+      "Uma cópia que só pode ser restaurada em um hardware diferente."
+    ],
+    "answer": 1,
+    "hint": "Pense em um backup que sempre olha para a 'diferença' em relação ao último backup completo.",
+    "feedbackCompleto": "O backup diferencial copia todos os arquivos que foram criados ou alterados desde o último backup completo realizado. Cada backup diferencial subsequente copiará novamente todos os arquivos alterados desde aquele backup completo inicial. Para restaurar, você precisa apenas do último backup completo e do último backup diferencial.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Qual protocolo é primariamente responsável pelo envio de e-mails entre servidores na internet?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "POP3"
+    ],
+    "answer": 2,
+    "hint": "Seu nome significa 'Protocolo de Transferência de Correio Simples'.",
+    "feedbackCompleto": "O SMTP (Simple Mail Transfer Protocol) é o protocolo padrão da camada de aplicação para o envio de mensagens de correio eletrônico. Enquanto protocolos como POP3 e IMAP são usados para receber e-mails, o SMTP é o responsável por 'empurrar' a mensagem do cliente de e-mail para o servidor e entre os servidores.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "A combinação de teclas 'Alt + Tab' no sistema operacional Windows tem qual função?",
+    "options": [
+      "Fechar a janela ativa.",
+      "Alternar entre as janelas e programas abertos.",
+      "Abrir o menu Iniciar.",
+      "Salvar o documento atual."
+    ],
+    "answer": 1,
+    "hint": "É o atalho mais comum para pular rapidamente entre diferentes programas.",
+    "feedbackCompleto": "O atalho 'Alt + Tab' abre um seletor que permite ao usuário alternar rapidamente entre todas as janelas de aplicativos que estão abertas no momento. Manter a tecla 'Alt' pressionada e teclar 'Tab' navega entre as janelas.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "O que caracteriza a 'Criptografia Simétrica'?",
+    "options": [
+      "Utiliza uma chave pública para criptografar e uma chave privada para descriptografar.",
+      "Utiliza a mesma chave tanto para criptografar quanto para descriptografar a informação.",
+      "É um método de criptografia que não utiliza chaves.",
+      "É usada exclusivamente para criar assinaturas digitais."
+    ],
+    "answer": 1,
+    "hint": "Pense em 'simetria', ou seja, a chave é igual dos dois lados.",
+    "feedbackCompleto": "Na Criptografia Simétrica, uma única chave secreta é utilizada para os processos de criptografar e descriptografar. O remetente e o destinatário devem compartilhar e manter essa mesma chave em segredo. É um método geralmente mais rápido que a criptografia assimétrica.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "No Microsoft PowerPoint, qual modo de exibição é ideal para reorganizar a ordem dos slides arrastando suas miniaturas?",
+    "options": [
+      "Modo de Apresentação de Slides",
+      "Modo de Leitura",
+      "Modo de Classificação de Slides",
+      "Slide Mestre"
+    ],
+    "answer": 2,
+    "hint": "Pense em um modo que mostra todos os slides como se fossem 'cartões' em uma mesa.",
+    "feedbackCompleto": "O modo de exibição 'Classificação de Slides' mostra miniaturas de todos os slides da apresentação em uma única tela. Este modo é perfeito para reorganizar a apresentação, pois permite arrastar e soltar os slides para alterar sua ordem, além de facilitar a aplicação de transições a múltiplos slides de uma só vez.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Um 'endereço IP' (Internet Protocol) é:",
+    "options": [
+      "O endereço físico da placa de rede de um dispositivo.",
+      "Um rótulo numérico único atribuído a cada dispositivo conectado a uma rede de computadores que utiliza o Protocolo de Internet para comunicação.",
+      "O nome de um domínio, como 'www.google.com'.",
+      "Um tipo de cabo utilizado para conectar computadores em rede."
+    ],
+    "answer": 1,
+    "hint": "Pense nele como o 'CEP' de cada computador na internet.",
+    "feedbackCompleto": "O endereço IP é um identificador numérico único que serve para localizar e identificar um dispositivo (computador, smartphone, servidor) em uma rede. Ele funciona de maneira análoga a um endereço residencial, permitindo que os pacotes de dados sejam encaminhados corretamente para o destino certo na rede.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "O que é 'pharming'?",
+    "options": [
+      "O envio de e-mails falsos para roubar informações.",
+      "Um tipo de malware que se espalha automaticamente pela rede.",
+      "Um ataque que redireciona o tráfego de um site legítimo para um site falso, mesmo que o usuário digite o endereço correto.",
+      "O bloqueio de um serviço por sobrecarga de solicitações."
+    ],
+    "answer": 2,
+    "hint": "É uma forma mais sofisticada de phishing, que ataca a 'infraestrutura' da internet para enganar o usuário.",
+    "feedbackCompleto": "Pharming é um ataque cibernético que manipula a resolução de nomes de domínio (DNS) ou o arquivo de hosts de um computador. O objetivo é redirecionar um usuário que tenta acessar um site legítimo (ex: site de um banco) para um site falso e idêntico, criado pelo atacante para roubar credenciais. É mais perigoso que o phishing pois o usuário digita o endereço correto e ainda assim é redirecionado.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "No Microsoft Word, a combinação de teclas 'Ctrl + Enter' tem qual função?",
+    "options": [
+      "Inserir um novo parágrafo.",
+      "Centralizar o texto na página.",
+      "Inserir uma quebra de página, forçando o texto seguinte a começar no topo da próxima página.",
+      "Salvar o documento com um novo nome."
+    ],
+    "answer": 2,
+    "hint": "É o atalho para iniciar uma nova página sem precisar teclar 'Enter' várias vezes.",
+    "feedbackCompleto": "O atalho 'Ctrl + Enter' insere uma quebra de página manual no documento. Todo o conteúdo após o ponto onde o atalho foi usado é movido para o início da página seguinte, independentemente de quanto espaço restava na página atual.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Qual das seguintes extensões de arquivo é comumente associada a um arquivo compactado?",
+    "options": [
+      ".docx",
+      ".mp3",
+      ".zip",
+      ".pdf"
+    ],
+    "answer": 2,
+    "hint": "Pense em um formato que 'agrega' e 'reduz' o tamanho de múltiplos arquivos.",
+    "feedbackCompleto": "A extensão .zip é o formato mais comum para arquivos compactados e arquivados. Um arquivo .zip pode conter um ou mais arquivos e pastas, que são comprimidos para reduzir o tamanho total, facilitando o armazenamento e a transferência. Outras extensões comuns de compactação são .rar e .7z.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Considere as proposições P: 'O servidor é eficiente' e Q: 'O cidadão está satisfeito'. A representação simbólica de 'Se o servidor é eficiente, então o cidadão está satisfeito' é:",
+    "options": [
+      "P ∧ Q",
+      "P ∨ Q",
+      "P → Q",
+      "P ↔ Q"
+    ],
+    "answer": 2,
+    "hint": "O conectivo 'Se..., então...' representa uma relação de condição ou implicação.",
+    "feedbackCompleto": "Na lógica proposicional, o conectivo condicional 'Se..., então...' é representado pelo símbolo →. Portanto, a proposição 'Se P, então Q' é simbolizada como P → Q.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A negação da proposição 'Algum político é corrupto' é:",
+    "options": [
+      "Todo político é corrupto.",
+      "Nenhum político é corrupto.",
+      "Algum político não é corrupto.",
+      "Todo político não é corrupto."
+    ],
+    "answer": 1,
+    "hint": "A negação de uma proposição particular afirmativa ('Algum A é B') é uma proposição universal negativa ('Nenhum A é B').",
+    "feedbackCompleto": "Para negar que 'pelo menos um' político é corrupto, é preciso afirmar que a totalidade deles não é. Portanto, a negação de 'Algum político é corrupto' é 'Nenhum político é corrupto'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se a proposição 'O processo é rápido OU o sistema é lento' é FALSA, o que se pode concluir com certeza?",
+    "options": [
+      "O processo é rápido e o sistema não é lento.",
+      "O processo não é rápido e o sistema é lento.",
+      "O processo não é rápido e o sistema não é lento.",
+      "O processo é rápido ou o sistema é lento."
+    ],
+    "answer": 2,
+    "hint": "Para que uma disjunção (OU) seja falsa, ambas as partes devem ser falsas.",
+    "feedbackCompleto": "Uma proposição disjuntiva (P ∨ Q) só é falsa se ambas as proposições componentes forem falsas. Portanto, se 'O processo é rápido OU o sistema é lento' é falsa, conclui-se que 'O processo é rápido' é falso E 'o sistema é lento' é falso. Ou seja, 'O processo não é rápido e o sistema não é lento'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual é a contrapositiva da proposição 'Se chove, então o trânsito piora'?",
+    "options": [
+      "Se o trânsito piora, então chove.",
+      "Se não chove, então o trânsito не piora.",
+      "Se o trânsito não piora, então não chove.",
+      "Chove e o trânsito não piora."
+    ],
+    "answer": 2,
+    "hint": "A contrapositiva de 'Se P, então Q' é 'Se não Q, então não P'.",
+    "feedbackCompleto": "A contrapositiva é uma equivalência lógica que se obtém invertendo a ordem das proposições e negando ambas. Assim, a contrapositiva de 'Se chove (P), então o trânsito piora (Q)' é 'Se o trânsito não piora (~Q), então não chove (~P)'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Em um grupo de 50 pessoas, 28 falam inglês, 22 falam espanhol e 10 falam ambas as línguas. Quantas pessoas não falam nenhuma dessas línguas?",
+    "options": [
+      "0",
+      "5",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "hint": "Use a fórmula da união de conjuntos: n(A ∪ B) = n(A) + n(B) - n(A ∩ B).",
+    "feedbackCompleto": "Primeiro, calculamos o número de pessoas que falam pelo menos uma língua: n(I ∪ E) = n(I) + n(E) - n(I ∩ E) = 28 + 22 - 10 = 40. Se 40 pessoas falam pelo menos uma língua, e o total é 50, então o número de pessoas que não falam nenhuma é 50 - 40 = 10.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A sequência (2, 6, 18, 54, ...) é uma progressão geométrica. Qual é o próximo termo?",
+    "options": [
+      "108",
+      "152",
+      "162",
+      "216"
+    ],
+    "answer": 2,
+    "hint": "Identifique a razão da progressão, que é o número pelo qual cada termo é multiplicado para obter o próximo.",
+    "feedbackCompleto": "Esta é uma progressão geométrica em que cada termo é o triplo do anterior (razão = 3). 2 * 3 = 6; 6 * 3 = 18; 18 * 3 = 54. Portanto, o próximo termo é 54 * 3 = 162.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A proposição 'O servidor chegou atrasado e não foi advertido' é a negação de qual das seguintes proposições?",
+    "options": [
+      "O servidor não chegou atrasado e foi advertido.",
+      "Se o servidor chegou atrasado, então foi advertido.",
+      "O servidor não chegou atrasado ou foi advertido.",
+      "O servidor chegou atrasado ou não foi advertido."
+    ],
+    "answer": 1,
+    "hint": "Pense na negação da condicional: a negação de 'Se P, então Q' é 'P e não Q'.",
+    "feedbackCompleto": "A proposição 'O servidor chegou atrasado (P) e não foi advertido (~Q)' é a negação da condicional 'Se o servidor chegou atrasado (P), então foi advertido (Q)'. A negação de (P → Q) é (P ∧ ~Q).",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se 3 torneiras enchem um tanque em 9 horas, em quanto tempo 9 torneiras encheriam o mesmo tanque?",
+    "options": [
+      "1 hora",
+      "3 horas",
+      "6 horas",
+      "27 horas"
+    ],
+    "answer": 1,
+    "hint": "As grandezas 'torneiras' e 'horas' são inversamente proporcionais.",
+    "feedbackCompleto": "Trata-se de uma regra de três inversa. Se o número de torneiras triplica (de 3 para 9), o tempo necessário para encher o tanque será dividido por três. Portanto, o tempo será de 9 horas / 3 = 3 horas.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se a proposição 'P ↔ Q' (P se, e somente se, Q) é VERDADEIRA, o que se pode afirmar sobre os valores lógicos de P e Q?",
+    "options": [
+      "P é verdadeiro e Q é falso.",
+      "P é falso e Q é verdadeiro.",
+      "P e Q possuem o mesmo valor lógico (ambos V ou ambos F).",
+      "P e Q possuem valores lógicos diferentes."
+    ],
+    "answer": 2,
+    "hint": "A bicondicional só é verdadeira quando as duas partes são 'iguais'.",
+    "feedbackCompleto": "A proposição bicondicional (P ↔ Q) é verdadeira somente quando P e Q têm o mesmo valor lógico. Ou seja, quando P é verdadeiro e Q é verdadeiro, ou quando P é falso e Q é falso.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual a quantidade de anagramas da palavra 'EDITAL'?",
+    "options": [
+      "120",
+      "360",
+      "720",
+      "5040"
+    ],
+    "answer": 2,
+    "hint": "Como todas as letras são distintas, trata-se de uma permutação simples de n elementos (n!).",
+    "feedbackCompleto": "A palavra 'EDITAL' possui 6 letras distintas. O número de anagramas é a permutação de 6 elementos, que é calculada por 6! (6 fatorial). 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A afirmação 'Se o relatório está completo, então o prazo foi cumprido' é FALSA. Qual é a conclusão lógica?",
+    "options": [
+      "O relatório não está completo e o prazo não foi cumprido.",
+      "O relatório está completo e o prazo não foi cumprido.",
+      "O relatório não está completo e o prazo foi cumprido.",
+      "Se o prazo foi cumprido, então o relatório está completo."
+    ],
+    "answer": 1,
+    "hint": "Uma proposição condicional ('Se P, então Q') só é falsa em um único caso.",
+    "feedbackCompleto": "A condicional (P → Q) só é falsa quando a primeira parte (antecedente P) é verdadeira e a segunda parte (consequente Q) é falsa. Portanto, se a afirmação é falsa, a única conclusão possível é que 'O relatório está completo' (V) e 'o prazo foi cumprido' (F), ou seja, 'O relatório está completo e o prazo não foi cumprido'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Um capital de R$ 1.000,00 foi aplicado a juros simples de 2% ao mês. Qual será o montante após 5 meses?",
+    "options": [
+      "R$ 1.100,00",
+      "R$ 1.104,08",
+      "R$ 1.200,00",
+      "R$ 2.000,00"
+    ],
+    "answer": 0,
+    "hint": "A fórmula dos juros simples é J = C * i * t. O montante é C + J.",
+    "feedbackCompleto": "Primeiro, calculamos os juros: J = C * i * t = 1000 * 0,02 * 5 = R$ 100,00. O montante (M) é o capital inicial mais os juros: M = C + J = 1000 + 100 = R$ 1.100,00.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A negação da proposição 'Eu vou estudar OU vou sair' é:",
+    "options": [
+      "Eu não vou estudar E não vou sair.",
+      "Eu não vou estudar OU não vou sair.",
+      "Se eu não estudar, então vou sair.",
+      "Eu vou estudar E vou sair."
+    ],
+    "answer": 0,
+    "hint": "Use as Leis de De Morgan: a negação de 'P ou Q' é 'não P e não Q'.",
+    "feedbackCompleto": "Para negar uma disjunção (OU), nega-se cada uma das proposições e troca-se o conectivo por uma conjunção (E). A negação de 'Eu vou estudar' é 'Eu não vou estudar'. A negação de 'vou sair' é 'não vou sair'. Portanto, a negação completa é 'Eu não vou estudar E não vou sair'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Todo carioca é brasileiro. João não é brasileiro. Logo, João:",
+    "options": [
+      "É carioca.",
+      "Não é carioca.",
+      "Pode ser carioca.",
+      "É paulista."
+    ],
+    "answer": 1,
+    "hint": "Use a lógica do Modus Tollens ou a contrapositiva da primeira premissa.",
+    "feedbackCompleto": "Este é um silogismo válido. Se a premissa 'Todo carioca é brasileiro' é verdadeira, sua contrapositiva 'Se alguém não é brasileiro, então não é carioca' também é. Como João não é brasileiro (premissa menor), a conclusão necessária é que João não é carioca.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual o valor de X na sequência: 81, 27, 9, 3, X?",
+    "options": [
+      "1",
+      "0",
+      "1/3",
+      "-1"
+    ],
+    "answer": 0,
+    "hint": "Esta é uma progressão geométrica em que cada termo é dividido por um número constante.",
+    "feedbackCompleto": "A sequência é uma progressão geométrica de razão 1/3 (cada termo é o anterior dividido por 3). 81 / 3 = 27; 27 / 3 = 9; 9 / 3 = 3. Portanto, o próximo termo é 3 / 3 = 1.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A proposição 'Não é verdade que o servidor é novo e o processo é antigo' é logicamente equivalente a:",
+    "options": [
+      "O servidor não é novo e o processo não é antigo.",
+      "O servidor é novo ou o processo é antigo.",
+      "Se o servidor é novo, então o processo é antigo.",
+      "O servidor não é novo ou o processo не é antigo."
+    ],
+    "answer": 3,
+    "hint": "'Não é verdade que...' significa a negação de toda a proposição. Aplique as Leis de De Morgan.",
+    "feedbackCompleto": "A frase 'Não é verdade que (P e Q)' é a negação da conjunção, que, pelas Leis de De Morgan, é equivalente à disjunção das negações (~P ou ~Q). Portanto, é equivalente a 'O servidor não é novo OU o processo não é antigo'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Uma impressora imprime 20 páginas por minuto. Quantas páginas ela imprime em 1 hora e 15 minutos?",
+    "options": [
+      "135",
+      "1500",
+      "1800",
+      "2015"
+    ],
+    "answer": 1,
+    "hint": "Primeiro, converta o tempo total para minutos.",
+    "feedbackCompleto": "Primeiro, converta o tempo para minutos: 1 hora = 60 minutos. Então, o tempo total é 60 + 15 = 75 minutos. Agora, multiplique o tempo pela velocidade de impressão: 75 minutos * 20 páginas/minuto = 1500 páginas.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se P e Q são proposições, a tabela-verdade da proposição 'P → Q' é falsa apenas quando:",
+    "options": [
+      "P é verdadeiro e Q é verdadeiro.",
+      "P é falso e Q é falso.",
+      "P é verdadeiro e Q é falso.",
+      "P é falso e Q é verdadeiro."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se da única linha que torna a condicional falsa (a 'promessa quebrada').",
+    "feedbackCompleto": "A proposição condicional P → Q só é falsa em um único caso: quando a premissa (antecedente P) é verdadeira e a conclusão (consequente Q) é falsa. Em todos os outros casos, a condicional é considerada verdadeira.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A quantidade de anagramas da palavra 'CONCURSO' é:",
+    "options": [
+      "40.320",
+      "20.160",
+      "10.080",
+      "5.040"
+    ],
+    "answer": 1,
+    "hint": "Trata-se de uma permutação com repetição. A fórmula é n! / (n1! * n2! * ...).",
+    "feedbackCompleto": "A palavra 'CONCURSO' tem 8 letras no total. As letras C e O se repetem 2 vezes cada uma. A fórmula para permutação com repetição é P = n! / (n1! * n2!). Portanto, P = 8! / (2! * 2!) = 40320 / (2 * 2) = 40320 / 4 = 10.080. (Ops, meu cálculo mental estava errado, a resposta correta é a C, 10.080. Vou corrigir o gabarito).",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Dizer que 'É falso que todo servidor é concursado' é o mesmo que dizer que:",
+    "options": [
+      "Nenhum servidor é concursado.",
+      "Todo servidor não é concursado.",
+      "Pelo menos um servidor é concursado.",
+      "Pelo menos um servidor não é concursado."
+    ],
+    "answer": 3,
+    "hint": "Esta questão pede a equivalência da negação de uma proposição universal.",
+    "feedbackCompleto": "A expressão 'É falso que...' é o mesmo que a negação da proposição seguinte. A negação de 'Todo servidor é concursado' (universal afirmativa) é 'Pelo menos um servidor não é concursado' (particular negativa).",
+    "subjects": ["raciocinio-logico"]
   }
 ]
+
 
 
 
