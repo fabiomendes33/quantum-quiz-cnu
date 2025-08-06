@@ -401,520 +401,344 @@
     </div>
     
     <script>
-        let questions = [];
-        let currentUser = null;
-        let currentQuestionIndex = 0;
-        let selectedSubject = "all";
-        let userAnswers = []; // Armazena o índice da resposta selecionada pelo usuário
-        let filteredQuestions = [];
-        let isReviewMode = false; // Novo estado para controlar o modo de revisão
+    let questions = [];
+    let currentUser = null;
+    let currentQuestionIndex = 0;
+    let selectedSubject = "all";
+    let userAnswers = []; // Armazena o índice da resposta selecionada pelo usuário
+    let filteredQuestions = [];
+    let isReviewMode = false; // Estado para controlar o modo de revisão
 
-        const scores = JSON.parse(localStorage.getItem('quantumQuizScores')) || [];
+    const scores = JSON.parse(localStorage.getItem('quantumQuizScores')) || [];
 
-        // Elementos DOM
-        const loginModal = document.getElementById('loginModal');
-        const resultsModal = document.getElementById('resultsModal');
-        const quizContainer = document.getElementById('quizContainer');
-        const loginBtn = document.getElementById('loginBtn');
-        const usernameInput = document.getElementById('username');
-        const emailInput = document.getElementById('email');
-        const terminal = document.getElementById('terminal');
-        const scoresList = document.getElementById('scoresList');
-        const questionEl = document.getElementById('question');
-        const optionsEl = document.getElementById('options');
-        const prevBtn = document.getElementById('prev-btn');
-        const nextBtn = document.getElementById('next-btn');
-        const finishQuizBtn = document.getElementById('finish-quiz-btn'); // Novo elemento aqui
-        const progressEl = document.getElementById('progress');
-        const subjectTabs = document.querySelectorAll('.subject-tab');
-        const resultStatsEl = document.getElementById('result-stats');
-        const reviewBtn = document.getElementById('reviewBtn');
-        const restartBtn = document.getElementById('restartBtn');
-        const mainQuestionContainer = document.getElementById('mainQuestionContainer');
-        const hintBtn = document.getElementById('hintBtn');
-        const hintDisplay = document.getElementById('hintDisplay');
-        const feedbackDisplay = document.getElementById('feedbackDisplay');
-        const simuladoBtn = document.getElementById('simulado-btn');
+    // Elementos DOM
+    const loginModal = document.getElementById('loginModal');
+    const resultsModal = document.getElementById('resultsModal');
+    const quizContainer = document.getElementById('quizContainer');
+    const loginBtn = document.getElementById('loginBtn');
+    const usernameInput = document.getElementById('username');
+    const emailInput = document.getElementById('email');
+    const terminal = document.getElementById('terminal');
+    const scoresList = document.getElementById('scoresList');
+    const questionEl = document.getElementById('question');
+    const optionsEl = document.getElementById('options');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const finishQuizBtn = document.getElementById('finish-quiz-btn');
+    const progressEl = document.getElementById('progress');
+    const subjectTabs = document.querySelectorAll('.subject-tab');
+    const resultStatsEl = document.getElementById('result-stats');
+    const reviewBtn = document.getElementById('reviewBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    const hintBtn = document.getElementById('hintBtn');
+    const hintDisplay = document.getElementById('hintDisplay');
+    const feedbackDisplay = document.getElementById('feedbackDisplay');
+    const simuladoBtn = document.getElementById('simulado-btn');
 
-
-        // **NOVA LÓGICA DE INICIALIZAÇÃO**
-        // Carregar questões do arquivo JSON e então inicializar o app
-        document.addEventListener('DOMContentLoaded', () => { // Garante que o DOM está carregado
-            fetch('questions.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    questions = data;
-                    console.log("Questões carregadas com sucesso.");
-                    addTerminalLine("> Banco de questões carregado.");
-                    
-                    // Exibe o modal de login assim que as questões são carregadas
-                    loginModal.style.display = 'flex';
-                    updateLeaderboard();
-                    addTerminalLine("> Aguardando autenticação <span class='blink'>_</span>");
-                })
-                .catch(error => {
-                    console.error('Erro ao carregar as questões:', error);
-                    addTerminalLine(`> ERRO: Falha ao carregar questões. Verifique 'questions.json'.`);
-                    alert('Não foi possível carregar as questões do quiz. Verifique o console para mais detalhes.');
-                });
-        });
-
-        // Login
-        loginBtn.addEventListener('click', () => {
-            const username = usernameInput.value.trim();
-            const email = emailInput.value.trim();
-            
-            if (username) {
-                currentUser = {
-                    username,
-                    email: email || null,
-                };
-                
-                loginModal.style.display = 'none';
-                quizContainer.style.display = 'block';
-                
-                addTerminalLine(`> Usuário autenticado: ${username}`);
-                addTerminalLine(`> Iniciando quiz...`);
-                
-                // Iniciar quiz
-                selectedSubject = "all";
-                isReviewMode = false; // Garante que não estamos no modo revisão ao iniciar
-                startQuiz();
-            } else {
-                alert("Digite um nome de usuário!");
-            }
-        });
-
-        // Iniciar ou reiniciar quiz
-        function startQuiz() {
-            currentQuestionIndex = 0;
-            userAnswers = Array(questions.length).fill(undefined); // Inicializa com undefined para cada questão
-            filterQuestionsBySubject();
-            if (filteredQuestions.length > 0) {
-                loadQuestion();
-            } else {
-                questionEl.textContent = "Nenhuma questão encontrada para esta matéria/filtro.";
-                optionsEl.innerHTML = "";
-            }
-            updateNavigationButtons();
-            // Esconde feedback e dica ao iniciar um novo quiz
-            feedbackDisplay.style.display = 'none';
-            hintDisplay.style.display = 'none';
-            hintBtn.style.display = 'block'; // Mostra o botão de dica
-        }
-
-        // Função para filtrar as questões
-        function filterQuestionsBySubject() {
-            filteredQuestions = selectedSubject === "all" 
-                ? questions 
-                : questions.filter(q => q.subjects.includes(selectedSubject));
-            // Redimensiona userAnswers para o novo conjunto de questões filtradas
-            userAnswers = Array(filteredQuestions.length).fill(undefined);
-        }
-
-        // Função para adicionar linhas ao terminal
-        function addTerminalLine(text) {
-            const p = document.createElement('p');
-            p.className = 'terminal-line';
-            p.innerHTML = text; // Usar innerHTML para permitir o span.blink
-            terminal.appendChild(p);
-            terminal.scrollTop = terminal.scrollHeight;
-        }
-
-        // Função para atualizar o leaderboard
-        function updateLeaderboard() {
-            scoresList.innerHTML = '';
-            const topScores = [...scores]
-                .sort((a, b) => b.score - a.score)
-                .slice(0, 10);
-            
-            if (topScores.length === 0) {
-                scoresList.innerHTML = '<p>Nenhuma pontuação registrada ainda</p>';
-                return;
-            }
-            
-            topScores.forEach((item, index) => {
-                const scoreItem = document.createElement('div');
-                scoreItem.className = 'leaderboard-item';
-                scoreItem.innerHTML = `
-                    <span>${index + 1}. ${item.username}</span>
-                    <span>${item.score}/${item.total}</span>
-                `;
-                scoresList.appendChild(scoreItem);
-            });
-        }
-
-        // Função para salvar pontuação
-        function saveScore(score, total) {
-            if (!currentUser) return; // Não salva se não houver usuário logado
-            
-            const newScore = {
-                username: currentUser.username,
-                score,
-                total,
-                date: new Date().toLocaleString(),
-                subject: selectedSubject
-            };
-            
-            scores.push(newScore);
-            localStorage.setItem('quantumQuizScores', JSON.stringify(scores));
-            updateLeaderboard();
-            
-            addTerminalLine(`> Pontuação salva: ${score}/${total}`);
-        }
-
-        // Carregar questão (modo quiz)
-        function loadQuestion() {
-            if (filteredQuestions.length === 0) {
-                questionEl.textContent = "Nenhuma questão encontrada para esta matéria.";
-                optionsEl.innerHTML = "";
-                hintBtn.style.display = 'none';
-                feedbackDisplay.style.display = 'none';
-                hintDisplay.style.display = 'none';
-                return;
-            }
-
-            const q = filteredQuestions[currentQuestionIndex];
-            questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
-            
-            optionsEl.innerHTML = '';
-            q.options.forEach((option, index) => {
-                const optionEl = document.createElement('div');
-                optionEl.classList.add('option');
-                optionEl.textContent = option;
-                optionEl.dataset.index = index; // Armazena o índice da opção
-                
-                // Remove classes de feedback de questões anteriores
-                optionEl.classList.remove('selected', 'correct', 'incorrect');
-
-                // Marca a opção se já foi selecionada
-                if (userAnswers[currentQuestionIndex] === index) {
-                    optionEl.classList.add('selected');
-                }
-
-                // Habilita/Desabilita clique dependendo se já respondeu
-                if (userAnswers[currentQuestionIndex] !== undefined) {
-                    optionEl.style.cursor = 'default';
-                } else {
-                    optionEl.style.cursor = 'pointer';
-                    optionEl.addEventListener('click', () => selectAnswer(index));
-                }
-                optionsEl.appendChild(optionEl);
-            });
-            
-            // Esconde feedback e dica ao carregar nova questão
-            feedbackDisplay.style.display = 'none';
-            hintDisplay.style.display = 'none';
-            hintBtn.style.display = 'block'; // Mostra o botão de dica por padrão
-
-            // Se a questão já foi respondida, mostra o feedback imediatamente
-            if (userAnswers[currentQuestionIndex] !== undefined) {
-                displayFeedback(userAnswers[currentQuestionIndex]);
-                hintBtn.style.display = 'none'; // Esconde o botão de dica se já respondeu
-            }
-
-            progressEl.style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
-        }
-
-        // Selecionar resposta e exibir feedback imediato
-        function selectAnswer(selectedIndex) {
-            if (userAnswers[currentQuestionIndex] !== undefined) {
-                // Já respondeu, não permite mudar a resposta
-                return;
-            }
-
-            userAnswers[currentQuestionIndex] = selectedIndex;
-            
-            // Desabilita cliques em todas as opções após a seleção
-            const options = optionsEl.querySelectorAll('.option');
-            options.forEach(option => {
-                option.style.cursor = 'default';
-                option.removeEventListener('click', () => selectAnswer(parseInt(option.dataset.index)));
-            });
-
-            displayFeedback(selectedIndex);
-            hintBtn.style.display = 'none'; // Esconde o botão de dica após responder
-        }
-
-        // Função para exibir o feedback
-        function displayFeedback(selectedIndex) {
-            const q = filteredQuestions[currentQuestionIndex];
-            const isCorrect = selectedIndex === q.answer;
-            
-            const options = optionsEl.querySelectorAll('.option');
-            options.forEach((option, index) => {
-                option.classList.remove('selected', 'correct', 'incorrect');
-                if (index === q.answer) {
-                    option.classList.add('correct'); // Marca a correta em verde
-                }
-                if (index === selectedIndex && !isCorrect) {
-                    option.classList.add('incorrect'); // Marca a errada que o usuário escolheu em vermelho
-                }
-                if (index === selectedIndex && isCorrect) {
-                    option.classList.add('selected'); // Mantém a seleção se estiver correta
-                }
-            });
-
-            let feedbackContent = '';
-            if (isCorrect) {
-                feedbackContent = `✅ **Correto!**\n\n`;
-            } else {
-                feedbackContent = `❌ **Incorreto.** Sua resposta foi: "${q.options[selectedIndex]}".\n\n`;
-            }
-            feedbackContent += `A resposta correta é: "${q.options[q.answer]}".\n\n`;
-            
-            if (q.feedbackCompleto) {
-                feedbackContent += q.feedbackCompleto;
-            } else {
-                feedbackContent += "Não há justificativa completa disponível para esta questão.";
-            }
-
-            feedbackDisplay.innerHTML = feedbackContent;
-            feedbackDisplay.style.display = 'block';
-            hintDisplay.style.display = 'none'; // Esconde a dica se o feedback estiver visível
-        }
-
-        // Finalizar quiz e calcular pontuação
-        function finishQuiz() {
-            let correctCount = 0;
-            for (let i = 0; i < filteredQuestions.length; i++) {
-                // Verifica se a questão foi respondida antes de comparar
-                if (userAnswers[i] !== undefined && userAnswers[i] === filteredQuestions[i].answer) {
-                    correctCount++;
-                }
-            }
-
-            const total = filteredQuestions.length;
-            const percentage = total > 0 ? Math.round((correctCount / total) * 100) : 0;
-
-            resultStatsEl.innerHTML = `Você acertou ${correctCount} de ${total} questões.<br> (${percentage}%)`;
-            saveScore(correctCount, total);
-            
-            addTerminalLine(`> Quiz concluído! Pontuação final: ${correctCount}/${total}`);
-            
-            quizContainer.style.display = 'none';
-            resultsModal.style.display = 'flex';
-        }
-
-        // Navegação
-        nextBtn.addEventListener('click', () => {
-            if (isReviewMode) {
-                if (currentQuestionIndex < filteredQuestions.length - 1) {
-                    currentQuestionIndex++;
-                    loadReviewQuestion();
-                } else {
-                    addTerminalLine('Fim da revisão. Voltando ao menu principal.');
-                    resultsModal.style.display = 'flex';
-                    quizContainer.style.display = 'none';
-                }
-            } else { // Modo quiz normal
-                if (currentQuestionIndex < filteredQuestions.length - 1) {
-                    currentQuestionIndex++;
-                    loadQuestion(); // Carrega a próxima questão no modo quiz
-                } else {
-                    // Se for a última questão do conjunto filtrado, ele ainda será 'Próxima' mas levará ao final
-                    finishQuiz(); // Se for a última questão, finaliza o quiz
-                }
-            }
-            updateNavigationButtons();
-        });
-
-        prevBtn.addEventListener('click', () => {
-            if (currentQuestionIndex > 0) {
-                currentQuestionIndex--;
-                if (isReviewMode) {
-                    loadReviewQuestion();
-                } else {
-                    loadQuestion(); // Carrega a questão anterior no modo quiz
-                }
-                addTerminalLine(`> Retornando à questão anterior...`);
-            }
-            updateNavigationButtons();
-        });
-
-        // Event listener para o novo botão 'Finalizar Quiz'
-        finishQuizBtn.addEventListener('click', () => {
-            addTerminalLine('> Finalizando quiz por solicitação do usuário.');
-            finishQuiz();
-        });
-
-        function updateNavigationButtons() {
-            prevBtn.disabled = currentQuestionIndex === 0;
-            
-            // Lógica para o texto do botão "Próxima"
-            if (isReviewMode) {
-                nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1) ? 'Voltar aos Resultados' : 'Próxima Questão';
-                prevBtn.textContent = 'Questão Anterior';
-                hintBtn.style.display = 'none'; // Esconde o botão de dica no modo revisão
-                finishQuizBtn.style.display = 'none'; // Esconde o botão finalizar no modo revisão
-            } else {
-                nextBtn.textContent = 'Próxima →'; // Sempre 'Próxima' neste botão
-                prevBtn.textContent = '← Anterior';
-                // O botão de dica é controlado pela função loadQuestion/selectAnswer no modo quiz
-                finishQuizBtn.style.display = 'block'; // Mantém o botão finalizar visível no modo quiz
-            }
-        }
-
-                 // ... (depois de todas as outras lógicas) ...
-                 simuladoBtn.addEventListener('click', () => {
-                 isReviewMode = false;
-                 selectedSubject = "simulado"; // Um novo 'filtro' para o simulado
-                 startSimulado(120); // Inicia o simulado com 120 questões
-                 addTerminalLine(`> Simulado de 120 questões iniciado...`);
-});
-
-                // Filtro por matéria
-                subjectTabs.forEach(tab => {
-                tab.addEventListener('click', () => {
-                subjectTabs.forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                selectedSubject = tab.dataset.subject;
-                addTerminalLine(`> Filtro ativado: ${tab.textContent}`);
-                isReviewMode = false; // Volta para o modo quiz ao mudar de filtro
-                startQuiz();
-            });
-        });
-
-        // Botões da tela de resultados
-        reviewBtn.addEventListener('click', () => {
-            resultsModal.style.display = 'none';
-            quizContainer.style.display = 'block';
-            startReviewMode();
-        });
-
-        restartBtn.addEventListener('click', () => {
-            resultsModal.style.display = 'none';
-            // Reinicia o processo pelo login para escolher nome novamente
-            loginModal.style.display = 'flex';
-            addTerminalLine('> Reiniciando sistema...');
-        });
-
-        // Modo de revisão
-           function startReviewMode() {
-            isReviewMode = true;
-            currentQuestionIndex = 0;
-            loadReviewQuestion();
-            updateNavigationButtons(); // Atualiza os textos dos botões
-        }
-
-            function loadReviewQuestion() {
-            const q = filteredQuestions[currentQuestionIndex];
-            questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
-            optionsEl.innerHTML = '';
-            }
-
-            function startSimulado(numQuestoes) {
-            if (questions.length < numQuestoes) {
-            alert(`Não há questões suficientes para o simulado. Total disponível: ${questions.length}`);
-            return;
-
-            // Função auxiliar para misturar o array
-            function shuffle(array) {
-            let currentIndex = array.length, randomIndex;
-            while (currentIndex !== 0) {
+    // Função auxiliar para misturar arrays (agora em escopo global)
+    function shuffle(array) {
+        let currentIndex = array.length, randomIndex;
+        while (currentIndex !== 0) {
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
-            [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]];
-  }         return array;
+            [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+        }
+        return array;
+    }
 
-            // Adaptação da sua função loadQuestion
-            function loadQuestion() {
-            // ... sua função original loadQuestion() ...
-           // Adicione um 'if' para o modo simulado
-           const q = filteredQuestions[currentQuestionIndex];
-          // ... (resto da sua função) ...
-}
-}
-    } 
-
-             // Mistura as questões de forma aleatória e seleciona o número desejado
-                filteredQuestions = shuffle(questions).slice(0, numQuestoes);
-                currentQuestionIndex = 0;
-                userAnswers = Array(filteredQuestions.length).fill(undefined);
-                loadQuestion();
-                updateNavigationButtons();
-
-                // Esconde feedback e dica ao iniciar um novo simulado
-                feedbackDisplay.style.display = 'none';
-                hintDisplay.style.display = 'none';
-                hintBtn.style.display = 'block'; // Mostra o botão de dica
-}
-
-
-            // Esconde dica e feedback ao carregar nova questão no modo revisão
-            hintDisplay.style.display = 'none'; 
-            feedbackDisplay.style.display = 'none';
-            hintBtn.style.display = 'none'; // Garante que o botão de dica esteja escondido
-
-            const selectedAnswer = userAnswers[currentQuestionIndex];
-            const isCorrect = selectedAnswer === q.answer;
-            
-            // Exibe o feedback completo diretamente
-            let feedbackContent = '';
-            if (selectedAnswer === undefined) {
-                feedbackContent = `❓ **Você não respondeu a esta questão.**\n\n`;
-            } else if (isCorrect) {
-                feedbackContent = `✅ **Correto!**\n\n`;
-            } else {
-                feedbackContent = `❌ **Incorreto.** Sua resposta foi: "${q.options[selectedAnswer]}".\n\n`;
-            }
-            feedbackContent += `A resposta correta é: "${q.options[q.answer]}".\n\n`;
-            
-            if (q.feedbackCompleto) {
-                feedbackContent += q.feedbackCompleto;
-            } else {
-                feedbackContent += "Não há justificativa completa disponível para esta questão.";
-            }
-
-            feedbackDisplay.innerHTML = feedbackContent;
-            feedbackDisplay.style.display = 'block';
-
-
-            q.options.forEach((option, index) => {
-                const optionEl = document.createElement('div');
-                optionEl.classList.add('option');
-                optionEl.textContent = option;
-                optionEl.style.cursor = 'default'; // Desabilita clique no modo revisão
-
-                if (index === q.answer) {
-                    optionEl.classList.add('correct'); // Marca a correta em verde
+    // Inicialização do App
+    document.addEventListener('DOMContentLoaded', () => {
+        fetch('questions.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                if (index === selectedAnswer && !isCorrect) {
-                    optionEl.classList.add('incorrect'); // Marca a errada que o usuário escolheu em vermelho
-                }
-                // Se o usuário não respondeu e esta for a correta, apenas marca a correta
-                if (selectedAnswer === undefined && index === q.answer) {
-                     optionEl.classList.add('correct');
-                }
-
-                optionsEl.appendChild(optionEl);
+                return response.json();
+            })
+            .then(data => {
+                questions = data;
+                addTerminalLine("> Banco de questões carregado.");
+                loginModal.style.display = 'flex';
+                updateLeaderboard();
+                addTerminalLine("> Aguardando autenticação <span class='blink'>_</span>");
+            })
+            .catch(error => {
+                console.error('Erro ao carregar as questões:', error);
+                addTerminalLine(`> ERRO: Falha ao carregar 'questions.json'.`);
+                alert('Não foi possível carregar as questões do quiz. Verifique o console.');
             });
-        
+    });
 
-        // Botão de Dica
-        hintBtn.addEventListener('click', () => {
-            const q = filteredQuestions[currentQuestionIndex];
-            if (q.hint) {
-                hintDisplay.innerHTML = `💡 **Dica:** ${q.hint}`;
-                hintDisplay.style.display = 'block';
-                feedbackDisplay.style.display = 'none'; // Esconde feedback se a dica for mostrada
-                addTerminalLine(`> Dica solicitada para questão ${currentQuestionIndex + 1}.`);
+    // Login
+    loginBtn.addEventListener('click', () => {
+        const username = usernameInput.value.trim();
+        if (username) {
+            currentUser = { username, email: emailInput.value.trim() || null };
+            loginModal.style.display = 'none';
+            quizContainer.style.display = 'block';
+            addTerminalLine(`> Usuário autenticado: ${username}`);
+            addTerminalLine(`> Iniciando quiz...`);
+            selectedSubject = "all";
+            isReviewMode = false;
+            startQuiz();
+        } else {
+            alert("Digite um nome de usuário!");
+        }
+    });
+
+    function startQuiz() {
+        currentQuestionIndex = 0;
+        isReviewMode = false;
+        filterQuestionsBySubject();
+        if (filteredQuestions.length > 0) {
+            userAnswers = Array(filteredQuestions.length).fill(undefined);
+            loadQuestion();
+        } else {
+            questionEl.textContent = "Nenhuma questão encontrada para esta matéria.";
+            optionsEl.innerHTML = "";
+        }
+        updateNavigationButtons();
+        feedbackDisplay.style.display = 'none';
+        hintDisplay.style.display = 'none';
+        hintBtn.style.display = 'block';
+    }
+
+    function filterQuestionsBySubject() {
+        filteredQuestions = selectedSubject === "all" 
+            ? [...questions]
+            : questions.filter(q => q.subjects && q.subjects.includes(selectedSubject));
+    }
+
+    function addTerminalLine(text) {
+        const p = document.createElement('p');
+        p.className = 'terminal-line';
+        p.innerHTML = text;
+        terminal.appendChild(p);
+        terminal.scrollTop = terminal.scrollHeight;
+    }
+
+    function updateLeaderboard() {
+        scoresList.innerHTML = '';
+        const topScores = [...scores].sort((a, b) => b.score - a.score).slice(0, 10);
+        if (topScores.length === 0) {
+            scoresList.innerHTML = '<p>Nenhuma pontuação registrada.</p>';
+            return;
+        }
+        topScores.forEach((item, index) => {
+            const scoreItem = document.createElement('div');
+            scoreItem.className = 'leaderboard-item';
+            scoreItem.innerHTML = `<span>${index + 1}. ${item.username}</span><span>${item.score}/${item.total}</span>`;
+            scoresList.appendChild(scoreItem);
+        });
+    }
+
+    function saveScore(score, total) {
+        if (!currentUser) return;
+        const newScore = { username: currentUser.username, score, total, date: new Date().toLocaleString(), subject: selectedSubject };
+        scores.push(newScore);
+        localStorage.setItem('quantumQuizScores', JSON.stringify(scores));
+        updateLeaderboard();
+        addTerminalLine(`> Pontuação salva: ${score}/${total}`);
+    }
+
+    function loadQuestion() {
+        if (filteredQuestions.length === 0 || currentQuestionIndex >= filteredQuestions.length) {
+            questionEl.textContent = "Nenhuma questão para exibir.";
+            optionsEl.innerHTML = "";
+            return;
+        }
+
+        const q = filteredQuestions[currentQuestionIndex];
+        questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
+        optionsEl.innerHTML = '';
+
+        q.options.forEach((option, index) => {
+            const optionEl = document.createElement('div');
+            optionEl.classList.add('option');
+            optionEl.textContent = option;
+            
+            if (userAnswers[currentQuestionIndex] === undefined) {
+                optionEl.style.cursor = 'pointer';
+                optionEl.addEventListener('click', () => selectAnswer(index));
             } else {
-                hintDisplay.innerHTML = `Não há dica disponível para esta questão.`;
-                hintDisplay.style.display = 'block';
-                feedbackDisplay.style.display = 'none';
-                addTerminalLine(`> Nenhuma dica encontrada.`);
+                optionEl.style.cursor = 'default';
             }
             
-
+            optionsEl.appendChild(optionEl);
         });
 
-    </script>
+        feedbackDisplay.style.display = 'none';
+        hintDisplay.style.display = 'none';
+        
+        if (userAnswers[currentQuestionIndex] !== undefined) {
+            displayFeedback(userAnswers[currentQuestionIndex]);
+            hintBtn.style.display = 'none';
+        } else {
+            hintBtn.style.display = 'block';
+        }
+
+        progressEl.style.width = `${((currentQuestionIndex + 1) / filteredQuestions.length) * 100}%`;
+        updateNavigationButtons();
+    }
+
+    function selectAnswer(selectedIndex) {
+        if (userAnswers[currentQuestionIndex] !== undefined) return;
+        userAnswers[currentQuestionIndex] = selectedIndex;
+        displayFeedback(selectedIndex);
+        hintBtn.style.display = 'none';
+    }
+    
+    function displayFeedback(selectedIndex) {
+        const q = filteredQuestions[currentQuestionIndex];
+        const isCorrect = selectedIndex === q.answer;
+
+        const options = optionsEl.querySelectorAll('.option');
+        options.forEach((option, index) => {
+            option.style.cursor = 'default';
+            if (index === q.answer) {
+                option.classList.add('correct');
+            }
+            if (index === selectedIndex) {
+                option.classList.add(isCorrect ? 'selected' : 'incorrect');
+            }
+        });
+
+        let feedbackContent = isCorrect ? `✅ **Correto!**\n\n` : `❌ **Incorreto.**\n\n`;
+        feedbackContent += `A resposta correta é: "${q.options[q.answer]}".\n\n${q.feedbackCompleto || "Justificativa não disponível."}`;
+        feedbackDisplay.innerHTML = feedbackContent;
+        feedbackDisplay.style.display = 'block';
+    }
+
+    function finishQuiz() {
+        let correctCount = userAnswers.filter((answer, index) => answer === filteredQuestions[index].answer).length;
+        const total = filteredQuestions.length;
+        const percentage = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+
+        resultStatsEl.innerHTML = `Você acertou ${correctCount} de ${total} questões.<br> (${percentage}%)`;
+        saveScore(correctCount, total);
+        
+        addTerminalLine(`> Quiz concluído! Pontuação: ${correctCount}/${total}`);
+        quizContainer.style.display = 'none';
+        resultsModal.style.display = 'flex';
+    }
+    
+    // NAVEGAÇÃO
+    nextBtn.addEventListener('click', () => {
+        if (currentQuestionIndex < filteredQuestions.length - 1) {
+            currentQuestionIndex++;
+            isReviewMode ? loadReviewQuestion() : loadQuestion();
+        } else {
+            isReviewMode ? (resultsModal.style.display = 'flex', quizContainer.style.display = 'none') : finishQuiz();
+        }
+    });
+
+    prevBtn.addEventListener('click', () => {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            isReviewMode ? loadReviewQuestion() : loadQuestion();
+        }
+    });
+    
+    finishQuizBtn.addEventListener('click', finishQuiz);
+
+    function updateNavigationButtons() {
+        prevBtn.disabled = currentQuestionIndex === 0;
+        nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1) 
+            ? (isReviewMode ? 'Voltar' : 'Finalizar') 
+            : 'Próxima →';
+        finishQuizBtn.style.display = isReviewMode ? 'none' : 'block';
+    }
+
+    // BOTÕES DE AÇÃO
+    simuladoBtn.addEventListener('click', () => {
+        startSimulado(120);
+        addTerminalLine(`> Simulado de 120 questões iniciado...`);
+    });
+
+    hintBtn.addEventListener('click', () => {
+        const q = filteredQuestions[currentQuestionIndex];
+        if (q && q.hint) {
+            hintDisplay.innerHTML = `💡 **Dica:** ${q.hint}`;
+            hintDisplay.style.display = 'block';
+            addTerminalLine(`> Dica solicitada para questão ${currentQuestionIndex + 1}.`);
+        } else {
+            hintDisplay.innerHTML = `Não há dica disponível.`;
+            hintDisplay.style.display = 'block';
+        }
+    });
+
+    subjectTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            subjectTabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            selectedSubject = tab.dataset.subject;
+            addTerminalLine(`> Filtro ativado: ${tab.textContent}`);
+            startQuiz();
+        });
+    });
+
+    // MODOS DE REVISÃO E SIMULADO
+    function startSimulado(numQuestoes) {
+        if (questions.length < numQuestoes) {
+            alert(`Não há questões suficientes. Total disponível: ${questions.length}`);
+            return;
+        }
+        isReviewMode = false;
+        filteredQuestions = shuffle([...questions]).slice(0, numQuestoes);
+        currentQuestionIndex = 0;
+        userAnswers = Array(filteredQuestions.length).fill(undefined);
+        loadQuestion();
+        // Ativa a aba "Todas" visualmente para indicar que é um simulado geral
+        subjectTabs.forEach(t => t.classList.remove('active'));
+        document.querySelector('.subject-tab[data-subject="all"]').classList.add('active');
+    }
+
+    function startReviewMode() {
+        isReviewMode = true;
+        currentQuestionIndex = 0;
+        loadReviewQuestion();
+    }
+
+    function loadReviewQuestion() {
+        const q = filteredQuestions[currentQuestionIndex];
+        questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
+        optionsEl.innerHTML = '';
+        
+        const selectedAnswer = userAnswers[currentQuestionIndex];
+        const isCorrect = selectedAnswer === q.answer;
+
+        q.options.forEach((option, index) => {
+            const optionEl = document.createElement('div');
+            optionEl.classList.add('option');
+            optionEl.textContent = option;
+            optionEl.style.cursor = 'default';
+            if (index === q.answer) optionEl.classList.add('correct');
+            if (index === selectedAnswer && !isCorrect) optionEl.classList.add('incorrect');
+            optionsEl.appendChild(optionEl);
+        });
+        
+        let feedbackContent = (selectedAnswer === undefined) ? `❓ **Não respondida.**\n\n` : '';
+        feedbackContent += `A resposta correta é: "${q.options[q.answer]}".\n\n${q.feedbackCompleto || "Justificativa não disponível."}`;
+        
+        feedbackDisplay.innerHTML = feedbackContent;
+        feedbackDisplay.style.display = 'block';
+        hintDisplay.style.display = 'none';
+        hintBtn.style.display = 'none';
+        updateNavigationButtons();
+    }
+
+    // BOTÕES DO MODAL DE RESULTADOS
+    reviewBtn.addEventListener('click', () => {
+        resultsModal.style.display = 'none';
+        quizContainer.style.display = 'block';
+        startReviewMode();
+    });
+
+    restartBtn.addEventListener('click', () => {
+        resultsModal.style.display = 'none';
+        loginModal.style.display = 'flex';
+        addTerminalLine('> Reiniciando sistema...');
+    });
+</script>
 </body>
 </html>
