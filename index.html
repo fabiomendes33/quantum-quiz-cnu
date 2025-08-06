@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUANTUM QUIZ CNU - BLOCO 5 (ADMINISTRAÇÃO)</title>
+    <title>QUANTUM QUIZ CNU - BLOCO 5</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Oxanium:wght@300;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --quantum-blue: #0a192f;
-            --neon-pink: #ADFF2F; /* Verde Limão */
+            --neon-pink: #ADFF2F;
             --matrix-green: #00ff41;
             --cyber-purple: #8700ff;
             --dark-matter: #0f0a18;
@@ -26,32 +26,11 @@
         }
         .cyber-container {
             max-width: 900px;
-            margin: 0 auto;
+            margin: 2rem auto;
             padding: 2rem;
             border: 1px solid var(--matrix-green);
             box-shadow: 0 0 20px var(--cyber-purple);
             position: relative;
-            overflow: hidden;
-            animation: border-glitch 8s infinite;
-        }
-        @keyframes border-glitch {
-            0%, 100% { border-color: var(--matrix-green); box-shadow: 0 0 20px var(--cyber-purple); }
-            50% { border-color: var(--neon-pink); box-shadow: 0 0 20px var(--neon-pink); }
-        }
-        .cyber-container::before {
-            content: "";
-            position: absolute;
-            top: -10px;
-            left: -10px;
-            right: -10px;
-            bottom: -10px;
-            border: 2px dashed var(--neon-pink);
-            z-index: -1;
-            animation: pulse 4s infinite alternate;
-        }
-        @keyframes pulse {
-            0% { opacity: 0.3; }
-            100% { opacity: 0.7; }
         }
         h1 {
             font-family: 'Orbitron', sans-serif;
@@ -60,7 +39,6 @@
             text-shadow: 0 0 10px var(--matrix-green);
             margin-bottom: 2rem;
             font-size: 2.5rem;
-            letter-spacing: 2px;
         }
         .subject-tabs {
             display: flex;
@@ -74,21 +52,13 @@
             background: rgba(10, 25, 47, 0.7);
             border: 1px solid var(--cyber-purple);
             color: white;
-            font-family: 'Oxanium', sans-serif;
             cursor: pointer;
             transition: all 0.3s;
-            border-radius: 4px;
-            font-size: 0.9rem;
         }
-        .subject-tab:hover {
+        .subject-tab:hover, .subject-tab.active {
             background: var(--cyber-purple);
             transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(135, 0, 255, 0.4);
-        }
-        .subject-tab.active {
-            background: var(--neon-pink);
             border-color: var(--neon-pink);
-            font-weight: bold;
         }
         .question-container {
             background: rgba(10, 25, 47, 0.8);
@@ -97,26 +67,16 @@
             margin-bottom: 2rem;
             position: relative;
         }
-        .question-container::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 1px;
-            background: linear-gradient(90deg, transparent, var(--matrix-green), transparent);
-        }
         .question-text {
             font-size: 1.4rem;
-            margin-bottom: 1.5rem;
             line-height: 1.5;
-            padding-right: 3rem; /* Espaço para a estrela */
+            padding-right: 3rem;
         }
         .options-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 1rem;
-            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
         }
         .option {
             padding: 1.2rem;
@@ -125,24 +85,16 @@
             color: white;
             cursor: pointer;
             transition: all 0.3s;
-            position: relative;
-            overflow: hidden;
-            font-size: 1rem;
-            line-height: 1.4;
         }
         .option:hover {
             background: rgba(135, 0, 255, 0.2);
             border-color: var(--neon-pink);
         }
-        .option.selected {
-            background: rgba(0, 255, 65, 0.2);
-            border-color: var(--matrix-green);
-        }
-        .option.correct {
+        .option.correct, .option.selected.correct {
             background: rgba(0, 255, 65, 0.4);
             border-color: var(--matrix-green);
         }
-        .option.incorrect {
+        .option.selected.incorrect {
             background: rgba(255, 0, 0, 0.4);
             border-color: #ff0000;
         }
@@ -152,10 +104,6 @@
             background: rgba(10, 25, 47, 0.9);
             border-left: 4px solid var(--neon-pink);
             white-space: pre-wrap;
-        }
-        .hint-display {
-            border-left-color: var(--matrix-green);
-            color: white;
             display: none;
         }
         .cyber-button {
@@ -167,64 +115,24 @@
             cursor: pointer;
             transition: all 0.3s;
             text-transform: uppercase;
-            letter-spacing: 1px;
             margin: 0.5rem;
-            position: relative;
-            overflow: hidden;
         }
         .cyber-button:hover {
             background: var(--matrix-green);
             color: var(--dark-matter);
             box-shadow: 0 0 10px var(--matrix-green);
         }
-        .cyber-button::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(0, 255, 65, 0.3), transparent);
-            transition: all 0.5s;
-        }
-        .cyber-button:hover::before {
-            left: 100%;
-        }
         .navigation {
             display: flex;
             justify-content: space-between;
             margin-top: 2rem;
             align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-        #next-btn {
-            display: block;
-        }
-        #finish-quiz-btn {
-            background: var(--neon-pink);
-            border-color: var(--neon-pink);
-            color: var(--dark-matter);
-            font-family: 'Orbitron', sans-serif;
-            padding: 1rem 2rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            cursor: pointer;
-            transition: all 0.3s;
-            box-shadow: 0 0 10px var(--neon-pink);
-            margin: 0.5rem auto;
-        }
-        #finish-quiz-btn:hover {
-            box-shadow: 0 0 20px var(--neon-pink);
-            transform: scale(1.05);
         }
         .progress-container {
             width: 100%;
             background: rgba(10, 25, 47, 0.7);
             height: 6px;
             margin-bottom: 2rem;
-            border-radius: 3px;
-            overflow: hidden;
         }
         .progress-bar {
             height: 100%;
@@ -242,17 +150,10 @@
             height: 100px;
             overflow-y: auto;
         }
-        .terminal-line {
-            margin: 0;
-            line-height: 1.5;
-        }
-        .blink {
-            animation: blink 1s infinite;
-        }
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
-        }
+        .terminal-line { margin: 0; line-height: 1.5; }
+        .blink { animation: blink 1s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+        
         .login-modal {
             display: none;
             position: fixed;
@@ -260,7 +161,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.9);
             z-index: 1000;
             justify-content: center;
             align-items: center;
@@ -274,201 +175,58 @@
             box-shadow: 0 0 20px var(--neon-pink);
             text-align: center;
         }
-        .login-title, .results-title {
-            color: var(--matrix-green);
-            text-align: center;
-            margin-bottom: 1.5rem;
-            font-family: 'Orbitron', sans-serif;
-        }
         .login-input {
-            width: 100%;
+            width: calc(100% - 1.8rem);
             padding: 0.8rem;
             margin-bottom: 1rem;
             background: rgba(15, 10, 24, 0.7);
             border: 1px solid var(--cyber-purple);
             color: white;
-            font-family: 'Oxanium', sans-serif;
         }
-        .login-input:focus {
-            outline: none;
-            border-color: var(--neon-pink);
-        }
-        .leaderboard {
-            margin-top: 2rem;
-            background: rgba(10, 25, 47, 0.7);
-            padding: 1rem;
-            border: 1px solid var(--matrix-green);
-        }
-        .leaderboard h3 {
-            color: var(--neon-pink);
-            border-bottom: 1px solid var(--matrix-green);
-            padding-bottom: 0.5rem;
-        }
-        .leaderboard-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 0.5rem 0;
-            border-bottom: 1px dashed rgba(0, 255, 65, 0.3);
-        }
-        .result-stats {
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-        }
-        .hint-button-container {
-            text-align: center;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
+        .leaderboard { margin-top: 2rem; padding: 1rem; border: 1px solid var(--matrix-green); }
+        .leaderboard h3 { color: var(--neon-pink); border-bottom: 1px solid var(--matrix-green); padding-bottom: 0.5rem; }
+        .leaderboard-item { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px dashed rgba(0, 255, 65, 0.3); }
+        
         .difficulty-rating {
-           margin-top: 1.5rem;
-           text-align: center;
-           border-top: 1px dashed var(--matrix-green);
-           padding-top: 1.5rem;
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           gap: 1rem; 
+           margin-top: 1.5rem; text-align: center; border-top: 1px dashed var(--matrix-green);
+           padding-top: 1.5rem; display: none; flex-direction: column; align-items: center; gap: 1rem; 
         }
-        .difficulty-rating p {
-         margin-bottom: 0;
-         font-family: 'Orbitron', sans-serif;
-         color: var(--matrix-green);
-        }
-        .difficulty-rating .cyber-button {
-         margin: 0; 
-        }
-        .facil-btn {
-         border-color: #28a745;
-         color: #28a745;
-         box-shadow: 0 0 5px #28a745, inset 0 0 5px #28a745;
-        }
-        .facil-btn:hover {
-        background: #28a745;
-        box-shadow: 0 0 15px #28a745, 0 0 25px #28a745;
-        color: var(--dark-matter);
-        }
-        .bom-btn {
-        border-color: #007bff;
-        color: #007bff;
-        box-shadow: 0 0 5px #007bff, inset 0 0 5px #007bff;
-        }
-        .bom-btn:hover {
-         background: #007bff;
-         box-shadow: 0 0 15px #007bff, 0 0 25px #007bff;
-         color: var(--dark-matter);
-        }
-        .dificil-btn {
-         border-color: #dc3545;
-         color: #dc3545;
-         box-shadow: 0 0 5px #dc3545, inset 0 0 5px #dc3545;
-        }
-        .dificil-btn:hover {
-         background: #dc3545;
-         box-shadow: 0 0 15px #dc3545, 0 0 25px #dc3545;
-         color: var(--dark-matter);
-        }
-        .muito-dificil-btn {
-         border-color: #fd7e14;
-         color: #fd7e14;
-         box-shadow: 0 0 5px #fd7e14, inset 0 0 5px #fd7e14;
-        }
-        .muito-dificil-btn:hover {
-         background: #fd7e14;
-         box-shadow: 0 0 15px #fd7e14, 0 0 25px #fd7e14;
-         color: var(--dark-matter);
-        }
-        #dashboard-stats {
-            text-align: left;
-            max-height: 60vh;
-            overflow-y: auto;
-        }
-        #dashboard-stats table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 1rem;
-        }
-        #dashboard-stats th, #dashboard-stats td {
-            border: 1px solid var(--cyber-purple);
-            padding: 0.8rem;
-            color: white;
-        }
-        #dashboard-stats th {
-            background-color: var(--cyber-purple);
-            font-family: 'Orbitron', sans-serif;
-            color: white;
-        }
-        #dashboard-stats .progress-bar-stat {
-            width: 100%;
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 3px;
-            height: 1.2rem;
-            position: relative;
-        }
-        #dashboard-stats .progress-fill {
-            height: 100%;
-            background-color: var(--matrix-green);
-            border-radius: 3px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 0.8rem;
-            color: var(--dark-matter);
-            font-weight: bold;
-        }
-        .favorite-icon {
-            position: absolute;
-            top: 1.5rem;
-            right: 1.5rem;
-            font-size: 2rem;
-            color: #555;
-            cursor: pointer;
-            transition: all 0.2s ease-in-out;
-        }
-        .favorite-icon:hover {
-            transform: scale(1.2);
-            color: #f1c40f;
-        }
-        .favorite-icon.favorited {
-            color: #f1c40f;
-            text-shadow: 0 0 10px #f1c40f;
-        }
+        .difficulty-rating p { margin-bottom: 0; font-family: 'Orbitron', sans-serif; color: var(--matrix-green); }
+        .facil-btn { border-color: #28a745; color: #28a745; box-shadow: 0 0 5px #28a745, inset 0 0 5px #28a745; }
+        .facil-btn:hover { background: #28a745; box-shadow: 0 0 25px #28a745; color: var(--dark-matter); }
+        .bom-btn { border-color: #007bff; color: #007bff; box-shadow: 0 0 5px #007bff, inset 0 0 5px #007bff; }
+        .bom-btn:hover { background: #007bff; box-shadow: 0 0 25px #007bff; color: var(--dark-matter); }
+        .dificil-btn { border-color: #dc3545; color: #dc3545; box-shadow: 0 0 5px #dc3545, inset 0 0 5px #dc3545; }
+        .dificil-btn:hover { background: #dc3545; box-shadow: 0 0 25px #dc3545; color: var(--dark-matter); }
+        .muito-dificil-btn { border-color: #fd7e14; color: #fd7e14; box-shadow: 0 0 5px #fd7e14, inset 0 0 5px #fd7e14; }
+        .muito-dificil-btn:hover { background: #fd7e14; box-shadow: 0 0 25px #fd7e14; color: var(--dark-matter); }
+        
+        #dashboard-stats { text-align: left; max-height: 60vh; overflow-y: auto; }
+        #dashboard-stats table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        #dashboard-stats th, #dashboard-stats td { border: 1px solid var(--cyber-purple); padding: 0.8rem; }
+        #dashboard-stats th { background-color: var(--cyber-purple); font-family: 'Orbitron', sans-serif; }
+        #dashboard-stats .progress-bar-stat { width: 100%; background-color: rgba(255, 255, 255, 0.1); border-radius: 3px; height: 1.2rem; }
+        #dashboard-stats .progress-fill { height: 100%; background-color: var(--matrix-green); border-radius: 3px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; color: var(--dark-matter); font-weight: bold; }
+        
+        .favorite-icon { position: absolute; top: 1.5rem; right: 1.5rem; font-size: 2rem; color: #555; cursor: pointer; transition: all 0.2s; }
+        .favorite-icon:hover { transform: scale(1.2); color: #f1c40f; }
+        .favorite-icon.favorited { color: #f1c40f; text-shadow: 0 0 10px #f1c40f; }
+        
         @media (max-width: 768px) {
-            body {
-                padding: 0;
-            }
-            .cyber-container {
-                padding: 1rem;
-                margin: 0;
-                min-height: 100vh;
-                border: none;
-                box-shadow: none;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
-            .subject-tabs {
-                gap: 0.5rem;
-            }
-            .subject-tab, .cyber-button {
-                padding: 0.7rem 1rem;
-                font-size: 0.8rem;
-            }
-            .options-grid {
-                grid-template-columns: 1fr;
-            }
-            .question-container {
-                padding: 1.5rem;
-            }
-            .question-text {
-                font-size: 1.2rem;
-            }
-            .option {
-                padding: 1rem;
-                font-size: 0.95rem;
-            }
-            .login-box, .results-box {
-                width: 90%;
-            }
+            .cyber-container { padding: 1rem; margin: 0; min-height: 100vh; border: none; box-shadow: none; }
+            h1 { font-size: 1.8rem; }
+            .subject-tabs { gap: 0.5rem; }
+            .subject-tab, .cyber-button { padding: 0.7rem 1rem; font-size: 0.8rem; }
+            .options-grid { grid-template-columns: 1fr; }
+            .question-container { padding: 1.5rem; }
+            .question-text { font-size: 1.2rem; }
+            .option { padding: 1rem; font-size: 0.95rem; }
+            .login-box, .results-box { width: 90%; }
+        }
+
+          /* CÓDIGO PARA FORÇAR A MUDANÇA DE COR DO TÍTULO */
+         .login-box h2, .results-box h2 {
+          color: var(--matrix-green) !important;
         }
     </style>
 </head>
@@ -481,6 +239,7 @@
             <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
                 <button class="cyber-button" id="loginBtn">ENTRAR</button>
                 <button class="cyber-button" id="dashboardBtn">Meu Desempenho</button>
+                <button class="cyber-button" id="portfolioBtn">Revisar Favoritas</button>
             </div>
         </div>
     </div>
@@ -508,11 +267,9 @@
 
     <div class="cyber-container" id="quizContainer" style="display: none;">
         <h1>QUANTUM QUIZ <span style="color: var(--neon-pink);">CNU BLOCO 5</span></h1>
-        
         <div class="progress-container">
             <div class="progress-bar" id="progress"></div>
         </div>
-        
         <div class="subject-tabs">
             <div class="subject-tab active" data-subject="all">Todas</div>
             <div class="subject-tab" data-subject="gestao">Gestão Pública</div>
@@ -534,7 +291,6 @@
             <div class="subject-tab" data-subject="Simulado2025 CNU">Simulado2025CNU</div>
             <button class="cyber-button" id="simulado-btn">SIMULADO 120 Questões</button>
         </div>
-        
         <div class="question-container" id="mainQuestionContainer">
             <div class="question-text" id="question"></div>
             <span id="favoriteBtn" class="favorite-icon">★</span>
@@ -543,8 +299,8 @@
                 <button class="cyber-button" id="hintBtn">Dica</button>
             </div>
             <div class="hint-display" id="hintDisplay"></div>
-            <div class="feedback" id="feedbackDisplay" style="display: none;"></div>
-            <div class="difficulty-rating" id="difficultyContainer" style="display: none;">
+            <div class="feedback" id="feedbackDisplay"></div>
+            <div class="difficulty-rating" id="difficultyContainer">
                 <p>O que você achou desta questão?</p>
                 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
                     <button class="cyber-button facil-btn" data-difficulty="facil">Fácil</button>
@@ -554,17 +310,14 @@
                 </div>
             </div>
         </div>
-
-        <div class="navigation">
+        <div class="navigation" id="navigationContainer">
             <button class="cyber-button" id="prev-btn">← Anterior</button>
             <button class="cyber-button" id="finish-quiz-btn">Finalizar Quiz</button>
             <button class="cyber-button" id="next-btn">Próxima →</button>
         </div>
-        
         <div class="hacker-terminal" id="terminal">
             <p class="terminal-line">> Sistema Quantum Quiz inicializado...</p>
         </div>
-
         <div class="leaderboard" id="leaderboard">
             <h3>TOP 10 PONTUAÇÕES</h3>
             <div id="scoresList"></div>
@@ -582,13 +335,11 @@
         let isReviewMode = false;
         let errosParaRepetir = [];
         let difficultyRatings = {};
-        let favoriteQuestions = JSON.parse(localStorage.getItem('quantumQuizFavorites')) || [];
-        const allScores = JSON.parse(localStorage.getItem('quantumQuizScores')) || [];
+        let favoriteQuestions = [];
+        let allScores = [];
 
-        // Ouve o evento que sinaliza que o HTML foi completamente carregado
         document.addEventListener('DOMContentLoaded', () => {
             
-            // Mapeamento de todos os elementos da página
             const elements = {
                 loginModal: document.getElementById('loginModal'),
                 resultsModal: document.getElementById('resultsModal'),
@@ -596,6 +347,7 @@
                 quizContainer: document.getElementById('quizContainer'),
                 loginBtn: document.getElementById('loginBtn'),
                 dashboardBtn: document.getElementById('dashboardBtn'),
+                portfolioBtn: document.getElementById('portfolioBtn'),
                 closeDashboardBtn: document.getElementById('closeDashboardBtn'),
                 usernameInput: document.getElementById('username'),
                 emailInput: document.getElementById('email'),
@@ -618,19 +370,11 @@
                 difficultyContainer: document.getElementById('difficultyContainer'),
                 difficultyButtons: document.querySelectorAll('.difficulty-rating .cyber-button'),
                 dashboardStatsEl: document.getElementById('dashboard-stats'),
-                favoriteBtn: document.getElementById('favoriteBtn')
+                favoriteBtn: document.getElementById('favoriteBtn'),
+                navigationContainer: document.getElementById('navigationContainer')
             };
 
             // --- FUNÇÕES ---
-            function shuffle(array) {
-                let currentIndex = array.length, randomIndex;
-                while (currentIndex !== 0) {
-                    randomIndex = Math.floor(Math.random() * currentIndex);
-                    currentIndex--;
-                    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-                }
-                return array;
-            }
 
             function addTerminalLine(text) {
                 const p = document.createElement('p');
@@ -639,10 +383,31 @@
                 elements.terminal.appendChild(p);
                 elements.terminal.scrollTop = elements.terminal.scrollHeight;
             }
+            
+            function loadFromLocalStorage() {
+                try {
+                    const savedScores = localStorage.getItem('quantumQuizScores');
+                    allScores = savedScores ? JSON.parse(savedScores) : [];
+                    const savedFavorites = localStorage.getItem('quantumQuizFavorites');
+                    favoriteQuestions = savedFavorites ? JSON.parse(savedFavorites) : [];
+                } catch (e) {
+                    console.error("Erro ao carregar dados do localStorage:", e);
+                    allScores = [];
+                    favoriteQuestions = [];
+                }
+            }
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
 
             function updateLeaderboard() {
                 elements.scoresList.innerHTML = '';
-                const summaryScores = allScores.map(s => ({ username: s.username, score: s.score, total: s.total }));
+                const summaryScores = allScores.map(s => ({ username: s.username, score: s.score, total: s.total })).filter(s => s.total > 0);
                 const topScores = summaryScores.sort((a, b) => b.score - a.score).slice(0, 10);
                 if (topScores.length === 0) {
                     elements.scoresList.innerHTML = '<p>Nenhuma pontuação registrada.</p>';
@@ -657,7 +422,7 @@
             }
 
             function loadQuestion() {
-                if (currentQuestionIndex >= filteredQuestions.length) {
+                if (filteredQuestions.length === 0 || currentQuestionIndex >= filteredQuestions.length) {
                     finishQuiz();
                     return;
                 }
@@ -687,11 +452,11 @@
                 const q = filteredQuestions[currentQuestionIndex];
                 const isCorrect = selectedIndex === q.answer;
                 elements.optionsEl.querySelectorAll('.option').forEach(opt => {
-                    opt.style.cursor = 'default';
+                    const newOpt = opt.cloneNode(true);
+                    opt.parentNode.replaceChild(newOpt, opt);
+                    newOpt.style.cursor = 'default';
                 });
-                if (!isCorrect) {
-                    agendarRepeticao(q);
-                }
+                if (!isCorrect) agendarRepeticao(q);
                 displayFeedback(selectedIndex);
                 elements.hintBtn.style.display = 'none';
                 elements.difficultyContainer.style.display = 'flex';
@@ -724,21 +489,6 @@
                 }
             }
             
-            function startQuiz() {
-                currentQuestionIndex = 0;
-                isReviewMode = false;
-                errosParaRepetir = [];
-                difficultyRatings = {};
-                filterQuestionsBySubject();
-                if (filteredQuestions.length > 0) {
-                    userAnswers = Array(filteredQuestions.length).fill(undefined);
-                    loadQuestion();
-                } else {
-                    elements.questionEl.textContent = "Nenhuma questão encontrada.";
-                    elements.optionsEl.innerHTML = "";
-                }
-            }
-            
             function filterQuestionsBySubject() {
                 if (selectedSubject === "portfolio") {
                     filteredQuestions = questions.filter(q => favoriteQuestions.includes(q.id));
@@ -748,23 +498,232 @@
                     filteredQuestions = questions.filter(q => q.subjects && q.subjects.includes(selectedSubject));
                 }
             }
-            
-            // --- INICIALIZAÇÃO E EVENT LISTENERS ---
-            fetch('questions.json')
-                .then(response => response.json())
-                .then(data => {
-                    questions = data.map((q, index) => ({ ...q, id: `q_${index}` }));
-                    addTerminalLine("> Banco de questões carregado.");
-                    elements.loginModal.style.display = 'flex';
-                    updateLeaderboard();
-                    addTerminalLine("> Aguardando autenticação <span class='blink'>_</span>");
-                })
-                .catch(error => console.error('Erro ao carregar as questões:', error));
 
+            function startQuiz() {
+                currentQuestionIndex = 0;
+                isReviewMode = false;
+                errosParaRepetir = [];
+                difficultyRatings = {};
+                filterQuestionsBySubject();
+                if (filteredQuestions.length > 0) {
+                    elements.navigationContainer.style.display = 'flex';
+                    userAnswers = Array(filteredQuestions.length).fill(undefined);
+                    loadQuestion();
+                } else {
+                    elements.questionEl.textContent = selectedSubject === "portfolio" 
+                        ? "Você ainda não favoritou nenhuma questão para revisar." 
+                        : "Nenhuma questão encontrada para esta matéria.";
+                    elements.optionsEl.innerHTML = "";
+                    elements.navigationContainer.style.display = 'none';
+                }
+            }
+
+            function startPortfolioQuiz() {
+                const username = elements.usernameInput.value.trim();
+                if (!username) {
+                    alert("Por favor, digite um nome de usuário antes de iniciar.");
+                    return;
+                }
+                if (favoriteQuestions.length === 0) {
+                    alert("Você ainda não favoritou nenhuma questão para revisar!");
+                    return;
+                }
+                currentUser = { username, email: elements.emailInput.value.trim() || null };
+                selectedSubject = "portfolio";
+                elements.loginModal.style.display = 'none';
+                elements.quizContainer.style.display = 'block';
+                addTerminalLine(`> Iniciando modo de revisão do Portfólio...`);
+                elements.subjectTabs.forEach(t => t.classList.remove('active'));
+                startQuiz();
+            }
+
+            function finishQuiz() {
+                if(filteredQuestions.length === 0) {
+                    elements.quizContainer.style.display = 'none';
+                    elements.loginModal.style.display = 'flex';
+                    return;
+                }
+                let correctCount = 0;
+                const answerDetails = [];
+                filteredQuestions.forEach((q, index) => {
+                    const userAnswer = userAnswers[index];
+                    const isCorrect = userAnswer === q.answer;
+                    if (isCorrect) correctCount++;
+                    answerDetails.push({ questionId: q.id, subjects: q.subjects || [], userAnswer, correctAnswer: q.answer, isCorrect });
+                });
+                const total = filteredQuestions.length;
+                const percentage = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+                elements.resultStatsEl.innerHTML = `Você acertou ${correctCount} de ${total} questões.<br> (${percentage}%)`;
+                if(total > 0 && selectedSubject !== 'portfolio') { // Não salva score do modo portfólio
+                    saveDetailedScore(correctCount, total, answerDetails);
+                }
+                elements.quizContainer.style.display = 'none';
+                elements.resultsModal.style.display = 'flex';
+            }
+            
+            function saveDetailedScore(score, total, details) {
+                if (!currentUser) return;
+                const newScore = { username: currentUser.username, score, total, details, date: new Date().toISOString(), subject: selectedSubject };
+                allScores.push(newScore);
+                localStorage.setItem('quantumQuizScores', JSON.stringify(allScores));
+                updateLeaderboard();
+            }
+
+            function showDashboard() {
+                const username = elements.usernameInput.value.trim();
+                if (!username) {
+                    alert('Por favor, digite seu nome de usuário para ver o desempenho.');
+                    return;
+                }
+                const userScores = allScores.filter(s => s.username === username);
+                if (userScores.length === 0) {
+                    elements.dashboardStatsEl.innerHTML = '<p>Nenhum dado de desempenho encontrado. Complete um quiz primeiro!</p>';
+                } else {
+                    const stats = calculateStats(userScores);
+                    displayStats(stats);
+                }
+                elements.dashboardModal.style.display = 'flex';
+            }
+
+            function getSubjectName(subjectKey) {
+                const tab = document.querySelector(`.subject-tab[data-subject="${subjectKey}"]`);
+                return tab ? tab.textContent : subjectKey;
+            }
+
+            function calculateStats(userScores) {
+                const subjectStats = {};
+                let totalCorrect = 0;
+                let totalAttempted = 0;
+                userScores.forEach(score => {
+                    score.details.forEach(detail => {
+                        if(detail.userAnswer === undefined) return;
+                        totalAttempted++;
+                        if(detail.isCorrect) totalCorrect++;
+                        if(detail.subjects) {
+                            detail.subjects.forEach(subject => {
+                                if (!subjectStats[subject]) {
+                                    subjectStats[subject] = { correct: 0, total: 0, name: getSubjectName(subject) };
+                                }
+                                subjectStats[subject].total++;
+                                if (detail.isCorrect) subjectStats[subject].correct++;
+                            });
+                        }
+                    });
+                });
+                const overallPercentage = totalAttempted > 0 ? (totalCorrect / totalAttempted) * 100 : 0;
+                return {
+                    overall: { correct: totalCorrect, total: totalAttempted, percentage: overallPercentage.toFixed(1) },
+                    bySubject: subjectStats
+                };
+            }
+
+            function displayStats(stats) {
+                let tableHTML = `<p><strong>Desempenho Geral:</strong> ${stats.overall.correct} de ${stats.overall.total} acertos (${stats.overall.percentage}%)</p><table><thead><tr><th>Matéria</th><th>Acertos / Total</th><th>Percentual</th></tr></thead><tbody>`;
+                const sortedSubjects = Object.entries(stats.bySubject).sort(([,a], [,b]) => a.name.localeCompare(b.name));
+                for (const [subjectKey, data] of sortedSubjects) {
+                    const percentage = data.total > 0 ? ((data.correct / data.total) * 100).toFixed(1) : 0;
+                    tableHTML += `<tr><td>${data.name}</td><td>${data.correct} / ${data.total}</td><td><div class="progress-bar-stat"><div class="progress-fill" style="width: ${percentage}%;">${percentage}%</div></div></td></tr>`;
+                }
+                tableHTML += `</tbody></table>`;
+                elements.dashboardStatsEl.innerHTML = tableHTML;
+            }
+            
+            function startSimulado(numQuestoes) {
+                const username = elements.usernameInput.value.trim();
+                if (!username) {
+                    alert("Por favor, digite um nome de usuário antes de iniciar o simulado.");
+                    return;
+                }
+                if (questions.length < numQuestoes) {
+                    alert(`Não há questões suficientes. Total: ${questions.length}`);
+                    return;
+                }
+                currentUser = { username, email: elements.emailInput.value.trim() || null };
+                isReviewMode = false;
+                errosParaRepetir = [];
+                selectedSubject = 'all';
+                filteredQuestions = shuffle([...questions]).slice(0, numQuestoes);
+                currentQuestionIndex = 0;
+                userAnswers = Array(filteredQuestions.length).fill(undefined);
+                elements.loginModal.style.display = 'none';
+                elements.quizContainer.style.display = 'block';
+                addTerminalLine(`> Simulado de ${numQuestoes} questões iniciado...`);
+                loadQuestion();
+                elements.subjectTabs.forEach(t => t.classList.remove('active'));
+                document.querySelector('.subject-tab[data-subject="all"]').classList.add('active');
+            }
+            
+            function displayFeedback(selectedIndex) {
+                const q = filteredQuestions[currentQuestionIndex];
+                const isCorrect = selectedIndex === q.answer;
+                elements.optionsEl.querySelectorAll('.option').forEach((option, index) => {
+                    if (index === q.answer) option.classList.add('correct');
+                    if (index === selectedIndex) option.classList.add('incorrect', 'selected');
+                });
+                let feedbackContent = isCorrect ? `✅ **Correto!**<br><br>` : `❌ **Incorreto.**<br><br>`;
+                feedbackContent += `A resposta correta é: "${q.options[q.answer]}".<br><br>${q.feedbackCompleto || "Justificativa não disponível."}`;
+                elements.feedbackDisplay.innerHTML = feedbackContent;
+                elements.feedbackDisplay.style.display = 'block';
+            }
+
+            function agendarRepeticao(question) {
+                if (!errosParaRepetir.some(item => item.id === question.id)) {
+                    addTerminalLine(`> Questão [${question.id}] agendada para revisão.`);
+                    setTimeout(() => {errosParaRepetir.push(question);}, 60000);
+                }
+            }
+            
+            function updateNavigationButtons() {
+                elements.prevBtn.disabled = currentQuestionIndex === 0;
+                if (isReviewMode) {
+                    elements.nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1) ? 'Voltar' : 'Próxima →';
+                } else {
+                    elements.nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1 && errosParaRepetir.length === 0) ? 'Finalizar' : 'Próxima →';
+                }
+                elements.finishQuizBtn.style.display = isReviewMode ? 'none' : 'block';
+            }
+
+            function startReviewMode() {
+                isReviewMode = true;
+                currentQuestionIndex = 0;
+                loadReviewQuestion();
+            }
+
+            function loadReviewQuestion() {
+                if (currentQuestionIndex >= filteredQuestions.length) {
+                    elements.quizContainer.style.display = 'none';
+                    elements.resultsModal.style.display = 'flex';
+                    return;
+                }
+                const q = filteredQuestions[currentQuestionIndex];
+                elements.questionEl.textContent = `[Revisão ${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
+                elements.optionsEl.innerHTML = '';
+                const selectedAnswer = userAnswers[currentQuestionIndex];
+                q.options.forEach((option, index) => {
+                    const optionEl = document.createElement('div');
+                    optionEl.classList.add('option');
+                    optionEl.textContent = option;
+                    optionEl.style.cursor = 'default';
+                    if (index === q.answer) optionEl.classList.add('correct');
+                    if (index === selectedAnswer && selectedAnswer !== q.answer) optionEl.classList.add('incorrect');
+                    elements.optionsEl.appendChild(optionEl);
+                });
+                let feedbackContent = (selectedAnswer === undefined) ? `❓ **Não respondida.**<br><br>` : '';
+                feedbackContent += `A resposta correta é: "${q.options[q.answer]}".<br><br>${q.feedbackCompleto || "Justificativa não disponível."}`;
+                elements.feedbackDisplay.innerHTML = feedbackContent;
+                elements.feedbackDisplay.style.display = 'block';
+                elements.hintDisplay.style.display = 'none';
+                elements.hintBtn.style.display = 'none';
+                elements.difficultyContainer.style.display = 'none';
+                updateNavigationButtons();
+            }
+
+            // --- Conectando os Event Listeners ---
             elements.loginBtn.addEventListener('click', () => {
                 const username = elements.usernameInput.value.trim();
                 if (username) {
                     currentUser = { username, email: elements.emailInput.value.trim() || null };
+                    selectedSubject = "all";
                     elements.loginModal.style.display = 'none';
                     elements.quizContainer.style.display = 'block';
                     addTerminalLine(`> Usuário autenticado: ${username}`);
@@ -773,278 +732,100 @@
                     alert("Digite um nome de usuário!");
                 }
             });
-            
+
+            elements.portfolioBtn.addEventListener('click', startPortfolioQuiz);
+            elements.dashboardBtn.addEventListener('click', showDashboard);
+            elements.closeDashboardBtn.addEventListener('click', () => {
+                elements.dashboardModal.style.display = 'none';
+            });
             elements.favoriteBtn.addEventListener('click', toggleFavorite);
+            elements.simuladoBtn.addEventListener('click', () => startSimulado(120));
             
-            // ... (restante do seu script que já está correto)
-            // ... As demais funções e listeners não precisam de alteração ...
-            function getSubjectName(subjectKey) {
-            const tab = document.querySelector(`.subject-tab[data-subject="${subjectKey}"]`);
-            return tab ? tab.textContent : subjectKey;
-        }
-
-        function calculateStats(userScores) {
-            const subjectStats = {};
-            let totalCorrect = 0;
-            let totalAttempted = 0;
-            userScores.forEach(score => {
-                score.details.forEach(detail => {
-                    if(detail.userAnswer === undefined) return;
-                    totalAttempted++;
-                    if(detail.isCorrect) totalCorrect++;
-                    detail.subjects.forEach(subject => {
-                        if (!subjectStats[subject]) {
-                            subjectStats[subject] = { correct: 0, total: 0, name: getSubjectName(subject) };
-                        }
-                        subjectStats[subject].total++;
-                        if (detail.isCorrect) {
-                            subjectStats[subject].correct++;
-                        }
-                    });
-                });
-            });
-            const overallPercentage = totalAttempted > 0 ? (totalCorrect / totalAttempted) * 100 : 0;
-            return {
-                overall: { correct: totalCorrect, total: totalAttempted, percentage: overallPercentage.toFixed(1) },
-                bySubject: subjectStats
-            };
-        }
-
-        function displayStats(stats) {
-            let tableHTML = `
-                <p><strong>Desempenho Geral:</strong> ${stats.overall.correct} de ${stats.overall.total} acertos (${stats.overall.percentage}%)</p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Matéria</th>
-                            <th>Acertos / Total</th>
-                            <th>Percentual</th>
-                        </tr>
-                    </thead>
-                    <tbody>`;
-            const sortedSubjects = Object.entries(stats.bySubject).sort(([,a], [,b]) => a.name.localeCompare(b.name));
-            for (const [subjectKey, data] of sortedSubjects) {
-                const percentage = data.total > 0 ? ((data.correct / data.total) * 100).toFixed(1) : 0;
-                tableHTML += `
-                    <tr>
-                        <td>${data.name}</td>
-                        <td>${data.correct} / ${data.total}</td>
-                        <td>
-                            <div class="progress-bar-stat">
-                                <div class="progress-fill" style="width: ${percentage}%;">${percentage}%</div>
-                            </div>
-                        </td>
-                    </tr>`;
-            }
-            tableHTML += `</tbody></table>`;
-            elements.dashboardStatsEl.innerHTML = tableHTML;
-        }
-
-        function showDashboard() {
-            const username = elements.usernameInput.value.trim();
-            if (!username) {
-                alert('Por favor, digite seu nome de usuário para ver o desempenho.');
-                return;
-            }
-            const userScores = allScores.filter(s => s.username === username);
-            if (userScores.length === 0) {
-                elements.dashboardStatsEl.innerHTML = '<p>Nenhum dado de desempenho encontrado. Complete um quiz primeiro!</p>';
-            } else {
-                const stats = calculateStats(userScores);
-                displayStats(stats);
-            }
-            elements.dashboardModal.style.display = 'flex';
-        }
-        
-        function saveDetailedScore(score, total, details) {
-            if (!currentUser) return;
-            const newScore = {
-                username: currentUser.username,
-                score,
-                total,
-                details,
-                date: new Date().toISOString(),
-                subject: selectedSubject
-            };
-            allScores.push(newScore);
-            localStorage.setItem('quantumQuizScores', JSON.stringify(allScores));
-            updateLeaderboard();
-        }
-
-        function finishQuiz() {
-            let correctCount = 0;
-            const answerDetails = [];
-            filteredQuestions.forEach((q, index) => {
-                const userAnswer = userAnswers[index];
-                const isCorrect = userAnswer === q.answer;
-                if (isCorrect) correctCount++;
-                answerDetails.push({
-                    questionId: q.id,
-                    subjects: q.subjects || [],
-                    userAnswer,
-                    correctAnswer: q.answer,
-                    isCorrect
-                });
-            });
-            const total = filteredQuestions.length;
-            const percentage = total > 0 ? Math.round((correctCount / total) * 100) : 0;
-            elements.resultStatsEl.innerHTML = `Você acertou ${correctCount} de ${total} questões.<br> (${percentage}%)`;
-            saveDetailedScore(correctCount, total, answerDetails);
-            elements.quizContainer.style.display = 'none';
-            elements.resultsModal.style.display = 'flex';
-        }
-        
-        function displayFeedback(selectedIndex) {
-            const q = filteredQuestions[currentQuestionIndex];
-            const isCorrect = selectedIndex === q.answer;
-            elements.optionsEl.querySelectorAll('.option').forEach((option, index) => {
-                if (index === q.answer) option.classList.add('correct');
-                if (index === selectedIndex) option.classList.add(isCorrect ? 'selected' : 'incorrect');
-            });
-            let feedbackContent = isCorrect ? `✅ **Correto!**<br><br>` : `❌ **Incorreto.**<br><br>`;
-            feedbackContent += `A resposta correta é: "${q.options[q.answer]}".<br><br>${q.feedbackCompleto || "Justificativa não disponível."}`;
-            elements.feedbackDisplay.innerHTML = feedbackContent;
-            elements.feedbackDisplay.style.display = 'block';
-        }
-
-        function agendarRepeticao(question) {
-            if (!errosParaRepetir.some(item => item.id === question.id)) {
-                setTimeout(() => {
-                    errosParaRepetir.push(question);
-                }, 60000);
-            }
-        }
-        
-        function updateNavigationButtons() {
-            elements.prevBtn.disabled = currentQuestionIndex === 0;
-            if (isReviewMode) {
-                elements.nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1) ? 'Voltar' : 'Próxima →';
-            } else {
-                elements.nextBtn.textContent = (currentQuestionIndex === filteredQuestions.length - 1 && errosParaRepetir.length === 0) ? 'Finalizar' : 'Próxima →';
-            }
-            elements.finishQuizBtn.style.display = isReviewMode ? 'none' : 'block';
-        }
-        
-        function startSimulado(numQuestoes) {
-            if (questions.length < numQuestoes) {
-                alert(`Não há questões suficientes. Total: ${questions.length}`);
-                return;
-            }
-            isReviewMode = false;
-            errosParaRepetir = [];
-            selectedSubject = 'all'; 
-            filteredQuestions = shuffle([...questions]).slice(0, numQuestoes);
-            currentQuestionIndex = 0;
-            userAnswers = Array(filteredQuestions.length).fill(undefined);
-            loadQuestion();
-            elements.subjectTabs.forEach(t => t.classList.remove('active'));
-            document.querySelector('.subject-tab[data-subject="all"]').classList.add('active');
-        }
-
-        function startReviewMode() {
-            isReviewMode = true;
-            currentQuestionIndex = 0;
-            loadReviewQuestion();
-        }
-        
-        function loadReviewQuestion() {
-            const q = filteredQuestions[currentQuestionIndex];
-            elements.questionEl.textContent = `[${currentQuestionIndex + 1}/${filteredQuestions.length}] ${q.question}`;
-            elements.optionsEl.innerHTML = '';
-            const selectedAnswer = userAnswers[currentQuestionIndex];
-            const isCorrect = selectedAnswer === q.answer;
-            q.options.forEach((option, index) => {
-                const optionEl = document.createElement('div');
-                optionEl.classList.add('option');
-                optionEl.textContent = option;
-                optionEl.style.cursor = 'default';
-                if (index === q.answer) optionEl.classList.add('correct');
-                if (index === selectedAnswer && !isCorrect) optionEl.classList.add('incorrect');
-                elements.optionsEl.appendChild(optionEl);
-            });
-            let feedbackContent = (selectedAnswer === undefined) ? `❓ **Não respondida.**<br><br>` : '';
-            feedbackContent += `A resposta correta é: "${q.options[q.answer]}".<br><br>${q.feedbackCompleto || "Justificativa não disponível."}`;
-            elements.feedbackDisplay.innerHTML = feedbackContent;
-            elements.feedbackDisplay.style.display = 'block';
-            elements.hintDisplay.style.display = 'none';
-            elements.hintBtn.style.display = 'none';
-            elements.difficultyContainer.style.display = 'none';
-            updateNavigationButtons();
-        }
-
-        elements.dashboardBtn.addEventListener('click', showDashboard);
-        elements.closeDashboardBtn.addEventListener('click', () => {
-            elements.dashboardModal.style.display = 'none';
-        });
-        elements.simuladoBtn.addEventListener('click', () => {
-            addTerminalLine(`> Simulado de 120 questões iniciado...`);
-            startSimulado(120);
-        });
-        elements.nextBtn.addEventListener('click', () => {
-            if (errosParaRepetir.length > 0) {
-                const questaoRepetida = errosParaRepetir.shift();
-                const originalIndex = filteredQuestions.findIndex(q => q.id === questaoRepetida.id);
-                if (originalIndex !== -1) {
-                    currentQuestionIndex = originalIndex;
-                    userAnswers[currentQuestionIndex] = undefined;
-                    addTerminalLine(`> Refazendo questão...`);
-                    loadQuestion();
-                    return;
+            elements.nextBtn.addEventListener('click', () => {
+                if (errosParaRepetir.length > 0) {
+                    const questaoRepetida = errosParaRepetir.shift();
+                    const originalIndex = filteredQuestions.findIndex(q => q.id === questaoRepetida.id);
+                    if (originalIndex !== -1) {
+                        currentQuestionIndex = originalIndex;
+                        userAnswers[currentQuestionIndex] = undefined;
+                        addTerminalLine(`> Refazendo questão...`);
+                        isReviewMode ? loadReviewQuestion() : loadQuestion();
+                        return;
+                    }
                 }
-            }
-            if (currentQuestionIndex < filteredQuestions.length - 1) {
-                currentQuestionIndex++;
-                loadQuestion();
-            } else {
-                finishQuiz();
-            }
-        });
-        elements.prevBtn.addEventListener('click', () => {
-            if (currentQuestionIndex > 0) {
-                currentQuestionIndex--;
-                loadQuestion();
-            }
-        });
-        elements.finishQuizBtn.addEventListener('click', finishQuiz);
-        elements.difficultyButtons.forEach(button => {
-            button.addEventListener('click', (e) => {
-                const difficulty = e.target.dataset.difficulty;
-                const questionId = filteredQuestions[currentQuestionIndex].id;
-                difficultyRatings[questionId] = difficulty;
-                addTerminalLine(`> Questão avaliada como: ${difficulty}.`);
-                elements.difficultyContainer.style.display = 'none';
+                if (currentQuestionIndex < filteredQuestions.length - 1) {
+                    currentQuestionIndex++;
+                    isReviewMode ? loadReviewQuestion() : loadQuestion();
+                } else {
+                    isReviewMode ? (elements.quizContainer.style.display = 'none', elements.resultsModal.style.display = 'flex') : finishQuiz();
+                }
             });
-        });
-        elements.hintBtn.addEventListener('click', () => {
-            const q = filteredQuestions[currentQuestionIndex];
-            if (q?.hint) {
-                elements.hintDisplay.innerHTML = `💡 **Dica:** ${q.hint}`;
-                elements.hintDisplay.style.display = 'block';
-            } else {
-                elements.hintDisplay.innerHTML = `Não há dica disponível.`;
-                elements.hintDisplay.style.display = 'block';
-            }
-        });
-        elements.subjectTabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                elements.subjectTabs.forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-                selectedSubject = tab.dataset.subject;
-                addTerminalLine(`> Filtro ativado: ${tab.textContent}`);
-                startQuiz();
+
+            elements.prevBtn.addEventListener('click', () => {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                     isReviewMode ? loadReviewQuestion() : loadQuestion();
+                }
             });
+            elements.finishQuizBtn.addEventListener('click', finishQuiz);
+            elements.difficultyButtons.forEach(button => {
+                button.addEventListener('click', (e) => {
+                    const difficulty = e.target.dataset.difficulty;
+                    const questionId = filteredQuestions[currentQuestionIndex].id;
+                    difficultyRatings[questionId] = difficulty;
+                    addTerminalLine(`> Questão avaliada como: ${difficulty}.`);
+                    elements.difficultyContainer.style.display = 'none';
+                });
+            });
+            elements.hintBtn.addEventListener('click', () => {
+                const q = filteredQuestions[currentQuestionIndex];
+                if (q?.hint) {
+                    elements.hintDisplay.innerHTML = `💡 **Dica:** ${q.hint}`;
+                    elements.hintDisplay.style.display = 'block';
+                } else {
+                    elements.hintDisplay.innerHTML = `Não há dica disponível.`;
+                    elements.hintDisplay.style.display = 'block';
+                }
+            });
+            elements.subjectTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    elements.subjectTabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    selectedSubject = tab.dataset.subject;
+                    addTerminalLine(`> Filtro ativado: ${tab.textContent}`);
+                    startQuiz();
+                });
+            });
+            elements.reviewBtn.addEventListener('click', () => {
+                elements.resultsModal.style.display = 'none';
+                elements.quizContainer.style.display = 'block';
+                startReviewMode();
+            });
+            elements.restartBtn.addEventListener('click', () => {
+                elements.resultsModal.style.display = 'none';
+                elements.loginModal.style.display = 'flex';
+                addTerminalLine('> Reiniciando sistema...');
+            });
+
+             // --- Inicialização da Aplicação ---
+             loadFromLocalStorage();
+             fetch('questions.json')
+                .then(response => {
+                    if (!response.ok) throw new Error(`Erro de rede: ${response.statusText}`);
+                    return response.json();
+                })
+                .then(data => {
+                    questions = data.map((q, index) => ({ ...q, id: `q_${index}` }));
+                    addTerminalLine("> Banco de questões carregado.");
+                    elements.loginModal.style.display = 'flex';
+                    updateLeaderboard();
+                    addTerminalLine("> Aguardando autenticação <span class='blink'>_</span>");
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar as questões:', error);
+                    addTerminalLine(`> ERRO FATAL: Não foi possível carregar 'questions.json'.`);
+                });
         });
-        elements.reviewBtn.addEventListener('click', () => {
-            elements.resultsModal.style.display = 'none';
-            elements.quizContainer.style.display = 'block';
-            startReviewMode();
-        });
-        elements.restartBtn.addEventListener('click', () => {
-            elements.resultsModal.style.display = 'none';
-            elements.loginModal.style.display = 'flex';
-            addTerminalLine('> Reiniciando sistema...');
-        });
-    });
     </script>
 </body>
 </html>

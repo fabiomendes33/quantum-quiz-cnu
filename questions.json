@@ -16063,8 +16063,2801 @@
         "hint": "É uma ferramenta para 'medir' e 'desenvolver' as competências, não apenas julgar o desempenho.",
         "feedbackCompleto": "No modelo de Gestão por Competências, a Avaliação de Desempenho não é apenas um julgamento do que o colaborador fez, mas uma ferramenta para identificar as competências que ele já tem e as que precisa desenvolver. O objetivo é criar Planos de Desenvolvimento Individual (PDI) para que o servidor possa adquirir as competências necessárias para o sucesso na carreira e para o alcance dos objetivos da organização. (Referência: 'desempenho').",
         "subjects": ["rh"]
-    }
-]  
+    },
+    {
+    "question": "De acordo com o Art. 37 da Constituição Federal, a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos. Qual princípio da Administração Pública é diretamente atendido por essa exigência?",
+    "options": [
+      "Princípio da Eficiência",
+      "Princípio da Publicidade",
+      "Princípio da Impessoalidade",
+      "Princípio da Moralidade"
+    ],
+    "answer": 2,
+    "hint": "Pense no princípio que busca tratar todos os cidadãos de forma igualitária, sem favorecimentos.",
+    "feedbackCompleto": "O princípio da Impessoalidade é o mais diretamente atendido. A exigência de concurso público (CF/88, Art. 37, II) visa garantir que a escolha dos servidores seja baseada em mérito e capacidade, tratando todos os candidatos de forma isonômica e evitando favoritismos ou perseguições, que seriam atos pessoais.",
+    "subjects": ["direito-constitucional", "gestao"]
+  },
+  {
+    "question": "Um ato administrativo praticado por um agente público incompetente, mas cujo vício é sanável e não gerou lesão ao interesse público nem prejuízo a terceiros, pode ser corrigido pela própria Administração. Qual o nome desse ato de correção?",
+    "options": [
+      "Revogação",
+      "Anulação",
+      "Cassação",
+      "Convalidação"
+    ],
+    "answer": 3,
+    "hint": "Pense no ato de 'validar' ou 'consertar' um ato administrativo que nasceu com um defeito corrigível.",
+    "feedbackCompleto": "O ato de corrigir um vício sanável de um ato administrativo é a Convalidação, conforme previsto no Art. 55 da Lei nº 9.784/1999. Ela permite que a Administração 'consert' o ato, aproveitando seus efeitos já produzidos, desde que o vício seja de competência ou de forma e não cause prejuízos.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "A Lei de Responsabilidade Fiscal (LRF - Lei Complementar nº 101/2000) estabelece que a despesa total com pessoal do Poder Executivo Federal não poderá exceder qual percentual da Receita Corrente Líquida (RCL)?",
+    "options": [
+      "40%",
+      "50%",
+      "60%",
+      "75%"
+    ],
+    "answer": 1,
+    "hint": "Lembre-se do limite máximo estabelecido para o Poder Executivo na esfera da União.",
+    "feedbackCompleto": "A resposta correta é 50%. De acordo com o Art. 19, inciso I, da Lei de Responsabilidade Fiscal (LC nº 101/2000), a despesa total com pessoal da União não poderá exceder 50% da Receita Corrente Líquida, sendo este o limite máximo para o Poder Executivo.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "A Lei nº 14.133/2021 (Nova Lei de Licitações) criou a modalidade 'diálogo competitivo'. Essa modalidade é indicada para qual tipo de contratação?",
+    "options": [
+      "Aquisição de bens e serviços comuns, de baixo valor.",
+      "Obras e serviços de engenharia de grande vulto, com projeto já definido.",
+      "Contratações que envolvam inovação ou soluções técnicas complexas, em que a Administração não consegue definir a solução com precisão.",
+      "Alienação de bens públicos inservíveis."
+    ],
+    "answer": 2,
+    "hint": "Pense em uma situação onde a Administração precisa 'dialogar' com o mercado para encontrar a melhor solução para um problema.",
+    "feedbackCompleto": "O diálogo competitivo, previsto no Art. 32 da Lei nº 14.133/2021, é a modalidade ideal para contratações complexas que exigem soluções inovadoras, nas quais a Administração Pública não tem a especificação técnica completa da solução que necessita. A lei permite um diálogo estruturado com licitantes previamente selecionados para desenvolver a melhor solução.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "No ciclo de políticas públicas, qual etapa é responsável por transformar as decisões e os planos em ações concretas e resultados efetivos?",
+    "options": [
+      "Formulação da Agenda",
+      "Formulação da Política",
+      "Tomada de Decisão",
+      "Implementação"
+    ],
+    "answer": 3,
+    "hint": "Pense na fase do 'fazer acontecer', onde a política sai do papel e se torna realidade.",
+    "feedbackCompleto": "A Implementação é a fase do ciclo de políticas públicas onde os planos e as decisões são colocados em prática. É a etapa de execução, que envolve a alocação de recursos, a coordenação de atores e a entrega dos serviços e ações planejados para a sociedade.",
+    "subjects": ["politicas", "gestao"]
+  },
+  {
+    "question": "Qual instrumento de planejamento estabelece as diretrizes, objetivos e metas da administração pública para um período de 4 anos, orientando a elaboração da LDO e da LOA?",
+    "options": [
+      "Lei de Diretrizes Orçamentárias (LDO)",
+      "Lei Orçamentária Anual (LOA)",
+      "Plano Plurianual (PPA)",
+      "Relatório de Gestão Fiscal (RGF)"
+    ],
+    "answer": 2,
+    "hint": "Pense no planejamento de médio prazo que define a estratégia do governo.",
+    "feedbackCompleto": "O Plano Plurianual (PPA) é o instrumento de planejamento de médio prazo (4 anos) que, conforme o Art. 165, § 1º, da Constituição Federal, estabelece as diretrizes, objetivos e metas da administração pública para as despesas de capital e os programas de duração continuada, servindo de base para as leis orçamentárias anuais.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "O que a 'gestão por competências' busca alinhar na Administração Pública?",
+    "options": [
+      "Apenas o salário dos servidores com o mercado.",
+      "Os conhecimentos, habilidades e atitudes (CHA) dos servidores com os objetivos estratégicos da organização.",
+      "A jornada de trabalho com as normas legais.",
+      "A estrutura de cargos com a quantidade de pessoal."
+    ],
+    "answer": 1,
+    "hint": "Lembre-se do acrônimo C.H.A. e sua relação com a estratégia da instituição.",
+    "feedbackCompleto": "A gestão por competências é um modelo que visa alinhar o desenvolvimento e a gestão dos servidores aos objetivos estratégicos da organização. Ela foca em identificar, desenvolver e avaliar o conjunto de Conhecimentos, Habilidades e Atitudes (CHA) necessários para que os servidores executem suas funções com excelência.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "Qual dos seguintes princípios, embora não expresso no Art. 37 da CF/88, é considerado um pilar do Direito Administrativo e exige que a atuação estatal seja adequada, necessária e equilibrada?",
+    "options": [
+      "Princípio da Autotutela",
+      "Princípio da Continuidade do Serviço Público",
+      "Princípio da Razoabilidade e Proporcionalidade",
+      "Princípio da Especialidade"
+    ],
+    "answer": 2,
+    "hint": "Pense no princípio que veda atos excessivos e desmedidos por parte da Administração.",
+    "feedbackCompleto": "O Princípio da Razoabilidade e Proporcionalidade, embora implícito, é fundamental e exige que a Administração Pública atue de forma equilibrada, com medidas adequadas aos fins que pretende alcançar, sem excessos. Ele serve como um limitador do poder discricionário do gestor.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Na Nova Lei de Licitações (Lei 14.133/2021), a fase de habilitação, como regra geral, ocorre em que momento do processo?",
+    "options": [
+      "Antes da fase de apresentação de propostas.",
+      "Simultaneamente à fase de julgamento das propostas.",
+      "Após a fase de julgamento das propostas e antes da homologação.",
+      "Apenas após a assinatura do contrato."
+    ],
+    "answer": 2,
+    "hint": "A NLLC inverteu a ordem tradicional para dar mais agilidade, focando primeiro na melhor proposta.",
+    "feedbackCompleto": "A Lei nº 14.133/2021, em seu Art. 17, estabelece que, como regra, a fase de habilitação ocorrerá após a fase de julgamento das propostas. Isso significa que apenas a documentação do licitante que apresentou a proposta mais vantajosa será analisada, tornando o processo mais célere.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "O que o 'Princípio da Universalidade' do orçamento público determina?",
+    "options": [
+      "Que o orçamento deve ser único para cada ente da federação.",
+      "Que o orçamento não pode conter matéria estranha à previsão de receitas e fixação de despesas.",
+      "Que todas as receitas e todas as despesas devem constar da lei orçamentária.",
+      "Que o orçamento deve ter vigência por um período de um ano."
+    ],
+    "answer": 2,
+    "hint": "Pense na ideia de que o orçamento deve ser 'completo', sem deixar nada de fora.",
+    "feedbackCompleto": "O Princípio da Universalidade, previsto no Art. 2º da Lei nº 4.320/1964, determina que a Lei Orçamentária Anual (LOA) deve conter todas as receitas e todas as despesas do ente público, para que o Poder Legislativo e a sociedade possam ter uma visão completa das finanças governamentais e exercer o controle.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "O que caracteriza a 'liderança transformacional' na gestão de pessoas?",
+    "options": [
+      "Foco na troca de recompensas por desempenho.",
+      "Capacidade de inspirar, motivar e estimular intelectualmente a equipe para alcançar resultados que superam as expectativas.",
+      "Tomada de decisão centralizada e controle rígido das tarefas.",
+      "Ausência de direção, deixando a equipe tomar todas as decisões."
+    ],
+    "answer": 1,
+    "hint": "Pense em um líder que 'transforma' a equipe, elevando a motivação e a moral.",
+    "feedbackCompleto": "A liderança transformacional é um estilo focado em inspirar e motivar os colaboradores a transcenderem seus interesses próprios pelo bem da organização. O líder atua como um modelo, estimula a criatividade, oferece suporte individualizado e articula uma visão clara, gerando um alto nível de engajamento e desempenho.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "Qual remédio constitucional é cabível para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, contra ato de autoridade pública?",
+    "options": [
+      "Ação Popular",
+      "Mandado de Injunção",
+      "Mandado de Segurança",
+      "Ação Civil Pública"
+    ],
+    "answer": 2,
+    "hint": "É a principal ferramenta do cidadão para se proteger de ilegalidades ou abusos de poder do Estado que afetem um direito claro e comprovável.",
+    "feedbackCompleto": "O Mandado de Segurança, previsto no Art. 5º, LXIX, da Constituição Federal, é o remédio constitucional adequado para proteger 'direito líquido e certo' (aquele que pode ser comprovado de plano, sem necessidade de produção de provas complexas) contra ato ilegal ou com abuso de poder de autoridade pública.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "A criação de uma autarquia para executar um serviço público específico, como a fiscalização de uma profissão, é um exemplo de qual fenômeno da organização administrativa?",
+    "options": [
+      "Desconcentração",
+      "Centralização",
+      "Delegação",
+      "Descentralização"
+    ],
+    "answer": 3,
+    "hint": "Pense na transferência de competência para uma nova pessoa jurídica, criada para uma finalidade específica.",
+    "feedbackCompleto": "A criação de uma autarquia é o exemplo clássico de Descentralização por serviços (ou outorga). O Estado (Administração Direta) cria uma nova pessoa jurídica de direito público (a autarquia, que faz parte da Administração Indireta) e transfere a ela a titularidade e a execução de um serviço público.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Qual das seguintes despesas é classificada como 'Despesa Corrente' no orçamento público?",
+    "options": [
+      "Construção de um hospital.",
+      "Aquisição de equipamentos para um laboratório.",
+      "Pagamento de juros e encargos da dívida.",
+      "Compra de um imóvel para instalação de uma repartição."
+    ],
+    "answer": 2,
+    "hint": "Pense nas despesas que não aumentam o patrimônio físico do Estado, mas são necessárias para a manutenção de suas atividades.",
+    "feedbackCompleto": "Despesas Correntes são aquelas que mantêm o funcionamento da máquina pública. Conforme a classificação da despesa, o 'Pagamento de juros e encargos da dívida' é uma Despesa Corrente. As outras opções (construção, aquisição de equipamentos e compra de imóvel) são Despesas de Capital, pois aumentam o patrimônio do Estado.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "No Microsoft Excel, qual fórmula é utilizada para realizar um teste lógico, retornando um valor se a condição for verdadeira e outro valor se for falsa?",
+    "options": [
+      "=SOMA(A1:A5)",
+      "=PROCV(B1;C:D;2;FALSO)",
+      "=SE(A1>10;\"Maior\";\"Menor\")",
+      "=CONT.SE(A1:A10;\">50\")"
+    ],
+    "answer": 2,
+    "hint": "Pense na palavra 'Se' como o início de uma condição.",
+    "feedbackCompleto": "A função SE é a ferramenta do Excel para criar lógicas condicionais. Sua estrutura é =SE(condição; [valor_se_verdadeiro]; [valor_se_falso]). No exemplo, ela testa se o valor em A1 é maior que 10. Se for, retorna 'Maior'; caso contrário, retorna 'Menor'.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "A proposição 'Se chove, então a rua fica molhada' é logicamente equivalente a:",
+    "options": [
+      "Se a rua fica molhada, então chove.",
+      "Chove e a rua não fica molhada.",
+      "Não chove ou a rua fica molhada.",
+      "Se não chove, então a rua não fica molhada."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se da equivalência condicional P → Q ⇔ ~P ∨ Q.",
+    "feedbackCompleto": "Uma proposição condicional do tipo 'Se P, então Q' é logicamente equivalente à disjunção 'Não P ou Q'. Portanto, 'Se chove (P), então a rua fica molhada (Q)' é equivalente a 'Não chove (~P) ou a rua fica molhada (Q)'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual a principal finalidade da Demonstração do Resultado do Exercício (DRE) na contabilidade pública?",
+    "options": [
+      "Mostrar a posição financeira e patrimonial em uma data específica.",
+      "Evidenciar as entradas e saídas de caixa do governo.",
+      "Apresentar o resultado econômico do exercício, confrontando as Variações Patrimoniais Aumentativas (VPA) e Diminutivas (VPD).",
+      "Detalhar a execução orçamentária da despesa."
+    ],
+    "answer": 2,
+    "hint": "Pense em como a contabilidade pública mede o 'lucro' ou 'prejuízo' econômico, e não apenas o orçamentário.",
+    "feedbackCompleto": "A Demonstração do Resultado do Exercício (DRE), no setor público, evidencia o resultado econômico do período. Ela confronta as Variações Patrimoniais Aumentativas (receitas econômicas) e as Variações Patrimoniais Diminutivas (despesas econômicas), apurando o superávit ou déficit econômico, de acordo com o regime de competência.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Um servidor público que utiliza sua posição para obter vantagem pessoal em detrimento do interesse público está violando principalmente qual princípio da Administração Pública?",
+    "options": [
+      "Princípio da Eficiência",
+      "Princípio da Publicidade",
+      "Princípio da Moralidade e da Impessoalidade",
+      "Princípio da Legalidade"
+    ],
+    "answer": 2,
+    "hint": "Pense nos princípios que se relacionam com a ética, a honestidade e a finalidade pública do ato.",
+    "feedbackCompleto": "Tal conduta viola diretamente o Princípio da Moralidade, que exige honestidade e boa-fé, e o Princípio da Impessoalidade, pois o servidor está agindo com finalidade pessoal e não em prol do interesse coletivo. A busca de vantagem pessoal é a antítese da atuação impessoal e moral que se espera do agente público (CF/88, Art. 37).",
+    "subjects": ["direito-administrativo", "gestao"]
+  },
+  {
+    "question": "Na avaliação de políticas públicas, qual indicador mede a relação entre os recursos utilizados (custos) e os resultados alcançados?",
+    "options": [
+      "Eficácia",
+      "Efetividade",
+      "Economicidade",
+      "Eficiência"
+    ],
+    "answer": 3,
+    "hint": "Pense no indicador que busca 'fazer mais com menos'.",
+    "feedbackCompleto": "A Eficiência é o indicador que mede a relação entre os produtos ou serviços gerados por uma política (resultados) e os recursos (insumos) empregados para produzi-los. Uma política é considerada eficiente quando alcança seus objetivos utilizando o mínimo de recursos possível.",
+    "subjects": ["politicas", "gestao"]
+  },
+  {
+    "question": "A Lei nº 14.133/2021 estabelece que os contratos administrativos podem conter 'cláusulas exorbitantes'. O que isso significa?",
+    "options": [
+      "Que os contratos são excessivamente caros para a Administração.",
+      "Que os contratos possuem cláusulas ilegais que podem ser anuladas.",
+      "Prerrogativas da Administração, como a de modificar ou rescindir o contrato unilateralmente, que não seriam comuns em contratos privados.",
+      "Que os contratos devem ser sempre de curto prazo."
+    ],
+    "answer": 2,
+    "hint": "Pense nas prerrogativas que colocam a Administração em uma posição de superioridade em relação ao contratado, visando o interesse público.",
+    "feedbackCompleto": "As cláusulas exorbitantes são prerrogativas especiais concedidas à Administração Pública em seus contratos, fundamentadas na supremacia do interesse público. Conforme previsto na Lei nº 14.133/2021 (Art. 104), elas incluem o poder de alterar o contrato unilateralmente, fiscalizar a execução, aplicar sanções e até rescindir o contrato, o que seria inadmissível em um contrato entre particulares.",
+    "subjects": ["licitacoes", "direito-administrativo"]
+  },
+  {
+    "question": "Conforme a Lei nº 8.112/1990, o retorno do servidor estável ao cargo anteriormente ocupado em decorrência de inabilitação em estágio probatório relativo a outro cargo é denominado:",
+    "options": [
+      "Reintegração",
+      "Reversão",
+      "Readaptação",
+      "Recondução"
+    ],
+    "answer": 3,
+    "hint": "Pense no ato de ser 'conduzido de volta' à posição de origem estável.",
+    "feedbackCompleto": "A resposta correta é Recondução. De acordo com o Art. 29 da Lei nº 8.112/1990, a recondução é o retorno do servidor estável ao cargo que ocupava anteriormente, sendo uma de suas hipóteses a inabilitação em estágio probatório em outro cargo. Reintegração é para demissão invalidada, e Reversão é o retorno do aposentado.",
+    "subjects": ["rh", "direito-administrativo"]
+  },
+  {
+    "question": "A Lei Orçamentária Anual (LOA) não conterá dispositivo estranho à previsão da receita e à fixação da despesa. Esta regra refere-se a qual princípio orçamentário?",
+    "options": [
+      "Princípio da Unidade",
+      "Princípio da Universalidade",
+      "Princípio da Exclusividade",
+      "Princípio da Anualidade"
+    ],
+    "answer": 2,
+    "hint": "Pense no princípio que proíbe 'matérias estranhas' ou 'jabutis' na lei do orçamento.",
+    "feedbackCompleto": "Trata-se do Princípio da Exclusividade, consagrado no Art. 165, § 8º, da Constituição Federal. Ele determina que a LOA deve tratar exclusivamente de matéria orçamentária, com as ressalvas da própria Constituição para a autorização de créditos suplementares e contratação de operações de crédito.",
+    "subjects": ["afo", "orcamento", "direito-constitucional"]
+  },
+  {
+    "question": "Qual dos elementos do ato administrativo se refere ao pressuposto de fato e de direito que serve de fundamento para sua prática?",
+    "options": [
+      "Objeto",
+      "Forma",
+      "Motivo",
+      "Finalidade"
+    ],
+    "answer": 2,
+    "hint": "É a 'razão' ou a 'causa' que leva a Administração a praticar o ato.",
+    "feedbackCompleto": "O Motivo é o elemento que corresponde aos pressupostos de fato e de direito que autorizam ou exigem a prática do ato. O pressuposto de fato é a situação do mundo real que acontece, e o de direito é o dispositivo legal que prevê aquela situação como ensejadora da prática do ato.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Na Lei nº 14.133/2021, o critério de julgamento utilizado para a celebração de contratos de eficiência, que visa a maior economia para a Administração, é o de:",
+    "options": [
+      "Menor preço",
+      "Melhor técnica ou conteúdo artístico",
+      "Técnica e preço",
+      "Maior retorno econômico"
+    ],
+    "answer": 3,
+    "hint": "Pense no critério que remunera o contratado com base na economia que ele gera para o governo.",
+    "feedbackCompleto": "O critério de julgamento do Maior Retorno Econômico é utilizado para os contratos de eficiência, conforme o Art. 39 da Lei nº 14.133/2021. Nesses contratos, a remuneração do contratado será um percentual da economia efetivamente gerada para a Administração, incentivando soluções mais inovadoras e eficientes.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "A Teoria da Burocracia, de Max Weber, foi um avanço em relação ao modelo patrimonialista por introduzir qual característica fundamental na Administração Pública?",
+    "options": [
+      "Flexibilidade e foco no cidadão-cliente",
+      "Relações baseadas no carisma e na tradição",
+      "A impessoalidade e a racionalidade legal nas decisões",
+      "A participação popular direta na gestão"
+    ],
+    "answer": 2,
+    "hint": "Pense no que a burocracia buscou combater: a mistura entre o público e o privado.",
+    "feedbackCompleto": "A principal contribuição do modelo burocrático weberiano foi a introdução da impessoalidade e da racionalidade legal, em oposição ao patrimonialismo, onde o Estado era tratado como propriedade do governante. A burocracia prega a aplicação de regras formais e isonômicas a todos, baseando-se na lei e não em relações pessoais.",
+    "subjects": ["gestao", "adm-geral"]
+  },
+  {
+    "question": "O que são 'restos a pagar processados' no contexto da execução orçamentária?",
+    "options": [
+      "Despesas que foram apenas empenhadas, mas não liquidadas.",
+      "Despesas que foram empenhadas, liquidadas (o direito do credor foi verificado) e pagas no exercício.",
+      "Despesas que foram empenhadas e liquidadas, mas cujo pagamento ficou para o exercício seguinte.",
+      "Despesas que serão canceladas no final do exercício."
+    ],
+    "answer": 2,
+    "hint": "O termo 'processado' significa que a fase de verificação (liquidação) foi concluída.",
+    "feedbackCompleto": "Restos a Pagar Processados são despesas que já passaram pelas fases de empenho e liquidação dentro do exercício financeiro, mas que não foram pagas até 31 de dezembro. Como o direito do credor já foi verificado ('processado'), seu pagamento no ano seguinte é uma obrigação.",
+    "subjects": ["afo", "orcamento", "contabilidade"]
+  },
+  {
+    "question": "O modelo de avaliação de desempenho que coleta feedback de múltiplas fontes, como superiores, pares, subordinados e autoavaliação, é conhecido como:",
+    "options": [
+      "Avaliação por objetivos",
+      "Feedback 360 graus",
+      "Avaliação por competências",
+      "Escala gráfica de classificação"
+    ],
+    "answer": 1,
+    "hint": "Pense em uma avaliação que vem de 'todos os lados' ou de um círculo completo ao redor do avaliado.",
+    "feedbackCompleto": "O Feedback 360 graus é uma ferramenta de avaliação de desempenho que busca uma visão completa e multidimensional do colaborador, coletando percepções de todas as pessoas com quem ele interage no ambiente de trabalho (visão 360°), incluindo sua própria autoavaliação. É uma ferramenta poderosa para o desenvolvimento profissional.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "A Constituição Federal estabelece que 'são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário'. Este artigo consagra qual princípio fundamental?",
+    "options": [
+      "Princípio Federativo",
+      "Princípio da Soberania Popular",
+      "Princípio da Separação dos Poderes",
+      "Princípio do Devido Processo Legal"
+    ],
+    "answer": 2,
+    "hint": "Pense no sistema de 'freios e contrapesos' que evita a concentração de poder.",
+    "feedbackCompleto": "O Art. 2º da Constituição Federal de 1988 consagra o Princípio da Separação dos Poderes. Este princípio, fundamental para o Estado Democrático de Direito, distribui as funções estatais entre órgãos independentes e harmônicos, que se controlam mutuamente para evitar o abuso de poder.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Na gestão de projetos, a ferramenta utilizada para visualizar a sequência de tarefas, suas dependências e a duração ao longo do tempo é o:",
+    "options": [
+      "Diagrama de Ishikawa (Espinha de Peixe)",
+      "Ciclo PDCA",
+      "Gráfico de Gantt",
+      "Matriz SWOT"
+    ],
+    "answer": 2,
+    "hint": "Pense em um gráfico de barras horizontais que representa o cronograma de um projeto.",
+    "feedbackCompleto": "O Gráfico de Gantt é a ferramenta visual padrão para o gerenciamento de cronogramas de projetos. Ele utiliza barras horizontais para representar as tarefas em uma linha do tempo, mostrando as datas de início e fim, a duração e as dependências entre elas, o que facilita o planejamento e o acompanhamento do progresso.",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "Qual a principal função de um 'firewall' na segurança da informação de uma rede de computadores?",
+    "options": [
+      "Remover vírus de arquivos já infectados.",
+      "Monitorar e filtrar o tráfego de rede, bloqueando acessos não autorizados e protegendo a rede interna contra ameaças externas.",
+      "Acelerar a velocidade da conexão com a internet.",
+      "Criar cópias de segurança (backups) dos dados."
+    ],
+    "answer": 1,
+    "hint": "Pense em uma 'barreira de proteção' ou uma 'parede de fogo' entre a rede local e a internet.",
+    "feedbackCompleto": "Um firewall atua como uma barreira de segurança que controla o tráfego de dados entre a rede interna de uma organização e a internet. Ele analisa os pacotes de dados e, com base em um conjunto de regras de segurança, decide se permite ou bloqueia a comunicação, sendo uma peça fundamental na prevenção de acessos não autorizados.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "A negação da proposição 'Todo político é honesto' é:",
+    "options": [
+      "Nenhum político é honesto.",
+      "Todo político não é honesto.",
+      "Algum político não é honesto.",
+      "Algum político é honesto."
+    ],
+    "answer": 2,
+    "hint": "Para negar uma afirmação universal ('Todo A é B'), basta encontrar um único contraexemplo.",
+    "feedbackCompleto": "A negação de uma proposição universal afirmativa ('Todo A é B') é uma proposição particular negativa ('Algum A não é B' ou 'Pelo menos um A não é B'). Se não é verdade que 'todos' são, então é verdade que 'pelo menos um não é'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual das seguintes contas pertence ao Passivo Não Circulante no Balanço Patrimonial de uma entidade?",
+    "options": [
+      "Caixa e Equivalentes de Caixa",
+      "Fornecedores (com vencimento em 60 dias)",
+      "Estoques para venda",
+      "Financiamentos de Longo Prazo (com vencimento em 36 meses)"
+    ],
+    "answer": 3,
+    "hint": "Pense nas obrigações da empresa cujo vencimento ocorre após o término do exercício social seguinte.",
+    "feedbackCompleto": "O Passivo Não Circulante registra as obrigações e dívidas da empresa com vencimento em prazo superior a 12 meses. Financiamentos de longo prazo se encaixam perfeitamente nessa definição. Caixa e Estoques são do Ativo Circulante, e Fornecedores de curto prazo são do Passivo Circulante.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "A Lei de Acesso à Informação (LAI - Lei nº 12.527/2011) tem como regra geral:",
+    "options": [
+      "O sigilo das informações, sendo a publicidade a exceção.",
+      "A publicidade das informações como preceito geral, e o sigilo como exceção.",
+      "O acesso restrito apenas a agentes públicos e jornalistas.",
+      "A necessidade de apresentar justificativa para solicitar uma informação."
+    ],
+    "answer": 1,
+    "hint": "Pense no princípio fundamental que norteia a transparência no serviço público.",
+    "feedbackCompleto": "A resposta correta é a publicidade como regra. A Lei nº 12.527/2011, em seu Art. 3º, inciso I, estabelece que a publicidade é o preceito geral e o sigilo é a exceção. Além disso, a lei dispensa a necessidade de o cidadão apresentar justificativa para seu pedido de informação.",
+    "subjects": ["direito-administrativo", "politicas"]
+  },
+  {
+    "question": "O que o 'Princípio da Continuidade', um dos Princípios Fundamentais de Contabilidade, presume sobre uma entidade?",
+    "options": [
+      "Que a entidade deve encerrar suas atividades anualmente.",
+      "Que a entidade continuará em operação por tempo indeterminado no futuro.",
+      "Que o patrimônio da entidade se confunde com o dos sócios.",
+      "Que as receitas e despesas devem ser registradas quando ocorrem."
+    ],
+    "answer": 1,
+    "hint": "Pense na 'expectativa de vida' de uma empresa para fins contábeis.",
+    "feedbackCompleto": "O Princípio da Continuidade presume que a entidade operará continuamente por um período indeterminado no futuro. Essa premissa é fundamental para a avaliação de ativos e passivos, pois justifica, por exemplo, a depreciação de um ativo ao longo de vários anos, em vez de registrá-lo como despesa imediata.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Dentro da estrutura organizacional, o processo de dividir a organização em departamentos com base em funções (ex: Marketing, Finanças, RH) é chamado de:",
+    "options": [
+      "Departamentalização por projeto",
+      "Estrutura matricial",
+      "Departamentalização funcional",
+      "Estrutura em rede"
+    ],
+    "answer": 2,
+    "hint": "Pense na forma mais clássica e tradicional de agrupar as tarefas em uma empresa.",
+    "feedbackCompleto": "A Departamentalização Funcional é a forma mais comum de estruturar uma organização. Ela agrupa especialistas e atividades similares em um mesmo departamento, como Finanças, Produção, Marketing e Recursos Humanos, promovendo a especialização e a eficiência dentro de cada função.",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "Qual das seguintes ações representa uma medida de 'controle preventivo' na gestão de riscos?",
+    "options": [
+      "Realizar uma auditoria para encontrar pagamentos indevidos já efetuados.",
+      "Conciliar as contas bancárias no final do mês.",
+      "Exigir a aprovação de um gerente para todas as despesas acima de R$ 1.000,00.",
+      "Investigar uma denúncia de fraude."
+    ],
+    "answer": 2,
+    "hint": "Pense em uma ação que acontece 'antes' para evitar que o problema ocorra.",
+    "feedbackCompleto": "Controles preventivos são desenhados para evitar que erros ou fraudes ocorram. Exigir a aprovação prévia de um superior para despesas de maior valor é um controle preventivo clássico, pois impede que um gasto indevido seja realizado. Auditorias, conciliações e investigações são controles detectivos, pois encontram o problema depois que ele já ocorreu.",
+    "subjects": ["controle", "gestao"]
+  },
+  {
+    "question": "A negação da proposição 'Ana é servidora OU Bruno não é concurseiro' é:",
+    "options": [
+      "Ana não é servidora E Bruno é concurseiro.",
+      "Ana é servidora E Bruno é concurseiro.",
+      "Se Ana é servidora, então Bruno não é concurseiro.",
+      "Ana não é servidora OU Bruno é concurseiro."
+    ],
+    "answer": 0,
+    "hint": "Use as Leis de De Morgan: a negação de (P ∨ Q) é (~P ∧ ~Q).",
+    "feedbackCompleto": "Para negar uma disjunção ('OU'), devemos negar ambas as proposições e trocar o conectivo por uma conjunção ('E'). A negação de 'Ana é servidora' é 'Ana não é servidora'. A negação de 'Bruno não é concurseiro' é 'Bruno é concurseiro'. Portanto, a negação completa é 'Ana não é servidora E Bruno é concurseiro'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Em qual etapa do ciclo orçamentário ocorre a discussão e aprovação do Projeto de Lei Orçamentária Anual (PLOA) pelo Poder Legislativo?",
+    "options": [
+      "Elaboração",
+      "Execução",
+      "Apreciação Legislativa",
+      "Controle e Avaliação"
+    ],
+    "answer": 2,
+    "hint": "Pense na fase que acontece no Congresso Nacional, após o Executivo enviar a proposta.",
+    "feedbackCompleto": "A Apreciação Legislativa é a segunda grande fase do ciclo orçamentário. Nela, o Poder Legislativo (Congresso Nacional) recebe a proposta orçamentária elaborada pelo Executivo, discute, realiza emendas e, por fim, vota e aprova o projeto, que se transforma na Lei Orçamentária Anual (LOA).",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "Qual é a principal característica da 'efetividade' na avaliação de políticas públicas?",
+    "options": [
+      "Atingir as metas estabelecidas, independentemente do custo.",
+      "Utilizar os recursos da forma mais econômica possível.",
+      "O impacto final e a mudança real que a política gerou na sociedade, resolvendo o problema que a originou.",
+      "A velocidade com que a política foi implementada."
+    ],
+    "answer": 2,
+    "hint": "Pense no resultado final, na transformação que a política causou no problema inicial.",
+    "feedbackCompleto": "A Efetividade é a medida mais ampla do sucesso de uma política pública. Ela vai além de cumprir metas (eficácia) ou ser barata (eficiência). A efetividade avalia se a política pública realmente resolveu o problema social para o qual foi criada e gerou uma transformação positiva e duradoura na realidade dos cidadãos.",
+    "subjects": ["politicas", "gestao"]
+  },
+  {
+    "question": "O direito à 'inviolabilidade do domicílio', previsto no Art. 5º da Constituição, estabelece que a casa não pode ser penetrada sem consentimento do morador, salvo em quais situações?",
+    "options": [
+      "A qualquer hora, por ordem judicial.",
+      "Apenas durante o dia, com mandado de busca e apreensão.",
+      "Em caso de flagrante delito, desastre, para prestar socorro, ou, durante o dia, por determinação judicial.",
+      "Apenas em caso de estado de sítio decretado."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se das exceções que permitem a entrada forçada, considerando a diferença entre dia e noite para ordens judiciais.",
+    "feedbackCompleto": "O Art. 5º, inciso XI, da Constituição Federal estabelece que a casa é asilo inviolável, ninguém nela podendo penetrar sem consentimento, salvo em três situações a qualquer hora (flagrante delito, desastre ou para prestar socorro) e uma quarta situação que só pode ocorrer durante o dia (por determinação judicial).",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Qual é o principal objetivo da Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) no contexto da Administração Pública?",
+    "options": [
+      "Restringir o acesso dos cidadãos a informações públicas.",
+      "Proteger os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade da pessoa natural, estabelecendo regras sobre o tratamento de dados pessoais.",
+      "Permitir o compartilhamento irrestrito de dados pessoais entre órgãos públicos.",
+      "Aumentar a burocracia para a coleta de informações pelo Estado."
+    ],
+    "answer": 1,
+    "hint": "Pense na proteção dos dados do cidadão e nos direitos à privacidade.",
+    "feedbackCompleto": "A LGPD, conforme seu Art. 1º, tem como objetivo proteger os direitos fundamentais de liberdade e privacidade. Na Administração Pública, isso significa que o tratamento de dados pessoais de cidadãos deve ser feito com transparência, para finalidades específicas e com o consentimento do titular ou em hipóteses legalmente previstas, garantindo a segurança dessas informações.",
+    "subjects": ["direito-administrativo", "gestao"]
+  },
+  {
+    "question": "O Poder Executivo pode editar Medidas Provisórias com força de lei. No entanto, a Constituição Federal veda a edição de Medidas Provisórias sobre determinados assuntos. Qual das seguintes matérias PODE ser objeto de Medida Provisória?",
+    "options": [
+      "Direito Penal e Processual Penal.",
+      "Orçamentos e créditos adicionais, ressalvado o previsto no art. 167, § 3º.",
+      "Planos plurianuais e diretrizes orçamentárias.",
+      "Abertura de crédito extraordinário para atender a despesas imprevisíveis e urgentes."
+    ],
+    "answer": 3,
+    "hint": "Pense em uma situação de emergência que exige uma resposta financeira imediata do governo.",
+    "feedbackCompleto": "A resposta correta está na exceção. O Art. 62, § 1º, da CF/88, veda a edição de MPs sobre diversas matérias, incluindo orçamentos. Contudo, o Art. 167, § 3º, da CF/88, autoriza a abertura de crédito extraordinário (um tipo de crédito adicional) para atender a despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública, e essa abertura é feita por meio de Medida Provisória.",
+    "subjects": ["direito-constitucional", "afo"]
+  },
+  {
+    "question": "A Teoria da Contingência na Administração argumenta que:",
+    "options": [
+      "Existe uma única forma correta de administrar qualquer organização.",
+      "A melhor forma de administrar depende da situação e do ambiente em que a organização está inserida.",
+      "O foco da administração deve ser exclusivamente nas tarefas e na produção.",
+      "As relações humanas são o fator mais importante para a produtividade."
+    ],
+    "answer": 1,
+    "hint": "O nome da teoria já indica que a abordagem de gestão é 'contingente' ou 'dependente' de algo.",
+    "feedbackCompleto": "A Teoria da Contingência defende a abordagem 'tudo depende'. Ela afirma que não existe uma única e melhor maneira de organizar e administrar, pois a estrutura e o funcionamento de uma organização devem se adaptar às condições do ambiente externo e à tecnologia utilizada. A eficácia administrativa é situacional.",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "No Microsoft Word, qual combinação de teclas é utilizada para 'Justificar' um parágrafo, alinhando o texto tanto à margem esquerda quanto à direita?",
+    "options": [
+      "Ctrl + E",
+      "Ctrl + G",
+      "Ctrl + Q",
+      "Ctrl + J"
+    ],
+    "answer": 3,
+    "hint": "Pense na inicial da palavra 'Justificar'.",
+    "feedbackCompleto": "A combinação de teclas para justificar um parágrafo no Microsoft Word (e em muitos outros editores de texto) é Ctrl + J. As outras opções são para: Ctrl + E (Centralizar), Ctrl + G (Alinhar à Direita) e Ctrl + Q (Alinhar à Esquerda).",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "A etapa da despesa orçamentária que cria para o Estado a obrigação de pagamento, por meio da reserva de uma dotação orçamentária, é o:",
+    "options": [
+      "Pagamento",
+      "Empenho",
+      "Lançamento",
+      "Liquidação"
+    ],
+    "answer": 1,
+    "hint": "É o primeiro dos três estágios da despesa: E-L-P.",
+    "feedbackCompleto": "O Empenho é a primeira etapa da despesa pública. Conforme o Art. 58 da Lei nº 4.320/1964, é o ato emanado de autoridade competente que cria para o Estado a obrigação de pagamento pendente ou não de implemento de condição. Ele 'reserva' o dinheiro para aquele gasto específico.",
+    "subjects": ["afo", "orcamento", "contabilidade"]
+  },
+  {
+    "question": "Qual das seguintes frases apresenta ERRO no uso da crase?",
+    "options": [
+      "Fui àquela farmácia que você indicou.",
+      "A reunião começará às 14h.",
+      "Ele se referiu à todas as pessoas da sala.",
+      "Agradeço à professora pela excelente aula."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se da regra: não se usa crase antes de pronomes indefinidos.",
+    "feedbackCompleto": "O erro está em 'referiu-se à todas as pessoas'. Não ocorre crase antes de pronomes indefinidos como 'toda', 'todas', 'qualquer', 'ninguém'. O correto seria '...referiu-se a todas as pessoas...'. As demais opções estão corretas.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "Um dos principais desafios da gestão de pessoas no setor público é a retenção de talentos. Qual das estratégias abaixo contribui para esse objetivo?",
+    "options": [
+      "Oferecer apenas estabilidade, sem perspectivas de crescimento.",
+      "Implementar planos de carreira estruturados, com oportunidades de desenvolvimento e capacitação contínua.",
+      "Manter uma política de remuneração fixa e sem avaliação de desempenho.",
+      "Centralizar todas as decisões e diminuir a autonomia dos servidores."
+    ],
+    "answer": 1,
+    "hint": "Pense no que motiva um profissional qualificado a permanecer em uma organização, além da segurança.",
+    "feedbackCompleto": "Para reter talentos, a Administração Pública precisa ir além da estabilidade. Oferecer planos de carreira claros, com critérios justos para progressão e promoção, e investir em capacitação e desenvolvimento contínuo são estratégias fundamentais para manter os servidores motivados e engajados com a organização.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "A Lei nº 14.133/2021 estabelece o Portal Nacional de Contratações Públicas (PNCP) como o sítio eletrônico oficial para a divulgação centralizada dos atos de licitação. A publicação no PNCP é condição para a:",
+    "options": [
+      "Eficácia do contrato.",
+      "Validade do contrato.",
+      "Anulação do contrato.",
+      "Execução financeira do contrato."
+    ],
+    "answer": 0,
+    "hint": "Pense no momento em que o ato ou contrato passa a produzir seus efeitos legais.",
+    "feedbackCompleto": "Conforme o Art. 94 da Lei nº 14.133/2021, a divulgação no Portal Nacional de Contratações Públicas (PNCP) é condição indispensável para a eficácia do contrato e de seus aditamentos. Isso significa que, mesmo que o contrato seja válido (assinado), ele só produzirá efeitos após a devida publicação no portal.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "O que o 'ativismo judicial' representa no contexto do Estado brasileiro?",
+    "options": [
+      "Uma atuação do Judiciário estritamente limitada ao texto da lei.",
+      "A participação de juízes em manifestações políticas.",
+      "Uma postura proativa do Poder Judiciário na interpretação da Constituição, buscando concretizar direitos e políticas públicas, por vezes em áreas de omissão dos outros Poderes.",
+      "A subordinação do Judiciário ao Poder Executivo."
+    ],
+    "answer": 2,
+    "hint": "Pense em uma atuação do Judiciário que vai além da simples aplicação da lei, buscando efetivar os valores da Constituição.",
+    "feedbackCompleto": "O ativismo judicial é um fenômeno caracterizado por uma participação mais ampla e intensa do Poder Judiciário na concretização dos valores e fins constitucionais. Ocorre quando o Judiciário, provocado a decidir, expande sua interpretação para garantir direitos fundamentais, muitas vezes suprindo omissões do Legislativo ou do Executivo.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Numa equipe de 5 pessoas, de quantas maneiras diferentes podemos formar uma comissão de 3 pessoas?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "60"
+    ],
+    "answer": 0,
+    "hint": "A ordem das pessoas na comissão não importa, então use a fórmula da Combinação Simples: C(n, p) = n! / (p! * (n-p)!).",
+    "feedbackCompleto": "Como a ordem de escolha não importa, trata-se de um problema de Combinação. A fórmula é C(n, p) = n! / (p! * (n-p)!). Substituindo os valores: C(5, 3) = 5! / (3! * (5-3)!) = 5! / (3! * 2!) = (5*4*3*2*1) / ((3*2*1) * (2*1)) = 120 / (6 * 2) = 120 / 12 = 10. Existem 10 maneiras diferentes.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Em uma distribuição de dados, se a média, a mediana e a moda possuem o mesmo valor, a distribuição é considerada:",
+    "options": [
+      "Assimétrica à direita",
+      "Assimétrica à esquerda",
+      "Bimodal",
+      "Simétrica"
+    ],
+    "answer": 3,
+    "hint": "Pense no formato de 'sino' perfeito, onde o ponto central concentra todas as medidas de tendência central.",
+    "feedbackCompleto": "Uma característica fundamental de uma distribuição perfeitamente simétrica (como a Distribuição Normal) é a coincidência das três principais medidas de tendência central: a média, a mediana e a moda. Quando a média é maior que a mediana, a assimetria é à direita (positiva); quando é menor, a assimetria é à esquerda (negativa).",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "O que é 'accountability horizontal' no contexto do controle da Administração Pública?",
+    "options": [
+      "O controle exercido pelos cidadãos sobre o governo.",
+      "O controle que os órgãos de um mesmo Poder exercem uns sobre os outros, ou o controle entre os diferentes Poderes (freios e contrapesos).",
+      "O autocontrole exercido pela própria Administração.",
+      "A prestação de contas do governo para organismos internacionais."
+    ],
+    "answer": 1,
+    "hint": "Pense no controle que ocorre 'de lado', entre instituições do mesmo nível hierárquico ou entre Poderes.",
+    "feedbackCompleto": "Accountability horizontal refere-se aos mecanismos de controle mútuo entre as instituições estatais. É o controle exercido pelo Poder Legislativo sobre o Executivo, pelo Judiciário sobre os outros dois, e também por agências especializadas de controle, como os Tribunais de Contas e o Ministério Público. Diferencia-se da accountability vertical, que é o controle exercido pela sociedade (voto, protestos).",
+    "subjects": ["controle", "politicas"]
+  },
+  {
+    "question": "Se o preço de um produto aumenta de R$ 80,00 para R$ 100,00, qual foi o percentual de aumento?",
+    "options": [
+      "20%",
+      "25%",
+      "12,5%",
+      "125%"
+    ],
+    "answer": 1,
+    "hint": "Calcule o valor do aumento (preço final - preço inicial) e depois divida esse valor pelo preço inicial.",
+    "feedbackCompleto": "O valor do aumento foi de R$ 100,00 - R$ 80,00 = R$ 20,00. Para encontrar o percentual, dividimos o valor do aumento pelo valor inicial e multiplicamos por 100: (20 / 80) * 100. Simplificando, 20/80 é o mesmo que 1/4, que é 0,25. Multiplicando por 100, temos 25%.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual das seguintes ações NÃO é uma competência do Tribunal de Contas da União (TCU)?",
+    "options": [
+      "Apreciar as contas prestadas anualmente pelo Presidente da República.",
+      "Julgar as contas dos administradores de recursos públicos federais.",
+      "Aplicar sanções aos responsáveis, como multa.",
+      "Punir criminalmente os gestores por atos de corrupção."
+    ],
+    "answer": 3,
+    "hint": "Lembre-se que o TCU é um órgão de controle administrativo, não judicial. A punição de crimes é competência de outro Poder.",
+    "feedbackCompleto": "O TCU tem competências administrativas de fiscalização e julgamento de contas, podendo aplicar sanções como multas e determinar a devolução de recursos, conforme o Art. 71 da CF/88. No entanto, a punição na esfera criminal (como prisão por corrupção) é uma atribuição exclusiva do Poder Judiciário, após a devida ação penal, que pode ser proposta pelo Ministério Público.",
+    "subjects": ["controle", "direito-constitucional"]
+  },
+  {
+    "question": "A figura de linguagem presente na frase 'Ele chorou rios de lágrimas' é:",
+    "options": [
+      "Metáfora",
+      "Comparação",
+      "Hipérbole",
+      "Eufemismo"
+    ],
+    "answer": 2,
+    "hint": "Pense na figura de linguagem que representa um exagero intencional para dar ênfase.",
+    "feedbackCompleto": "A Hipérbole é a figura de linguagem que expressa uma ideia com exagero intencional, com o objetivo de enfatizar a mensagem. 'Chorar rios de lágrimas' é um claro exagero para expressar a intensidade do choro.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "No que consiste o 'poder-dever de agir' da Administração Pública?",
+    "options": [
+      "Que o agente público tem a opção de agir ou não, conforme sua conveniência.",
+      "Que a competência administrativa é irrenunciável e o agente público tem a obrigação de exercê-la em prol do interesse público.",
+      "Que a Administração pode delegar todas as suas funções para o setor privado.",
+      "Que o agente público só pode agir quando expressamente ordenado por um juiz."
+    ],
+    "answer": 1,
+    "hint": "Pense na competência como uma obrigação, não apenas como um direito do agente público.",
+    "feedbackCompleto": "O poder-dever de agir significa que a competência atribuída por lei a um agente público não é uma mera faculdade, mas uma obrigação. O agente não pode se omitir ou renunciar a ela, devendo sempre atuar quando a situação exigir, visando ao cumprimento da finalidade pública. A omissão, quando o dever de agir é imposto, caracteriza ilegalidade.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Qual é a principal diferença entre o 'orçamento tradicional' e o 'orçamento-programa'?",
+    "options": [
+      "O orçamento tradicional é focado em programas e resultados, enquanto o orçamento-programa é focado em insumos.",
+      "O orçamento tradicional foca nos objetos de gasto (insumos), enquanto o orçamento-programa vincula os recursos a objetivos, metas e programas de governo.",
+      "O orçamento tradicional é elaborado pelo Legislativo, e o orçamento-programa pelo Executivo.",
+      "Não há diferença substancial, apenas a nomenclatura."
+    ],
+    "answer": 1,
+    "hint": "Pense no foco de cada modelo: um se preocupa com 'o que se compra', e o outro com 'o que se pretende alcançar'.",
+    "feedbackCompleto": "A principal diferença reside no foco. O orçamento tradicional (ou clássico) é um mero inventário dos meios, focado no controle dos insumos (pessoal, material, etc.). O orçamento-programa, adotado no Brasil, é um instrumento de planejamento que vincula a alocação de recursos (despesas) a objetivos e metas a serem alcançados por meio de programas de trabalho.",
+    "subjects": ["afo", "orcamento", "gestao"]
+  },
+  {
+    "question": "Um 'worm' (verme) de computador é um tipo de malware que se caracteriza por:",
+    "options": [
+      "Precisar de um arquivo hospedeiro para se propagar.",
+      "Se disfarçar de um programa legítimo para enganar o usuário.",
+      "Se propagar automaticamente através de redes, explorando vulnerabilidades, sem a necessidade de intervenção do usuário.",
+      "Criptografar os arquivos do usuário e exigir um resgate."
+    ],
+    "answer": 2,
+    "hint": "Pense na capacidade de autorreplicação e propagação em rede.",
+    "feedbackCompleto": "A característica principal de um worm é sua capacidade de se replicar e se espalhar por redes de computadores de forma autônoma, sem precisar de um programa hospedeiro (como um vírus) ou da ação direta do usuário. Ele explora vulnerabilidades de sistemas operacionais e softwares para infectar novas máquinas.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Na Lei nº 9.784/1999 (Processo Administrativo Federal), qual o prazo geral para que a Administração, após a conclusão do processo, profira sua decisão?",
+    "options": [
+      "10 dias, prorrogáveis por igual período.",
+      "30 dias, prorrogáveis uma única vez por igual período.",
+      "60 dias, sem possibilidade de prorrogação.",
+      "90 dias, prorrogáveis por mais 30 dias."
+    ],
+    "answer": 1,
+    "hint": "Lembre-se do prazo padrão para a decisão final em um processo administrativo federal, que pode ser estendido.",
+    "feedbackCompleto": "De acordo com o Art. 49 da Lei nº 9.784/1999, 'Concluída a instrução de processo administrativo, a Administração tem o prazo de até trinta dias para decidir, salvo prorrogação por igual período expressamente motivada'. Portanto, o prazo é de 30 dias, prorrogável por mais 30.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "A elaboração de um 'Plano de Contingência' em uma organização visa principalmente:",
+    "options": [
+      "Definir os objetivos estratégicos de longo prazo.",
+      "Mapear os processos de trabalho para otimização.",
+      "Preparar a organização para responder a eventos adversos e inesperados, minimizando seus impactos.",
+      "Avaliar o desempenho dos colaboradores."
+    ],
+    "answer": 2,
+    "hint": "Pense em um 'plano B' para situações de crise ou emergência.",
+    "feedbackCompleto": "Um Plano de Contingência é uma ferramenta de gestão de riscos que estabelece procedimentos alternativos a serem seguidos caso ocorram eventos inesperados que prejudiquem a rotina da organização (ex: queda de sistema, desastres naturais, crises de imagem). O objetivo é garantir a continuidade das operações essenciais e uma resposta rápida para minimizar os danos.",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "Assinale a alternativa em que a concordância verbal está INCORRETA de acordo com a norma-padrão.",
+    "options": [
+      "Fazem dez anos que ele se mudou.",
+      "Mais de um servidor solicitou a revisão.",
+      "Os Estados Unidos são uma potência mundial.",
+      "Havia sérios problemas no relatório."
+    ],
+    "answer": 0,
+    "hint": "Verbos que indicam tempo decorrido, como 'fazer' e 'haver', são impessoais.",
+    "feedbackCompleto": "O erro está na opção A. O verbo 'fazer', quando indica tempo transcorrido, é impessoal e deve permanecer sempre na 3ª pessoa do singular. O correto é: 'Faz dez anos que ele se mudou'. As outras opções estão corretas: 'Mais de um' exige verbo no singular; nomes de lugares no plural exigem verbo no plural se acompanhados de artigo; e 'haver' no sentido de 'existir' é impessoal.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "Em qual das frases o pronome relativo 'cujo' está empregado corretamente?",
+    "options": [
+      "O livro cujo eu li é excelente.",
+      "A casa, cuja a porta é verde, foi vendida.",
+      "Este é o autor de cuja obra gosto muito.",
+      "A cidade cujo os problemas são muitos precisa de ajuda."
+    ],
+    "answer": 2,
+    "hint": "O pronome 'cujo' estabelece uma relação de posse e concorda com a coisa possuída. Ele nunca é seguido por artigo.",
+    "feedbackCompleto": "A opção C está correta. O pronome 'cujo' (e suas variações) estabelece posse entre o termo antecedente ('autor') и o consequente ('obra') e concorda com o consequente ('obra', feminino singular -> 'cuja'). Além disso, ele aceita preposição antes de si, se exigido pela regência do verbo ('gosto DE alguma coisa' -> 'DE cuja obra'). As outras estão erradas por não admitirem artigo após o pronome.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "A oração 'É imprescindível que todos participem da reunião' é classificada como:",
+    "options": [
+      "Oração Subordinada Substantiva Objetiva Direta",
+      "Oração Subordinada Adjetiva Restritiva",
+      "Oração Subordinada Substantiva Subjetiva",
+      "Oração Coordenada Sindética Explicativa"
+    ],
+    "answer": 2,
+    "hint": "Tente substituir toda a oração por 'ISSO'. Se a frase ficar 'ISSO é imprescindível', qual a função de 'ISSO'?",
+    "feedbackCompleto": "A resposta correta é Oração Subordinada Substantiva Subjetiva. A oração 'que todos participem da reunião' exerce a função de sujeito do verbo 'é' da oração principal ('É imprescindível'). A troca por 'ISSO' ('Isso é imprescindível') deixa clara a função de sujeito.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "Assinale a opção em que a pontuação está plenamente correta.",
+    "options": [
+      "O diretor, um homem muito experiente, resolveu a questão.",
+      "O diretor um homem muito experiente, resolveu a questão.",
+      "O diretor um homem muito experiente resolveu a questão.",
+      "O diretor, um homem muito experiente resolveu a questão."
+    ],
+    "answer": 0,
+    "hint": "Termos de caráter explicativo que se intercalam na oração devem ser isolados por um par de vírgulas.",
+    "feedbackCompleto": "A opção A está correta. O termo 'um homem muito experiente' é um aposto explicativo, que serve para explicar quem é o diretor. De acordo com as regras de pontuação, o aposto explicativo deve sempre vir isolado por vírgulas (ou travessões).",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "Qual das seguintes palavras é acentuada pela mesma regra de 'também'?",
+    "options": [
+      "Árvore",
+      "Parabéns",
+      "Saída",
+      "Herói"
+    ],
+    "answer": 1,
+    "hint": "Identifique a sílaba tônica e a terminação da palavra 'também'.",
+    "feedbackCompleto": "A palavra 'também' é uma oxítona terminada em 'em'. A palavra 'Parabéns' também é uma oxítona, terminada em 'ens'. A regra de acentuação é a mesma para oxítonas terminadas em 'em' ou 'ens'. 'Árvore' é proparoxítona, 'Saída' é hiato, e 'Herói' é ditongo aberto tônico.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "A negação da proposição 'O processo é rápido e o servidor é eficiente' é:",
+    "options": [
+      "O processo não é rápido e o servidor não é eficiente.",
+      "O processo é rápido ou o servidor é eficiente.",
+      "O processo não é rápido ou o servidor não é eficiente.",
+      "Se o processo não é rápido, então o servidor não é eficiente."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se das Leis de De Morgan: a negação de 'P e Q' é 'não P ou não Q'.",
+    "feedbackCompleto": "A negação de uma proposição conjuntiva (P ∧ Q) é a disjunção das negações de cada parte (~P ∨ ~Q). Portanto, a negação de 'O processo é rápido E o servidor é eficiente' é 'O processo NÃO é rápido OU o servidor NÃO é eficiente'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Considere a proposição: 'Se Ana é analista, então Beto é técnico'. Qual proposição é logicamente equivalente a ela?",
+    "options": [
+      "Se Beto é técnico, então Ana é analista.",
+      "Se Ana não é analista, então Beto não é técnico.",
+      "Ana é analista e Beto não é técnico.",
+      "Se Beto não é técnico, então Ana não é analista."
+    ],
+    "answer": 3,
+    "hint": "Uma condicional (Se P, então Q) é sempre equivalente à sua contrapositiva (Se não Q, então не P).",
+    "feedbackCompleto": "A equivalência de uma proposição condicional (P → Q) é a sua contrapositiva (~Q → ~P). Na proposição dada, P = 'Ana é analista' e Q = 'Beto é técnico'. A contrapositiva é a negação de Q implicando a negação de P, ou seja: 'Se Beto não é técnico, então Ana não é analista'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Em uma repartição, 30% dos servidores são homens. Se há 140 servidoras mulheres, qual o número total de servidores?",
+    "options": [
+      "180",
+      "200",
+      "240",
+      "280"
+    ],
+    "answer": 1,
+    "hint": "Se 30% são homens, então 70% são mulheres. As 140 mulheres correspondem a 70% do total.",
+    "feedbackCompleto": "Se 30% do total (T) são homens, então a porcentagem de mulheres é 100% - 30% = 70%. Sabemos que 70% de T é igual a 140. Matematicamente: 0,70 * T = 140. Para achar o total, T = 140 / 0,70. Portanto, T = 200. O número total de servidores é 200.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual é o próximo termo da sequência lógica: 5, 6, 8, 11, 15, ...?",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "answer": 1,
+    "hint": "Observe a diferença entre os números consecutivos.",
+    "feedbackCompleto": "A lógica da sequência é somar um número incremental a cada passo. Do 5 para o 6, soma-se +1. Do 6 para o 8, soma-se +2. Do 8 para o 11, soma-se +3. Do 11 para o 15, soma-se +4. Portanto, o próximo passo é somar +5. 15 + 5 = 20.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se a afirmação 'Nenhum gestor é desorganizado' é falsa, então é verdade que:",
+    "options": [
+      "Todo gestor é desorganizado.",
+      "Algum gestor não é desorganizado.",
+      "Todo gestor é organizado.",
+      "Pelo menos um gestor é desorganizado."
+    ],
+    "answer": 3,
+    "hint": "Qual é a negação de 'Nenhum A é B'?",
+    "feedbackCompleto": "A negação de uma proposição universal negativa ('Nenhum A é B') é uma proposição particular afirmativa ('Algum A é B'). Se a afirmação 'Nenhum gestor é desorganizado' é falsa, sua negação deve ser verdadeira. Portanto, é verdade que 'Pelo menos um gestor é desorganizado' (ou 'Algum gestor é desorganizado').",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Um tipo de software malicioso (malware) que criptografa os arquivos de um computador e exige o pagamento de um resgate para liberá-los é conhecido como:",
+    "options": [
+      "Spyware",
+      "Cavalo de Troia (Trojan)",
+      "Worm",
+      "Ransomware"
+    ],
+    "answer": 3,
+    "hint": "Pense na palavra em inglês para 'resgate' (ransom).",
+    "feedbackCompleto": "Este malware é o Ransomware. Ele age 'sequestrando' os dados do usuário através de criptografia e exige um resgate (ransom), geralmente em criptomoedas, para fornecer a chave que devolve o acesso aos arquivos. É uma das ameaças cibernéticas mais perigosas atualmente.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "No Microsoft Excel, para que uma referência de célula não se altere ao copiar e colar uma fórmula (uma referência absoluta), qual caractere deve ser usado antes da letra da coluna e/ou do número da linha?",
+    "options": [
+      "& (E comercial)",
+      "! (Exclamação)",
+      "$ (Cifrão)",
+      "# (Cerquilha)"
+    ],
+    "answer": 2,
+    "hint": "É o caractere que 'congela' ou 'fixa' a referência da célula.",
+    "feedbackCompleto": "O caractere correto é o $ (Cifrão). Ele cria uma referência absoluta. Por exemplo, a fórmula =$A$1 sempre se referirá à célula A1, não importa para onde ela seja copiada. A$1 é uma referência relativa (muda), $A1 é mista (coluna fixa) e A$1 é mista (linha fixa).",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Qual componente de hardware é considerado o 'cérebro' do computador, responsável por processar a maioria das instruções e cálculos?",
+    "options": [
+      "Memória RAM",
+      "Disco Rígido (HD ou SSD)",
+      "CPU (Processador)",
+      "Placa-mãe"
+    ],
+    "answer": 2,
+    "hint": "É a Unidade Central de Processamento.",
+    "feedbackCompleto": "A CPU (Central Processing Unit), ou Processador, é o principal componente de hardware que executa as instruções de um programa de computador. Ele realiza as operações lógicas, aritméticas e de entrada/saída. A Memória RAM armazena dados temporariamente, o Disco Rígido armazena permanentemente e a Placa-mãe conecta todos os componentes.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "Uma rede de computadores privada, de uso exclusivo de uma organização, que utiliza a mesma tecnologia da Internet (navegadores, protocolos TCP/IP) é chamada de:",
+    "options": [
+      "Internet",
+      "Extranet",
+      "WAN (Wide Area Network)",
+      "Intranet"
+    ],
+    "answer": 3,
+    "hint": "Pense em uma rede 'interna' de uma empresa.",
+    "feedbackCompleto": "Essa descrição corresponde a uma Intranet. É uma rede corporativa privada que, apesar de usar os mesmos padrões e tecnologias da Internet, tem seu acesso restrito aos colaboradores da organização. Uma Extranet é uma evolução da Intranet que permite acesso controlado a usuários externos (parceiros, fornecedores).",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "A prática de enganar usuários para que revelem informações confidenciais (como senhas e dados de cartão de crédito) através de e-mails ou sites falsos é conhecida como:",
+    "options": [
+      "Spam",
+      "Phishing",
+      "Spoofing",
+      "Firewall"
+    ],
+    "answer": 1,
+    "hint": "O nome vem da palavra em inglês para 'pescar', pois o golpista 'pesca' as informações da vítima.",
+    "feedbackCompleto": "Essa técnica é chamada de Phishing. É um tipo de fraude por engenharia social em que o atacante se passa por uma entidade confiável para induzir as vítimas a fornecerem dados sensíveis. É um dos golpes mais comuns na internet.",
+    "subjects": ["Informatica"]
+  },
+  {
+    "question": "De acordo com o Art. 5º da Constituição Federal, qual remédio constitucional visa proteger o direito de locomoção (ir, vir e permanecer)?",
+    "options": [
+      "Mandado de Segurança",
+      "Habeas Data",
+      "Habeas Corpus",
+      "Ação Popular"
+    ],
+    "answer": 2,
+    "hint": "É a garantia fundamental contra prisões ou constrangimentos ilegais à liberdade de locomoção.",
+    "feedbackCompleto": "O Habeas Corpus é o remédio constitucional que protege a liberdade de locomoção. Conforme o Art. 5º, inciso LXVIII, da CF/88, 'conceder-se-á habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder'.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "A Constituição Federal estabelece as 'cláusulas pétreas', que são normas que não podem ser abolidas por Emenda Constitucional. Qual das alternativas abaixo NÃO é uma cláusula pétrea?",
+    "options": [
+      "A forma federativa de Estado.",
+      "A separação dos Poderes.",
+      "O sistema de governo presidencialista.",
+      "Os direitos e garantias individuais."
+    ],
+    "answer": 2,
+    "hint": "Pense nos pilares fundamentais da estrutura do Estado e dos direitos. A forma como o governo é organizado (presidencialismo/parlamentarismo) é um desses pilares?",
+    "feedbackCompleto": "O sistema de governo (presidencialismo ou parlamentarismo) não é uma cláusula pétrea. As cláusulas pétreas, previstas no Art. 60, § 4º, da CF/88, são: I - a forma federativa de Estado; II - o voto direto, secreto, universal e periódico; III - a separação dos Poderes; IV - os direitos e garantias individuais.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Segundo a Constituição Federal, compete privativamente à União legislar sobre qual das seguintes matérias?",
+    "options": [
+      "Direito Tributário",
+      "Direito Urbanístico",
+      "Direito Comercial",
+      "Direito Econômico"
+    ],
+    "answer": 2,
+    "hint": "Pense em qual dessas áreas necessita de uma legislação uniforme em todo o território nacional.",
+    "feedbackCompleto": "A resposta correta é Direito Comercial. Conforme o Art. 22, inciso I, da CF/88, compete privativamente à União legislar sobre direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho. As outras matérias (Tributário, Urbanístico, Econômico) são de competência concorrente entre União, Estados e DF (Art. 24 da CF/88).",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "O direito de reunião, garantido pelo Art. 5º da CF/88, pode ser exercido por todos, pacificamente e sem armas, em locais abertos ao público, desde que:",
+    "options": [
+      "Haja prévia autorização da autoridade policial.",
+      "Não frustre outra reunião anteriormente convocada para o mesmo local, sendo apenas exigido prévio aviso à autoridade competente.",
+      "Ocorra apenas durante o dia e com um número limitado de pessoas.",
+      "Os participantes paguem uma taxa de utilização do espaço público."
+    ],
+    "answer": 1,
+    "hint": "O direito de reunião independe de autorização, mas exige uma comunicação prévia.",
+    "feedbackCompleto": "O Art. 5º, inciso XVI, da CF/88, estabelece que o direito de reunião independe de autorização, exigindo-se apenas 'prévio aviso à autoridade competente' e que 'não frustre outra reunião anteriormente convocada para o mesmo local'.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Qual dos seguintes direitos NÃO está expressamente listado no rol de direitos sociais do Art. 6º da Constituição Federal?",
+    "options": [
+      "Saúde",
+      "Moradia",
+      "Lazer",
+      "Acesso à internet"
+    ],
+    "answer": 3,
+    "hint": "O rol do Art. 6º foi expandido ao longo do tempo por emendas, mas um desses itens ainda é discutido como um direito fundamental, porém não está explícito ali.",
+    "feedbackCompleto": "Embora o acesso à internet seja cada vez mais considerado essencial, ele ainda não foi incluído expressamente no rol do Art. 6º da Constituição. Já saúde, moradia e lazer estão explicitamente listados como direitos sociais. O rol inclui: educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência social, proteção à maternidade e à infância, e a assistência aos desamparados.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Em um conjunto de dados, o valor que aparece com maior frequência é denominado:",
+    "options": [
+      "Média",
+      "Mediana",
+      "Moda",
+      "Variância"
+    ],
+    "answer": 2,
+    "hint": "Pense no que está 'na moda', ou seja, o que mais se repete.",
+    "feedbackCompleto": "A Moda é a medida de tendência central que corresponde ao valor mais frequente em um conjunto de dados. Um conjunto pode ser amodal (nenhuma moda), unimodal (uma moda) ou multimodal (mais de uma moda).",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Qual medida de dispersão é calculada como a raiz quadrada da variância?",
+    "options": [
+      "Amplitude",
+      "Coeficiente de Variação",
+      "Desvio Padrão",
+      "Quartil"
+    ],
+    "answer": 2,
+    "hint": "É a medida de dispersão mais comum, expressa na mesma unidade dos dados originais.",
+    "feedbackCompleto": "O Desvio Padrão é, por definição, a raiz quadrada da variância. Ele mede o grau de dispersão dos dados em relação à média e tem a vantagem de estar na mesma unidade de medida dos dados, facilitando a interpretação.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "A probabilidade de um evento impossível de ocorrer é:",
+    "options": [
+      "0",
+      "1",
+      "0.5",
+      "-1"
+    ],
+    "answer": 0,
+    "hint": "A probabilidade é um número entre 0 e 1. Qual extremo representa a impossibilidade?",
+    "feedbackCompleto": "A probabilidade é uma medida que varia de 0 a 1. Um evento com probabilidade 0 é um evento impossível. Um evento com probabilidade 1 é um evento certo.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "A altura de uma pessoa, medida em metros, é um exemplo de qual tipo de variável?",
+    "options": [
+      "Qualitativa Nominal",
+      "Qualitativa Ordinal",
+      "Quantitativa Discreta",
+      "Quantitativa Contínua"
+    ],
+    "answer": 3,
+    "hint": "Pense se a variável pode assumir valores fracionados dentro de um intervalo.",
+    "feedbackCompleto": "A altura é uma variável Quantitativa Contínua. É quantitativa porque é expressa por um número e é contínua porque pode assumir qualquer valor dentro de um intervalo (ex: 1,75m; 1,751m; 1,7511m). Variáveis discretas, por outro lado, resultam de contagens (ex: número de filhos).",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "O que o 'coeficiente de correlação de Pearson (r)' mede?",
+    "options": [
+      "A relação de causa e efeito entre duas variáveis.",
+      "A média e a mediana de um conjunto de dados.",
+      "A força e a direção da relação linear entre duas variáveis quantitativas.",
+      "A probabilidade de um evento ocorrer."
+    ],
+    "answer": 2,
+    "hint": "Ele varia de -1 a +1 e indica se duas variáveis tendem a se mover juntas.",
+    "feedbackCompleto": "O coeficiente de correlação de Pearson (r) mede a força e a direção de uma relação linear entre duas variáveis quantitativas. Um valor próximo de +1 indica forte correlação positiva, próximo de -1 indica forte correlação negativa, e próximo de 0 indica ausência de correlação linear. Importante: correlação não implica causalidade.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Em um lançamento de um dado não viciado de 6 faces, qual a probabilidade de se obter um número maior que 4?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "answer": 1,
+    "hint": "Conte quantos são os resultados possíveis e quantos são os resultados favoráveis (maiores que 4).",
+    "feedbackCompleto": "O espaço amostral (resultados possíveis) é {1, 2, 3, 4, 5, 6}, totalizando 6 resultados. Os resultados favoráveis (maiores que 4) são {5, 6}, totalizando 2 resultados. A probabilidade é calculada como (favoráveis / possíveis) = 2 / 6 = 1/3.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Qual gráfico é mais adequado para mostrar a distribuição de frequência de uma variável contínua, como a renda de uma população?",
+    "options": [
+      "Gráfico de Pizza",
+      "Gráfico de Barras",
+      "Histograma",
+      "Gráfico de Linhas"
+    ],
+    "answer": 2,
+    "hint": "Pense em um gráfico que agrupa os dados em classes ou faixas de valores.",
+    "feedbackCompleto": "O Histograma é o gráfico ideal para visualizar a distribuição de frequência de uma variável quantitativa contínua. Ele agrupa os dados em intervalos de classe e mostra, pela altura das barras, quantos elementos do conjunto de dados pertencem a cada intervalo.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "O conjunto de todos os resultados possíveis de um experimento aleatório é chamado de:",
+    "options": [
+      "Amostra",
+      "Evento",
+      "Espaço Amostral",
+      "População"
+    ],
+    "answer": 2,
+    "hint": "É o 'universo' de todas as possibilidades daquele experimento.",
+    "feedbackCompleto": "O Espaço Amostral (representado geralmente por Ω ou S) é o conjunto que contém todos os resultados possíveis de um experimento aleatório. Por exemplo, no lançamento de uma moeda, o espaço amostral é {Cara, Coroa}.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Se uma pesquisa sobre a intenção de voto para prefeito de uma cidade de 1 milhão de habitantes entrevista 2.000 pessoas, esses 2.000 entrevistados representam:",
+    "options": [
+      "A população",
+      "O espaço amostral",
+      "A amostra",
+      "Um censo"
+    ],
+    "answer": 2,
+    "hint": "Pense na diferença entre o 'todo' e uma 'parte' representativa do todo.",
+    "feedbackCompleto": "Neste caso, a população é o conjunto de todos os eleitores da cidade (1 milhão de habitantes). Os 2.000 entrevistados são um subconjunto dessa população, selecionado para análise. Portanto, eles representam a amostra da pesquisa.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "O primeiro quartil (Q1) de um conjunto de dados ordenado é o valor que deixa:",
+    "options": [
+      "25% dos dados abaixo dele e 75% acima.",
+      "50% dos dados abaixo dele e 50% acima.",
+      "75% dos dados abaixo dele e 25% acima.",
+      "10% dos dados abaixo dele e 90% acima."
+    ],
+    "answer": 0,
+    "hint": "Os quartis dividem o conjunto de dados em quatro partes iguais.",
+    "feedbackCompleto": "Os quartis são medidas que dividem um conjunto de dados em quatro partes iguais. O primeiro quartil (Q1) é o valor que delimita os 25% inferiores dos dados. O segundo quartil (Q2) é a mediana (50%), e o terceiro quartil (Q3) delimita os 75% inferiores (ou 25% superiores).",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "O que a 'Série Temporal' analisa?",
+    "options": [
+      "A relação entre duas variáveis diferentes em um único ponto no tempo.",
+      "Um conjunto de observações de uma variável, ordenadas ao longo do tempo.",
+      "A distribuição de frequência de dados categóricos.",
+      "Apenas a média e o desvio padrão de uma amostra."
+    ],
+    "answer": 1,
+    "hint": "Pense em dados que são coletados em intervalos de tempo, como a cotação do dólar a cada dia.",
+    "feedbackCompleto": "Uma Série Temporal é uma sequência de pontos de dados medidos em instantes sucessivos no tempo. A análise de séries temporais compreende métodos para analisar esses dados a fim de extrair estatísticas significativas e outras características dos dados, como tendência e sazonalidade.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Em um conjunto de dados, a diferença entre o maior e o menor valor é chamada de:",
+    "options": [
+      "Variância",
+      "Amplitude Total",
+      "Desvio Padrão",
+      "Coeficiente de Variação"
+    ],
+    "answer": 1,
+    "hint": "É a medida de dispersão mais simples de ser calculada.",
+    "feedbackCompleto": "A Amplitude Total (ou range, em inglês) é a medida de dispersão mais simples, calculada pela diferença entre o valor máximo e o valor mínimo de um conjunto de dados. Ela dá uma ideia da 'largura' da distribuição dos dados.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Se uma distribuição de dados possui uma 'cauda' mais longa à direita, ela é dita:",
+    "options": [
+      "Simétrica",
+      "Assimétrica Negativa (ou à esquerda)",
+      "Assimétrica Positiva (ou à direita)",
+      "Normal"
+    ],
+    "answer": 2,
+    "hint": "A direção da 'cauda' mais longa dá o nome da assimetria.",
+    "feedbackCompleto": "Uma distribuição com a cauda mais alongada para a direita é chamada de Assimétrica Positiva ou Assimétrica à Direita. Nesse tipo de distribuição, a média tende a ser maior que a mediana.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "A 'Estatística Inferencial' tem como principal objetivo:",
+    "options": [
+      "Apenas organizar e resumir os dados coletados.",
+      "Fazer generalizações sobre uma população a partir de dados de uma amostra.",
+      "Criar gráficos e tabelas bonitas.",
+      "Coletar dados de toda a população (censo)."
+    ],
+    "answer": 1,
+    "hint": "Pense no processo de 'inferir' ou 'deduzir' informações sobre o todo a partir de uma parte.",
+    "feedbackCompleto": "O objetivo da Estatística Inferencial é usar as informações de uma amostra para fazer afirmações, previsões ou generalizações sobre a população da qual a amostra foi retirada. Ela utiliza a teoria da probabilidade para quantificar a incerteza dessas generalizações.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Qual das seguintes opções é um exemplo de variável qualitativa ordinal?",
+    "options": [
+      "Cor dos olhos (azul, verde, castanho)",
+      "Número de irmãos",
+      "Classe social (baixa, média, alta)",
+      "Salário em reais"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma categoria que possui uma ordem ou hierarquia natural.",
+    "feedbackCompleto": "Classe social é uma variável qualitativa ordinal, pois suas categorias ('baixa', 'média', 'alta') possuem uma ordem intrínseca. Cor dos olhos é nominal (não há ordem). Número de irmãos e salário são variáveis quantitativas (discreta e contínua, respectivamente).",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "A equação fundamental da Contabilidade é:",
+    "options": [
+      "Ativo + Passivo = Patrimônio Líquido",
+      "Ativo = Passivo - Patrimônio Líquido",
+      "Receitas - Despesas = Ativo",
+      "Ativo = Passivo + Patrimônio Líquido"
+    ],
+    "answer": 3,
+    "hint": "Pense no equilíbrio: o total de bens e direitos deve ser igual à soma das obrigações com terceiros e com os sócios.",
+    "feedbackCompleto": "A equação fundamental da Contabilidade, que estrutura o Balanço Patrimonial, é Ativo = Passivo + Patrimônio Líquido. Ela significa que o total de recursos aplicados pela entidade (Ativo) é igual ao total de suas origens, que podem ser de terceiros (Passivo) ou próprias (Patrimônio Líquido).",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O registro contábil da perda de valor de um veículo da empresa pelo seu uso e desgaste natural é chamado de:",
+    "options": [
+      "Amortização",
+      "Exaustão",
+      "Depreciação",
+      "Provisão"
+    ],
+    "answer": 2,
+    "hint": "É o termo específico para a perda de valor de bens físicos (imobilizado).",
+    "feedbackCompleto": "A Depreciação é o registro contábil da diminuição do valor dos bens do ativo imobilizado (tangíveis), decorrente do desgaste pelo uso, ação da natureza ou obsolescência. Amortização se aplica a ativos intangíveis e Exaustão a recursos naturais.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O princípio contábil que determina que as receitas e despesas devem ser reconhecidas no período em que ocorrem, independentemente do recebimento ou pagamento, é o Princípio da:",
+    "options": [
+      "Competência",
+      "Caixa",
+      "Entidade",
+      "Continuidade"
+    ],
+    "answer": 0,
+    "hint": "É o regime que confronta as receitas e as despesas de um mesmo período para apurar o resultado.",
+    "feedbackCompleto": "O Princípio da Competência estabelece que os efeitos das transações e outros eventos devem ser reconhecidos nos períodos a que se referem, e não quando são recebidos ou pagos. É o regime obrigatório para a elaboração das demonstrações contábeis na maioria dos casos, inclusive no setor público.",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "No Balanço Patrimonial, a conta 'Fornecedores' é classificada, em geral, como:",
+    "options": [
+      "Ativo Circulante",
+      "Ativo Não Circulante",
+      "Passivo Circulante",
+      "Patrimônio Líquido"
+    ],
+    "answer": 2,
+    "hint": "Pense se 'Fornecedores' representa um bem/direito ou uma obrigação/dívida, e qual o seu prazo de vencimento.",
+    "feedbackCompleto": "'Fornecedores' representa uma obrigação da empresa com seus fornecedores de mercadorias ou serviços. Como geralmente essa dívida vence no curto prazo (em até 12 meses), ela é classificada no Passivo Circulante.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Qual demonstração contábil tem por objetivo apresentar o resultado econômico (lucro ou prejuízo) de uma entidade em um determinado período?",
+    "options": [
+      "Balanço Patrimonial (BP)",
+      "Demonstração do Resultado do Exercício (DRE)",
+      "Demonstração dos Fluxos de Caixa (DFC)",
+      "Balanço Orçamentário"
+    ],
+    "answer": 1,
+    "hint": "É a demonstração que confronta as receitas e as despesas.",
+    "feedbackCompleto": "A Demonstração do Resultado do Exercício (DRE) é a demonstração contábil que evidencia a formação do resultado líquido de uma empresa no período, pelo confronto entre receitas, custos e despesas, apurados pelo regime de competência.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "No setor público, o ato que cria para o Estado a obrigação de pagamento e 'reserva' a dotação orçamentária é a(o):",
+    "options": [
+      "Ordem Bancária",
+      "Liquidação",
+      "Pagamento",
+      "Empenho"
+    ],
+    "answer": 3,
+    "hint": "É a primeira etapa da execução da despesa pública.",
+    "feedbackCompleto": "O Empenho é o primeiro estágio da despesa pública (Lei nº 4.320/64, Art. 58). É o ato que cria a obrigação de pagamento para o Estado e deduz o valor do saldo da dotação orçamentária apropriada, garantindo que haverá recursos para aquele gasto.",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "As contas que representam bens e direitos da empresa são chamadas de contas:",
+    "options": [
+      "De resultado",
+      "Patrimoniais do Ativo",
+      "Patrimoniais do Passivo",
+      "Redutoras do Patrimônio Líquido"
+    ],
+    "answer": 1,
+    "hint": "Pense no lado esquerdo do Balanço Patrimonial.",
+    "feedbackCompleto": "As contas patrimoniais do Ativo são aquelas que representam o conjunto de bens (caixa, estoques, imóveis) e direitos (contas a receber, aplicações financeiras) da entidade, capazes de gerar benefícios econômicos futuros.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O que são 'Restos a Pagar Não Processados' na contabilidade pública?",
+    "options": [
+      "Despesas que foram empenhadas, liquidadas e pagas.",
+      "Despesas que foram empenhadas no exercício, mas cuja liquidação (verificação do direito do credor) ocorrerá apenas no exercício seguinte.",
+      "Dívidas de longo prazo do governo.",
+      "Receitas a serem arrecadadas no futuro."
+    ],
+    "answer": 1,
+    "hint": "Pense em uma despesa que foi prometida (empenhada), mas o serviço ainda não foi prestado ou o bem não foi entregue.",
+    "feedbackCompleto": "Restos a Pagar Não Processados são as despesas que foram legalmente empenhadas mas que dependem de liquidação, ou seja, o credor ainda não cumpriu sua parte no contrato (entregar o bem/serviço) até 31 de dezembro. Elas são inscritas para que a liquidação e o pagamento possam ocorrer no ano seguinte.",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "O capital investido pelos sócios ou acionistas na formação da empresa é registrado na conta:",
+    "options": [
+      "Reservas de Lucro",
+      "Capital Social",
+      "Lucros Acumulados",
+      "Caixa"
+    ],
+    "answer": 1,
+    "hint": "É a conta principal do Patrimônio Líquido que representa a origem dos recursos próprios.",
+    "feedbackCompleto": "O Capital Social é a conta que registra o valor do investimento inicial e de eventuais aumentos de capital realizados pelos proprietários da entidade. É uma conta do Patrimônio Líquido.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "A Demonstração dos Fluxos de Caixa (DFC) classifica as movimentações de caixa em três atividades. Quais são elas?",
+    "options": [
+      "Entradas, Saídas e Saldo",
+      "Correntes, Não Correntes e Patrimoniais",
+      "Orçamentárias, Financeiras e Patrimoniais",
+      "Operacionais, de Investimento e de Financiamento"
+    ],
+    "answer": 3,
+    "hint": "Pense nas três grandes áreas que geram ou consomem o caixa de uma empresa: a operação do dia a dia, a compra/venda de ativos e a captação/pagamento de recursos.",
+    "feedbackCompleto": "A DFC estrutura os fluxos de caixa em três atividades: Atividades Operacionais (relacionadas à atividade principal da empresa), Atividades de Investimento (compra e venda de ativos de longo prazo) e Atividades de Financiamento (captação de recursos de sócios e terceiros e sua remuneração/pagamento).",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O que o Plano de Contas Aplicado ao Setor Público (PCASP) busca padronizar?",
+    "options": [
+      "Apenas as despesas da União.",
+      "As contas contábeis de todos os entes da Federação (União, Estados, DF e Municípios) para permitir a consolidação das contas nacionais.",
+      "As regras de licitação do governo.",
+      "O salário dos contadores do setor público."
+    ],
+    "answer": 1,
+    "hint": "Pense em uma forma de fazer com que todos os governos 'falem a mesma língua' contábil.",
+    "feedbackCompleto": "O PCASP é de observância obrigatória para todos os entes da Federação. Seu principal objetivo é padronizar as práticas contábeis do setor público, permitindo a comparação e, principalmente, a consolidação das Contas Públicas Nacionais, conforme exigido pela Lei de Responsabilidade Fiscal.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Qual o método de depreciação mais comum, que aloca o mesmo valor de despesa em cada período da vida útil do ativo?",
+    "options": [
+      "Método da Soma dos Dígitos",
+      "Método das Horas de Trabalho",
+      "Método Linear (ou das Cotas Constantes)",
+      "Método de Unidades Produzidas"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma depreciação que ocorre em 'linha reta', de forma igual ao longo do tempo.",
+    "feedbackCompleto": "O Método Linear, ou das Cotas Constantes, é o mais simples e utilizado. Ele distribui o custo depreciável do ativo de forma uniforme ao longo de sua vida útil, resultando em uma despesa de depreciação constante em cada período contábil.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O conjunto de bens e direitos de uma empresa é chamado de:",
+    "options": [
+      "Passivo",
+      "Patrimônio Líquido",
+      "Resultado do Exercício",
+      "Ativo"
+    ],
+    "answer": 3,
+    "hint": "É a parte 'positiva' do patrimônio da entidade.",
+    "feedbackCompleto": "O Ativo representa o conjunto de bens (como caixa, estoques, máquinas, edifícios) e direitos (como contas a receber de clientes) controlados pela entidade, dos quais se esperam benefícios econômicos futuros.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O que representa o 'Princípio da Entidade'?",
+    "options": [
+      "A empresa deve durar para sempre.",
+      "O patrimônio da empresa não se mistura com o patrimônio pessoal dos seus sócios.",
+      "As receitas devem ser registradas quando recebidas.",
+      "Deve-se registrar as transações pelo menor valor."
+    ],
+    "answer": 1,
+    "hint": "Pense na separação entre a pessoa jurídica e as pessoas físicas dos proprietários.",
+    "feedbackCompleto": "O Princípio da Entidade reconhece o Patrimônio como objeto da Contabilidade e afirma a autonomia patrimonial, ou seja, a separação do patrimônio da empresa (pessoa jurídica) do patrimônio de seus sócios ou proprietários (pessoas físicas).",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Na Demonstração do Resultado do Exercício (DRE), o 'Lucro Bruto' é obtido pela seguinte operação:",
+    "options": [
+      "Receita Líquida de Vendas (-) Custo da Mercadoria/Serviço Vendido",
+      "Receita Bruta de Vendas (-) Impostos sobre Vendas",
+      "Lucro Operacional (-) Despesas Financeiras",
+      "Receitas Totais (-) Despesas Totais"
+    ],
+    "answer": 0,
+    "hint": "É o primeiro grande resultado apurado na DRE, representando o ganho da atividade principal da empresa.",
+    "feedbackCompleto": "O Lucro Bruto é o resultado direto da atividade principal da empresa. Ele é calculado subtraindo-se o Custo da Mercadoria Vendida (CMV) ou Custo do Serviço Prestado (CSP) da Receita Operacional Líquida.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Qual a negação da proposição 'Chove e faz frio'?",
+    "options": [
+      "Chove ou faz frio.",
+      "Não chove e não faz frio.",
+      "Se chove, então não faz frio.",
+      "Não chove ou não faz frio."
+    ],
+    "answer": 3,
+    "hint": "Use a Lei de De Morgan: a negação de (P ∧ Q) é (~P ∨ ~Q).",
+    "feedbackCompleto": "Para negar uma conjunção (E), nega-se cada uma das proposições e troca-se o conectivo por uma disjunção (OU). A negação de 'Chove' é 'Não chove'. A negação de 'faz frio' é 'não faz frio'. Portanto, a negação completa é 'Não chove OU não faz frio'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A afirmação 'Se estudo, então passo' é logicamente equivalente a:",
+    "options": [
+      "Se passo, então estudo.",
+      "Estudo e não passo.",
+      "Não estudo ou passo.",
+      "Se não estudo, então не passo."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se da equivalência da condicional: P → Q é o mesmo que ~P ∨ Q.",
+    "feedbackCompleto": "Uma proposição condicional 'Se P, então Q' possui duas equivalências principais: a contrapositiva ('Se não Q, então não P') e a disjuntiva ('Não P ou Q'). A opção C corresponde a esta segunda equivalência.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Todo A é B. Algum C é A. Logo:",
+    "options": [
+      "Todo C é B.",
+      "Algum C é B.",
+      "Nenhum C é B.",
+      "Todo B é C."
+    ],
+    "answer": 1,
+    "hint": "Use diagramas lógicos (círculos) para visualizar a relação entre os conjuntos A, B e C.",
+    "feedbackCompleto": "Se 'Todo A está contido em B' e 'existe uma parte de C que também está em A', então, necessariamente, essa mesma parte de C que está em A também deve estar contida em B. Portanto, a conclusão lógica é que 'Algum C é B'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual é a contrapositiva da proposição 'Se o servidor é eficiente, então o serviço é de qualidade'?",
+    "options": [
+      "Se o serviço é de qualidade, então o servidor é eficiente.",
+      "Se o servidor não é eficiente, então o serviço não é de qualidade.",
+      "Se o serviço não é de qualidade, então o servidor não é eficiente.",
+      "O servidor é eficiente e o serviço não é de qualidade."
+    ],
+    "answer": 2,
+    "hint": "A contrapositiva de 'Se P, então Q' é 'Se não Q, então não P'.",
+    "feedbackCompleto": "A contrapositiva é uma forma de equivalência lógica de uma condicional. Para formá-la, inverte-se a ordem das proposições e nega-se ambas. Assim, a contrapositiva de 'Se P, então Q' é 'Se ~Q, então ~P'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Um produto que custava R$ 120,00 sofreu um desconto e passou a custar R$ 90,00. Qual foi o percentual de desconto?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "33,3%"
+    ],
+    "answer": 1,
+    "hint": "Calcule o valor do desconto (preço original - preço final) e divida pelo preço original.",
+    "feedbackCompleto": "O valor do desconto foi de R$ 120,00 - R$ 90,00 = R$ 30,00. Para achar o percentual, dividimos o valor do desconto pelo valor original: (30 / 120) * 100. Simplificando, 30/120 é 1/4, que é 0,25. Multiplicando por 100, temos 25%.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se a proposição 'Algum servidor não é dedicado' é VERDADEIRA, o que se pode concluir com certeza?",
+    "options": [
+      "Nenhum servidor é dedicado.",
+      "A proposição 'Todo servidor é dedicado' é FALSA.",
+      "A proposição 'Algum servidor é dedicado' é FALSA.",
+      "Todo servidor não é dedicado."
+    ],
+    "answer": 1,
+    "hint": "Pense na relação de contradição entre as proposições categóricas (quadrado de Aristóteles).",
+    "feedbackCompleto": "A proposição 'Algum servidor não é dedicado' (particular negativa) é a contraditória da proposição 'Todo servidor é dedicado' (universal afirmativa). Se uma é verdadeira, a outra é necessariamente falsa.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual o valor de X na sequência: 2, 3, 5, 8, 13, X?",
+    "options": [
+      "17",
+      "19",
+      "21",
+      "23"
+    ],
+    "answer": 2,
+    "hint": "Esta é a Sequência de Fibonacci, onde cada termo é a soma dos dois anteriores.",
+    "feedbackCompleto": "Esta é a famosa Sequência de Fibonacci, na qual cada número subsequente é a soma dos dois números anteriores. Assim: 2+3=5, 3+5=8, 5+8=13, e o próximo termo é 8+13=21.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A negação de 'Nenhum servidor faltou' é:",
+    "options": [
+      "Todos os servidores faltaram.",
+      "Pelo menos um servidor faltou.",
+      "Todos os servidores compareceram.",
+      "Algum servidor não faltou."
+    ],
+    "answer": 1,
+    "hint": "Para negar que 'nenhum' fez algo, basta que 'pelo menos um' tenha feito.",
+    "feedbackCompleto": "A negação de uma proposição universal negativa ('Nenhum A é B') é uma proposição particular afirmativa ('Algum A é B'). Se é falso que 'nenhum servidor faltou', então é verdade que 'pelo menos um servidor faltou'.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Se 4 servidores arquivam 100 processos em 5 dias, quantos dias 10 servidores levarão para arquivar 300 processos?",
+    "options": [
+      "4 dias",
+      "5 dias",
+      "6 dias",
+      "8 dias"
+    ],
+    "answer": 2,
+    "hint": "É uma regra de três composta. Analise as grandezas: servidores e dias são inversamente proporcionais; processos e dias são diretamente proporcionais.",
+    "feedbackCompleto": "Montando a regra de três composta: (Servidores * Dias) / Processos. Temos (4 * 5) / 100 = (10 * X) / 300. Invertendo a grandeza 'servidores' (que é inversa a 'dias'): (10/4) * (5/X) = 100/300. Simplificando: (10/4) * (5/X) = 1/3 => 50 / 4X = 1/3 => 4X = 150 => X = 150 / 4 = 37.5. Opa, meu cálculo está errado. Vamos refazer: Mais servidores, menos dias (inversa). Mais processos, mais dias (direta). Dias = (Processos / Servidores). 5 = (100 / 4). X = (300 / 10). A proporção não é linear. (4 servidores * 5 dias) = 20 dias-homem para 100 processos. 1 dia-homem = 5 processos. Para 300 processos, precisamos de 300/5 = 60 dias-homem. Com 10 servidores, 60 / 10 = 6 dias.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "A proposição 'O gestor é competente se, e somente se, a equipe atinge as metas' é uma:",
+    "options": [
+      "Conjunção",
+      "Disjunção",
+      "Condicional",
+      "Bicondicional"
+    ],
+    "answer": 3,
+    "hint": "A expressão 'se, e somente se' é a marca registrada deste tipo de conectivo lógico.",
+    "feedbackCompleto": "A expressão 'se, e somente se' (P ↔ Q) caracteriza uma proposição Bicondicional. Ela é verdadeira apenas quando ambas as proposições componentes são verdadeiras ou quando ambas são falsas.",
+    "subjects": ["raciocinio-logico"]
+  },
+  {
+    "question": "Qual das seguintes frases emprega a vírgula corretamente para isolar um vocativo?",
+    "options": [
+      "Colegas, o relatório precisa ser entregue hoje.",
+      "O relatório colegas precisa ser entregue hoje.",
+      "O relatório, precisa ser entregue hoje colegas.",
+      "O relatório precisa ser entregue, hoje, colegas."
+    ],
+    "answer": 0,
+    "hint": "O vocativo é um termo de chamamento e deve sempre ser separado por vírgula(s), não importa sua posição na frase.",
+    "feedbackCompleto": "A opção A está correta, pois 'Colegas' é um vocativo (um chamamento) e está devidamente isolado por vírgula no início da frase. Se estivesse no meio, estaria entre duas vírgulas ('O relatório, colegas, precisa...'). Se no final, viria precedido de vírgula ('...entregue hoje, colegas.').",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "Assinale a alternativa em que a regência do verbo 'implicar' está de acordo com a norma-padrão.",
+    "options": [
+      "A decisão implicou em graves consequências.",
+      "O novo regulamento implicará com os servidores antigos.",
+      "A falta de planejamento implicou o cancelamento do projeto.",
+      "Ele se implicou para com a equipe."
+    ],
+    "answer": 2,
+    "hint": "O verbo 'implicar' no sentido de 'acarretar', 'resultar em', é transitivo direto, não exigindo preposição.",
+    "feedbackCompleto": "A opção C está correta. No sentido de 'acarretar' ou 'ter como consequência', o verbo 'implicar' é transitivo direto, não admitindo a preposição 'em'. Nas outras opções, a regência está incorreta para os sentidos pretendidos.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "Qual a forma verbal correta na frase: 'Se ele ______ o relatório a tempo, nós o revisaríamos.'?",
+    "options": [
+      "entregasse",
+      "entregar",
+      "entregava",
+      "entregue"
+    ],
+    "answer": 0,
+    "hint": "A frase expressa uma condição hipotética no passado. Pense na correlação verbal entre o pretérito imperfeito do subjuntivo e o futuro do pretérito do indicativo.",
+    "feedbackCompleto": "A forma correta é 'entregasse'. A estrutura da frase exige uma correlação entre o Pretérito Imperfeito do Subjuntivo (na oração condicional: 'Se ele entregasse') e o Futuro do Pretérito do Indicativo (na oração principal: 'nós o revisaríamos'), para expressar uma hipótese ou condição.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "A palavra 'hífen' é acentuada. Qual é a forma correta do seu plural?",
+    "options": [
+      "Hífens",
+      "Hifens",
+      "Hífenes",
+      "Hifenes"
+    ],
+    "answer": 1,
+    "hint": "Lembre-se que as palavras paroxítonas terminadas em 'n' são acentuadas no singular, mas a regra muda no plural.",
+    "feedbackCompleto": "A forma correta é 'hifens', sem acento. A palavra 'hífen' é acentuada por ser uma paroxítona terminada em 'n'. No plural, ela se torna 'hifens', que é uma paroxítona terminada em 'ens', e, por regra, paroxítonas terminadas em 'ens' não são acentuadas.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "No trecho 'O planejamento é essencial, **conquanto** sua execução seja complexa.', a conjunção 'conquanto' pode ser substituída, sem alteração de sentido, por:",
+    "options": [
+      "Desde que",
+      "Porque",
+      "Embora",
+      "Portanto"
+    ],
+    "answer": 2,
+    "hint": "Este conectivo introduz uma ideia de contraste ou oposição que não impede a afirmação principal.",
+    "feedbackCompleto": "'Conquanto' é uma conjunção subordinativa concessiva, assim como 'embora', 'ainda que' e 'mesmo que'. Ela introduz uma oração que expressa uma ideia contrária à da principal, mas que não a invalida. Portanto, 'Embora' é o substituto perfeito.",
+    "subjects": ["portugues"]
+  },
+  {
+    "question": "A transição do modelo de Administração Pública Burocrática para o Gerencial teve como um de seus principais objetivos:",
+    "options": [
+      "Aumentar a rigidez dos controles e dos procedimentos formais.",
+      "Mudar o foco do controle de procedimentos para o controle de resultados, visando maior eficiência e efetividade.",
+      "Centralizar o processo de tomada de decisão na alta cúpula da organização.",
+      "Diminuir a transparência dos atos públicos para agilizar a gestão."
+    ],
+    "answer": 1,
+    "hint": "Pense na mudança de 'como fazer' para 'o que entregar' ao cidadão.",
+    "feedbackCompleto": "A reforma gerencial (ou Nova Gestão Pública) surgiu como uma crítica à rigidez do modelo burocrático. Seu principal objetivo foi deslocar o foco do controle estrito dos processos e procedimentos para um foco nos resultados e no desempenho. A ideia é dar mais autonomia ao gestor, cobrando-o pelos resultados entregues à sociedade, com mais eficiência, qualidade e efetividade.",
+    "subjects": ["gestao", "adm-geral"]
+  },
+  {
+    "question": "O conceito de 'Governança Pública' é mais amplo que o de 'Governo'. A Governança envolve:",
+    "options": [
+      "Apenas as ações do Poder Executivo para implementar leis.",
+      "Apenas a fiscalização financeira realizada pelos Tribunais de Contas.",
+      "O conjunto de mecanismos de liderança, estratégia e controle que direcionam a atuação do Estado em benefício da sociedade.",
+      "A estrutura hierárquica e formal da Administração Pública."
+    ],
+    "answer": 2,
+    "hint": "Pense na Governança como a forma como o poder é exercido, direcionado e controlado.",
+    "feedbackCompleto": "Governança Pública é um conceito amplo que engloba a maneira como o governo e as instituições públicas são dirigidos, controlados e responsabilizados. Envolve os mecanismos de liderança (definir a direção), estratégia (planejar o caminho) e controle (monitorar e avaliar), sempre com o objetivo de entregar valor público e atender aos anseios da sociedade.",
+    "subjects": ["gestao"]
+  },
+  {
+    "question": "Qual dos seguintes é um exemplo de um mecanismo de 'accountability vertical'?",
+    "options": [
+      "A fiscalização do Congresso Nacional sobre os atos do Poder Executivo.",
+      "Uma auditoria realizada pela Controladoria-Geral da União (CGU) em um ministério.",
+      "As eleições, através das quais os cidadãos podem premiar ou punir os governantes.",
+      "O controle do Poder Judiciário sobre a constitucionalidade das leis."
+    ],
+    "answer": 2,
+    "hint": "Pense no controle que a sociedade (a base) exerce sobre os governantes (o topo).",
+    "feedbackCompleto": "A accountability vertical é o controle exercido pelos cidadãos sobre os detentores do poder. As eleições são o principal e mais clássico mecanismo, mas também inclui protestos, referendos e a atuação da mídia e da sociedade civil organizada. As outras opções são exemplos de accountability horizontal (entre instituições estatais).",
+    "subjects": ["gestao", "politicas"]
+  },
+  {
+    "question": "A Lei de Acesso à Informação (LAI) fortalece qual princípio fundamental da Administração Pública?",
+    "options": [
+      "Princípio da Eficiência",
+      "Princípio da Publicidade",
+      "Princípio da Impessoalidade",
+      "Princípio da Autotutela"
+    ],
+    "answer": 1,
+    "hint": "Pense no princípio que exige transparência nos atos do governo.",
+    "feedbackCompleto": "A Lei nº 12.527/2011 (LAI) é o principal instrumento de regulamentação do Princípio da Publicidade, previsto no Art. 37 da Constituição Federal. Ao garantir o direito de acesso dos cidadãos às informações públicas, a LAI promove a transparência e possibilita o controle social sobre a Administração.",
+    "subjects": ["gestao", "direito-administrativo"]
+  },
+  {
+    "question": "No ciclo de políticas públicas, a etapa em que se definem os objetivos, se analisam as alternativas e se escolhe a solução a ser adotada é a de:",
+    "options": [
+      "Implementação",
+      "Avaliação",
+      "Formulação",
+      "Formação da Agenda"
+    ],
+    "answer": 2,
+    "hint": "É a fase de 'desenho' ou 'planejamento' da política, que ocorre após o problema ser considerado relevante.",
+    "feedbackCompleto": "A etapa de Formulação (ou Formulação de Políticas) é onde as soluções para um problema que já está na agenda governamental são desenhadas e escolhidas. Envolve a definição de objetivos, a análise de diferentes cursos de ação (alternativas) e a seleção daquela que será transformada em uma política pública.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "Uma política pública que concede um benefício específico para um grupo (como a isenção de imposto para taxistas na compra de veículos) e é custeada de forma difusa pela sociedade é classificada como:",
+    "options": [
+      "Política Regulatória",
+      "Política Distributiva",
+      "Política Redistributiva",
+      "Política Constitutiva"
+    ],
+    "answer": 1,
+    "hint": "Pense em uma política que 'distribui' um benefício sem tirar diretamente de outro grupo específico.",
+    "feedbackCompleto": "As Políticas Distributivas são caracterizadas pela distribuição de benefícios, serviços ou recursos a grupos específicos da sociedade, com custos diluídos entre todos os contribuintes. Elas não promovem um confronto direto entre 'quem ganha' e 'quem perde', como as políticas redistributivas.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "O que o conceito de 'efetividade' busca medir na avaliação de uma política pública?",
+    "options": [
+      "O custo da política por cidadão atendido.",
+      "O grau em que as metas e objetivos planejados foram alcançados.",
+      "Se a política foi executada no prazo previsto.",
+      "O impacto real e a transformação que a política gerou no problema que pretendia resolver."
+    ],
+    "answer": 3,
+    "hint": "Pense no resultado final, na mudança concreta que a política causou na vida das pessoas.",
+    "feedbackCompleto": "Efetividade é a dimensão mais importante da avaliação. Ela mede o impacto final da política, ou seja, se ela foi capaz de, de fato, resolver ou mitigar o problema público que a motivou. Uma política pode ser eficaz (cumprir suas metas), mas não ser efetiva se essas metas não resolverem o problema real.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "O processo de 'formação da agenda' governamental significa que:",
+    "options": [
+      "A política pública já foi totalmente implementada e está sendo avaliada.",
+      "Um problema social foi reconhecido pelo governo como uma prioridade que merece atenção e a alocação de recursos.",
+      "A lei que cria a política já foi aprovada pelo Congresso Nacional.",
+      "A sociedade civil está executando a política em parceria com o Estado."
+    ],
+    "answer": 1,
+    "hint": "É o momento em que um problema 'entra na pauta' do governo.",
+    "feedbackCompleto": "A formação da agenda é a primeira etapa do ciclo de políticas públicas. Ela consiste no processo pelo qual certos problemas sociais ganham destaque e são selecionados pelos tomadores de decisão (governo) para serem objeto de ação, entrando na lista de prioridades a serem tratadas.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "Qual a principal função do Sistema de Controle Interno do Poder Executivo Federal, exercido pela Controladoria-Geral da União (CGU)?",
+    "options": [
+      "Punir criminalmente os gestores públicos.",
+      "Julgar as contas do Presidente da República.",
+      "Apoiar o controle externo e avaliar a legalidade e os resultados da gestão, defendendo o patrimônio público.",
+      "Substituir o papel do Poder Legislativo na fiscalização."
+    ],
+    "answer": 2,
+    "hint": "Pense no controle que a própria Administração exerce sobre seus atos.",
+    "feedbackCompleto": "Conforme o Art. 74 da Constituição Federal, o Sistema de Controle Interno, liderado pela CGU no Executivo, visa: avaliar o cumprimento de metas, comprovar a legalidade e avaliar os resultados da gestão (orçamentária, financeira, etc.), exercer o controle sobre operações de crédito e, fundamentalmente, apoiar o controle externo (TCU) no exercício de sua missão.",
+    "subjects": ["controle"]
+  },
+  {
+    "question": "A exigência de que as funções de autorização, execução, registro e fiscalização de um ato sejam realizadas por agentes diferentes é uma aplicação do princípio de:",
+    "options": [
+      "Eficiência",
+      "Publicidade",
+      "Segregação de Funções",
+      "Economicidade"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma medida para evitar que a mesma pessoa possa cometer e esconder um erro ou fraude.",
+    "feedbackCompleto": "A Segregação de Funções é um princípio basilar de controle interno. Seu objetivo é reduzir o risco de erros e fraudes, impedindo que uma única pessoa tenha controle sobre todas as etapas de uma transação. Essa divisão de responsabilidades cria um sistema de verificação mútua.",
+    "subjects": ["controle", "gestao"]
+  },
+  {
+    "question": "A fiscalização exercida pelo Tribunal de Contas da União (TCU) sobre os atos do Poder Executivo é um exemplo de:",
+    "options": [
+      "Controle Interno",
+      "Autotutela Administrativa",
+      "Controle Social",
+      "Controle Externo"
+    ],
+    "answer": 3,
+    "hint": "Pense se o órgão de controle (TCU) pertence à estrutura do órgão fiscalizado (Executivo).",
+    "feedbackCompleto": "O Controle Externo é aquele exercido por um Poder ou órgão sobre os atos de outro. A fiscalização que o TCU, como órgão auxiliar do Poder Legislativo, realiza sobre os atos da Administração (Poder Executivo) é o exemplo mais emblemático de Controle Externo no âmbito federal.",
+    "subjects": ["controle", "direito-administrativo"]
+  },
+  {
+    "question": "O que é um 'Plano de Integridade' no setor público?",
+    "options": [
+      "O planejamento orçamentário anual da instituição.",
+      "Um conjunto estruturado de medidas para prevenir, detectar e remediar atos de fraude e corrupção.",
+      "O plano de carreira dos servidores.",
+      "O relatório de atividades anuais da auditoria."
+    ],
+    "answer": 1,
+    "hint": "Pense em um programa de 'compliance' ou conformidade ética para um órgão público.",
+    "feedbackCompleto": "O Plano de Integridade é uma ferramenta de governança que articula um conjunto de medidas para promover uma cultura de ética e prevenir a corrupção. Ele geralmente inclui a avaliação de riscos, a criação de um código de conduta, a implementação de controles internos, a criação de canais de denúncia e o treinamento dos servidores.",
+    "subjects": ["controle", "gestao"]
+  },
+  {
+    "question": "No Balanço Patrimonial, a conta 'Imóveis de Uso' é classificada no:",
+    "options": [
+      "Ativo Circulante",
+      "Ativo Não Circulante - Imobilizado",
+      "Passivo Circulante",
+      "Patrimônio Líquido"
+    ],
+    "answer": 1,
+    "hint": "Pense se o imóvel é para venda a curto prazo ou para ser utilizado nas operações da entidade por um longo período.",
+    "feedbackCompleto": "Imóveis utilizados pela entidade em suas operações (e que não se destinam à venda) são classificados no Ativo Não Circulante, dentro do subgrupo Imobilizado. São bens de natureza permanente que contribuem para a manutenção da atividade da empresa.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Qual das seguintes opções representa uma Variação Patrimonial Aumentativa (VPA) na contabilidade pública?",
+    "options": [
+      "Depreciação de um veículo",
+      "Pagamento de salários",
+      "Arrecadação de impostos",
+      "Compra de um computador"
+    ],
+    "answer": 2,
+    "hint": "Pense no que 'aumenta' o patrimônio líquido do governo, de acordo com o regime de competência.",
+    "feedbackCompleto": "Variações Patrimoniais Aumentativas (VPA) são fatos que aumentam o Patrimônio Líquido. A arrecadação de impostos é o exemplo mais clássico de uma VPA, pois representa a ocorrência do fato gerador de uma receita. Pagamento de salários e depreciação são VPDs. A compra de um computador é um fato permutativo (troca de um ativo, dinheiro, por outro, computador).",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "O método das partidas dobradas, base da contabilidade, estabelece que:",
+    "options": [
+      "Para toda receita, deve haver uma despesa de igual valor.",
+      "O Ativo deve ser sempre o dobro do Passivo.",
+      "Não há débito(s) sem crédito(s) correspondente(s), e a soma dos débitos deve ser sempre igual à soma dos créditos.",
+      "Todo lançamento deve ser feito duas vezes para garantir a exatidão."
+    ],
+    "answer": 2,
+    "hint": "Pense no equilíbrio fundamental de todo e qualquer lançamento contábil.",
+    "feedbackCompleto": "O método das partidas dobradas é a base da escrituração contábil. Ele preconiza que para cada lançamento a débito em uma ou mais contas, deve haver um lançamento a crédito de igual valor em uma ou mais contas. Isso garante que a equação patrimonial (Ativo = Passivo + PL) permaneça sempre em equilíbrio.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "Na contabilidade, a conta 'Capital Social' representa:",
+    "options": [
+      "As dívidas de longo prazo da empresa.",
+      "Os lucros que a empresa obteve e não distribuiu.",
+      "O valor investido pelos proprietários ou sócios para iniciar ou expandir o negócio.",
+      "O total de bens e direitos da empresa."
+    ],
+    "answer": 2,
+    "hint": "É a fonte de recurso 'própria' original da entidade.",
+    "feedbackCompleto": "O Capital Social é uma conta do Patrimônio Líquido que representa a contribuição inicial dos sócios ou acionistas para a formação da empresa. É o valor que os proprietários investiram no negócio, seja em dinheiro ou em bens.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "A média aritmética de um conjunto de dados é 50. Se todos os valores do conjunto forem multiplicados por 2, qual será a nova média?",
+    "options": [
+      "50",
+      "52",
+      "100",
+      "25"
+    ],
+    "answer": 2,
+    "hint": "A média aritmética possui uma propriedade: se todos os elementos são afetados por uma operação, a média também é.",
+    "feedbackCompleto": "A média aritmética tem a propriedade de que, se todos os valores de um conjunto são multiplicados por uma constante, a nova média será a média original multiplicada por essa mesma constante. Portanto, a nova média será 50 * 2 = 100.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "A medida de tendência central que representa o valor que ocupa a posição central de um conjunto de dados ordenado é a:",
+    "options": [
+      "Média",
+      "Mediana",
+      "Moda",
+      "Amplitude"
+    ],
+    "answer": 1,
+    "hint": "Pense no valor que está exatamente no 'meio' da fila.",
+    "feedbackCompleto": "A Mediana é o valor que separa a metade maior da metade menor de um conjunto de dados. Para encontrá-la, é preciso primeiro ordenar os dados. Ela é menos sensível a valores extremos (outliers) do que a média.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "Uma pesquisa de opinião realizada com uma parte dos eleitores de uma cidade para estimar o resultado de uma eleição é um exemplo de:",
+    "options": [
+      "Censo",
+      "Estatística Descritiva",
+      "Amostragem",
+      "Experimento Controlado"
+    ],
+    "answer": 2,
+    "hint": "Pense no processo de selecionar uma parte para representar o todo.",
+    "feedbackCompleto": "Isso é um exemplo clássico de Amostragem. Como é inviável (ou muito caro) entrevistar toda a população (o que seria um Censo), seleciona-se uma amostra representativa para, a partir dela, fazer inferências sobre o provável resultado de toda a população de eleitores.",
+    "subjects": ["estatistica"]
+  },
+  {
+    "question": "De acordo com a Lei de Responsabilidade Fiscal (LRF), qual instrumento de transparência da gestão fiscal deve ser publicado até trinta dias após o encerramento de cada bimestre?",
+    "options": [
+      "Lei de Diretrizes Orçamentárias (LDO)",
+      "Relatório de Gestão Fiscal (RGF)",
+      "Balanço Anual",
+      "Relatório Resumido da Execução Orçamentária (RREO)"
+    ],
+    "answer": 3,
+    "hint": "Pense no relatório de acompanhamento de curto prazo que mostra a execução do orçamento a cada dois meses.",
+    "feedbackCompleto": "O Relatório Resumido da Execução Orçamentária (RREO) é o instrumento exigido pelo Art. 52 da LRF (LC nº 101/2000) com periodicidade bimestral. Ele contém balanços orçamentários e demonstrativos da execução das receitas e despesas. O RGF (Relatório de Gestão Fiscal) tem periodicidade quadrimestral.",
+    "subjects": ["afo", "orcamento", "controle"]
+  },
+  {
+    "question": "A Lei nº 4.320/1964 estabelece os estágios da receita pública. Qual a sequência correta desses estágios?",
+    "options": [
+      "Lançamento, Arrecadação, Recolhimento e Previsão",
+      "Previsão, Lançamento, Arrecadação e Recolhimento",
+      "Arrecadação, Lançamento, Previsão e Recolhimento",
+      "Previsão, Arrecadação, Lançamento e Recolhimento"
+    ],
+    "answer": 1,
+    "hint": "O ciclo da receita começa com uma estimativa no orçamento e termina com o dinheiro no Tesouro.",
+    "feedbackCompleto": "A sequência correta dos estágios da receita orçamentária é: 1º Previsão (estimativa na LOA); 2º Lançamento (verificação do fato gerador e do devedor); 3º Arrecadação (entrega dos recursos pelo contribuinte ao agente arrecadador); 4º Recolhimento (transferência dos valores para a Conta Única do Tesouro).",
+    "subjects": ["afo", "contabilidade"]
+  },
+  {
+    "question": "O que o princípio orçamentário da Anualidade (ou Periodicidade) estabelece?",
+    "options": [
+      "Que todas as receitas e despesas devem estar no orçamento.",
+      "Que o orçamento deve ser um documento único.",
+      "Que a lei orçamentária deve ter vigência limitada a um exercício financeiro.",
+      "Que o orçamento não pode conter matéria estranha à sua finalidade."
+    ],
+    "answer": 2,
+    "hint": "Pense no período de validade da autorização para gastar.",
+    "feedbackCompleto": "O Princípio da Anualidade determina que a autorização de receitas e despesas, concedida pelo Legislativo através da LOA, deve ter vigência limitada a um exercício financeiro, que no Brasil coincide com o ano civil (1º de janeiro a 31 de dezembro), conforme Art. 2º da Lei nº 4.320/64.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "A abertura de um crédito adicional destinado a despesas urgentes e imprevistas, como em caso de calamidade pública, é classificada como crédito:",
+    "options": [
+      "Suplementar",
+      "Especial",
+      "Extraordinário",
+      "Orçamentário"
+    ],
+    "answer": 2,
+    "hint": "Pense no tipo de crédito para situações 'fora do comum' e emergenciais.",
+    "feedbackCompleto": "O Crédito Extraordinário é destinado ao atendimento de despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública. Conforme o Art. 167, § 3º, da Constituição Federal, ele pode ser aberto por Medida Provisória.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "O que a 'Regra de Ouro' das finanças públicas, prevista na Constituição Federal, proíbe?",
+    "options": [
+      "A realização de despesas sem prévio empenho.",
+      "A vinculação de receitas de impostos a despesas específicas.",
+      "A realização de operações de crédito (empréstimos) em montante superior ao das despesas de capital.",
+      "O aumento da despesa com pessoal acima do limite da LRF."
+    ],
+    "answer": 2,
+    "hint": "É uma regra que impede o governo de se endividar para pagar despesas do dia a dia.",
+    "feedbackCompleto": "A 'Regra de Ouro', estabelecida no Art. 167, III, da Constituição Federal, proíbe a realização de operações de crédito que excedam o montante das despesas de capital. O objetivo é evitar que o governo contraia dívidas para financiar despesas correntes (como salários e custeio), garantindo a sustentabilidade fiscal.",
+    "subjects": ["afo", "direito-constitucional"]
+  },
+  {
+    "question": "No ciclo orçamentário, a Lei de Diretrizes Orçamentárias (LDO) tem como principal função:",
+    "options": [
+      "Detalhar todas as receitas e despesas do governo para um ano.",
+      "Estabelecer um plano de metas para um período de quatro anos.",
+      "Fazer o elo entre o PPA e a LOA, estabelecendo as metas e prioridades para o ano seguinte.",
+      "Avaliar o cumprimento das metas fiscais do ano anterior."
+    ],
+    "answer": 2,
+    "hint": "Pense na LDO como a ponte entre o planejamento de médio prazo e o orçamento anual.",
+    "feedbackCompleto": "A Lei de Diretrizes Orçamentárias (LDO) é o principal elo entre o planejamento estratégico de médio prazo (PPA) e o orçamento de curto prazo (LOA). Conforme o Art. 165, § 2º, da CF/88, a LDO orienta a elaboração da LOA, define as metas e prioridades do governo para o exercício seguinte e dispõe sobre a política fiscal.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "A fase da despesa pública na qual se verifica o direito adquirido pelo credor, com base nos documentos que comprovam a entrega do material ou a prestação do serviço, é a:",
+    "options": [
+      "Empenho",
+      "Programação Financeira",
+      "Pagamento",
+      "Liquidação"
+    ],
+    "answer": 3,
+    "hint": "É a segunda etapa da despesa, onde se confere se o que foi contratado foi efetivamente entregue.",
+    "feedbackCompleto": "A Liquidação é o segundo estágio da despesa. De acordo com o Art. 63 da Lei nº 4.320/64, a liquidação consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito. O objetivo é apurar a origem e o objeto do que se deve pagar, a importância exata a pagar e a quem se deve pagar.",
+    "subjects": ["afo", "contabilidade"]
+  },
+  {
+    "question": "Qual dos seguintes impostos é de competência dos Estados e do Distrito Federal?",
+    "options": [
+      "Imposto sobre a Renda (IR)",
+      "Imposto sobre Produtos Industrializados (IPI)",
+      "Imposto sobre a Propriedade de Veículos Automotores (IPVA)",
+      "Imposto Predial e Territorial Urbano (IPTU)"
+    ],
+    "answer": 2,
+    "hint": "Pense no imposto que incide sobre carros, motos e outros veículos.",
+    "feedbackCompleto": "O IPVA é um imposto de competência dos Estados e do Distrito Federal, conforme previsto no Art. 155, III, da Constituição Federal. O IR e o IPI são de competência da União, e o IPTU é de competência dos Municípios.",
+    "subjects": ["afo", "direito-constitucional"]
+  },
+  {
+    "question": "O que são 'créditos suplementares'?",
+    "options": [
+      "Créditos para despesas urgentes, como calamidades.",
+      "Créditos para despesas para as quais não havia dotação na LOA.",
+      "Créditos destinados a reforçar uma dotação orçamentária que se mostrou insuficiente durante a execução.",
+      "Empréstimos tomados pelo governo para fechar as contas."
+    ],
+    "answer": 2,
+    "hint": "Pense em um 'suplemento' para uma verba que já existia mas acabou.",
+    "feedbackCompleto": "Créditos Suplementares são um tipo de crédito adicional destinados a reforçar dotações orçamentárias já existentes na Lei Orçamentária Anual (LOA), mas que se revelaram insuficientes. Sua abertura deve ser autorizada por lei e depende da existência de recursos disponíveis, conforme a Lei nº 4.320/64.",
+    "subjects": ["afo", "orcamento"]
+  },
+  {
+    "question": "A Dívida Ativa da União é o conjunto de créditos a favor da Fazenda Pública, de natureza tributária ou não tributária. Qual órgão é responsável por sua apuração, inscrição e cobrança?",
+    "options": [
+      "Secretaria do Tesouro Nacional (STN)",
+      "Controladoria-Geral da União (CGU)",
+      "Procuradoria-Geral da Fazenda Nacional (PGFN)",
+      "Tribunal de Contas da União (TCU)"
+    ],
+    "answer": 2,
+    "hint": "Pense no órgão que atua como o 'advogado' da Fazenda Nacional para cobrar os devedores.",
+    "feedbackCompleto": "A Procuradoria-Geral da Fazenda Nacional (PGFN) é o órgão da Advocacia-Geral da União (AGU) responsável pela representação judicial da União em matéria fiscal, incluindo a apuração, inscrição e cobrança (amigável ou judicial) dos créditos que compõem a Dívida Ativa da União.",
+    "subjects": ["afo", "direito-administrativo"]
+  },
+  {
+    "question": "O ato administrativo pelo qual a Administração Pública extingue um ato válido por razões de conveniência e oportunidade é a:",
+    "options": [
+      "Anulação",
+      "Revogação",
+      "Convalidação",
+      "Cassação"
+    ],
+    "answer": 1,
+    "hint": "Pense no ato de extinguir algo que é legal, mas que deixou de ser interessante para o interesse público.",
+    "feedbackCompleto": "A Revogação é o ato discricionário pelo qual a Administração extingue um ato administrativo válido, mas que se tornou inoportuno ou inconveniente ao interesse público. A revogação produz efeitos 'ex nunc', ou seja, para o futuro, respeitando os direitos já adquiridos. A anulação, por outro lado, extingue um ato ilegal com efeitos retroativos ('ex tunc').",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Qual dos seguintes atributos NÃO é considerado um atributo do ato administrativo?",
+    "options": [
+      "Presunção de Legitimidade",
+      "Imperatividade",
+      "Discricionariedade",
+      "Autoexecutoriedade"
+    ],
+    "answer": 2,
+    "hint": "Lembre-se do mnemônico PATI. Um dos itens da lista é uma característica de alguns atos, mas não um atributo geral.",
+    "feedbackCompleto": "Os atributos do ato administrativo, classicamente, são: Presunção de Legitimidade, Autoexecutoriedade, Tipicidade e Imperatividade (PATI). A Discricionariedade não é um atributo, mas sim uma característica relacionada à margem de liberdade do ato (que pode ser vinculado ou discricionário).",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "A responsabilidade civil do Estado por danos que seus agentes, nessa qualidade, causarem a terceiros é, em regra:",
+    "options": [
+      "Subjetiva, dependendo da comprovação de culpa ou dolo do agente.",
+      "Contratual, baseada em acordo prévio.",
+      "Inexistente, pois o Estado possui imunidade.",
+      "Objetiva, baseada na teoria do risco administrativo."
+    ],
+    "answer": 3,
+    "hint": "Pense na regra geral que independe da comprovação de culpa do servidor para que o cidadão seja indenizado.",
+    "feedbackCompleto": "A regra geral é a Responsabilidade Objetiva do Estado, fundamentada na teoria do risco administrativo, conforme o Art. 37, § 6º, da Constituição Federal. Para que o Estado seja responsabilizado, basta a comprovação do dano, da conduta estatal e do nexo de causalidade entre eles, não sendo necessária a comprovação de culpa ou dolo do agente.",
+    "subjects": ["direito-administrativo", "direito-constitucional"]
+  },
+  {
+    "question": "O poder que a Administração Pública possui para apurar infrações e aplicar penalidades aos seus próprios servidores é o poder:",
+    "options": [
+      "Regulamentar",
+      "de Polícia",
+      "Hierárquico",
+      "Disciplinar"
+    ],
+    "answer": 3,
+    "hint": "Pense no poder relacionado à 'disciplina' interna do corpo de funcionários.",
+    "feedbackCompleto": "O Poder Disciplinar é a prerrogativa da Administração de aplicar sanções aos seus agentes públicos que cometem infrações funcionais. Esse poder é uma decorrência do poder hierárquico e é exercido por meio do devido processo administrativo (PAD), garantindo a ampla defesa.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "A criação de Ministérios e Secretarias, que são órgãos sem personalidade jurídica própria, para uma melhor distribuição de tarefas dentro da Presidência da República, é um exemplo de:",
+    "options": [
+      "Descentralização",
+      "Delegação",
+      "Avocação",
+      "Desconcentração"
+    ],
+    "answer": 3,
+    "hint": "Pense na distribuição de competências DENTRO da mesma pessoa jurídica.",
+    "feedbackCompleto": "A Desconcentração é a técnica de organização administrativa que distribui competências dentro de uma mesma pessoa jurídica (no caso, a União), criando órgãos internos para otimizar a gestão. Diferencia-se da descentralização, que envolve a criação de uma nova pessoa jurídica (como uma autarquia).",
+    "subjects": ["direito-administrativo", "adm-publica-federal"]
+  },
+  {
+    "question": "Qual o prazo decadencial para a Administração Pública anular seus próprios atos ilegais que geraram efeitos favoráveis para os destinatários, salvo comprovada má-fé?",
+    "options": [
+      "Dois anos",
+      "Três anos",
+      "Cinco anos",
+      "Dez anos"
+    ],
+    "answer": 2,
+    "hint": "Este prazo está previsto na lei que regula o processo administrativo federal.",
+    "feedbackCompleto": "O prazo é de cinco anos. Conforme o Art. 54 da Lei nº 9.784/1999, 'O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé'.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "A autarquia é uma entidade da Administração Indireta que se caracteriza por:",
+    "options": [
+      "Ser uma pessoa jurídica de direito privado com capital 100% público.",
+      "Ser uma pessoa jurídica de direito público, criada por lei, para exercer atividades típicas de Estado.",
+      "Não possuir autonomia administrativa e financeira.",
+      "Visar primordialmente o lucro em suas atividades."
+    ],
+    "answer": 1,
+    "hint": "Pense em entidades como o INSS, o IBAMA e as Agências Reguladoras.",
+    "feedbackCompleto": "A autarquia é uma pessoa jurídica de direito público, criada por lei específica, com patrimônio e receita próprios, para desempenhar atividades típicas da Administração Pública de forma descentralizada. Exemplos clássicos são o INSS e as agências reguladoras.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "O que significa o princípio da Autotutela para a Administração Pública?",
+    "options": [
+      "Que a Administração não pode ser controlada pelo Poder Judiciário.",
+      "O poder-dever da Administração de anular seus próprios atos quando ilegais e de revogá-los quando inconvenientes ou inoportunos.",
+      "Que o administrador público pode tutelar seus interesses pessoais.",
+      "Que a Administração é tutelada por um órgão superior."
+    ],
+    "answer": 1,
+    "hint": "Pense no poder que a Administração tem de controlar a si mesma.",
+    "feedbackCompleto": "O princípio da Autotutela, consolidado nas Súmulas 346 e 473 do STF, estabelece que a Administração Pública tem o poder e o dever de controlar seus próprios atos, anulando os ilegais e revogando os inoportunos e inconvenientes, sem a necessidade de recorrer ao Poder Judiciário.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Qual dos seguintes atos administrativos é considerado um ato vinculado?",
+    "options": [
+      "A concessão de uma autorização para porte de arma.",
+      "A nomeação de um Ministro de Estado.",
+      "A concessão de uma licença-maternidade a uma servidora que preencheu os requisitos.",
+      "A decisão sobre a localização de uma nova escola pública."
+    ],
+    "answer": 2,
+    "hint": "Pense em qual situação o gestor não tem margem de escolha, sendo obrigado a praticar o ato se os requisitos legais forem cumpridos.",
+    "feedbackCompleto": "A concessão de licença-maternidade é um ato vinculado. Uma vez que a servidora preenche todos os requisitos legais (ex: nascimento do filho), a Administração não tem a opção (discricionariedade) de conceder ou não a licença; ela é obrigada a fazê-lo. Os outros exemplos envolvem um juízo de conveniência e oportunidade, sendo atos discricionários.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "Os bens públicos de uso especial são aqueles:",
+    "options": [
+      "Que podem ser livremente utilizados por qualquer cidadão, como ruas e praças.",
+      "Que constituem o patrimônio disponível do Estado, podendo ser alienados.",
+      "Que são utilizados pela própria Administração para a prestação de serviços públicos, como edifícios de repartições e veículos oficiais.",
+      "Que pertencem a empresas estatais."
+    ],
+    "answer": 2,
+    "hint": "Pense nos bens que têm uma 'destinação especial' para o funcionamento do serviço público.",
+    "feedbackCompleto": "Os bens públicos de uso especial são aqueles que têm uma destinação específica para a execução de um serviço público. Eles não são de livre acesso ao público geral (como os bens de uso comum), mas servem como instrumento para a Administração. Exemplos são os prédios das repartições, hospitais públicos, escolas públicas e viaturas policiais.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "No processo de Gestão de Pessoas, qual a principal diferença entre Recrutamento e Seleção?",
+    "options": [
+      "Recrutamento é a escolha do candidato, e Seleção é a divulgação da vaga.",
+      "Recrutamento é um conjunto de técnicas para atrair candidatos, e Seleção é a escolha da pessoa mais adequada para a vaga.",
+      "Não há diferença, são termos sinônimos para o processo de contratação.",
+      "Recrutamento é aplicado para cargos de chefia, e Seleção para cargos operacionais."
+    ],
+    "answer": 1,
+    "hint": "Pense no Recrutamento como um ato de 'chamar' e na Seleção como um ato de 'escolher'.",
+    "feedbackCompleto": "A diferença é fundamental: Recrutamento é a fase de atração, um processo de mão-única que visa criar um conjunto de candidatos qualificados para uma vaga. A Seleção é a fase seguinte, um processo de mão-dupla que utiliza técnicas (entrevistas, testes) para comparar os candidatos e escolher o mais aderente ao cargo e à cultura da organização.",
+    "subjects": ["rh", "adm-geral"]
+  },
+  {
+    "question": "A Lei nº 8.112/1990 estabelece as formas de provimento em cargo público. Qual das opções abaixo é uma forma de provimento derivado?",
+    "options": [
+      "Nomeação",
+      "Recondução",
+      "Concurso Público",
+      "Contratação Temporária"
+    ],
+    "answer": 1,
+    "hint": "Pense em uma forma de preencher um cargo que depende de um vínculo anterior do servidor com a Administração.",
+    "feedbackCompleto": "A Recondução é uma forma de provimento derivado, pois exige que o servidor já possua um vínculo estável anterior com a Administração. A Nomeação é a única forma de provimento originário. Concurso Público é o procedimento para investidura, e Contratação Temporária rege-se por lei específica, não sendo uma forma de provimento de cargo efetivo.",
+    "subjects": ["rh", "direito-administrativo"]
+  },
+  {
+    "question": "O que a Teoria dos Dois Fatores de Herzberg define como 'Fatores Higiênicos'?",
+    "options": [
+      "Fatores que geram grande satisfação e motivação, como reconhecimento e crescimento.",
+      "Fatores que, quando presentes, não geram satisfação, mas sua ausência causa grande insatisfação (ex: salário, segurança).",
+      "A limpeza e a organização do ambiente de trabalho.",
+      "As metas e os desafios propostos pela liderança."
+    ],
+    "answer": 1,
+    "hint": "Pense nos fatores que são 'básicos'. Se eles faltam, você reclama, mas se existem, você não os nota como algo motivador.",
+    "feedbackCompleto": "Na Teoria de Herzberg, os Fatores Higiênicos (ou extrínsecos) são aqueles relacionados ao contexto do trabalho, como salário, políticas da empresa, segurança e condições de trabalho. Sua presença apenas evita a insatisfação, mas não é capaz de motivar. A motivação, segundo ele, vem dos Fatores Motivacionais (intrínsecos), como reconhecimento, responsabilidade e crescimento.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "A avaliação de desempenho que mede o alcance de metas e resultados previamente negociados entre gestor e colaborador é chamada de:",
+    "options": [
+      "Avaliação 360 graus",
+      "Escala Gráfica",
+      "Administração por Objetivos (APO)",
+      "Incidentes Críticos"
+    ],
+    "answer": 2,
+    "hint": "O próprio nome do método já indica o foco em 'objetivos'.",
+    "feedbackCompleto": "A Administração por Objetivos (APO), popularizada por Peter Drucker, é um método de avaliação de desempenho focado em resultados. As metas são estabelecidas em conjunto pelo gestor e pelo colaborador, e a avaliação se baseia no grau de atingimento desses objetivos, promovendo maior alinhamento e participação.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "Qual a principal diferença entre Clima Organizacional e Cultura Organizacional?",
+    "options": [
+      "São sinônimos.",
+      "O Clima é profundo e duradouro, enquanto a Cultura é superficial e passageira.",
+      "O Clima é a percepção momentânea do ambiente, enquanto a Cultura são os valores e pressupostos profundos e estáveis da organização.",
+      "O Clima refere-se às regras formais, e a Cultura às regras informais."
+    ],
+    "answer": 2,
+    "hint": "Pense no Clima como o 'humor' da empresa e na Cultura como a 'personalidade'.",
+    "feedbackCompleto": "Cultura Organizacional é um conjunto de valores, crenças e pressupostos compartilhados, que são profundos, estáveis e difíceis de mudar ('personalidade'). Já o Clima Organizacional é a percepção coletiva e momentânea dos colaboradores sobre o ambiente de trabalho ('humor'). O clima é um reflexo superficial da cultura e pode mudar mais rapidamente.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "A 'remuneração variável' é uma forma de remuneração estratégica que visa recompensar o quê?",
+    "options": [
+      "Apenas o tempo de serviço do colaborador.",
+      "O desempenho e a contribuição do colaborador para os resultados da organização.",
+      "Apenas o cumprimento do horário de trabalho.",
+      "A assiduidade e a pontualidade do servidor."
+    ],
+    "answer": 1,
+    "hint": "Pense em bônus, participação nos lucros e outras formas de pagamento que 'variam' conforme um resultado.",
+    "feedbackCompleto": "A remuneração variável (bônus, participação nos resultados, comissões) é uma ferramenta da remuneração estratégica que busca atrelar parte dos ganhos do colaborador ao seu desempenho individual, de equipe ou organizacional. O objetivo é incentivar e recompensar a performance e o alcance de metas.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "O processo de identificar, mapear, analisar e melhorar os fluxos de trabalho de ponta a ponta em uma organização é o foco da:",
+    "options": [
+      "Gestão de Pessoas",
+      "Gestão da Qualidade Total",
+      "Gestão de Processos (BPM)",
+      "Gestão Financeira"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma abordagem que enxerga a organização de forma horizontal, através de seus 'processos'.",
+    "feedbackCompleto": "A Gestão de Processos de Negócio (BPM - Business Process Management) é uma disciplina gerencial que foca na otimização do desempenho organizacional através da melhoria contínua dos processos. Ela busca entender como o trabalho flui através dos departamentos para entregar valor ao cliente final.",
+    "subjects": ["rh", "adm-geral"]
+  },
+  {
+    "question": "Qual o principal objetivo do 'estágio probatório' para o servidor público, conforme a Lei nº 8.112/1990?",
+    "options": [
+      "Apenas treinar o servidor para as funções do cargo.",
+      "Avaliar a aptidão e a capacidade do servidor para o desempenho do cargo, como condição para aquisição da estabilidade.",
+      "Punir o servidor por faltas leves durante os primeiros anos.",
+      "Decidir sobre a primeira promoção do servidor na carreira."
+    ],
+    "answer": 1,
+    "hint": "É um período de 'prova' antes da efetivação plena no serviço público.",
+    "feedbackCompleto": "O estágio probatório, conforme o Art. 20 da Lei nº 8.112/1990 e o Art. 41 da CF/88, é o período de 3 anos em que o servidor nomeado para cargo efetivo é submetido à avaliação de sua aptidão e capacidade para o desempenho do cargo. A aprovação no estágio probatório é requisito para a aquisição da estabilidade.",
+    "subjects": ["rh", "direito-administrativo"]
+  },
+  {
+    "question": "O que o conceito de 'turnover' (ou rotatividade) mede na gestão de pessoas?",
+    "options": [
+      "O nível de satisfação dos colaboradores.",
+      "O tempo médio de serviço dos funcionários.",
+      "A relação entre o número de admissões e o número de demissões em um determinado período.",
+      "O absenteísmo (faltas) na organização."
+    ],
+    "answer": 2,
+    "hint": "Pense no fluxo de 'entrada e saída' de pessoas na organização.",
+    "feedbackCompleto": "O turnover, ou rotatividade, é um indicador que mede o fluxo de entradas e saídas de colaboradores em uma organização. Ele é calculado pela razão entre o número de desligamentos e o número total de funcionários em um período. Altos índices de turnover são geralmente um sinal de alerta, podendo indicar problemas na gestão.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "A liderança que se baseia na inspiração, no carisma e na capacidade de articular uma visão de futuro, motivando a equipe a superar as expectativas, é a liderança:",
+    "options": [
+      "Transacional",
+      "Autocrática",
+      "Liberal (Laissez-faire)",
+      "Transformacional"
+    ],
+    "answer": 3,
+    "hint": "Pense em um líder que 'transforma' a mentalidade e o engajamento de seus liderados.",
+    "feedbackCompleto": "A Liderança Transformacional é caracterizada pela capacidade do líder de inspirar e motivar sua equipe a alcançar resultados extraordinários. Esses líderes geralmente possuem carisma, estimulam a criatividade, agem como mentores e articulam uma visão convincente, promovendo uma mudança positiva na organização.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "As quatro funções clássicas do processo administrativo, definidas por Henri Fayol, são:",
+    "options": [
+      "Inovar, Vender, Produzir e Controlar.",
+      "Planejar, Organizar, Dirigir (Comandar/Coordenar) e Controlar.",
+      "Recrutar, Selecionar, Treinar e Avaliar.",
+      "Analisar, Decidir, Implementar e Monitorar."
+    ],
+    "answer": 1,
+    "hint": "Lembre-se do mnemônico POC3 ou PODC.",
+    "feedbackCompleto": "Henri Fayol, um dos pais da Teoria Clássica da Administração, definiu as quatro funções essenciais do administrador como: Planejar (definir objetivos e meios), Organizar (estruturar recursos e tarefas), Dirigir (conduzir e orientar as pessoas) e Controlar (monitorar e corrigir o desempenho).",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "Na Análise SWOT, as 'Forças' (Strengths) e 'Fraquezas' (Weaknesses) referem-se a fatores:",
+    "options": [
+      "Do ambiente externo à organização.",
+      "Do ambiente interno da organização.",
+      "Relacionados apenas à concorrência.",
+      "Relacionados apenas ao mercado consumidor."
+    ],
+    "answer": 1,
+    "hint": "Pense no que está 'dentro' do controle da organização versus o que está 'fora'.",
+    "feedbackCompleto": "As Forças e Fraquezas são fatores do ambiente interno da organização, ou seja, são aspectos que a empresa pode controlar ou modificar (ex: equipe qualificada, tecnologia ultrapassada). Já as Oportunidades e Ameaças são fatores do ambiente externo, sobre os quais a organização não tem controle (ex: nova legislação, crise econômica).",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "A estrutura organizacional que se caracteriza pela dupla subordinação, onde um funcionário se reporta a um gerente funcional e a um gerente de projeto, é a estrutura:",
+    "options": [
+      "Funcional",
+      "Divisional",
+      "Matricial",
+      "Linear"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma 'matriz' onde as linhas são os projetos e as colunas são as funções.",
+    "feedbackCompleto": "A estrutura Matricial é uma abordagem híbrida que combina a departamentalização funcional com a por projeto. Sua principal característica é a quebra do princípio da unidade de comando, pois os membros da equipe de projeto possuem dois chefes: o gerente do seu departamento funcional e o gerente do projeto em que estão alocados.",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "O que significa 'Eficácia' no contexto da administração?",
+    "options": [
+      "Fazer as coisas da maneira certa, com o mínimo de recursos.",
+      "Fazer as coisas certas, ou seja, atingir os objetivos e resultados propostos.",
+      "Fazer as coisas rapidamente.",
+      "Fazer as coisas com o menor custo possível."
+    ],
+    "answer": 1,
+    "hint": "Eficácia está relacionada ao 'fim', enquanto eficiência está relacionada ao 'meio'.",
+    "feedbackCompleto": "Eficácia é a medida em que os objetivos e resultados propostos são alcançados. Refere-se a 'fazer as coisas certas'. Já a Eficiência refere-se a 'fazer as coisas da maneira certa', ou seja, com a melhor utilização dos recursos. Uma organização pode ser eficiente sem ser eficaz, e vice-versa.",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "A ferramenta de gestão da qualidade conhecida como 'Diagrama de Ishikawa' ou 'Espinha de Peixe' é utilizada para:",
+    "options": [
+      "Mapear o fluxo de um processo.",
+      "Identificar e organizar as possíveis causas de um problema ou efeito.",
+      "Priorizar ações de melhoria.",
+      "Controlar estatisticamente um processo."
+    ],
+    "answer": 1,
+    "hint": "Pense em uma ferramenta para investigar a 'causa raiz' de um problema.",
+    "feedbackCompleto": "O Diagrama de Ishikawa é uma ferramenta gráfica utilizada para a análise de causa e efeito. Ele ajuda as equipes a organizar o brainstorming e a identificar as diversas causas potenciais que podem estar contribuindo para um determinado problema (o 'efeito', que é a cabeça do peixe).",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "O conceito de 'Racionalidade Limitada', de Herbert Simon, afirma que os gestores tomam decisões:",
+    "options": [
+      "Sempre perfeitamente racionais e otimizadas.",
+      "De forma totalmente irracional e aleatória.",
+      "'Satisfatórias' (boas o suficiente), dadas as limitações de informação, tempo e capacidade cognitiva.",
+      "Baseadas exclusivamente na hierarquia da empresa."
+    ],
+    "answer": 2,
+    "hint": "É uma visão mais realista de como as decisões são tomadas no mundo real.",
+    "feedbackCompleto": "Herbert Simon contrapôs o modelo do 'homem econômico' (totalmente racional) com o do 'homem administrativo'. A Racionalidade Limitada descreve que, na prática, os tomadores de decisão não conseguem analisar todas as alternativas e consequências. Por isso, eles buscam uma solução 'satisfatória' ou 'boa o suficiente' (satisficing), em vez da solução ótima.",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "A declaração que define a razão de ser de uma organização, seu propósito fundamental e o que ela faz no presente, é a:",
+    "options": [
+      "Visão",
+      "Missão",
+      "Análise de Cenários",
+      "Meta Estratégica"
+    ],
+    "answer": 1,
+    "hint": "Pense na pergunta: 'Para que esta organização existe?'.",
+    "feedbackCompleto": "A Missão é a declaração do propósito da organização. Ela descreve sua razão de existir, seu negócio, seus clientes e o que ela busca oferecer. Diferencia-se da Visão, que é uma declaração sobre onde a organização deseja chegar no futuro.",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "O que é 'Benchmarking'?",
+    "options": [
+      "Um processo de reestruturação radical dos processos da empresa.",
+      "A definição de metas e objetivos anuais.",
+      "Um processo de comparação dos produtos, serviços e práticas de uma empresa com os dos concorrentes mais fortes ou líderes do setor.",
+      "A terceirização de atividades não essenciais da organização."
+    ],
+    "answer": 2,
+    "hint": "Pense em 'aprender com os melhores' para melhorar a si mesmo.",
+    "feedbackCompleto": "Benchmarking é um processo contínuo de pesquisa para comparar e medir as práticas de uma organização com as de outras que são referência no mercado. O objetivo é identificar as melhores práticas e adaptá-las para melhorar o próprio desempenho.",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "A estrutura organizacional mais adequada para ambientes estáveis e com tarefas rotineiras, que privilegia a especialização e a hierarquia, é a estrutura:",
+    "options": [
+      "Orgânica",
+      "em Rede",
+      "Mecanicista (ou Burocrática)",
+      "Adhocrática"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma estrutura rígida, como uma 'máquina'.",
+    "feedbackCompleto": "A estrutura Mecanicista, ou Burocrática, é caracterizada pela alta especialização, departamentalização rígida, cadeia de comando clara, formalização e centralização. Ela é eficiente em ambientes estáveis e previsíveis. Em contraste, a estrutura Orgânica é flexível e adaptável, mais adequada a ambientes dinâmicos e incertos.",
+    "subjects": ["adm-geral"]
+  },
+  {
+    "question": "O ciclo PDCA, uma ferramenta de melhoria contínua, significa:",
+    "options": [
+      "Processo, Decisão, Custo e Análise.",
+      "Planejar, Dirigir, Comunicar e Agir.",
+      "Planejar (Plan), Fazer (Do), Checar (Check) e Agir (Act).",
+      "Problema, Desenho, Correção e Análise."
+    ],
+    "answer": 2,
+    "hint": "É um acrônimo em inglês para as quatro etapas do ciclo de melhoria.",
+    "feedbackCompleto": "O Ciclo PDCA, também conhecido como Ciclo de Deming, é um método iterativo de gestão de quatro passos usado para o controle e melhoria contínua de processos e produtos. As etapas são: Plan (Planejar), Do (Fazer ou Executar), Check (Checar ou Verificar) e Act (Agir ou Corrigir).",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "Qual a principal diferença entre os conceitos de Governança e Governabilidade?",
+    "options": [
+      "Não há diferença, são sinônimos.",
+      "Governança refere-se à capacidade política de governar, e Governabilidade refere-se aos instrumentos de gestão.",
+      "Governabilidade é a legitimidade e a capacidade política de um governo para governar, enquanto Governança são os arranjos e processos pelos quais as decisões são tomadas e implementadas.",
+      "Governança é focada no setor privado, e Governabilidade no setor público."
+    ],
+    "answer": 2,
+    "hint": "Pense na Governabilidade como a 'condição para governar' e na Governança como a 'forma de governar'.",
+    "feedbackCompleto": "A distinção é fundamental. Governabilidade refere-se às condições políticas e institucionais que dão legitimidade a um governo (apoio popular, maioria no parlamento). Governança (Pública) refere-se ao conjunto de processos, mecanismos e arranjos institucionais através dos quais o poder é exercido, as decisões são tomadas e o interesse público é atendido, envolvendo transparência, accountability e participação.",
+    "subjects": ["gestao", "adm-publica-federal"]
+  },
+  {
+    "question": "A ferramenta de planejamento estratégico que analisa os ambientes interno (Forças e Fraquezas) e externo (Oportunidades e Ameaças) de uma organização é a:",
+    "options": [
+      "Matriz GUT",
+      "Ciclo PDCA",
+      "Análise SWOT (ou FOFA)",
+      "Balanced Scorecard (BSC)"
+    ],
+    "answer": 2,
+    "hint": "O nome da ferramenta é um acrônimo em inglês para seus quatro componentes.",
+    "feedbackCompleto": "A Análise SWOT (Strengths, Weaknesses, Opportunities, Threats) — ou FOFA em português (Forças, Oportunidades, Fraquezas e Ameaças) — é uma ferramenta essencial no diagnóstico estratégico. Ela permite à organização avaliar seus pontos fortes e fracos internos e as oportunidades e ameaças do ambiente externo para formular estratégias mais eficazes.",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "A transição de um modelo de administração patrimonialista para um modelo burocrático, nos moldes weberianos, buscou principalmente combater:",
+    "options": [
+      "A lentidão dos processos e o foco excessivo em resultados.",
+      "A confusão entre o patrimônio público e o privado, o nepotismo e o clientelismo.",
+      "A falta de participação social nas decisões do governo.",
+      "A meritocracia e a profissionalização do serviço público."
+    ],
+    "answer": 1,
+    "hint": "Pense no principal problema do patrimonialismo, onde o Estado era visto como propriedade do governante.",
+    "feedbackCompleto": "O modelo burocrático, teorizado por Max Weber, surgiu como uma solução para o patrimonialismo. Seu objetivo era estabelecer uma clara distinção entre a esfera pública e a privada, combatendo o nepotismo e o clientelismo através da impessoalidade, da meritocracia (concurso público) e da aplicação de regras formais a todos.",
+    "subjects": ["gestao", "adm-publica-federal"]
+  },
+  {
+    "question": "No planejamento estratégico de uma organização pública, a declaração que define 'aonde a organização quer chegar no futuro' é a:",
+    "options": [
+      "Missão",
+      "Visão",
+      "Valores",
+      "Meta"
+    ],
+    "answer": 1,
+    "hint": "Pense em uma declaração aspiracional, um 'sonho' de longo prazo para a instituição.",
+    "feedbackCompleto": "A Visão é a declaração que descreve o estado futuro desejado pela organização, ou seja, o que ela aspira se tornar em um horizonte de longo prazo. Ela serve como um farol para guiar as estratégias e decisões. A Missão, por outro lado, define a razão de ser da organização no presente.",
+    "subjects": ["gestao", "adm-geral"]
+  },
+  {
+    "question": "O que são 'bens e serviços comuns', objeto preferencial de licitação na modalidade Pregão, conforme a Lei nº 14.133/2021?",
+    "options": [
+      "Aqueles que possuem alta complexidade técnica e inovação.",
+      "Serviços de engenharia de grande vulto.",
+      "Bens e serviços cujos padrões de desempenho e qualidade podem ser objetivamente definidos pelo edital, por meio de especificações usuais de mercado.",
+      "Contratação de artistas consagrados pela crítica."
+    ],
+    "answer": 2,
+    "hint": "Pense em produtos e serviços que não são 'especiais' e podem ser facilmente encontrados e comparados no mercado.",
+    "feedbackCompleto": "A definição está no Art. 6º, XIII, da Lei nº 14.133/2021. Bens e serviços comuns são aqueles que podem ter seus padrões de qualidade e desempenho facilmente descritos em edital, com base no que já é usual no mercado. Para estes, o Pregão é a modalidade obrigatória, visando maior agilidade e competição.",
+    "subjects": ["licitacoes", "gestao"]
+  },
+  {
+    "question": "O Balanced Scorecard (BSC) é uma ferramenta de gestão que equilibra a performance organizacional através de quatro perspectivas. Qual das seguintes NÃO é uma das perspectivas do BSC?",
+    "options": [
+      "Financeira",
+      "Clientes",
+      "Processos Internos",
+      "Hierárquico-Funcional"
+    ],
+    "answer": 3,
+    "hint": "As quatro perspectivas são: Financeira, Clientes, Processos Internos e uma quarta relacionada ao futuro da organização.",
+    "feedbackCompleto": "As quatro perspectivas clássicas do Balanced Scorecard (BSC) são: 1) Financeira (como os acionistas nos veem?); 2) Clientes (como os clientes nos veem?); 3) Processos Internos (em que processos devemos ser excelentes?); e 4) Aprendizado e Crescimento (como podemos continuar a melhorar e criar valor?). A perspectiva Hierárquico-Funcional não faz parte do modelo.",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "A comunicação que flui dos níveis hierárquicos mais altos para os mais baixos (ex: um diretor emitindo uma ordem para seus gerentes) é chamada de:",
+    "options": [
+      "Comunicação Ascendente",
+      "Comunicação Horizontal",
+      "Comunicação Descendente",
+      "Comunicação Diagonal"
+    ],
+    "answer": 2,
+    "hint": "Pense no sentido do fluxo da informação na hierarquia.",
+    "feedbackCompleto": "A Comunicação Descendente (ou vertical descendente) é aquela que segue a cadeia de comando formal, fluindo dos superiores para os subordinados. É utilizada para transmitir ordens, instruções, metas e políticas. A comunicação ascendente faz o caminho inverso (subordinado para superior).",
+    "subjects": ["adm-geral", "rh"]
+  },
+  {
+    "question": "O que caracteriza a 'desconcentração' administrativa?",
+    "options": [
+      "A criação de uma nova entidade com personalidade jurídica, como uma autarquia.",
+      "A distribuição interna de competências dentro de uma mesma pessoa jurídica, criando órgãos sem personalidade própria.",
+      "A transferência de um serviço público para uma empresa privada por meio de concessão.",
+      "A extinção de órgãos públicos para reduzir custos."
+    ],
+    "answer": 1,
+    "hint": "Pense na criação de secretarias dentro de um ministério, ou de departamentos dentro de uma secretaria.",
+    "feedbackCompleto": "A Desconcentração é uma técnica de organização que distribui competências internamente, dentro da mesma pessoa jurídica. Ela cria órgãos (como Ministérios, Secretarias, Departamentos) que não têm personalidade jurídica própria, mas recebem uma parcela da competência do ente principal para otimizar a gestão. Diferencia-se da descentralização, que cria novas entidades.",
+    "subjects": ["gestao", "adm-publica-federal"]
+  },
+  {
+    "question": "O ciclo PDCA, uma ferramenta de melhoria contínua, tem na etapa 'C' (Check) qual objetivo?",
+    "options": [
+      "Executar o que foi planejado em pequena escala.",
+      "Planejar as ações de melhoria e definir as metas.",
+      "Agir corretivamente para ajustar o processo ou padronizar a melhoria.",
+      "Monitorar e avaliar os resultados do que foi executado, comparando-os com o planejado."
+    ],
+    "answer": 3,
+    "hint": "A letra 'C' vem do inglês 'Check', que significa 'Checar' ou 'Verificar'.",
+    "feedbackCompleto": "A etapa 'C' (Check/Checar) do ciclo PDCA é a fase de verificação. Nela, os resultados das ações executadas na etapa 'D' (Do/Fazer) são monitorados, medidos e comparados com as metas estabelecidas na etapa 'P' (Plan/Planejar). Essa verificação é crucial para identificar desvios e subsidiar a etapa 'A' (Act/Agir).",
+    "subjects": ["adm-geral", "gestao"]
+  },
+  {
+    "question": "A capacidade da sociedade de participar ativamente da fiscalização dos atos do governo, utilizando ferramentas como a Lei de Acesso à Informação e os portais da transparência, é chamada de:",
+    "options": [
+      "Controle Interno",
+      "Controle Externo",
+      "Controle Social",
+      "Controle Prévio"
+    ],
+    "answer": 2,
+    "hint": "Pense no controle que não vem de órgãos do governo, mas da própria sociedade.",
+    "feedbackCompleto": "O Controle Social é a participação do cidadão na gestão pública, na fiscalização, no monitoramento e no controle das ações da Administração. É um complemento essencial aos controles institucionais (interno e externo) e um pilar para o exercício da cidadania e o fortalecimento da democracia e da governança.",
+    "subjects": ["gestao", "politicas", "controle"]
+  },
+  {
+    "question": "No ciclo de políticas públicas, qual o nome da fase em que um problema social ganha relevância a ponto de ser considerado uma prioridade para a ação governamental?",
+    "options": [
+      "Implementação",
+      "Avaliação Ex-ante",
+      "Formulação da Agenda (Agenda-Setting)",
+      "Tomada de Decisão"
+    ],
+    "answer": 2,
+    "hint": "É o momento em que um problema 'entra na pauta' do governo.",
+    "feedbackCompleto": "A Formulação da Agenda (ou Agenda-Setting) é a primeira fase do ciclo de políticas públicas. Ela descreve o processo pelo qual problemas e questões sociais são selecionados e ganham a atenção dos tomadores de decisão, tornando-se parte da lista de prioridades a serem tratadas pelo governo.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "Uma política de transferência de renda, como o Bolsa Família, que retira recursos de toda a sociedade via tributos para beneficiar um grupo específico e vulnerável, é um exemplo clássico de política:",
+    "options": [
+      "Distributiva",
+      "Regulatória",
+      "Redistributiva",
+      "Constitutiva"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma política que 'redistribui' a riqueza para diminuir a desigualdade.",
+    "feedbackCompleto": "As políticas Redistributivas são aquelas que promovem uma transferência de recursos (renda, bens ou serviços) entre diferentes grupos sociais, geralmente com o objetivo de reduzir desigualdades. Elas são caracterizadas por um conflito mais claro entre 'quem paga' e 'quem recebe'.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "A análise que avalia a relação entre os recursos (custos) utilizados em uma política e os produtos/serviços gerados por ela é a análise de:",
+    "options": [
+      "Eficácia",
+      "Efetividade",
+      "Eficiência",
+      "Impacto"
+    ],
+    "answer": 2,
+    "hint": "Pense no conceito de 'fazer certo as coisas', ou seja, otimizar o uso dos recursos.",
+    "feedbackCompleto": "A Eficiência mede a relação entre os insumos (recursos financeiros, humanos, etc.) e os produtos (bens e serviços entregues). Uma política eficiente é aquela que atinge seus resultados com o menor custo possível. Diferencia-se da eficácia (atingir metas) e da efetividade (impacto real).",
+    "subjects": ["politicas", "gestao"]
+  },
+  {
+    "question": "Qual a principal diferença entre 'avaliação' e 'monitoramento' de políticas públicas?",
+    "options": [
+      "Monitoramento ocorre antes da implementação e a avaliação, depois.",
+      "Monitoramento é um acompanhamento contínuo da execução, enquanto a avaliação é uma análise mais profunda sobre os resultados e impactos.",
+      "Não há diferença, são sinônimos.",
+      "Monitoramento é feito pela sociedade (controle social) e a avaliação, pelo governo."
+    ],
+    "answer": 1,
+    "hint": "Pense no monitoramento como uma checagem de 'processo' e na avaliação como uma checagem de 'resultado'.",
+    "feedbackCompleto": "O Monitoramento é uma atividade gerencial contínua que acompanha a execução da política para verificar se as atividades planejadas estão sendo realizadas. A Avaliação é um processo mais complexo e pontual que busca julgar o mérito e o valor da política, analisando seus resultados, impactos e se ela atingiu seus objetivos.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "A abordagem 'top-down' (de cima para baixo) na implementação de políticas públicas enfatiza:",
+    "options": [
+      "A autonomia dos burocratas de linha de frente para adaptar a política.",
+      "A participação intensa da comunidade local na definição das regras.",
+      "O controle centralizado pelos formuladores da política e a fidelidade na execução das normas.",
+      "A negociação constante entre os diferentes atores envolvidos."
+    ],
+    "answer": 2,
+    "hint": "Pense em uma implementação que segue rigidamente o plano original, vindo 'de cima'.",
+    "feedbackCompleto": "A abordagem 'top-down' (de cima para baixo) vê a implementação como um processo hierárquico e controlado, onde o principal desafio é garantir que os executores (na base) sigam fielmente as decisões tomadas pelos formuladores (no topo). Ela valoriza o controle e a uniformidade.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "O que são 'stakeholders' no contexto de uma política pública?",
+    "options": [
+      "Apenas os formuladores da política no governo.",
+      "Apenas os beneficiários diretos da política.",
+      "Todos os atores, grupos e indivíduos que têm interesse, influenciam ou são afetados pela política.",
+      "Apenas as empresas privadas que financiam a política."
+    ],
+    "answer": 2,
+    "hint": "Pense em todas as 'partes interessadas' em uma determinada política.",
+    "feedbackCompleto": "Stakeholders são todas as partes interessadas em uma política pública. Isso inclui um vasto leque de atores: formuladores, implementadores, beneficiários, grupos de pressão, especialistas, a mídia, a oposição política, etc. Mapear e analisar os stakeholders é crucial para o sucesso da política.",
+    "subjects": ["politicas", "gestao"]
+  },
+  {
+    "question": "Uma lei que estabelece novas regras para o trânsito, definindo proibições e sanções para todos os motoristas, é um exemplo de qual tipo de política pública?",
+    "options": [
+      "Distributiva",
+      "Redistributiva",
+      "Regulatória",
+      "Constitutiva"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma política que 'regula' o comportamento da sociedade.",
+    "feedbackCompleto": "Políticas Regulatórias são aquelas que estabelecem regras, padrões de comportamento, proibições e sanções para indivíduos e grupos da sociedade, com o objetivo de ordenar a vida social e proteger o interesse público. Leis de trânsito, ambientais e sanitárias são exemplos clássicos.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "Qual a principal característica do modelo de análise de políticas públicas conhecido como 'Lata de Lixo' (Garbage Can Model)?",
+    "options": [
+      "As decisões são tomadas de forma perfeitamente racional e sequencial.",
+      "As políticas são resultado de pequenas alterações incrementais.",
+      "As decisões ocorrem de forma pouco organizada, a partir de um encontro quase casual entre problemas, soluções, participantes e oportunidades de escolha.",
+      "As políticas são sempre definidas por uma elite técnica e política."
+    ],
+    "answer": 2,
+    "hint": "Pense em uma tomada de decisão que se assemelha a uma 'bagunça organizada'.",
+    "feedbackCompleto": "O modelo da 'Lata de Lixo' (Garbage Can Model) descreve a tomada de decisão em 'anarquias organizadas'. Segundo ele, as decisões não seguem uma lógica racional, mas resultam de um acoplamento fortuito de quatro fluxos independentes: problemas, soluções em busca de problemas, participantes e oportunidades de escolha (as 'latas de lixo').",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "A capacidade do Estado de formular e implementar políticas públicas com sucesso, dispondo de recursos financeiros, humanos e institucionais, é chamada de:",
+    "options": [
+      "Governabilidade",
+      "Capacidade Estatal",
+      "Accountability",
+      "Transparência"
+    ],
+    "answer": 1,
+    "hint": "Pense na 'habilidade' ou 'competência' do Estado para fazer as coisas acontecerem.",
+    "feedbackCompleto": "Capacidade Estatal (ou capacidade institucional) refere-se à habilidade do Estado para efetivamente desempenhar suas funções. Envolve a existência de uma burocracia qualificada, recursos financeiros, infraestrutura adequada e arranjos institucionais que permitam a formulação e implementação eficaz de políticas públicas.",
+    "subjects": ["politicas", "gestao"]
+  },
+  {
+    "question": "A etapa do ciclo de políticas públicas que busca verificar se a política produziu os resultados e impactos desejados é a:",
+    "options": [
+      "Formulação",
+      "Implementação",
+      "Avaliação",
+      "Tomada de Decisão"
+    ],
+    "answer": 2,
+    "hint": "É a fase de 'julgamento' do mérito da política, após sua execução.",
+    "feedbackCompleto": "A Avaliação é a etapa final do ciclo, na qual se busca analisar e julgar o desempenho e os efeitos de uma política pública. Ela pode avaliar os processos, os resultados (eficácia, eficiência) e, principalmente, os impactos (efetividade) que a política gerou na sociedade.",
+    "subjects": ["politicas"]
+  },
+  {
+    "question": "A Teoria da Hierarquia das Necessidades, de Abraham Maslow, propõe que as necessidades humanas:",
+    "options": [
+      "São todas igualmente importantes e buscadas ao mesmo tempo.",
+      "São organizadas em uma hierarquia, e as de nível mais baixo (fisiológicas) devem ser satisfeitas antes das de nível mais alto (autorrealização).",
+      "São divididas apenas em fatores higiênicos e motivacionais.",
+      "São aprendidas socialmente e variam para cada indivíduo."
+    ],
+    "answer": 1,
+    "hint": "Lembre-se da famosa 'Pirâmide de Maslow'.",
+    "feedbackCompleto": "A teoria de Maslow organiza as necessidades humanas em uma pirâmide de cinco níveis: Fisiológicas, Segurança, Sociais, Estima e Autorrealização. A teoria postula que um indivíduo só se sente motivado a buscar a satisfação de uma necessidade de nível superior quando a do nível inferior já está razoavelmente satisfeita.",
+    "subjects": ["rh", "adm-geral"]
+  },
+  {
+    "question": "Qual das seguintes ações é uma responsabilidade típica da área de 'Desenvolvimento' de pessoas em uma organização?",
+    "options": [
+      "Processar a folha de pagamento e os benefícios.",
+      "Divulgar vagas e atrair candidatos para a empresa.",
+      "Elaborar planos de carreira e programas de capacitação para preparar os colaboradores para futuras posições.",
+      "Controlar o registro de ponto e as faltas dos funcionários."
+    ],
+    "answer": 2,
+    "hint": "Pense nas ações focadas no crescimento de longo prazo do colaborador.",
+    "feedbackCompleto": "A área de Desenvolvimento de Pessoas foca no longo prazo, preparando os colaboradores para desafios futuros. Isso inclui a criação e gestão de planos de carreira, programas de sucessão, coaching, mentoring e capacitações que visam o crescimento profissional, e não apenas a melhoria no cargo atual (o que seria foco de 'Treinamento').",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "O que a 'Gestão por Competências' busca identificar em um servidor?",
+    "options": [
+      "Apenas seu tempo de serviço na instituição.",
+      "O conjunto de Conhecimentos, Habilidades e Atitudes (CHA) que ele mobiliza para gerar resultados.",
+      "Sua rede de contatos profissionais.",
+      "Apenas sua formação acadêmica e os diplomas que possui."
+    ],
+    "answer": 1,
+    "hint": "Lembre-se do acrônimo C.H.A. (Saber, Saber Fazer e Querer Fazer).",
+    "feedbackCompleto": "A Gestão por Competências foca no C.H.A.: Conhecimento (o saber teórico), Habilidade (o saber fazer prático) e Atitude (o querer fazer, o comportamento). O objetivo é gerir pessoas com base nas competências que elas possuem e naquelas que a organização precisa para atingir seus objetivos estratégicos.",
+    "subjects": ["rh", "gestao"]
+  },
+  {
+    "question": "Conforme a Lei nº 8.112/1990, a investidura do servidor em cargo de atribuições e responsabilidades compatíveis com a limitação que tenha sofrido em sua capacidade física ou mental é a:",
+    "options": [
+      "Recondução",
+      "Reintegração",
+      "Readaptação",
+      "Promoção"
+    ],
+    "answer": 2,
+    "hint": "Pense no ato de 'adaptar' o servidor a uma nova função por motivo de saúde.",
+    "feedbackCompleto": "A Readaptação, prevista no Art. 24 da Lei nº 8.112/1990, é a forma de provimento pela qual o servidor que sofreu limitação em sua capacidade física ou mental é investido em um cargo cujas atribuições sejam compatíveis com sua nova condição, após verificação por junta médica oficial.",
+    "subjects": ["rh", "direito-administrativo"]
+  },
+  {
+    "question": "Qual é a principal vantagem do 'Recrutamento Interno'?",
+    "options": [
+      "Traz novas ideias e experiências de fora para a organização.",
+      "Aumenta o capital intelectual com talentos do mercado.",
+      "É mais rápido, mais econômico e valoriza os talentos da própria organização, aumentando a motivação.",
+      "Renova a cultura organizacional com mais eficácia."
+    ],
+    "answer": 2,
+    "hint": "Pense nos benefícios de aproveitar quem 'já é de casa'.",
+    "feedbackCompleto": "O Recrutamento Interno tem como principais vantagens a rapidez e o menor custo (pois o candidato já é conhecido), além de ser um poderoso fator de motivação, pois mostra aos colaboradores que existem oportunidades de crescimento na carreira dentro da própria empresa.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "Na gestão de pessoas, o que é um 'Plano de Cargos e Salários'?",
+    "options": [
+      "A lista de todos os funcionários e seus respectivos salários.",
+      "O organograma da empresa.",
+      "Um instrumento que estrutura os cargos da organização em uma hierarquia e estabelece as políticas de remuneração e os critérios para progressão na carreira.",
+      "O orçamento anual da área de Recursos Humanos."
+    ],
+    "answer": 2,
+    "hint": "Pense em um 'mapa da carreira' dentro da organização.",
+    "feedbackCompleto": "O Plano de Cargos e Salários (ou Plano de Carreira) é uma ferramenta de gestão de pessoas que define e organiza os cargos, estabelece os requisitos para cada um, e cria os caminhos de progressão (horizontal) e promoção (vertical), atrelando-os a faixas salariais. Ele busca garantir a equidade interna e a competitividade externa da remuneração.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "A 'Teoria da Expectativa' de Victor Vroom afirma que a motivação é um produto de três fatores. Quais são eles?",
+    "options": [
+      "Dinheiro, Segurança e Reconhecimento.",
+      "Expectativa (Esforço-Desempenho), Instrumentalidade (Desempenho-Recompensa) e Valência (Valor da Recompensa).",
+      "Necessidades Fisiológicas, Sociais e de Autorrealização.",
+      "Higiene, Motivação e Satisfação."
+    ],
+    "answer": 1,
+    "hint": "Pense na motivação como um cálculo: 'Se eu me esforçar, vou conseguir? Se eu conseguir, vou ganhar algo? O que vou ganhar vale a pena?'.",
+    "feedbackCompleto": "A Teoria da Expectativa de Vroom postula que a força da motivação de uma pessoa para agir de certa forma depende de três fatores: 1) Expectativa: a crença de que seu esforço levará ao desempenho desejado; 2) Instrumentalidade: a crença de que o desempenho levará a uma recompensa; 3) Valência: o valor ou a atratividade que a recompensa tem para o indivíduo.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "Qual o principal objetivo de um programa de 'Qualidade de Vida no Trabalho (QVT)'?",
+    "options": [
+      "Apenas reduzir os custos com planos de saúde.",
+      "Aumentar o controle sobre a vida pessoal dos servidores.",
+      "Promover o bem-estar físico, psicológico e social dos colaboradores, buscando um ambiente de trabalho mais saudável e produtivo.",
+      "Aumentar a carga horária de trabalho."
+    ],
+    "answer": 2,
+    "hint": "Pense em ações que tornam o ambiente de trabalho mais humano e equilibrado.",
+    "feedbackCompleto": "Os programas de QVT visam promover um ambiente de trabalho que valorize o bem-estar integral do colaborador. Isso envolve ações que vão desde a ergonomia e segurança até o equilíbrio entre vida pessoal e profissional, o desenvolvimento de relações interpessoais saudáveis e o combate ao estresse, resultando em maior satisfação e produtividade.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "A Síndrome de Burnout, ou Síndrome do Esgotamento Profissional, é caracterizada por:",
+    "options": [
+      "Um estado de euforia e alta produtividade contínua.",
+      "Exaustão emocional, despersonalização (cinismo) e redução da realização pessoal no trabalho.",
+      "Conflitos interpessoais esporádicos com a chefia.",
+      "Apenas o cansaço físico após um dia de trabalho."
+    ],
+    "answer": 1,
+    "hint": "É um distúrbio psíquico decorrente do estresse crônico no ambiente de trabalho.",
+    "feedbackCompleto": "A Síndrome de Burnout é um estado de esgotamento resultante do estresse crônico no local de trabalho. Suas três dimensões principais são: a exaustão emocional (sentimento de estar no limite), a despersonalização (desenvolvimento de atitudes cínicas e negativas em relação ao trabalho e aos outros) e a diminuição do sentimento de realização pessoal.",
+    "subjects": ["rh"]
+  },
+  {
+    "question": "Conforme a Lei nº 8.112/1990, a exoneração de um servidor do cargo em comissão ocorrerá:",
+    "options": [
+      "Apenas a pedido do próprio servidor.",
+      "Apenas após processo administrativo disciplinar.",
+      "A juízo da autoridade competente ou a pedido do próprio servidor.",
+      "Apenas em caso de reprovação na avaliação de desempenho."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se que o cargo em comissão é de livre nomeação e livre exoneração.",
+    "feedbackCompleto": "O cargo em comissão se baseia na relação de confiança. Assim, a exoneração é livre. Conforme o Art. 35 da Lei nº 8.112/1990, a exoneração de cargo em comissão dar-se-á: I - a juízo da autoridade competente (sem necessidade de justificativa); II - a pedido do próprio servidor.",
+    "subjects": ["rh", "direito-administrativo"]
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
 
      
 
