@@ -23070,8 +23070,1077 @@
     "hint": "Esta questão pede a equivalência da negação de uma proposição universal.",
     "feedbackCompleto": "A expressão 'É falso que...' é o mesmo que a negação da proposição seguinte. A negação de 'Todo servidor é concursado' (universal afirmativa) é 'Pelo menos um servidor não é concursado' (particular negativa).",
     "subjects": ["raciocinio-logico"]
-  }
+  },
+  {
+    "question": "Conforme a Lei nº 14.133/2021, o instrumento que aloca os riscos da contratação entre a Administração e o contratado, definindo a responsabilidade de cada parte, é denominado:",
+    "options": [
+      "Termo de Referência",
+      "Estudo Técnico Preliminar",
+      "Matriz de Riscos",
+      "Ata de Registro de Preços"
+    ],
+    "answer": 2,
+    "hint": "Pense em uma ferramenta de governança contratual que busca prever e distribuir as responsabilidades por eventos incertos.",
+    "feedbackCompleto": "A Matriz de Riscos é um instrumento de governança introduzido pela Lei nº 14.133/2021 (Art. 22, § 3º e Art. 103). Ela é uma cláusula contratual que define os riscos e as responsabilidades entre as partes, estabelecendo o equilíbrio econômico-financeiro do contrato desde o início e aumentando a segurança jurídica.",
+    "subjects": ["licitacoes", "gestao"]
+  },
+  {
+    "question": "Qual o prazo de validade da Ata de Registro de Preços (ARP), incluindo eventuais prorrogações, segundo a Lei nº 14.133/2021?",
+    "options": [
+      "6 meses, improrrogável.",
+      "1 ano, improrrogável.",
+      "1 ano, prorrogável por igual período.",
+      "2 anos, improrrogável."
+    ],
+    "answer": 2,
+    "hint": "A nova lei permite a prorrogação da validade da Ata, diferente da lei anterior.",
+    "feedbackCompleto": "A resposta correta é '1 ano, prorrogável por igual período'. O Art. 84 da Lei nº 14.133/2021 estabelece que o prazo de vigência da ata de registro de preços será de 1 ano, podendo ser prorrogado, por igual período, desde que comprovado o preço vantajoso.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "Na Nova Lei de Licitações, o profissional responsável pela condução do processo licitatório, que toma decisões e acompanha o certame, é o:",
+    "options": [
+      "Pregoeiro",
+      "Fiscal do Contrato",
+      "Agente de Contratação",
+      "Assessor Jurídico"
+    ],
+    "answer": 2,
+    "hint": "É a figura central na condução da licitação, auxiliado por uma equipe de apoio.",
+    "feedbackCompleto": "O Agente de Contratação é a pessoa designada pela autoridade competente para conduzir o processo licitatório e tomar decisões, conforme o Art. 8º da Lei nº 14.133/2021. O pregoeiro é uma espécie de agente de contratação, atuando especificamente na modalidade pregão.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "Qual dos seguintes critérios de julgamento NÃO está previsto na Lei nº 14.133/2021?",
+    "options": [
+      "Menor preço",
+      "Maior desconto",
+      "Maior oferta",
+      "Melhor técnica ou conteúdo artístico"
+    ],
+    "answer": 2,
+    "hint": "Um dos critérios da lista pertence a uma modalidade da lei antiga que foi extinta.",
+    "feedbackCompleto": "A Lei nº 14.133/2021 (Art. 33) prevê os critérios de menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance (no leilão) e maior retorno econômico. 'Maior oferta' era um critério da antiga modalidade 'convite', que foi extinta pela nova lei.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "A contratação de profissional de setor artístico, diretamente ou por meio de empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública, é uma hipótese de:",
+    "options": [
+      "Dispensa de licitação",
+      "Pregão",
+      "Diálogo Competitivo",
+      "Inexigibilidade de licitação"
+    ],
+    "answer": 3,
+    "hint": "Pense se é viável realizar uma competição para escolher um artista específico e consagrado.",
+    "feedbackCompleto": "Trata-se de uma hipótese de Inexigibilidade de licitação, por inviabilidade de competição, conforme previsto no Art. 74, II, da Lei nº 14.133/2021. A natureza singular do serviço artístico e a consagração do profissional tornam a competição inviável.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "O que é o Estudo Técnico Preliminar (ETP) na fase preparatória da licitação?",
+    "options": [
+      "O mesmo que o Termo de Referência.",
+      "O parecer jurídico sobre a legalidade da contratação.",
+      "Documento que evidencia o problema a ser resolvido, sua melhor solução e os requisitos necessários para a contratação.",
+      "O orçamento detalhado da contratação."
+    ],
+    "answer": 2,
+    "hint": "É o primeiro documento técnico elaborado no planejamento, que analisa a viabilidade da contratação.",
+    "feedbackCompleto": "O Estudo Técnico Preliminar (ETP) é um documento essencial da fase preparatória, exigido pelo Art. 18 da Lei nº 14.133/2021. Ele serve para demonstrar a real necessidade da contratação, analisar as soluções disponíveis no mercado e a viabilidade técnica e econômica da solução escolhida, subsidiando a elaboração do Termo de Referência ou Projeto Básico.",
+    "subjects": ["licitacoes", "gestao"]
+  },
+  {
+    "question": "Qual o prazo máximo de duração, incluindo prorrogações, para um contrato de serviços e fornecimentos contínuos, conforme a Lei nº 14.133/2021?",
+    "options": [
+      "5 anos",
+      "10 anos",
+      "60 meses",
+      "Prazo indeterminado"
+    ],
+    "answer": 1,
+    "hint": "A lei prevê um prazo inicial que pode ser estendido até um limite máximo.",
+    "feedbackCompleto": "O prazo máximo é de 10 anos. O Art. 106 da Lei nº 14.133/2021 permite que os contratos de serviços e fornecimentos contínuos tenham vigência inicial de até 5 anos, podendo ser prorrogados sucessivamente até o limite máximo de 10 anos.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "A Lei nº 14.133/2021 prevê a possibilidade de a Administração aplicar sanções ao contratado em caso de inexecução do contrato. Qual sanção NÃO está prevista na lei?",
+    "options": [
+      "Advertência",
+      "Multa",
+      "Prisão do representante legal da empresa",
+      "Declaração de inidoneidade para licitar ou contratar"
+    ],
+    "answer": 2,
+    "hint": "Pense nas sanções de natureza administrativa. A privação de liberdade é de outra esfera do Direito.",
+    "feedbackCompleto": "A Lei nº 14.133/2021 (Art. 156) prevê as sanções de advertência, multa, impedimento de licitar e contratar e declaração de inidoneidade. A prisão é uma sanção de natureza penal, que não pode ser aplicada pela Administração, mas sim pelo Poder Judiciário após o devido processo legal criminal.",
+    "subjects": ["licitacoes", "direito-administrativo"]
+  },
+  {
+    "question": "O que é o 'modo de disputa aberto' no pregão e na concorrência?",
+    "options": [
+      "Os licitantes apresentam propostas sigilosas que só são abertas no final.",
+      "Um modo em que os licitantes apresentam lances públicos e sucessivos, decrescentes ou crescentes.",
+      "Um diálogo entre a Administração e os licitantes para definir a solução.",
+      "Apenas a Administração pode dar lances."
+    ],
+    "answer": 1,
+    "hint": "Pense na dinâmica de um leilão, com lances visíveis para todos.",
+    "feedbackCompleto": "O modo de disputa aberto, conforme o Art. 56 da Lei nº 14.133/2021, é aquele em que os licitantes apresentam seus lances de forma pública e sucessiva. É a regra do pregão, onde os participantes competem abertamente para oferecer o menor preço.",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "Segundo a Lei 14.133/2021, a contratação direta por dispensa de licitação em razão do valor é permitida para obras e serviços de engenharia ou manutenção de veículos automotores até o limite de:",
+    "options": [
+      "R$ 50.000,00",
+      "R$ 100.000,00",
+      "Um valor atualizado anualmente, que para 2024 é de R$ 119.812,02.",
+      "Um valor fixo de R$ 176.000,00."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se que a nova lei estabeleceu valores mais altos que a anterior e que eles são corrigidos anualmente.",
+    "feedbackCompleto": "A resposta correta considera a atualização dos valores. O Art. 75, I, da Lei nº 14.133/2021 estabelece o limite de R$ 100.000,00 (cem mil reais) para dispensa de licitação em obras e serviços de engenharia ou manutenção de veículos. Esse valor é atualizado anualmente por decreto. Para o ano de 2024, o valor foi corrigido para R$ 119.812,02 (Decreto nº 11.871/2023).",
+    "subjects": ["licitacoes"]
+  },
+  {
+    "question": "No Balanço Patrimonial do setor público, as contas são organizadas em Ativo, Passivo e Patrimônio Líquido. Onde são registrados os bens de uma autarquia, como edifícios e veículos?",
+    "options": [
+      "No Passivo, pois representam um custo.",
+      "No Patrimônio Líquido, como capital do governo.",
+      "No Ativo, especificamente no Ativo Não Circulante Imobilizado.",
+      "Não são registrados, pois são bens públicos."
+    ],
+    "answer": 2,
+    "hint": "Pense nos bens de longa duração que são utilizados para a prestação do serviço público.",
+    "feedbackCompleto": "Os edifícios e veículos de uso da autarquia são bens de caráter permanente e, portanto, são registrados no Ativo Não Circulante, subgrupo Imobilizado. O Ativo representa os bens e direitos da entidade, e o Imobilizado são os bens tangíveis utilizados na sua atividade.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O que são Variações Patrimoniais Diminutivas (VPD) na contabilidade pública?",
+    "options": [
+      "A arrecadação de impostos e taxas.",
+      "A contratação de uma operação de crédito (empréstimo).",
+      "O consumo de um bem ou a ocorrência de um fato que diminui o Patrimônio Líquido, como a despesa com salários.",
+      "A compra de um ativo imobilizado, como um terreno."
+    ],
+    "answer": 2,
+    "hint": "Pense em fatos que representam uma 'redução' ou 'consumo' da riqueza líquida do Estado.",
+    "feedbackCompleto": "Variações Patrimoniais Diminutivas (VPD) são transações que diminuem o Patrimônio Líquido da entidade. Correspondem, em geral, às despesas sob o enfoque patrimonial, como o consumo de materiais, a depreciação de bens e as despesas com pessoal (salários).",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "Qual dos seguintes demonstrativos contábeis aplicados ao setor público evidencia as receitas e despesas orçamentárias, comparando o que foi previsto na lei com o que foi efetivamente realizado?",
+    "options": [
+      "Balanço Patrimonial",
+      "Demonstração das Variações Patrimoniais (DVP)",
+      "Balanço Financeiro",
+      "Balanço Orçamentário"
+    ],
+    "answer": 3,
+    "hint": "O próprio nome da demonstração já indica seu foco no 'orçamento'.",
+    "feedbackCompleto": "O Balanço Orçamentário, exigido pela Lei nº 4.320/64, é o demonstrativo que compara as receitas previstas com as arrecadadas e as despesas autorizadas com as executadas. Ele evidencia o resultado orçamentário do exercício (superávit, déficit ou equilíbrio).",
+    "subjects": ["contabilidade", "orcamento"]
+  },
+  {
+    "question": "A inscrição de uma despesa em 'Restos a Pagar' ocorre quando:",
+    "options": [
+      "A despesa foi paga, mas o serviço não foi prestado.",
+      "A despesa foi legalmente empenhada no exercício, mas não foi paga até 31 de dezembro.",
+      "A receita arrecadada foi inferior à prevista.",
+      "O gestor decide cancelar a despesa."
+    ],
+    "answer": 1,
+    "hint": "Pense em uma 'conta a pagar' do governo que 'vira o ano'.",
+    "feedbackCompleto": "A inscrição em Restos a Pagar ocorre com as despesas que foram devidamente empenhadas (comprometidas) durante o exercício financeiro, mas que, por algum motivo, não foram pagas até o encerramento deste, em 31 de dezembro. Elas são 'transferidas' para serem pagas no exercício seguinte.",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "O que é 'Suprimento de Fundos' (ou adiantamento) na execução da despesa pública?",
+    "options": [
+      "Um tipo de crédito extraordinário para calamidades.",
+      "A entrega de numerário a um servidor para a realização de despesas que não possam se submeter ao processo normal de aplicação (empenho-liquidação-pagamento).",
+      "O pagamento final a um fornecedor após a entrega do produto.",
+      "Um empréstimo feito pelo servidor ao governo."
+    ],
+    "answer": 1,
+    "hint": "Pense em um pequeno 'adiantamento' para despesas de pronto pagamento e de pequeno valor.",
+    "feedbackCompleto": "Suprimento de Fundos é um regime especial de execução de despesa. Consiste na entrega de um adiantamento a um servidor para que ele possa realizar despesas de pequeno vulto ou de pronto pagamento que, por sua natureza, não podem aguardar o trâmite normal da despesa, como a compra de um material de emergência. A prestação de contas é obrigatória.",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "Qual é o regime contábil que deve ser adotado pelo setor público para o registro das Variações Patrimoniais (receitas e despesas econômicas)?",
+    "options": [
+      "Regime de Caixa",
+      "Regime de Competência",
+      "Regime Misto",
+      "Regime Orçamentário"
+    ],
+    "answer": 1,
+    "hint": "Pense no regime que reconhece os fatos quando eles ocorrem, e não quando o dinheiro muda de mãos.",
+    "feedbackCompleto": "Para o registro das transações que afetam o patrimônio (as Variações Patrimoniais Aumentativas e Diminutivas), o setor público é obrigado a adotar o Regime de Competência. Isso significa que as despesas e receitas são reconhecidas quando de seus fatos geradores, permitindo uma visão econômica fidedigna do resultado.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "A Dívida Ativa representa:",
+    "options": [
+      "As dívidas que o governo tem com seus fornecedores.",
+      "O montante total de empréstimos contraídos pelo Estado.",
+      "Os créditos a favor da Fazenda Pública que não foram recebidos no prazo, e que foram inscritos para cobrança.",
+      "As despesas que foram empenhadas mas não pagas no exercício."
+    ],
+    "answer": 2,
+    "hint": "Pense nela como a lista de 'devedores' do governo.",
+    "feedbackCompleto": "A Dívida Ativa é o conjunto de créditos (tributários ou não tributários) a favor da Fazenda Pública, cujos devedores não efetuaram o pagamento no vencimento. Após a apuração de sua certeza e liquidez, esses créditos são inscritos em um registro próprio para que possam ser cobrados administrativamente ou judicialmente.",
+    "subjects": ["contabilidade", "afo"]
+  },
+  {
+    "question": "No Plano de Contas Aplicado ao Setor Público (PCASP), as contas são estruturadas em classes. Em qual classe são registradas as contas do Ativo?",
+    "options": [
+      "Classe 1",
+      "Classe 2",
+      "Classe 3",
+      "Classe 5"
+    ],
+    "answer": 0,
+    "hint": "A estrutura do PCASP começa com o registro do patrimônio. O Ativo vem primeiro.",
+    "feedbackCompleto": "A estrutura do PCASP é padronizada. A Classe 1 é dedicada ao Ativo (Circulante e Não Circulante). A Classe 2 ao Passivo e Patrimônio Líquido. A Classe 3 às Variações Patrimoniais Diminutivas (VPD) e a Classe 4 às Variações Patrimoniais Aumentativas (VPA). As classes de 5 a 8 são para os controles orçamentários e de planejamento.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "A Demonstração das Variações Patrimoniais (DVP) evidencia:",
+    "options": [
+      "O fluxo de caixa do período.",
+      "O resultado orçamentário do exercício.",
+      "As alterações que ocorreram no Patrimônio Líquido durante o exercício.",
+      "A lista de bens, direitos e obrigações da entidade."
+    ],
+    "answer": 2,
+    "hint": "Pense nela como um 'filme' que mostra tudo que fez o Patrimônio Líquido aumentar ou diminuir durante o ano.",
+    "feedbackCompleto": "A Demonstração das Variações Patrimoniais (DVP) é obrigatória no setor público e tem como objetivo mostrar todas as mudanças que ocorreram no Patrimônio Líquido ao longo de um período, incluindo o resultado patrimonial do exercício e outras transações que o afetaram, como ajustes de exercícios anteriores.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "A compra de um software de gestão para uso permanente da repartição pública é registrada contabilmente como:",
+    "options": [
+      "Despesa Corrente",
+      "Ativo Circulante",
+      "Ativo Não Circulante - Intangível",
+      "Passivo Exigível"
+    ],
+    "answer": 2,
+    "hint": "Pense em um bem de longa duração que não pode ser tocado fisicamente.",
+    "feedbackCompleto": "Softwares, licenças e patentes são considerados bens de natureza incorpórea. Quando adquiridos para uso por mais de um exercício, são classificados no Ativo Não Circulante, no subgrupo Intangível. Sua perda de valor ao longo do tempo é registrada pela amortização.",
+    "subjects": ["contabilidade"]
+  },
+  {
+    "question": "O controle da constitucionalidade das leis no Brasil pode ser exercido de forma difusa. Isso significa que:",
+    "options": [
+      "Apenas o Supremo Tribunal Federal (STF) pode declarar uma lei inconstitucional.",
+      "Qualquer juiz ou tribunal, ao julgar um caso concreto, pode deixar de aplicar uma lei que considere inconstitucional.",
+      "A inconstitucionalidade só pode ser declarada antes da publicação da lei.",
+      "Apenas o Presidente da República pode vetar uma lei por inconstitucionalidade."
+    ],
+    "answer": 1,
+    "hint": "Pense em um controle que é 'espalhado' por todo o Poder Judiciário, e não concentrado em um único tribunal.",
+    "feedbackCompleto": "O controle difuso permite que qualquer juiz ou tribunal, ao se deparar com uma lei que entenda ser inconstitucional durante o julgamento de um caso específico, declare sua inconstitucionalidade e deixe de aplicá-la àquela situação. A decisão, em regra, tem efeito apenas entre as partes do processo ('inter partes').",
+    "subjects": ["direito-constitucional", "direito-administrativo"]
+  },
+  {
+    "question": "Qual dos seguintes direitos é considerado uma garantia fundamental e também uma cláusula pétrea da Constituição de 1988?",
+    "options": [
+      "O direito à reeleição para cargos do Executivo.",
+      "A organização dos Territórios Federais.",
+      "O direito à propriedade.",
+      "O voto direto, secreto, universal e periódico."
+    ],
+    "answer": 3,
+    "hint": "Pense nos pilares da democracia representativa que são protegidos de forma especial pela Constituição.",
+    "feedbackCompleto": "O voto direto, secreto, universal e periódico é uma cláusula pétrea, conforme o Art. 60, § 4º, II, da Constituição Federal. Isso significa que nenhuma Emenda Constitucional pode ser aprovada com o objetivo de abolir ou restringir essas características fundamentais do sistema eleitoral brasileiro.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "A competência para legislar sobre direito do trabalho é:",
+    "options": [
+      "Privativa da União.",
+      "Concorrente entre a União, Estados e DF.",
+      "Exclusiva dos Estados.",
+      "Comum a todos os entes da Federação."
+    ],
+    "answer": 0,
+    "hint": "Pense na necessidade de uma legislação trabalhista uniforme em todo o país.",
+    "feedbackCompleto": "De acordo com o Art. 22, I, da Constituição Federal, compete privativamente à União legislar sobre direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho. A uniformidade das regras trabalhistas em todo o território nacional é fundamental.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "O que é o 'Poder Constituinte Derivado Reformador'?",
+    "options": [
+      "O poder de criar uma nova Constituição do zero.",
+      "O poder que os Estados-membros têm de criar suas próprias Constituições.",
+      "O poder de modificar a Constituição Federal, por meio de Emendas Constitucionais, respeitando os limites impostos pela própria Constituição.",
+      "O poder do STF de interpretar a Constituição."
+    ],
+    "answer": 2,
+    "hint": "Pense no poder que 'deriva' da Constituição original e serve para 'reformá-la'.",
+    "feedbackCompleto": "O Poder Constituinte Derivado Reformador é aquele instituído pelo Poder Constituinte Originário e tem a capacidade de alterar a Constituição, mas não de forma ilimitada. Ele é exercido pelo Congresso Nacional através do processo de Emenda Constitucional (Art. 60 da CF/88) e deve respeitar os limites materiais (cláusulas pétreas), circunstanciais e formais.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "A nacionalidade brasileira, para os nascidos no estrangeiro, filhos de pai ou mãe brasileira, será adquirida se:",
+    "options": [
+      "Falarem fluentemente a língua portuguesa.",
+      "Morarem no Brasil por pelo menos um ano ininterrupto.",
+      "Forem registrados em repartição brasileira competente ou vierem a residir no Brasil e optarem, a qualquer tempo, pela nacionalidade brasileira.",
+      "Servirem às Forças Armadas brasileiras."
+    ],
+    "answer": 2,
+    "hint": "Lembre-se das condições para que o filho de brasileiro nascido fora do país se torne um brasileiro nato.",
+    "feedbackCompleto": "O Art. 12, I, 'c', da Constituição Federal estabelece duas hipóteses para que o nascido no estrangeiro de pai ou mãe brasileira seja considerado brasileiro nato: ou ele é registrado em repartição brasileira competente no exterior, ou, caso não seja, ele deve vir a residir no Brasil e, após atingir a maioridade, optar, a qualquer tempo, pela nacionalidade brasileira.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "O que são 'atos institucionais' na história constitucional brasileira?",
+    "options": [
+      "Emendas à Constituição aprovadas democraticamente.",
+      "Leis complementares que regulamentam a Constituição.",
+      "Decretos do Poder Executivo com força de lei, expedidos durante o Regime Militar, que se sobrepunham à Constituição.",
+      "Decisões do Supremo Tribunal Federal com efeito vinculante."
+    ],
+    "answer": 2,
+    "hint": "Pense nos atos normativos autoritários do período de 1964 a 1985.",
+    "feedbackCompleto": "Os Atos Institucionais (AIs) foram normas expedidas pelo comando do Regime Militar (1964-1985) que estavam hierarquicamente acima da própria Constituição da época. O mais famoso, o AI-5, suspendeu diversas garantias constitucionais, como o habeas corpus para crimes políticos, e deu ao presidente o poder de fechar o Congresso Nacional.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "A súmula vinculante, editada pelo Supremo Tribunal Federal, tem como objetivo:",
+    "options": [
+      "Apenas recomendar um entendimento aos demais juízes.",
+      "Obrigar a todos os órgãos do Poder Judiciário e à administração pública direta e indireta a seguirem o entendimento consolidado do STF sobre matéria constitucional.",
+      "Modificar o texto da Constituição Federal.",
+      "Julgar um caso concreto específico sem efeito para os demais."
+    ],
+    "answer": 1,
+    "hint": "Pense em uma decisão do STF que 'vincula' ou 'amarra' as decisões de todos os outros órgãos do Estado.",
+    "feedbackCompleto": "A Súmula Vinculante, prevista no Art. 103-A da Constituição Federal, é um instrumento que confere efeito obrigatório (vinculante) a uma decisão reiterada do STF sobre matéria constitucional. Seu objetivo é pacificar a jurisprudência e garantir a segurança jurídica, obrigando os demais órgãos do Judiciário e toda a Administração Pública a seguirem aquele entendimento.",
+    "subjects": ["direito-constitucional"]
+  },
+  {
+    "question": "Qual a principal característica do 'Poder Hierárquico' na Administração Pública?",
+    "options": [
+      "A capacidade de punir cidadãos que descumprem a lei.",
+      "O poder de organizar a estrutura administrativa, distribuindo funções e estabelecendo uma relação de subordinação e coordenação entre os órgãos e agentes.",
+      "O poder de editar normas gerais e abstratas para complementar as leis.",
+      "A prerrogativa de restringir direitos individuais em prol do interesse público."
+    ],
+    "answer": 1,
+    "hint": "Pense na 'escada' de comando dentro de um órgão público.",
+    "feedbackCompleto": "O Poder Hierárquico é o que permite à Administração Pública organizar-se internamente. Ele estabelece uma relação de subordinação entre os órgãos e agentes, permitindo que os superiores deem ordens, fiscalizem, deleguem e avoquem competências dos subordinados, visando à unidade de direção e à eficiência.",
+    "subjects": ["direito-administrativo"]
+  },
+  {
+    "question": "A demissão de um servidor público estável só pode ocorrer em virtude de:",
+    "options": [
+      "Decisão unilateral de seu superior hierárquico.",
+      "Sentença judicial transitada em julgado ou mediante processo administrativo em que lhe seja assegurada ampla defesa.",
+      "Reprovação em uma avaliação de desempenho periódica, sem necessidade de processo.",
+      "Pedido do Presidente da República."
+    ],
+    "answer": 1,
+    "hint": "A estabilidade é uma garantia forte, e sua quebra exige um processo formal com direito de defesa.",
+    "feedbackCompleto": "A estabilidade, garantida no Art. 41 da Constituição Federal, protege o servidor contra demissões arbitrárias. Ele só perderá o cargo em três hipóteses: I – em virtude de sentença judicial transitada em julgado; II – mediante processo administrativo em que lhe seja assegurada ampla defesa; III – mediante procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa.",
+    "subjects": ["direito-administrativo", "direito-constitucional"]
+  },
+  {
+    "question": "Quando um ato administrativo é praticado com um fim diverso daquele que a lei determinou, ocorre o vício de:",
+    "options": [
+      "Incompetência",
+      "Desvio de Finalidade",
+      "Vício de Forma",
+      "Inexistência do Motivo"
+    ],
+    "answer": 1,
+    "hint": "Pense no agente que usa seu poder para uma 'finalidade' diferente da prevista em lei.",
+    "feedbackCompleto": "O Desvio de Finalidade (ou desvio de poder) ocorre quando o agente público pratica o ato visando a um fim diverso daquele que a lei previa, mesmo que também seja um fim público. Por exemplo, remover um servidor por perseguição pessoal, e não por necessidade do serviço. É um vício insanável que torna o ato nulo.",
+    "subjects": ["direito-administrativo"]
+    },
+    {
+        "question": "De acordo com o material sobre 'Atendimento ao Público', qual a principal finalidade de um serviço de atendimento eficaz?",
+        "options": [
+            "Apenas resolver problemas burocráticos.",
+            "Oferecer um serviço rápido, com o menor custo possível.",
+            "Satisfazer as necessidades do cidadão, resolver suas demandas de forma ágil e humanizada, e fortalecer a confiança na Administração Pública.",
+            "Substituir o papel dos servidores por automação."
+        ],
+        "answer": 2,
+        "hint": "Pense no objetivo central da relação entre o governo e o cidadão.",
+        "feedbackCompleto": "Um serviço de atendimento eficaz na Administração Pública tem como principal finalidade satisfazer as necessidades e expectativas do cidadão. Isso envolve a resolução de demandas de forma ágil, humanizada e com qualidade, o que fortalece a confiança da população nas instituições e melhora a percepção sobre a gestão pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'Princípio da Cortesia' exige dos servidores no atendimento ao público?",
+        "options": [
+            "Apenas o uso de formalidades rigorosas.",
+            "Que o servidor seja sempre solícito, educado e gentil, tratando o cidadão com respeito e dignidade, independentemente da natureza da demanda.",
+            "A ausência de contato visual e a frieza no tratamento.",
+            "Que o servidor seja permissivo com todas as solicitações."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de tratar o público com educação e respeito.",
+        "feedbackCompleto": "O Princípio da Cortesia é fundamental para o bom atendimento ao público. Ele exige que o servidor seja solícito, educado, gentil e respeitoso no trato com o cidadão, o que contribui para um ambiente de atendimento mais positivo e humanizado, e para a construção de uma boa imagem do serviço público. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'comunicação clara e objetiva' no atendimento ao público?",
+        "options": [
+            "Apenas cumprir normas de redação.",
+            "Aumentar a burocracia na resolução de problemas.",
+            "Garantir que o cidadão compreenda as informações, os procedimentos e as decisões de forma precisa, evitando ruídos, mal-entendidos e a necessidade de retrabalho.",
+            "Substituir a necessidade de um servidor para atender o cidadão."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a clareza da mensagem pode evitar erros e frustração.",
+        "feedbackCompleto": "A comunicação clara e objetiva é essencial no atendimento ao público. Ela garante que a informação seja transmitida de forma precisa e compreensível, sem jargões técnicos ou burocráticos. Isso evita que o cidadão tenha dúvidas, cometa erros ou precise retornar ao órgão, o que torna o serviço mais eficiente e satisfatório para todos. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um dos principais desafios no atendimento ao público?",
+        "options": [
+            "A falta de demanda por serviços públicos.",
+            "A ausência de tecnologia para automatizar processos.",
+            "A falta de capacitação dos servidores, a resistência à mudança e a complexidade de processos burocráticos que dificultam a agilidade e a satisfação do cidadão.",
+            "O excesso de servidores qualificados para o atendimento."
+        ],
+        "answer": 2,
+        "hint": "Pense nos obstáculos que impedem um serviço de atendimento mais ágil e eficiente.",
+        "feedbackCompleto": "O atendimento ao público enfrenta desafios como a falta de capacitação dos servidores (que precisam de treinamento contínuo), a resistência em adotar novas ferramentas e processos, e a complexidade de rotinas burocráticas e a legislação, que podem tornar o serviço lento e pouco satisfatório. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'escuta ativa' no atendimento ao público?",
+        "options": [
+            "É um conceito irrelevante.",
+            "É a capacidade de ouvir e compreender o que o cidadão realmente precisa, prestando atenção à sua demanda e demonstrando empatia, o que leva a uma solução mais adequada e eficaz.",
+            "Apenas a capacidade de falar mais que o cidadão.",
+            "É a capacidade de falar sem ouvir."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de 'ouvir com atenção' para entender de fato a necessidade do outro.",
+        "feedbackCompleto": "A escuta ativa é a capacidade de ouvir e compreender a mensagem do cidadão de forma completa, prestando atenção à sua demanda, suas emoções e seu contexto. Ela demonstra empatia, constrói confiança e é fundamental para identificar a verdadeira necessidade do cidadão e oferecer a solução mais adequada, evitando soluções 'padrão' e que não resolvem o problema. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que a 'empatia' representa no atendimento ao público?",
+        "options": [
+            "A capacidade de se colocar no lugar do outro e compreender seus sentimentos e perspectivas, a fim de oferecer um atendimento mais humanizado e eficaz.",
+            "A capacidade de apenas escutar o cidadão, sem tomar nenhuma atitude.",
+            "A capacidade de resolver um problema burocrático de forma rápida, sem a necessidade de interação humana.",
+            "A capacidade de ter simpatia por todos os cidadãos."
+        ],
+        "answer": 0,
+        "hint": "Pense na ideia de 'calçar o sapato' do outro para entender seu ponto de vista.",
+        "feedbackCompleto": "A empatia é a capacidade de se colocar no lugar do outro, de tentar compreender seus sentimentos, suas perspectivas e sua experiência. No atendimento ao público, ela é crucial para que o servidor possa tratar o cidadão com respeito e humanidade, entendendo a sua frustração ou necessidade e buscando uma solução que realmente o ajude, e não apenas o atenda. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'humanização' no atendimento ao público?",
+        "options": [
+            "Apenas cumprir normas de cortesia.",
+            "Promover um atendimento que considere as emoções, as particularidades e as experiências do cidadão, tratando-o com respeito e dignidade, além de resolver a sua demanda burocrática.",
+            "Aumentar o tempo de espera do cidadão.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no atendimento como uma relação entre pessoas, e não apenas como um processo burocrático.",
+        "feedbackCompleto": "A humanização no atendimento ao público é a prática de tratar o cidadão com dignidade, respeito e empatia, reconhecendo-o como uma pessoa e não apenas como um número de protocolo. Ela se concentra em ouvir, compreender e buscar soluções que considerem as suas particularidades, o que melhora a experiência e fortalece a confiança na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento multicanal' na Administração Pública representa?",
+        "options": [
+            "Apenas o atendimento presencial.",
+            "O atendimento via telefone e e-mail, sem a necessidade de um servidor para atender o cidadão.",
+            "A oferta de diversos canais de atendimento (presencial, telefone, e-mail, chat online, redes sociais) de forma integrada, para que o cidadão possa escolher o canal de sua preferência e ter a sua demanda resolvida de forma consistente.",
+            "Apenas o atendimento por meio de automação."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de ter vários 'canais' ou 'meios' para atender o cidadão.",
+        "feedbackCompleto": "O atendimento multicanal é a estratégia de oferecer diversos canais de atendimento (presencial, telefone, online, redes sociais, etc.) de forma integrada e consistente. A ideia é que o cidadão possa iniciar o atendimento em um canal e, se necessário, continuá-lo em outro, sem perder as informações, o que melhora a experiência e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica de um 'serviço de ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um serviço de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei nº 13.460/2017' (Lei de Proteção e Defesa do Usuário de Serviços Públicos) estabelece sobre o atendimento?",
+        "options": [
+            "Apenas a obrigatoriedade de atendimento presencial.",
+            "Fixa regras para a prestação de serviços públicos, garantindo direitos básicos aos usuários, como o acesso a canais de atendimento, a informação clara e a participação na avaliação dos serviços.",
+            "Permite a discriminação no atendimento.",
+            "Não estabelece normas para o atendimento ao público."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa aprimorar a relação entre o governo e o cidadão.",
+        "feedbackCompleto": "A Lei nº 13.460/2017 é conhecida como a Lei de Proteção e Defesa do Usuário de Serviços Públicos. Ela estabelece diretrizes para a boa prestação de serviços, como a obrigatoriedade de atendimento com cortesia, respeito e transparência, o direito de acesso a canais de atendimento e a participação na avaliação dos serviços, o que fortalece a cidadania e a accountability. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "No que consiste a 'gestão do conhecimento' no contexto do atendimento ao público?",
+        "options": [
+            "Apenas a informatização de documentos.",
+            "O processo de identificar, organizar, armazenar e compartilhar o conhecimento e as experiências dos servidores, a fim de aprimorar a qualidade do atendimento e a resolução de problemas de forma mais rápida e eficaz.",
+            "Evitar que novas ideias surjam na organização.",
+            "Reduzir a necessidade de treinamento de servidores."
+        ],
+        "answer": 1,
+        "hint": "Pense em como o conhecimento da equipe pode ser usado para melhorar o serviço.",
+        "feedbackCompleto": "A gestão do conhecimento é fundamental para o atendimento ao público. Ela envolve a criação e o compartilhamento de bases de conhecimento, manuais e melhores práticas, que permitem que os servidores resolvam as demandas dos cidadãos de forma mais rápida e consistente, sem precisar 'reinventar a roda' a cada novo atendimento. Isso aprimora a qualidade e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'capacitação' dos servidores para o atendimento ao público?",
+        "options": [
+            "Apenas ensinar a usar softwares básicos.",
+            "Garantir que os servidores desenvolvam as competências técnicas e comportamentais (cortesia, empatia, escuta ativa) necessárias para prestar um atendimento de qualidade, resolver problemas e lidar com situações difíceis de forma adequada.",
+            "Reduzir a necessidade de servidores na Administração.",
+            "Aumentar a dependência de consultorias externas."
+        ],
+        "answer": 1,
+        "hint": "Pense nas habilidades que um servidor precisa ter para lidar com o cidadão de forma eficaz.",
+        "feedbackCompleto": "A capacitação dos servidores é um fator crítico para o bom atendimento. Ela vai além do conhecimento técnico sobre os processos, abrangendo o desenvolvimento de competências comportamentais, como a cortesia, a empatia, a escuta ativa e a capacidade de resolução de problemas. Isso é fundamental para que o servidor possa lidar com o público de forma eficaz e humanizada. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento digital' na Administração Pública busca promover?",
+        "options": [
+            "Apenas a automação de tarefas simples.",
+            "A oferta de serviços públicos por meio de plataformas digitais (sites, aplicativos), com o objetivo de aumentar a agilidade, a conveniência e o acesso do cidadão aos serviços, reduzindo a necessidade de deslocamento e de atendimento presencial.",
+            "Aumentar a burocracia dos processos.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no uso da tecnologia para oferecer serviços públicos online.",
+        "feedbackCompleto": "O atendimento digital é a estratégia de oferecer serviços públicos por meio de plataformas digitais, como portais de serviço, aplicativos e assistentes virtuais. Seu objetivo é aumentar a agilidade, a conveniência e o acesso do cidadão aos serviços, reduzindo a necessidade de atendimento presencial e de deslocamento, o que otimiza o tempo e os recursos do governo e do cidadão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a importância da 'gestão da qualidade' no atendimento ao público?",
+        "options": [
+            "Apenas reduzir os custos operacionais.",
+            "Melhorar continuamente os serviços e a satisfação do cidadão, por meio de processos padronizados, indicadores de desempenho e feedback dos usuários.",
+            "Aumentar o número de servidores no atendimento.",
+            "Reduzir a necessidade de interação humana."
+        ],
+        "answer": 1,
+        "hint": "Pense no conceito de buscar a excelência e a satisfação do usuário do serviço.",
+        "feedbackCompleto": "A gestão da qualidade no atendimento ao público busca a melhoria contínua dos serviços, com o objetivo de aumentar a satisfação do cidadão. Isso é feito por meio de processos padronizados, indicadores de desempenho, coleta de feedback dos usuários e análise de dados, que permitem identificar pontos de melhoria e aprimorar a experiência do cidadão com o serviço público. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'Princípio da Acessibilidade' exige no atendimento ao público?",
+        "options": [
+            "Que o atendimento seja rápido.",
+            "Que o atendimento seja presencial.",
+            "A garantia de que o cidadão com deficiência ou mobilidade reduzida possa acessar os canais de atendimento, os serviços e as informações, sem barreiras físicas, comunicacionais ou atitudinais.",
+            "Apenas a instalação de rampas em prédios públicos."
+        ],
+        "answer": 2,
+        "hint": "Pense na ideia de 'acesso para todos', sem barreiras.",
+        "feedbackCompleto": "O Princípio da Acessibilidade exige que a Administração Pública garanta que os canais de atendimento, os serviços e as informações sejam acessíveis a todos os cidadãos, especialmente às pessoas com deficiência ou mobilidade reduzida. Isso envolve a eliminação de barreiras físicas (rampas, elevadores), comunicacionais (braille, libras) e atitudinais (respeito e inclusão). (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que a 'Lei Geral de Proteção de Dados (LGPD)' estabelece sobre o atendimento ao público?",
+        "options": [
+            "Apenas a criação de bancos de dados públicos.",
+            "Não se aplica ao atendimento público.",
+            "Fixa as regras para a coleta, o tratamento e o armazenamento de dados pessoais dos cidadãos, exigindo que o atendimento seja transparente e que o cidadão tenha controle sobre suas informações.",
+            "Permite a divulgação de dados pessoais sem autorização do cidadão."
+        ],
+        "answer": 2,
+        "hint": "Pense na lei que protege as informações pessoais do cidadão.",
+        "feedbackCompleto": "A LGPD (Lei nº 13.709/2018) se aplica ao atendimento público e estabelece as regras para a coleta, o tratamento e o armazenamento de dados pessoais dos cidadãos. Ela exige que a Administração Pública seja transparente sobre o uso dos dados, que os utilize apenas para as finalidades previstas em lei e que garanta ao cidadão o controle sobre suas informações. (Referência: 'Topico 2-lei-geral-de-protecao-de-dados-lgpd-e1712337692.pdf').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um canal de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei de Acesso à Informação (LAI)' estabelece sobre o atendimento ao público?",
+        "options": [
+            "Apenas o acesso a informações sigilosas do governo.",
+            "O direito do cidadão de acesso a informações públicas, com exceções para dados sigilosos ou pessoais, e o dever dos órgãos e entidades de divulgá-las proativamente.",
+            "A proibição de divulgação de qualquer informação governamental.",
+            "O acesso restrito a informações apenas para jornalistas."
+        ],
+        "answer": 1,
+        "hint": "Pense na lei que regulamenta o direito de acesso à informação pública.",
+        "feedbackCompleto": "A Lei de Acesso à Informação (LAI) regulamenta o direito constitucional de acesso à informação. Ela estabelece que a regra é a publicidade e a exceção é o sigilo, garantindo que qualquer pessoa possa solicitar e receber informações de órgãos e entidades públicas, e impondo a eles o dever de divulgar proativamente informações de interesse coletivo. (Referência: 'Topico 1-lei-n-12-527-2011-transparencia-e-acesso-a-informacao-e1737053791.pdf').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um benefício do 'atendimento digital' para a Administração Pública?",
+        "options": [
+            "Aumento da burocracia.",
+            "Redução da eficiência e da qualidade dos serviços.",
+            "Otimização do tempo, redução de custos com infraestrutura, maior conveniência para o cidadão e padronização dos serviços.",
+            "Aumento da necessidade de intervenção humana em tarefas repetitivas."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a tecnologia pode tornar o serviço mais rápido e com menos falhas.",
+        "feedbackCompleto": "O atendimento digital traz benefícios como a otimização do tempo (com a automação de tarefas), a redução de custos com infraestrutura (menos atendimento presencial), maior conveniência para o cidadão (acesso 24/7) e a padronização dos serviços. Ele é um pilar da transformação digital na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal função da 'ouvidoria' no atendimento ao público?",
+        "options": [
+            "É um canal de atendimento que só recebe reclamações.",
+            "É um canal de comunicação entre a sociedade e a Administração, que recebe e trata manifestações (reclamações, sugestões, elogios, denúncias), atuando como mediador entre o cidadão e o órgão público.",
+            "É um serviço que substitui o papel do Poder Judiciário.",
+            "É um serviço que atende apenas a demandas burocráticas."
+        ],
+        "answer": 1,
+        "hint": "Pense em um canal que tem a função de 'ouvir' o cidadão e mediar a relação com a Administração.",
+        "feedbackCompleto": "A ouvidoria é um canal de comunicação entre a sociedade e a administração pública. Sua principal função é receber, analisar, encaminhar e acompanhar as manifestações dos cidadãos (reclamações, denúncias, sugestões, elogios e pedidos de informação), buscando soluções e contribuindo para a melhoria dos serviços e para a transparência e accountability da gestão. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico", "controle"]
+    },
+    {
+        "question": "O que a 'Lei nº 13.460/2017' (Lei de Proteção e Defesa do Usuário de Serviços Públicos) estabelece sobre o atendimento?",
+        "options": [
+            "Apenas a obrigatoriedade de atendimento presencial.",
+            "Fixa regras para a prestação de serviços públicos, garantindo direitos básicos aos usuários, como o acesso a canais de atendimento, a informação clara e a participação na avaliação dos serviços.",
+            "Permite a discriminação no atendimento.",
+            "Não estabelece normas para o atendimento ao público."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa aprimorar a relação entre o governo e o cidadão.",
+        "feedbackCompleto": "A Lei nº 13.460/2017 é conhecida como a Lei de Proteção e Defesa do Usuário de Serviços Públicos. Ela estabelece diretrizes para a boa prestação de serviços, como a obrigatoriedade de atendimento com cortesia, respeito e transparência, o direito de acesso a canais de atendimento e a participação na avaliação dos serviços, o que fortalece a cidadania e a accountability. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o material sugere como um benefício do 'atendimento digital' para a Administração Pública?",
+        "options": [
+            "Aumento da burocracia.",
+            "Redução da eficiência e da qualidade dos serviços.",
+            "Otimização do tempo, redução de custos com infraestrutura, maior conveniência para o cidadão e padronização dos serviços.",
+            "Aumento da necessidade de intervenção humana em tarefas repetitivas."
+        ],
+        "answer": 2,
+        "hint": "Pense em como a tecnologia pode tornar o serviço mais rápido e com menos falhas.",
+        "feedbackCompleto": "O atendimento digital traz benefícios como a otimização do tempo (com a automação de tarefas), a redução de custos com infraestrutura (menos atendimento presencial), maior conveniência para o cidadão (acesso 24/7) e a padronização dos serviços. Ele é um pilar da transformação digital na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "Qual a principal característica da 'humanização' no atendimento?",
+        "options": [
+            "Apenas o uso de tecnologia avançada.",
+            "Considerar as emoções, as particularidades e as experiências do cidadão, tratando-o com respeito e dignidade, além de resolver a sua demanda burocrática.",
+            "Aumentar o tempo de espera do cidadão.",
+            "Diminuir a qualidade dos serviços prestados."
+        ],
+        "answer": 1,
+        "hint": "Pense no atendimento como uma relação entre pessoas, e não apenas como um processo burocrático.",
+        "feedbackCompleto": "A humanização no atendimento ao público é a prática de tratar o cidadão com dignidade, respeito e empatia, reconhecendo-o como uma pessoa e não apenas como um número de protocolo. Ela se concentra em ouvir, compreender e buscar soluções que considerem as suas particularidades, o que melhora a experiência e fortalece a confiança na Administração Pública. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "O que o 'atendimento multicanal' na Administração Pública representa?",
+        "options": [
+            "Apenas o atendimento presencial.",
+            "A oferta de diversos canais de atendimento (presencial, telefone, e-mail, chat online, redes sociais) de forma integrada, para que o cidadão possa escolher o canal de sua preferência e ter a sua demanda resolvida de forma consistente.",
+            "O atendimento via telefone e e-mail, sem a necessidade de um servidor para atender o cidadão.",
+            "Apenas o atendimento por meio de automação."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de ter vários 'canais' ou 'meios' para atender o cidadão.",
+        "feedbackCompleto": "O atendimento multicanal é a estratégia de oferecer diversos canais de atendimento (presencial, telefone, online, redes sociais, etc.) de forma integrada e consistente. A ideia é que o cidadão possa iniciar o atendimento em um canal e, se necessário, continuá-lo em outro, sem perder as informações, o que melhora a experiência e a eficiência do serviço. (Referência: 'Topico 4-atendimento-ao-publico').",
+        "subjects": ["atendimento-ao-publico"]
+    },
+    {
+        "question": "De acordo com os materiais sobre 'Políticas Públicas', qual a etapa do ciclo de políticas públicas que se concentra na percepção de um problema social e na sua inclusão na agenda do governo?",
+        "options": [
+            "Formulação",
+            "Implementação",
+            "Identificação do Problema e Formação da Agenda",
+            "Avaliação"
+        ],
+        "answer": 2,
+        "hint": "É a fase inicial, onde o problema 'ganha voz' e se torna uma prioridade para o governo.",
+        "feedbackCompleto": "A fase de Identificação do Problema e Formação da Agenda é a etapa inicial do ciclo. Nela, um problema social, que afeta a coletividade, é percebido como relevante e legítimo para a intervenção do Estado, sendo então inserido na lista de prioridades a serem tratadas pelos tomadores de decisão. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "A 'Formulação' de uma política pública envolve a:",
+        "options": [
+            "Monitorização dos resultados da política em campo.",
+            "Definição de objetivos, análise de alternativas de ação e seleção da melhor estratégia para resolver o problema identificado.",
+            "Execução do plano de ação e alocação de recursos.",
+            "Divulgação da política para a população."
+        ],
+        "answer": 1,
+        "hint": "Pense no processo de 'desenho' da política, onde as ideias se tornam um plano de ação.",
+        "feedbackCompleto": "A formulação da política pública é a etapa em que, após a identificação do problema, são definidos os objetivos a serem alcançados, as metas, as diversas alternativas de ação para solucionar o problema e, finalmente, a seleção da alternativa mais adequada, considerando recursos, viabilidade e impactos. É a etapa de planejamento da política antes de sua execução. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que a 'Implementação' de uma política pública abrange, de acordo com o material?",
+        "options": [
+            "A criação das leis que regulamentam a política.",
+            "A avaliação do impacto da política na sociedade.",
+            "O processo de execução da política, envolvendo a alocação de recursos, a mobilização de atores, a coordenação de ações e a prestação de serviços na prática.",
+            "A identificação de um problema social."
+        ],
+        "answer": 2,
+        "hint": "É a etapa do 'fazer acontecer', onde o plano se torna realidade.",
+        "feedbackCompleto": "A implementação é a fase onde a política formulada é colocada em prática. Envolve a alocação de recursos (financeiros, humanos, etc.), a coordenação entre os diversos atores envolvidos (órgãos de governo, sociedade civil), a organização das atividades e a prestação dos serviços e benefícios previstos na política. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a principal finalidade da 'Avaliação de Políticas Públicas'?",
+        "options": [
+            "Apenas justificar os gastos públicos.",
+            "Determinar se a política alcançou seus objetivos, se foi eficiente, eficaz e efetiva, e aprender com a experiência para futuras ações.",
+            "Identificar novos problemas sociais para o governo.",
+            "Reduzir o quadro de servidores que trabalham na política."
+        ],
+        "answer": 1,
+        "hint": "É a fase de 'prestação de contas' e 'aprendizado' sobre a política.",
+        "feedbackCompleto": "A avaliação de políticas públicas é crucial para determinar se a política foi bem-sucedida. Ela verifica a sua eficácia (atingiu os objetivos?), a sua eficiência (usou bem os recursos?) e a sua efetividade (gerou o impacto desejado?). Os resultados da avaliação são fundamentais para o aprimoramento da política ou para justificar seu encerramento. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que o conceito de 'eficácia' representa na avaliação de políticas públicas?",
+        "options": [
+            "A relação entre os resultados alcançados e os recursos utilizados.",
+            "A capacidade da política de atingir os objetivos e metas que foram estabelecidos em sua formulação, independentemente dos custos.",
+            "O impacto real e transformador da política na sociedade.",
+            "A legalidade e a conformidade dos atos da política."
+        ],
+        "answer": 1,
+        "hint": "Pense na ideia de 'atingir o alvo' ou 'fazer o que foi planejado'.",
+        "feedbackCompleto": "Eficácia é a medida do grau de cumprimento dos objetivos e metas de uma política pública. Ela responde à pergunta: 'A política fez o que se propôs a fazer?'. A eficácia se concentra nos resultados esperados, e não necessariamente nos custos ou no impacto social. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que o conceito de 'eficiência' representa na avaliação de políticas públicas?",
+        "options": [
+            "O impacto da política na realidade social.",
+            "A capacidade de atingir os objetivos propostos.",
+            "A relação entre os resultados alcançados e os recursos (insumos) utilizados, buscando o melhor uso dos recursos disponíveis para um determinado resultado.",
+            "A aceitação da política pela população."
+        ],
+        "answer": 2,
+        "hint": "Pense em 'fazer certo as coisas', com o menor gasto possível.",
+        "feedbackCompleto": "Eficiência diz respeito à relação entre os resultados (produtos/serviços) e os recursos (custos) utilizados para produzi-los. Uma política eficiente é aquela que atinge seus objetivos utilizando o mínimo de recursos possível. É 'fazer certo as coisas' da forma mais econômica. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que o conceito de 'efetividade' representa na avaliação de políticas públicas?",
+        "options": [
+            "A capacidade de atingir os objetivos propostos.",
+            "A relação entre os resultados e os recursos.",
+            "O impacto real e transformador da política na realidade social, ou seja, se a política realmente resolveu o problema que se propôs a enfrentar e gerou mudanças positivas e duradouras.",
+            "A rapidez na execução da política."
+        ],
+        "answer": 2,
+        "hint": "Pense no 'resultado final' ou na 'mudança' que a política gerou na vida das pessoas.",
+        "feedbackCompleto": "Efetividade é a medida mais completa de sucesso de uma política pública. Ela verifica se a política realmente resolveu o problema que motivou a sua criação e se gerou um impacto positivo e duradouro na sociedade. É a combinação de eficácia e eficiência, mas com um foco no impacto social real. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual o papel da 'intersetorialidade' na implementação de políticas públicas?",
+        "options": [
+            "Atuação de um único setor do governo para resolver um problema complexo.",
+            "A coordenação e colaboração entre diferentes setores, ministérios ou órgãos governamentais para abordar problemas públicos complexos de forma integrada.",
+            "A separação estrita de responsabilidades entre os setores.",
+            "A competição entre diferentes órgãos do governo."
+        ],
+        "answer": 1,
+        "hint": "Pense em problemas que não podem ser resolvidos por apenas uma área do governo (ex: saúde, educação e segurança).",
+        "feedbackCompleto": "Intersetorialidade refere-se à necessidade de coordenação e colaboração entre diferentes setores da gestão pública (como saúde, educação e assistência social) para lidar com problemas sociais complexos que possuem múltiplas dimensões. A abordagem integrada e conjunta desses setores aumenta a chance de sucesso da política. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "No que consiste a 'agenda governamental' no ciclo de políticas públicas?",
+        "options": [
+            "Apenas uma lista de desejos dos políticos.",
+            "O conjunto de problemas e questões que os tomadores de decisão governamentais consideram prioritários e para os quais estão dispostos a dedicar tempo e recursos.",
+            "Define os resultados finais da política.",
+            "É um documento secreto do governo."
+        ],
+        "answer": 1,
+        "hint": "Pense no que o governo 'escolhe' ou 'decide' focar.",
+        "feedbackCompleto": "A agenda governamental (ou agenda política) é o conjunto de problemas, questões e demandas que os tomadores de decisão do governo (políticos, burocratas) consideram importantes e para os quais estão dispostos a dedicar atenção, recursos e esforços para formular e implementar soluções. É o que o governo 'escolhe' abordar, e a sua formação é o resultado de um processo de disputa entre diversos atores. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que o 'controle social' representa na gestão de políticas públicas?",
+        "options": [
+            "A fiscalização feita apenas por auditores internos.",
+            "A participação da sociedade civil na fiscalização, monitoramento e avaliação das políticas públicas, atuando como um complemento ao controle institucional (interno e externo).",
+            "O controle exercido pelo Poder Judiciário sobre o Executivo.",
+            "O controle de processos feito pela própria administração."
+        ],
+        "answer": 1,
+        "hint": "Pense no 'olho da sociedade' sobre a atuação do governo.",
+        "feedbackCompleto": "O controle social é o controle da gestão pública exercido pela sociedade civil, por meio de mecanismos formais (conselhos, audiências públicas) e informais (demandas em ouvidorias, redes sociais, etc.). Ele é fundamental para a democracia, a transparência e a accountability das políticas públicas. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "No que consiste a 'análise de viabilidade' de uma política pública?",
+        "options": [
+            "Apenas a análise do custo financeiro da política.",
+            "A avaliação dos impactos de uma política após sua implementação.",
+            "O estudo das condições políticas, econômicas, sociais e institucionais que podem facilitar ou dificultar a formulação e a implementação de uma política.",
+            "A aprovação da política pelo Poder Legislativo."
+        ],
+        "answer": 2,
+        "hint": "Pense nas condições que tornam a política 'possível' ou 'provável' de ser executada com sucesso.",
+        "feedbackCompleto": "A análise de viabilidade é uma etapa da formulação da política que busca entender o ambiente político, econômico, social e institucional para determinar se uma política tem chances de ser formulada e implementada com sucesso. Considera se há apoio político, recursos financeiros, capacidade técnica, e se a sociedade aceita ou rejeita a proposta. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a principal função do 'monitoramento' de políticas públicas?",
+        "options": [
+            "Avaliar o impacto final da política.",
+            "Verificar se a política está sendo executada conforme o planejado, monitorando as atividades, produtos e a alocação de recursos durante a sua implementação.",
+            "Apenas coletar dados estatísticos sobre a população.",
+            "Discutir a validade da política em audiências públicas."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma 'observação contínua' para garantir que a execução está no caminho certo.",
+        "feedbackCompleto": "O monitoramento é a observação e o acompanhamento contínuo da execução de uma política pública. Sua finalidade é verificar se as atividades e a alocação de recursos estão sendo realizadas de acordo com o plano, permitindo correções de rumo em tempo real, se necessário. Ele é uma atividade de controle da implementação, diferente da avaliação, que é mais ampla e retrospectiva. (Referência: '2025-07-23-10-19-02-117541485-politicas-publicas-e1753276742.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que o 'modelo incrementalista' de políticas públicas propõe?",
+        "options": [
+            "A criação de políticas públicas revolucionárias, que mudam radicalmente o status quo.",
+            "A formulação de políticas públicas com base em pequenas mudanças e ajustes graduais, em vez de grandes rupturas, priorizando o consenso e a adaptação.",
+            "Apenas a formulação de políticas em ambientes de crise.",
+            "A delegação da formulação de políticas para a sociedade civil."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma abordagem de 'passos pequenos e seguros' para a mudança.",
+        "feedbackCompleto": "O incrementalismo é um modelo que sugere que as políticas públicas são o resultado de pequenas mudanças e ajustes graduais em relação ao que já existe, e não de decisões racionais e revolucionárias. Os formuladores de políticas evitam grandes rupturas e optam por soluções que gerem consenso e que sejam incrementais em relação às políticas anteriores, o que é um processo mais realista na prática. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'política de Estado'?",
+        "options": [
+            "É uma política de curto prazo, ligada a um mandato governamental.",
+            "É uma política permanente, que transcende os governos e visões de partidos, refletindo um consenso nacional de longo prazo.",
+            "É uma política que só pode ser criada pelo Poder Legislativo.",
+            "É uma política que só pode ser implementada por governos de esquerda."
+        ],
+        "answer": 1,
+        "hint": "Pense em políticas que perduram, independentemente de quem esteja no poder.",
+        "feedbackCompleto": "Políticas de Estado são aquelas que possuem um caráter de longo prazo e um amplo consenso político e social, mantendo-se independentemente da alternância de governos e partidos. Elas refletem objetivos e compromissos nacionais que são considerados essenciais para o país (ex: política externa, estabilidade fiscal). São diferentes das políticas de governo, que são mais conjunturais e ligadas a um mandato específico. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que significa 'capacidade estatal' na implementação de políticas públicas?",
+        "options": [
+            "O tamanho do orçamento público.",
+            "O número de ministérios em um governo.",
+            "A habilidade do Estado de formular e implementar políticas públicas de forma eficaz, eficiente e efetiva, por meio de recursos humanos, financeiros e institucionais adequados.",
+            "A capacidade de um governo de se eleger para um novo mandato."
+        ],
+        "answer": 2,
+        "hint": "Pense na 'força' ou 'competência' do governo para agir e entregar resultados.",
+        "feedbackCompleto": "A capacidade estatal é a habilidade do Estado de cumprir suas funções, especialmente na formulação e implementação de políticas públicas. Envolve a existência de um corpo técnico qualificado, recursos financeiros, infraestrutura, arranjos institucionais adequados e a capacidade de coordenação entre diferentes níveis e esferas de governo. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que a 'análise de stakeholders' busca identificar na formulação de políticas públicas?",
+        "options": [
+            "Apenas os custos financeiros da política.",
+            "Os problemas sociais que a política deve resolver.",
+            "Os atores (indivíduos, grupos, organizações) que têm interesse, influência ou são afetados pela política, a fim de gerenciar seus interesses e obter apoio ou mitigar resistências.",
+            "As leis que regulamentam a política."
+        ],
+        "answer": 2,
+        "hint": "Pense nos 'interessados' ou 'partes interessadas' em uma política.",
+        "feedbackCompleto": "A análise de stakeholders é uma ferramenta de planejamento e formulação de políticas que busca identificar e analisar os diversos atores (stakeholders) que podem influenciar ou ser influenciados pela política. O objetivo é compreender seus interesses, poderes e posições para gerenciar o processo de forma mais eficaz, construindo coalizões e mitigando resistências. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "No que consiste a 'teoria da escolha racional' aplicada a políticas públicas?",
+        "options": [
+            "A ideia de que as políticas são criadas de forma totalmente irracional.",
+            "A ideia de que os atores (políticos, burocratas, cidadãos) agem de forma racional, buscando maximizar seus próprios interesses e utilidades ao participar do processo de políticas públicas.",
+            "O conceito de que as políticas são criadas por uma elite que não se preocupa com o interesse público.",
+            "A teoria de que as políticas públicas são resultado do acaso."
+        ],
+        "answer": 1,
+        "hint": "Pense no pressuposto de que os indivíduos são 'calculistas' e agem em seu próprio interesse.",
+        "feedbackCompleto": "A teoria da escolha racional aplica a lógica da economia à ciência política. Ela pressupõe que os atores políticos (políticos, burocratas, grupos de interesse) agem de forma racional, ou seja, avaliam os custos e benefícios de suas ações para tomar decisões que maximizem seus próprios interesses (votos, poder, etc.). É uma forma de analisar o comportamento dos atores no processo de políticas públicas. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que é 'externalidade' no contexto de políticas públicas?",
+        "options": [
+            "Apenas os custos financeiros da política.",
+            "Custos ou benefícios de uma atividade econômica ou de uma política que afetam terceiros que não participaram diretamente da ação, sem que haja compensação por isso.",
+            "Os impactos positivos de uma política na população.",
+            "Os impactos negativos de uma política no meio ambiente."
+        ],
+        "answer": 1,
+        "hint": "Pense nos 'efeitos colaterais' de uma ação, que podem ser positivos ou negativos e afetam quem está 'fora' da transação.",
+        "feedbackCompleto": "Externalidades são efeitos (positivos ou negativos) de uma atividade econômica ou de uma política que recaem sobre terceiros que não participaram diretamente da transação ou da ação. Por exemplo, a poluição de uma fábrica (negativa) ou a vacinação em massa (positiva, pois protege a comunidade). As políticas públicas buscam internalizar ou mitigar essas externalidades. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a principal característica de uma 'política redistributiva'?",
+        "options": [
+            "A criação de regras aplicáveis a todos de forma igualitária.",
+            "A distribuição de bens, serviços ou recursos para um grupo específico, com o custeio proveniente de outro grupo da sociedade, visando à redução de desigualdades.",
+            "O estabelecimento de regras de conduta para todos.",
+            "O fornecimento de benefícios a toda a população."
+        ],
+        "answer": 1,
+        "hint": "Pense em políticas que buscam 'redistribuir' a riqueza ou os benefícios na sociedade.",
+        "feedbackCompleto": "Políticas redistributivas são aquelas que têm como objetivo transferir recursos de um grupo para outro, visando à redução de desigualdades sociais. Elas envolvem a distribuição de benefícios para uma parcela específica da população (ex: programas de transferência de renda, seguro-desemprego) e são geralmente custeadas por impostos pagos por toda a sociedade. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "No ciclo de políticas públicas, o que se entende por 'path dependence'?",
+        "options": [
+            "A capacidade de um governo de mudar rapidamente suas políticas.",
+            "A ideia de que as decisões e escolhas feitas no passado influenciam e limitam as opções futuras de políticas, tornando difícil desviar-se de uma trajetória estabelecida.",
+            "A necessidade de seguir um caminho pré-determinado e ideal.",
+            "A flexibilidade total para adaptar políticas a novas realidades."
+        ],
+        "answer": 1,
+        "hint": "Pense em como as escolhas do passado podem 'prender' as opções do futuro.",
+        "feedbackCompleto": "Path dependence (dependência da trajetória) é um conceito que sugere que as decisões tomadas em um determinado momento (especialmente no início de uma política ou instituição) podem criar 'trancas' ou 'caminhos' que tornam muito difícil e custoso mudar de rumo no futuro. As escolhas passadas limitam as opções presentes e futuras, criando uma inércia na política. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual o papel das 'organizações da sociedade civil (OSCs)' na implementação de políticas públicas?",
+        "options": [
+            "Apenas fiscalizar o governo.",
+            "Substituir o papel do Estado na prestação de serviços.",
+            "Atuar como parceiras do Estado na formulação, execução e controle de políticas públicas, complementando a ação governamental e representando interesses da sociedade.",
+            "Apenas receber recursos públicos sem prestar contas."
+        ],
+        "answer": 2,
+        "hint": "Pense na parceria entre o governo e as entidades não governamentais para alcançar objetivos sociais.",
+        "feedbackCompleto": "As organizações da sociedade civil (OSCs) desempenham um papel crucial na implementação de políticas públicas, atuando como parceiras do Estado. Elas podem participar desde a formulação (representando interesses), na execução (prestando serviços), até no controle social, complementando a ação governamental e aproximando as políticas das necessidades reais da população. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que a 'transversalidade' em políticas públicas busca promover?",
+        "options": [
+            "A atuação de um único setor do governo.",
+            "A abordagem de problemas complexos que perpassam diferentes setores e dimensões da vida social, exigindo uma visão integrada e a coordenação de diversas políticas e atores.",
+            "A separação estrita de responsabilidades entre os setores.",
+            "A competição entre diferentes órgãos do governo."
+        ],
+        "answer": 1,
+        "hint": "Pense em problemas que 'atravessam' diferentes áreas e exigem uma solução conjunta.",
+        "feedbackCompleto": "A transversalidade em políticas públicas refere-se à abordagem de problemas complexos que não se encaixam em um único setor ou disciplina. Ela exige uma visão integrada e a coordenação de diferentes políticas e atores (governamentais e não governamentais) para que as soluções sejam mais abrangentes e eficazes, perpassando as fronteiras setoriais. (Referência: '2025-07-23-10-30-48-117545310-politicas-publicas-e1753277448.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a relação entre 'Políticas Públicas' e 'Direitos Humanos'?",
+        "options": [
+            "Não há relação, são campos de estudo distintos.",
+            "As políticas públicas são instrumentos para a efetivação e garantia dos Direitos Humanos, transformando-os de meras previsões legais em realidade para a população.",
+            "Os Direitos Humanos limitam a atuação das políticas públicas.",
+            "As políticas públicas são criadas apenas para restringir direitos."
+        ],
+        "answer": 1,
+        "hint": "Pense em como os direitos previstos na Constituição se tornam realidade para o cidadão.",
+        "feedbackCompleto": "As políticas públicas são o meio pelo qual os Direitos Humanos (previstos na Constituição e em tratados internacionais) são efetivados e garantidos na prática. Elas são os programas, ações e serviços que o Estado implementa para assegurar o acesso à saúde, educação, moradia, segurança, entre outros direitos fundamentais, transformando-os de normas em realidade para a população. (Referência: '2025-07-23-11-59-55-117577440-diversidade-e-inclusao-na-sociedade-parte-ii.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que a 'Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência)' busca promover?",
+        "options": [
+            "Apenas a criação de cotas em concursos públicos.",
+            "A inclusão de pessoas com deficiência em todos os aspectos da vida social, garantindo seus direitos e promovendo a igualdade de oportunidades.",
+            "A segregação de pessoas com deficiência em instituições específicas.",
+            "Apenas a acessibilidade física em prédios públicos."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa a plena inclusão e cidadania das pessoas com deficiência.",
+        "feedbackCompleto": "O Estatuto da Pessoa com Deficiência (Lei nº 13.146/2015) é um marco legal que visa assegurar e promover, em condições de igualdade, o exercício dos direitos e liberdades fundamentais por pessoa com deficiência, visando à sua inclusão social e cidadania. Abrange diversas áreas, como educação, saúde, trabalho, transporte e acessibilidade. (Referência: '2025-07-23-11-59-55-117577440-diversidade-e-inclusao-na-sociedade-parte-ii.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a principal finalidade da 'Política Nacional do Idoso' (Lei nº 8.842/1994)?",
+        "options": [
+            "Apenas garantir a aposentadoria dos idosos.",
+            "Promover a autonomia, integração e participação efetiva do idoso na sociedade, garantindo seus direitos e protegendo sua dignidade.",
+            "Restringir o acesso dos idosos a serviços públicos.",
+            "Incentivar o isolamento dos idosos."
+        ],
+        "answer": 1,
+        "hint": "Pense nos objetivos de uma política que busca valorizar e proteger a população idosa.",
+        "feedbackCompleto": "A Política Nacional do Idoso (Lei nº 8.842/1994) tem como principal finalidade assegurar os direitos sociais do idoso, criando condições para promover sua autonomia, integração e participação efetiva na sociedade. Ela busca garantir a sua dignidade, bem-estar e o exercício pleno da cidadania. (Referência: '2025-07-23-14-32-11-117575910-diversidade-e-inclusao-na-sociedade-parte-i.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que a 'Lei nº 12.288/2010 (Estatuto da Igualdade Racial)' busca promover?",
+        "options": [
+            "Apenas a criação de cotas raciais em universidades.",
+            "A garantia de igualdade de oportunidades e a defesa dos direitos étnico-raciais dos indivíduos e grupos raciais, visando combater a discriminação e outras formas de intolerância.",
+            "A segregação de grupos raciais na sociedade.",
+            "Apenas a promoção da cultura afro-brasileira."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma lei que visa combater o racismo e promover a igualdade para todos os grupos étnico-raciais.",
+        "feedbackCompleto": "O Estatuto da Igualdade Racial (Lei nº 12.288/2010) é um conjunto de normas que busca garantir à população negra a efetivação da igualdade de oportunidades, a defesa dos direitos étnico-raciais e o combate à discriminação e demais formas de intolerância. Abrange diversas áreas, como educação, saúde, trabalho, cultura e esporte. (Referência: '2025-07-28-12-22-58-117575145-diversidade-e-inclusao-na-sociedade-parte-i.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual a finalidade da 'Política Nacional de Saúde Integral de Lésbicas, Gays, Bissexuais, Travestis e Transexuais (PNSI LGBT)'?",
+        "options": [
+            "Apenas promover a saúde mental da população LGBT.",
+            "Garantir o acesso universal e equitativo da população LGBT aos serviços de saúde do SUS, respeitando a diversidade e combatendo a discriminação.",
+            "Criar hospitais exclusivos para a população LGBT.",
+            "Restringir o acesso da população LGBT a determinados tratamentos."
+        ],
+        "answer": 1,
+        "hint": "Pense em uma política que busca garantir o direito à saúde para um grupo específico, com respeito à sua identidade.",
+        "feedbackCompleto": "A PNSI LGBT (Portaria nº 2.836/2011 do Ministério da Saúde) tem como objetivo garantir o acesso universal, equitativo e integral da população LGBT às ações e serviços de saúde do SUS, promovendo o respeito à diversidade, o combate à discriminação e a redução das iniquidades em saúde. (Referência: '2025-07-23-11-59-55-117577440-diversidade-e-inclusao-na-sociedade-parte-ii.pdf').",
+        "subjects": ["politicas"]
+    },
+    {
+        "question": "O que a 'Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência)' prevê sobre a 'acessibilidade'?",
+        "options": [
+            "Apenas a instalação de rampas em prédios públicos.",
+            "A garantia de que o ambiente físico, os transportes, a informação e a comunicação sejam acessíveis a pessoas com deficiência, eliminando barreiras para sua participação plena e efetiva na sociedade.",
+            "Apenas a criação de vagas exclusivas para pessoas com deficiência.",
+            "A adaptação de apenas 10% dos edifícios públicos."
+        ],
+        "answer": 1,
+        "hint": "Pense em um conceito amplo que visa eliminar todas as barreiras para a participação plena.",
+        "feedbackCompleto": "A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015) define acessibilidade como a possibilidade e condição de alcance para a utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e tecnologias, bem como de outros serviços e instalações, por pessoa com deficiência ou com mobilidade reduzida. (Referência: '2025-07-23-11-59-55-117577440-diversidade-e-inclusao-na-sociedade-parte-ii.pdf').",
+        "subjects": ["politicas"]
+    }
 ]
+
+
+
 
 
 
