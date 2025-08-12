@@ -24136,6 +24136,71 @@
         "hint": "Pense em um conceito amplo que visa eliminar todas as barreiras para a participação plena.",
         "feedbackCompleto": "A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei nº 13.146/2015) define acessibilidade como a possibilidade e condição de alcance para a utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e tecnologias, bem como de outros serviços e instalações, por pessoa com deficiência ou com mobilidade reduzida. (Referência: '2025-07-23-11-59-55-117577440-diversidade-e-inclusao-na-sociedade-parte-ii.pdf').",
         "subjects": ["politicas"]
+    },
+    {
+        "question": "Qual é a função principal de um mapa estratégico no contexto da gestão governamental?",
+        "options": [
+            "Identificar as falhas operacionais do setor público",
+            "Descrever de forma visual a relação entre objetivos estratégicos e resultados esperados",
+            "Definir exclusivamente os indicadores financeiros",
+            "Gerenciar a folha de pagamento dos servidores"
+        ],
+        "answer": 1,
+        "hint": "Lembre-se de que mapas estratégicos são ferramentas de comunicação da estratégia.",
+        "feedbackCompleto": "O mapa estratégico é um instrumento visual que organiza e comunica, de forma estruturada, os objetivos estratégicos e suas relações de causa e efeito, alinhando ações e metas aos resultados desejados pela organização pública.",
+        "subjects": ["gestao", "estrategia"]
+    },
+    {
+        "question": "Na gestão de pessoas no serviço público, a gestão por competências tem como principal objetivo:",
+        "options": [
+            "Aumentar a carga de trabalho dos servidores",
+            "Selecionar e desenvolver servidores com base nas competências necessárias ao alcance dos objetivos institucionais",
+            "Substituir avaliações de desempenho por testes psicotécnicos",
+            "Reduzir o quadro de servidores com base em metas financeiras"
+        ],
+        "answer": 1,
+        "hint": "Competência envolve conhecimento, habilidade e atitude.",
+        "feedbackCompleto": "A gestão por competências visa alinhar as competências individuais e organizacionais às necessidades estratégicas da instituição, garantindo que servidores sejam selecionados, capacitados e avaliados com base em atributos essenciais para o cumprimento da missão institucional.",
+        "subjects": ["gestao", "rh"]
+    },
+    {
+        "question": "No gerenciamento de projetos no setor público, o gerenciamento das partes interessadas envolve:",
+        "options": [
+            "Apenas o público interno da organização",
+            "Identificar, analisar e gerenciar as expectativas e necessidades de todos os stakeholders",
+            "Controlar exclusivamente fornecedores e prestadores de serviço",
+            "Elaborar relatórios financeiros trimestrais"
+        ],
+        "answer": 1,
+        "hint": "Pense no termo 'stakeholder'.",
+        "feedbackCompleto": "O gerenciamento das partes interessadas em projetos públicos busca identificar todos os envolvidos ou afetados pelo projeto, compreender suas expectativas e necessidades e desenvolver estratégias para engajá-los e gerenciar sua influência ao longo do ciclo do projeto.",
+        "subjects": ["gestao", "projetos"]
+    },
+    {
+        "question": "Qual é o principal objetivo da análise de cenários no planejamento estratégico governamental?",
+        "options": [
+            "Prever com absoluta certeza o futuro",
+            "Explorar diferentes possibilidades de contexto para apoiar decisões e preparar respostas estratégicas",
+            "Definir metas orçamentárias anuais",
+            "Criar organogramas internos"
+        ],
+        "answer": 1,
+        "hint": "Não se trata de prever o futuro, mas de se preparar para diferentes possibilidades.",
+        "feedbackCompleto": "A análise de cenários permite à gestão pública considerar diferentes possibilidades de evolução do ambiente interno e externo, ajudando na formulação de estratégias mais robustas e adaptáveis a mudanças de contexto.",
+        "subjects": ["gestao", "planejamento"]
+    },
+    {
+        "question": "Na abordagem por processos, o mapeamento de processos serve para:",
+        "options": [
+            "Criar organogramas da alta gestão",
+            "Visualizar, entender e melhorar o fluxo de atividades que agregam valor ao serviço público",
+            "Determinar exclusivamente as metas de produtividade",
+            "Definir políticas de segurança da informação"
+        ],
+        "answer": 1,
+        "hint": "Pense em fluxo e valor agregado.",
+        "feedbackCompleto": "O mapeamento de processos é uma técnica que permite representar graficamente as etapas, fluxos e interações de um processo, facilitando a identificação de gargalos, redundâncias e oportunidades de melhoria para aumentar a eficiência e a qualidade do serviço público.",
+        "subjects": ["gestao", "processos"]
     }
 ]
 
